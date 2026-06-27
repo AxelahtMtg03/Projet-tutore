@@ -1,0 +1,73 @@
+Date of occurrence,
+Sea area of occurrence,
+State Reporting,
+Competent authority
+,Casualty Report Nr.
+,Occurrence severity
+,Latitude
+,Longitude
+,Third party/other damage,
+Time (LT) of occurrence
+,Lives lost Occurrence-Total
+,People Injured Occurrence-Total
+,Port of accident
+,Investigation Status
+,Directive 2009/18
+,National location
+,Missing people Occurrence - Total
+,Loss / damage to ship or equipment
+,Did the ship sink?
+,Pollution (bunkers)
+,Pollution (cargo)
+,Place on board
+,Ship operation
+,Poll. quantity/bunker
+,Poll. quantity/cargo,Ship’s routeing
+,Voyage segment
+,Cargo damage
+,IMO number
+,Name of ship
+,Ship / craft type
+,Port of departure
+,Port of destination
+,Occurrence with ship(s)
+,Deviation (CE)
+,Occurrence with person(s)
+,Release of pollutants in the air
+
+Date de l'événement,
+Zone maritime d'occurrence,
+Rapports d'État,
+Autorité compétente
+,Rapport de sinistre n°.
+,Gravité de l'événement
+,Latitudes
+,Longitude
+, Dommages causés par des tiers/autres,
+Heure (LT) de l'occurrence
+,Vies perdues Occurrence-Total
+, Nombre de personnes blessées - Total
+,Port d'accident
+, Statut de l'enquête
+,Directive 2009/18
+,emplacement national
+,Personnes disparues Occurrence - Total
+,Perte/dommage au navire ou à l'équipement
+,Le navire a-t-il coulé ?
+,Pollution (bunkers)
+,Pollution (cargo)
+,Placer à bord
+,Opération de navire
+, Sondage. quantité/tasse
+, Sondage. quantité/cargaison, itinéraire du navire
+,Segment Voyage
+,Dommages à la cargaison
+,numéro OMI
+,Nom du navire
+,Type de navire/embarcation
+,Port de départ
+,Port de destination
+,Événement avec un ou plusieurs navires
+,Écart (CE)
+,Occurrence avec une ou plusieurs personnes
+,Rejet de polluants dans l'air
