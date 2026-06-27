@@ -14,17 +14,17 @@ def get_port(port:str)->str:
     
 def port_global():
     # Fusionner tous les fichiers
-    df_total = pd.DataFrame()
+    total = pd.DataFrame()
 
     for f in fichiers:
         df = pd.read_csv(f)
         # Appliquer l'heure
         df['port'] = df['Port of accident'].apply(get_port)
-        df_total = pd.concat([df_total, df], ignore_index=True)
+        total = pd.concat([total, df], ignore_index=True)
 
-    print(f"Total des enregistrements: {len(df_total)}")
+    print(f"Total des enregistrements: {len(total)}")
 
-    comptage_port = df_total['port'].value_counts().sort_values(ascending=False)
+    comptage_port = total['port'].value_counts().sort_values(ascending=False)
     comptage_port = comptage_port[comptage_port.index != 'nan']
     return comptage_port
 
@@ -49,7 +49,7 @@ def graphique_port(comptage_port):
     plt.tight_layout()
     plt.show()
 comptage_port = port_global()
-top10 = comptage_port.head(10)
-print("\n=== TOP 10 DES PORTS LES PLUS ACCIDENTOGÈNES ===")
+top10 = comptage_port.head(100)
+print("\n=== TOP 100 DES PORTS LES PLUS ACCIDENTOGÈNES ===")
 for i, (port, count) in enumerate(top10.items(), 1):
     print(f"{i}. {port}: {count} accidents")

@@ -14,17 +14,17 @@ def get_time(heure:float)->str:
     
 def heure_global():
     # Fusionner tous les fichiers
-    df_total = pd.DataFrame()
+    total = pd.DataFrame()
 
     for f in fichiers:
         df = pd.read_csv(f)
         # Appliquer l'heure
         df['heure'] = df['Time (LT) of occurrence'].apply(get_time)
-        df_total = pd.concat([df_total, df], ignore_index=True)
+        total = pd.concat([total, df], ignore_index=True)
 
-    print(f"Total des enregistrements: {len(df_total)}")
+    print(f"Total des enregistrements: {len(total)}")
 
-    comptage_heures = df_total['heure'].value_counts().sort_index()
+    comptage_heures = total['heure'].value_counts().sort_index()
     comptage_heures = comptage_heures[comptage_heures.index != 'nan']
     return comptage_heures
 

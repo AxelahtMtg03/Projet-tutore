@@ -19,7 +19,7 @@ def get_saison(date):
 
 def saison_global():
     # Fusionner tous les fichiers
-    df_total = pd.DataFrame()
+    total = pd.DataFrame()
     for f in fichiers:
         df = pd.read_csv(f)
         
@@ -29,18 +29,18 @@ def saison_global():
         # Appliquer la saison
         df['saison'] = df['Date of occurrence'].apply(get_saison)
         
-        df_total = pd.concat([df_total, df], ignore_index=True)
+        total = pd.concat([total, df], ignore_index=True)
         
 
-    print(f"Total: {len(df_total)} enregistrements")
+    print(f"Total: {len(total)} enregistrements")
 
     # Compter par saison (tous fichiers confondus)
-    comptage_total = df_total['saison'].value_counts()
+    comptage_total = total['saison'].value_counts()
     ordre_saisons = ['Printemps', 'Été', 'Automne', 'Hiver']
     comptage_total = comptage_total.reindex(ordre_saisons)
     return comptage_total
 
-def grapique_saison(total):
+def grapique_saison_global(total):
     plt.figure(figsize=(10, 6))
     bars = plt.bar(total.index, total.values, 
                 color=['green', 'red', 'orange', 'blue'])
@@ -57,4 +57,37 @@ def grapique_saison(total):
     plt.tight_layout()
     plt.show()
     
-grapique_saison(saison_global())
+def accidents_par_annee_saison(saison:str):
+    total = pd.DataFrame()
+    for f in fichiers:
+        df = pd.read_csv(f)
+        
+        df['Date of occurrence'] = pd.to_datetime(df['Date of occurrence'], errors='coerce')
+        df = df.dropna(subset=["Date of occurrence"])
+
+        df['saison'] = df['Date of occurrence'].apply(get_saison)
+        df['annee'] = df['Date of occurrence'].dt.year
+        
+        total = pd.concat([total, df], ignore_index=True)
+
+    total = total[total["saison"] == saison]
+
+    comptage = total.groupby("annee").size()
+
+    return comptage
+def graphique_saison_annee(total,saison):
+    plt.figure(figsize=(12,6))
+
+    plt.plot(total.index,total.values,marker="o"
+    )
+
+    plt.title(f"Nombre d'accidents en {saison} par année", fontsize=14)
+    plt.xlabel("Année", fontsize=12)
+    plt.ylabel("Nombre d'accidents", fontsize=12)
+    plt.grid(True)
+
+    plt.show()
+
+# grapique_saison_global(saison_global())
+saison = "Été"
+graphique_saison_annee(accidents_par_annee_saison(saison),saison)
