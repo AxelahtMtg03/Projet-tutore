@@ -1,34 +1,16 @@
-import pandas as pd
-import glob
-import os
 import matplotlib.pyplot as plt
+from charge import charger_donnees
 
-dossier = 'données_d_accident_en_mer/'
-fichiers = glob.glob(os.path.join(dossier, '*.csv'))
 
-def get_port(port:str)->str:
-    """on renvoie juste l'heure sans prendre en compte les minutes afin d'obtenir des plages horaires plus simple"""
-    if port=='' or port==None:
-        return None
-    return port
-    
 def port_global():
     # Fusionner tous les fichiers
-    total = pd.DataFrame()
-
-    for f in fichiers:
-        df = pd.read_csv(f)
-        # Appliquer l'heure
-        df['port'] = df['Port of accident'].apply(get_port)
-        total = pd.concat([total, df], ignore_index=True)
-
-    print(f"Total des enregistrements: {len(total)}")
-
+    total = charger_donnees()
     comptage_port = total['port'].value_counts().sort_values(ascending=False)
     comptage_port = comptage_port[comptage_port.index != 'nan']
     return comptage_port
 
 def graphique_port(comptage_port):
+    """a ne pas utiliser trop de port graphique moche"""
     plt.figure(figsize=(14, 6))
     bars = plt.bar(comptage_port.index, comptage_port.values, 
                 color='steelblue', edgecolor='black', alpha=0.8)

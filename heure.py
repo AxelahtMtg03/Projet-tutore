@@ -1,29 +1,8 @@
-import pandas as pd
-import glob
-import os
 import matplotlib.pyplot as plt
+from charge import charger_donnees
 
-dossier = 'données_d_accident_en_mer/'
-fichiers = glob.glob(os.path.join(dossier, '*.csv'))
-
-def get_time(heure:float)->str:
-    """on renvoie juste l'heure sans prendre en compte les minutes afin d'obtenir des plages horaires plus simple"""
-    if heure=='':
-        return None
-    return str(heure).split(":")[0]
-    
 def heure_global():
-    # Fusionner tous les fichiers
-    total = pd.DataFrame()
-
-    for f in fichiers:
-        df = pd.read_csv(f)
-        # Appliquer l'heure
-        df['heure'] = df['Time (LT) of occurrence'].apply(get_time)
-        total = pd.concat([total, df], ignore_index=True)
-
-    print(f"Total des enregistrements: {len(total)}")
-
+    total = charger_donnees()
     comptage_heures = total['heure'].value_counts().sort_index()
     comptage_heures = comptage_heures[comptage_heures.index != 'nan']
     return comptage_heures

@@ -1,40 +1,10 @@
-import pandas as pd
-import glob
-import os
 import matplotlib.pyplot as plt
+from charge import charger_donnees 
 
-dossier = 'données_d_accident_en_mer/'
-fichiers = glob.glob(os.path.join(dossier, '*.csv'))
-
-def get_saison(date):
-    m, d = date.month, date.day
-    if (m == 3 and d >= 20) or (3 < m < 6) or (m == 6 and d < 21):
-        return 'Printemps'
-    elif (m == 6 and d >= 21) or (6 < m < 9) or (m == 9 and d < 22):
-        return 'Été'
-    elif (m == 9 and d >= 22) or (9 < m < 12) or (m == 12 and d < 21):
-        return 'Automne'
-    else:
-        return 'Hiver'
 
 def saison_global():
     # Fusionner tous les fichiers
-    total = pd.DataFrame()
-    for f in fichiers:
-        df = pd.read_csv(f)
-        
-        # Convertir en datetime (avec gestion d'erreur)
-        df['Date of occurrence'] = pd.to_datetime(df['Date of occurrence'], errors='coerce')
-            
-        # Appliquer la saison
-        df['saison'] = df['Date of occurrence'].apply(get_saison)
-        
-        total = pd.concat([total, df], ignore_index=True)
-        
-
-    print(f"Total: {len(total)} enregistrements")
-
-    # Compter par saison (tous fichiers confondus)
+    total = charger_donnees()
     comptage_total = total['saison'].value_counts()
     ordre_saisons = ['Printemps', 'Été', 'Automne', 'Hiver']
     comptage_total = comptage_total.reindex(ordre_saisons)
@@ -58,23 +28,11 @@ def grapique_saison_global(total):
     plt.show()
     
 def accidents_par_annee_saison(saison:str):
-    total = pd.DataFrame()
-    for f in fichiers:
-        df = pd.read_csv(f)
-        
-        df['Date of occurrence'] = pd.to_datetime(df['Date of occurrence'], errors='coerce')
-        df = df.dropna(subset=["Date of occurrence"])
-
-        df['saison'] = df['Date of occurrence'].apply(get_saison)
-        df['annee'] = df['Date of occurrence'].dt.year
-        
-        total = pd.concat([total, df], ignore_index=True)
-
+    total = charger_donnees()
     total = total[total["saison"] == saison]
-
     comptage = total.groupby("annee").size()
-
     return comptage
+
 def graphique_saison_annee(total,saison):
     plt.figure(figsize=(12,6))
 
@@ -88,6 +46,32 @@ def graphique_saison_annee(total,saison):
 
     plt.show()
 
+def accidents_par_annee_saison():
+    total = charger_donnees()
+    comptage = total.groupby(["annee","saison"]).size().unstack(fill_value=0)
+    return comptage
+def graphique_saison_annee(comptage):
+
+    plt.figure(figsize=(12,6))
+
+    for saison in comptage.columns:
+        plt.plot(
+            comptage.index,
+            comptage[saison],
+            marker="o",
+            label=saison
+        )
+
+    plt.title("Nombre d'accidents par saison et par année")
+    plt.xlabel("Année")
+    plt.ylabel("Nombre d'accidents")
+
+    plt.grid(True)
+    plt.legend()
+
+    plt.show()
+    
 # grapique_saison_global(saison_global())
-saison = "Été"
-graphique_saison_annee(accidents_par_annee_saison(saison),saison)
+# saison = "Été"
+# graphique_saison_annee(accidents_par_annee_saison(saison),saison)
+graphique_saison_annee(accidents_par_annee_saison())
