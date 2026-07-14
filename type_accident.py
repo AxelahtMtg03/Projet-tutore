@@ -1,5 +1,7 @@
 import matplotlib.pyplot as plt
 from charge import *
+import textwrap
+
 
 def type_accident_global():
     """Compte le nombre d'accidents pour chaque type d'accident, trié du plus au moins fréquent"""
@@ -67,11 +69,6 @@ def cause_accident_humain_global():
     return comptage
  
 def graphique_cause_accident_humain(total):
-    # Les noms de catégories sont longs (norme ESAW) : un barh (barres horizontales) est plus
-    # lisible qu'un bar chart classique où les libellés se chevaucheraient sur l'axe X.
-    # On enroule aussi chaque libellé sur plusieurs lignes (textwrap), sinon les libellés très
-    # longs poussent tout le graphique à droite et rognent même le titre.
-    import textwrap
     labels_enroules = [textwrap.fill(label, width=35) for label in total.index[::-1]]
  
     plt.figure(figsize=(12, 8))

@@ -28,9 +28,7 @@ def graphique(comptage,para1:str,para2:str):
     plt.show()
     
 def comptage_croise_bis(para1:str, para2:str, para3:str):
-    """Comme comptage_croise, mais filtré sur une seule valeur (para3) d'une colonne (para1) : ex.
-    ne garder qu'un seul port, un seul type de bateau, un seul type d'accident, etc., puis compter
-    le nombre d'accidents groupés par une autre colonne (para2)."""
+    """Comme comptage_croise, mais filtré ex le nb d'accidnet de bateaux de croisière en fonction des saisons"""
     total = charger_donnees_finales()
 
     total = total[total[para1] == para3]
