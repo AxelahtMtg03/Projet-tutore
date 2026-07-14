@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
-from charge import charger_donnees
+from charge import charger_donnees_finales
 
 def heure_global():
-    total = charger_donnees()
+    total = charger_donnees_finales()
     comptage_heures = total['heure'].value_counts().sort_index()
     comptage_heures = comptage_heures[comptage_heures.index != 'nan']
     return comptage_heures

@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
-from charge import charger_donnees 
+from charge import * 
 
 
 def saison_global():
     # Fusionner tous les fichiers
-    total = charger_donnees()
+    total = charger_donnees_finales()
     comptage_total = total['saison'].value_counts()
     ordre_saisons = ['Printemps', 'Été', 'Automne', 'Hiver']
     comptage_total = comptage_total.reindex(ordre_saisons)
@@ -28,7 +28,7 @@ def grapique_saison_global(total):
     plt.show()
     
 def accidents_par_annee_saison(saison:str):
-    total = charger_donnees()
+    total = charger_donnees_finales()
     total = total[total["saison"] == saison]
     comptage = total.groupby("annee").size()
     return comptage
@@ -47,7 +47,7 @@ def graphique_saison_annee(total,saison):
     plt.show()
 
 def accidents_par_annee_saison():
-    total = charger_donnees()
+    total = charger_donnees_finales()
     comptage = total.groupby(["annee","saison"]).size().unstack(fill_value=0)
     return comptage
 def graphique_saison_annee(comptage):

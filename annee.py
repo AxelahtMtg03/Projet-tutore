@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
-from charge import charger_donnees
+from charge import *
 
 def accidents_par_annee():
-    total = charger_donnees()
+    total = charger_donnees_finales()
     comptage = total.groupby("annee").size()
     return comptage
 

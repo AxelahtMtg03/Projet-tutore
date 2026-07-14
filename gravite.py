@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
-from charge import charger_donnees
+from charge import *
 
 def gravite_global():
     # Fusionner tous les fichiers
-    total = charger_donnees()
+    total = charger_donnees_finales()
     comptage = total['gravite'].value_counts().sort_index()
     comptage = comptage[comptage.index != 'nan']
     return comptage

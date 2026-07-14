@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
-from charge import charger_donnees
+from charge import *
 
 
 def type_bateau_global():
-    df_total = charger_donnees()
+    df_total = charger_donnees_finales()
     comptage_total = df_total['bateau'].value_counts() #Compte nb accidents pour chaque type de bateau + trie du plus au moins frequent
     return comptage_total
 
@@ -22,23 +22,25 @@ def graphique_type_bateau(total):
     plt.tight_layout()
     plt.show()
 
-#graphique_type_bateau(type_bateau_global())
-
-def type(type):
-    total = charger_donnees()
-    total = total[total["bateau"] == type]
+def accidents_par_annee_bateau(bateau:str):
+    total = charger_donnees_finales()
+    total = total[total["bateau"] == bateau]
     comptage = total.groupby("annee").size()
     return comptage
 
-def graphique_saison_annee(total,saison):
+def graphique_bateau_annee(total,bateau):
     plt.figure(figsize=(12,6))
 
     plt.plot(total.index,total.values,marker="o"
     )
 
-    plt.title(f"Nombre d'accidents en {saison} par année", fontsize=14)
+    plt.title(f"Nombre d'accidents des {bateau} par année", fontsize=14)
     plt.xlabel("Année", fontsize=12)
     plt.ylabel("Nombre d'accidents", fontsize=12)
     plt.grid(True)
 
     plt.show()
+
+#graphique_type_bateau(type_bateau_global())
+a="Submersible"
+graphique_bateau_annee(accidents_par_annee_bateau(a),a)
