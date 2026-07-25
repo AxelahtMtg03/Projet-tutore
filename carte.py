@@ -2,10 +2,10 @@ import pandas as pd
 import folium
 import branca.colormap as cm
 from folium.plugins import MarkerCluster, HeatMap, TimestampedGeoJson
-from charge import charger_donnees_finales
+import json
+from traitement_donnée.charge import charger_donnees_finales
 
 df = charger_donnees_finales()
-
 
 df = df.dropna(subset=['lat', 'long'])
 print(f"Nombre d'accidents avec coordonnées: {len(df)}")
@@ -211,15 +211,9 @@ def accident_temps_animation():
     m4.get_root().html.add_child(folium.Element(title_html4))
 
     m4.save("carte_folium/carte_accidents_timeline.html")
-
-def accident_grille(taille_grille=1):
-    """Carte avec un quadrillage en fonction du nb d'accident dans une zone
-    """
-    df_clip = df[
-        df['lat'].between(df['lat'].quantile(0.01), df['lat'].quantile(0.99)) &
-        df['long'].between(df['long'].quantile(0.01), df['long'].quantile(0.99))
-    ]
-
+    
+def accident_grille(taille_grille=1, rayon_voisinage=0):
+    """"""
     m5 = folium.Map(
         location=[center_lat, center_lon],
         zoom_start=6,
@@ -227,28 +221,32 @@ def accident_grille(taille_grille=1):
     )
 
     # Affecte chaque accident à une case de la grille (arrondi vers le bas au multiple de taille_grille)
-    df_grille = df_clip.copy()
+    df_grille = df.copy()
     df_grille['case_lat'] = (df_grille['lat'] // taille_grille) * taille_grille
     df_grille['case_lon'] = (df_grille['long'] // taille_grille) * taille_grille
     comptage_cases = df_grille.groupby(['case_lat', 'case_lon']).size()
     comptage_par_case = comptage_cases.to_dict()  # accès rapide : {(case_lat, case_lon): nb_accidents}
 
-    # Bornes de la grille complète (arrondies aux multiples de taille_grille les plus proches)
-    lat_min = (df_clip['lat'].min() // taille_grille) * taille_grille
-    lat_max = (df_clip['lat'].max() // taille_grille + 1) * taille_grille
-    lon_min = (df_clip['long'].min() // taille_grille) * taille_grille
-    lon_max = (df_clip['long'].max() // taille_grille + 1) * taille_grille
+    # Cases occupées (au moins un accident)
+    cases_occupees = set(comptage_par_case.keys())
 
-    nb_lignes = round((lat_max - lat_min) / taille_grille)
-    nb_colonnes = round((lon_max - lon_min) / taille_grille)
-    nb_cases = nb_lignes * nb_colonnes
-    print(f"Grille : {nb_lignes} x {nb_colonnes} = {nb_cases} cases à dessiner")
+    # Si demandé, on ajoute les cases voisines à zéro accident (dilatation), pour voir le contour
+    # de la grille autour des zones concernées, sans couvrir tout le rectangle englobant
+    cases_a_dessiner = set(cases_occupees)
+    if rayon_voisinage > 0:
+        for (case_lat, case_lon) in cases_occupees:
+            for d_lat in range(-rayon_voisinage, rayon_voisinage + 1):
+                for d_lon in range(-rayon_voisinage, rayon_voisinage + 1):
+                    voisine = (round(case_lat + d_lat * taille_grille, 6), round(case_lon + d_lon * taille_grille, 6))
+                    cases_a_dessiner.add(voisine)
+
+    nb_cases = len(cases_a_dessiner)
+    print(f"Cases avec accident(s): {len(cases_occupees)} | Cases dessinées: {nb_cases}")
     if nb_cases > 15000:
         print("ATTENTION : beaucoup de cases, la carte risque d'être lente à charger. "
-              "Augmente 'taille_grille' pour réduire ce nombre.")
+              "Augmente 'taille_grille' ou réduis 'rayon_voisinage' pour réduire ce nombre.")
 
-    # Échelle de couleur calée sur le nombre max d'accidents dans UNE case (les cases à 0 sont
-    # traitées à part plus bas, elles ne suivent pas cette échelle)
+    # Échelle de couleur calée sur le nombre max d'accidents dans une case
     max_accidents = int(comptage_cases.max())
     echelle_couleur = cm.LinearColormap(
         colors=['yellow', 'orange', 'red', 'darkred'],
@@ -257,32 +255,26 @@ def accident_grille(taille_grille=1):
         caption="Nombre d'accidents par case"
     )
 
-    lat = lat_min
-    while lat < lat_max:
-        lon = lon_min
-        while lon < lon_max:
-            nb = comptage_par_case.get((round(lat, 6), round(lon, 6)), 0)
+    for (lat, lon) in cases_a_dessiner:
+        nb = comptage_par_case.get((lat, lon), 0)
 
-            if nb == 0:
-                # Case sans accident : grise et très transparente, juste pour visualiser le quadrillage
-                couleur = '#cccccc'
-                opacite = 0.08
-            else:
-                couleur = echelle_couleur(nb)
-                opacite = 0.6
+        if nb == 0:
+            # Case sans accident, affichée seulement pour le contour (rayon_voisinage > 0)
+            couleur = '#cccccc'
+            opacite = 0.08
+        else:
+            couleur = echelle_couleur(nb)
+            opacite = 0.6
 
-            folium.Rectangle(
-                bounds=[[lat, lon], [lat + taille_grille, lon + taille_grille]],
-                color=couleur,
-                weight=1,
-                fill=True,
-                fillColor=couleur,
-                fillOpacity=opacite,
-                popup=f"{int(nb)} accident(s) dans cette zone"
-            ).add_to(m5)
-
-            lon += taille_grille
-        lat += taille_grille
+        folium.Rectangle(
+            bounds=[[lat, lon], [lat + taille_grille, lon + taille_grille]],
+            color=couleur,
+            weight=1,
+            fill=True,
+            fillColor=couleur,
+            fillOpacity=opacite,
+            popup=f"{int(nb)} accident(s) dans cette zone"
+        ).add_to(m5)
 
     echelle_couleur.add_to(m5)
 
@@ -292,9 +284,197 @@ def accident_grille(taille_grille=1):
     m5.get_root().html.add_child(folium.Element(title_html5))
 
     m5.save("carte_folium/carte_accidents_grille.html")
+    
+def accident_grille_temps(taille_grille=2):
+    """carte avec un quadrillage avec un curseur de temps"""
+    df_grille = df.copy()
+    df_grille['case_lat'] = (df_grille['lat'] // taille_grille) * taille_grille
+    df_grille['case_lon'] = (df_grille['long'] // taille_grille) * taille_grille
 
-accidents()
+    # Compte le nombre d'accidents par (année, case)
+    comptage = df_grille.groupby(['annee', 'case_lat', 'case_lon']).size().reset_index(name='nb_accidents')
+
+    max_accidents = int(comptage['nb_accidents'].max())
+    echelle_couleur = cm.LinearColormap(
+        colors=['yellow', 'orange', 'red', 'darkred'],
+        vmin=1,
+        vmax=max_accidents,
+        caption="Nombre d'accidents par case et par année"
+    )
+
+    features = []
+    for _, row in comptage.iterrows():
+        lat, lon, nb, annee = row['case_lat'], row['case_lon'], row['nb_accidents'], int(row['annee'])
+        couleur = echelle_couleur(nb)
+
+        polygone = [[
+            [lon, lat],
+            [lon + taille_grille, lat],
+            [lon + taille_grille, lat + taille_grille],
+            [lon, lat + taille_grille],
+            [lon, lat],
+        ]]
+
+        feature = {
+            'type': 'Feature',
+            'geometry': {'type': 'Polygon', 'coordinates': polygone},
+            'properties': {
+                'time': f"{annee}-01-01",
+                'style': {
+                    'color': couleur,
+                    'fillColor': couleur,
+                    'fillOpacity': 0.6,
+                    'weight': 1,
+                },
+                'popup': f"{int(nb)} accident(s) en {annee}",
+            }
+        }
+        features.append(feature)
+
+    geojson_data = {'type': 'FeatureCollection', 'features': features}
+
+    m6 = folium.Map(
+        location=[center_lat, center_lon],
+        zoom_start=6,
+        tiles='OpenStreetMap'
+    )
+
+    TimestampedGeoJson(
+        geojson_data,
+        period='P1Y',
+        duration='P1D',
+        add_last_point=False,
+        auto_play=False,
+        loop=False,
+        max_speed=2,
+        loop_button=True,
+        date_options='YYYY',
+        time_slider_drag_update=True
+    ).add_to(m6)
+
+    echelle_couleur.add_to(m6)
+
+    title_html6 = '''
+                <h3 align="center" style="font-size:16px"><b>Évolution du quadrillage des accidents par année</b></h3>
+                <p align="center" style="font-size:12px">Utilise le curseur en bas pour voir l'évolution année par année</p>
+                '''
+    m6.get_root().html.add_child(folium.Element(title_html6))
+
+    m6.save("carte_folium/carte_accidents_grille_temps.html")
+ 
+def accident_filtrable_intersection():
+    """"""
+
+    df_carte = df.dropna(subset=['gravite', 'bateau']).copy()
+    points_json = df_carte[['lat', 'long', 'gravite', 'bateau']].to_dict(orient='records')
+
+    gravites = sorted(df_carte['gravite'].unique())
+    bateaux = sorted(df_carte['bateau'].unique())
+
+    m8 = folium.Map(
+        location=[center_lat, center_lon],
+        zoom_start=6,
+        tiles='OpenStreetMap',
+        prefer_canvas=True
+    )
+    nom_carte = m8.get_name()  # nom de la variable JS générée par Folium pour cette carte
+
+    points_js = json.dumps(points_json)
+    couleurs_js = json.dumps(couleurs)
+    
+    cases_gravite = "".join(
+        f'<label style="display:block"><input type="checkbox" class="filtre-gravite" value="{g}" checked> {g}</label>'
+        for g in gravites
+    )
+    cases_bateau = "".join(
+        f'<label style="display:block"><input type="checkbox" class="filtre-bateau" value="{b}" checked> {b}</label>'
+        for b in bateaux
+    )
+
+    html_controle = f'''
+    <div style="position: fixed; top: 80px; right: 10px; z-index: 1000; background: white;
+                padding: 10px; border: 2px solid grey; border-radius: 5px; max-height: 70vh;
+                overflow-y: auto; font-size: 13px;">
+        <b>Gravité</b><br>{cases_gravite}
+        <hr>
+        <b>Bateau</b><br>{cases_bateau}
+        <hr>
+        <span id="compteur-filtre">{len(points_json)} accident(s) affiché(s)</span>
+    </div>
+    '''
+
+    # window.addEventListener('load', ...) : Folium génère lui-même un script qui crée la carte
+    # (la variable {nom_carte}), et ce script peut s'exécuter APRÈS le nôtre selon l'ordre de rendu
+    # de la page. Sans ce garde-fou, notre script plantait silencieusement dès la référence à la
+    # carte (qui n'existait pas encore), donc rien ne se dessinait ni ne réagissait aux cases à
+    # cocher. En attendant l'événement "load" (déclenché une fois TOUTE la page chargée), on est
+    # sûr que la carte existe déjà.
+    script = f'''
+    <script>
+    window.addEventListener('load', function() {{
+        var pointsData = {points_js};
+        var couleursGravite = {couleurs_js};
+        var coucheAccidents9 = L.layerGroup().addTo({nom_carte});
+        var marqueurs9 = [];
+
+        pointsData.forEach(function(p) {{
+            var couleur = couleursGravite[p.gravite] || 'gray';
+            var marqueur = L.circleMarker([p.lat, p.long], {{
+                radius: 4, color: couleur, fillColor: couleur, fillOpacity: 0.7, weight: 1
+            }});
+            marqueur.gravite = p.gravite;
+            marqueur.bateau = p.bateau;
+            marqueur.bindTooltip(p.gravite + " - " + p.bateau);
+            marqueurs9.push(marqueur);
+            marqueur.addTo(coucheAccidents9);
+        }});
+
+        function appliquerFiltre9() {{
+            var gravitesCochees = Array.from(document.querySelectorAll('.filtre-gravite:checked')).map(cb => cb.value);
+            var bateauxCoches = Array.from(document.querySelectorAll('.filtre-bateau:checked')).map(cb => cb.value);
+            var nbAffiches = 0;
+
+            marqueurs9.forEach(function(m) {{
+                var correspond = gravitesCochees.includes(m.gravite) && bateauxCoches.includes(m.bateau);
+                if (correspond) {{
+                    if (!coucheAccidents9.hasLayer(m)) coucheAccidents9.addLayer(m);
+                    nbAffiches++;
+                }} else {{
+                    if (coucheAccidents9.hasLayer(m)) coucheAccidents9.removeLayer(m);
+                }}
+            }});
+            document.getElementById('compteur-filtre').innerText = nbAffiches + " accident(s) affiché(s)";
+        }}
+
+        document.querySelectorAll('.filtre-gravite, .filtre-bateau').forEach(function(cb) {{
+            cb.addEventListener('change', appliquerFiltre9);
+        }});
+
+        // Applique le filtre une première fois au chargement, pour que le compteur soit juste
+        // dès le départ (avant même le premier clic sur une case)
+        appliquerFiltre9();
+    }});
+    </script>
+    '''
+
+    m8.get_root().html.add_child(folium.Element(html_controle))
+    m8.get_root().html.add_child(folium.Element(script))
+
+    title_html8 = '''
+                <h3 align="center" style="font-size:16px"><b>Accidents filtrables (intersection gravité ET bateau)</b></h3>
+                <p align="center" style="font-size:12px">Coche/décoche à droite : seuls les accidents correspondant aux DEUX filtres s'affichent</p>
+                '''
+    m8.get_root().html.add_child(folium.Element(title_html8))
+
+    m8.save("carte_folium/carte_accidents_filtrable_intersection.html")
+
+    
+    
+# accidents()
 # heatmap()
 # accident_annee()
 # accident_temps_animation()
 # accident_grille()
+# accident_grille_temps()
+# accident_filtrable()
+accident_filtrable_intersection()
