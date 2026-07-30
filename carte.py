@@ -3,7 +3,7 @@ import folium
 import branca.colormap as cm
 from folium.plugins import MarkerCluster, HeatMap, TimestampedGeoJson
 import json
-from traitement_donnée.charge import charger_donnees_finales
+from traitement_donnee.charge import charger_donnees_finales
 
 df = charger_donnees_finales()
 
