@@ -1,7 +1,6 @@
 import pandas as pd
 import glob
 import os
-import matplotlib.pyplot as plt
 import re
 
 dossier = './données_d_accident_en_mer/'
@@ -129,5 +128,5 @@ def charger_donnees_finales():
     return df
 
 # Génère le CSV final sans doublons (à exécuter une seule fois pour créer le fichier)
-df_final = charger_donnees_sans_doublons()
-df_final.to_csv("./data/accidents_final_nettoyes.csv", index=False)
+# df_final = charger_donnees_sans_doublons()
+# df_final.to_csv("./data/accidents_final_nettoyes.csv", index=False)
