@@ -1,0 +1,18 @@
+@"
+# Fichiers de données (trop gros pour GitHub)
+vessel_density_data/
+données_d_accident_en_mer/
+data/
+__pycache__/
+*.tif
+*.tiff
+*.pyc
+
+# Fichiers de sortie
+*.html
+carte_folium/
+carte_flotte/
+
+# Fichiers QGIS
+carte qgis/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
