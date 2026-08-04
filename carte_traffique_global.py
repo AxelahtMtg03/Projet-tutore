@@ -13,23 +13,14 @@ df['vd'] = pd.to_numeric(df['vd'], errors='coerce')
 df = df.dropna(subset=['vd', 'latitude', 'longitude', 'time'])
 
 CRS_SOURCE = "EPSG:3035"
-TAILLE_CASE_M = 20000  # pas de la grille source, en mètres (déduit des données : 20 km)
-
+TAILLE_CASE_M = 20000 
 transformer = Transformer.from_crs(CRS_SOURCE, "EPSG:4326", always_xy=True)
 
-
 def densite_flotte(facteur_agregation=6):
-    """Carte : densité du trafic maritime, quadrillage réel (grille source reprojetée), curseur de temps
 
-    facteur_agregation : regroupe les cases natives (20 km) par blocs de N x N pour réduire le
-    nombre de polygones (446 760 cases natives -> fichier HTML de ~200 Mo, illisible pour un
-    navigateur). Avec facteur_agregation=3, les cases font 60 km de côté et le nombre de
-    polygones est divisé par ~9.
-    """
     taille_case = TAILLE_CASE_M * facteur_agregation
     demi = taille_case / 2
 
-    # Regroupe les cases natives sur une grille plus grossière, moyenne de vd par (time, case)
     df_agg = df.copy()
     df_agg['case_x'] = (np.round(df_agg['longitude'] / taille_case) * taille_case)
     df_agg['case_y'] = (np.round(df_agg['latitude'] / taille_case) * taille_case)
@@ -38,16 +29,13 @@ def densite_flotte(facteur_agregation=6):
         .mean()
         .reset_index()
     )
-    print(f"Cases natives : {len(df)} -> cases agrégées : {len(df_agg)}")
 
-    # Coins de chaque case en coordonnées projetées (m), calculés d'un coup pour toutes les lignes
     x = df_agg['case_x'].values
     y = df_agg['case_y'].values
 
     coins_x = np.stack([x - demi, x + demi, x + demi, x - demi], axis=1)
     coins_y = np.stack([y - demi, y - demi, y + demi, y + demi], axis=1)
 
-    # Reprojection vectorisée de tous les coins en une seule fois (rapide)
     coins_lon, coins_lat = transformer.transform(coins_x.ravel(), coins_y.ravel())
     coins_lon = coins_lon.reshape(coins_x.shape)
     coins_lat = coins_lat.reshape(coins_y.shape)
@@ -65,7 +53,6 @@ def densite_flotte(facteur_agregation=6):
     vd = df_agg['vd'].values
     times = df_agg['time'].astype(str).values
 
-    # Arrondi des coordonnées (4 décimales ~ 11 m, largement suffisant) pour réduire la taille du HTML
     coins_lon = np.round(coins_lon, 4)
     coins_lat = np.round(coins_lat, 4)
 
@@ -125,7 +112,93 @@ def densite_flotte(facteur_agregation=6):
     m1.get_root().html.add_child(folium.Element(title_html))
 
     m1.save("carte_flotte/carte_densite_flotte.html")
-    print("Carte enregistrée : carte_densite_flotte.html")
 
+def densite_flotte(taille_grille_deg=3):
+    lon_deg, lat_deg = transformer.transform(df['longitude'].values, df['latitude'].values)
+    df_deg = df.copy()
+    df_deg['lon_deg'] = lon_deg
+    df_deg['lat_deg'] = lat_deg
 
-densite_flotte()
+    df_deg['case_lat'] = (df_deg['lat_deg'] // taille_grille_deg) * taille_grille_deg
+    df_deg['case_lon'] = (df_deg['lon_deg'] // taille_grille_deg) * taille_grille_deg
+
+    df_agg = (
+        df_deg.groupby(['time', 'case_lat', 'case_lon'])['vd']
+        .mean()
+        .reset_index()
+    )
+    print(f"Cases natives : {len(df)} -> cases agrégées : {len(df_agg)}")
+
+    vmax = df_agg['vd'].quantile(0.99)
+    echelle_couleur = cm.LinearColormap(
+        colors=['yellow', 'orange', 'red', 'darkred'],
+        vmin=0,
+        vmax=vmax,
+        caption="Densité (vd)"
+    )
+
+    center_lat_c = df_agg['case_lat'].mean() + taille_grille_deg / 2
+    center_lon_c = df_agg['case_lon'].mean() + taille_grille_deg / 2
+
+    features = []
+    for row in df_agg.itertuples(index=False):
+        v = min(row.vd, vmax)
+        couleur = echelle_couleur(v)
+        lat, lon = row.case_lat, row.case_lon
+
+        # Rectangle toujours droit : simple carré en degrés, comme accident_grille() dans carte.py
+        polygone = [[
+            [lon, lat],
+            [lon + taille_grille_deg, lat],
+            [lon + taille_grille_deg, lat + taille_grille_deg],
+            [lon, lat + taille_grille_deg],
+            [lon, lat],
+        ]]
+        features.append({
+            'type': 'Feature',
+            'geometry': {'type': 'Polygon', 'coordinates': polygone},
+            'properties': {
+                'time': str(row.time),
+                'style': {
+                    'color': couleur,
+                    'fillColor': couleur,
+                    'fillOpacity': 0.7,
+                    'weight': 0,
+                },
+                'popup': f"vd: {v:.3f}",
+            }
+        })
+
+    geojson_data = {'type': 'FeatureCollection', 'features': features}
+
+    m2 = folium.Map(
+        location=[center_lat_c, center_lon_c],
+        zoom_start=6,
+        tiles='OpenStreetMap'
+    )
+
+    TimestampedGeoJson(
+        geojson_data,
+        period='P1M',  # les 'time' du CSV sont mensuels (ex: 2017-01-01, 2017-02-01, ...)
+        duration='P1M',
+        add_last_point=False,
+        auto_play=False,
+        loop=False,
+        max_speed=2,
+        loop_button=True,
+        date_options='YYYY-MM',
+        time_slider_drag_update=True
+    ).add_to(m2)
+
+    echelle_couleur.add_to(m2)
+
+    title_html = '''
+                <h3 align="center" style="font-size:16px"><b>Densité du trafic maritime</b></h3>
+                <p align="center" style="font-size:12px">Utilise le curseur en bas pour voir l'évolution mois par mois</p>
+                '''
+    m2.get_root().html.add_child(folium.Element(title_html))
+
+    m2.save("carte_flotte/carte_densite_flotte2.html")
+
+# densite_flotte()
+# densite_flotte(taille_grille_deg=0.5)
