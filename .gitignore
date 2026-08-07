@@ -1,7 +1,7 @@
 @"
 # Fichiers de données (trop gros pour GitHub)
 vessel_density_data/
-données_d_accident_en_mer/
+maritime_accidents/
 data/
 __pycache__/
 *.tif
