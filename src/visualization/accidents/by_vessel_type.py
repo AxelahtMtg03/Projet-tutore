@@ -1,3 +1,5 @@
+import os
+
 import matplotlib.pyplot as plt
 import sys
 from pathlib import Path
@@ -23,8 +25,10 @@ def graphique_type_bateau(total):
     for bar in bars:
         height = bar.get_height()
         plt.text(bar.get_x() + bar.get_width()/2.0, height + 0.5, f'{int(height)}', ha='center', va='bottom', fontweight='bold')
+    os.makedirs("visualization/accidents", exist_ok=True)
     plt.tight_layout()
-    plt.show()
+    plt.savefig("visualization/accidents/graph_accident_by_vessel_type.png", dpi=150)
+    plt.close()
 
 def accidents_par_annee_bateau(bateau:str):
     total = charger_donnees_finales()
@@ -43,8 +47,11 @@ def graphique_bateau_annee(total,bateau):
     plt.ylabel("Nombre d'accidents", fontsize=12)
     plt.grid(True)
 
-    plt.show()
-
-#graphique_type_bateau(type_bateau_global())
+    os.makedirs("visualization/accidents", exist_ok=True)
+    plt.tight_layout()
+    plt.savefig(f"visualization/accidents/graph_accident_by_vessel_type_{bateau}.png", dpi=150)
+    plt.close()
+    
+graphique_type_bateau(type_bateau_global())
 a="Submersible"
 graphique_bateau_annee(accidents_par_annee_bateau(a),a)

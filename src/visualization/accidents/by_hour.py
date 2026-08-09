@@ -1,3 +1,5 @@
+import os
+
 import matplotlib.pyplot as plt
 import sys
 from pathlib import Path
@@ -30,6 +32,8 @@ def graphique_heure(comptage_heures):
                     f'{int(height)}', ha='center', va='bottom', fontsize=8)
 
     plt.tight_layout()
-    plt.show()
-
+    os.makedirs("visualization/accidents", exist_ok=True)
+    plt.tight_layout()
+    plt.savefig("visualization/accidents/graph_accident_by_hour.png", dpi=150)
+    plt.close()
 graphique_heure(heure_global())

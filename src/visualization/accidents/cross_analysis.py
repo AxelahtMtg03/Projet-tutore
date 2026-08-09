@@ -1,3 +1,4 @@
+import os
 import sys
 import matplotlib.pyplot as plt
 from pathlib import Path
@@ -5,60 +6,68 @@ sys.path.append(str(Path(__file__).parent.parent.parent))
 
 from data_processing.loader import charger_donnees_finales
 
-def comptage_croise(para1:str,para2:str):
+def comptage_croise(colonne_x:str, colonne_serie:str):
     """Croise deux colonnes (ex: saison/bateau) et compte le nombre d'accidents pour chaque combinaison"""
     total = charger_donnees_finales()
-    comptage = total.groupby([para1,para2]).size().unstack(fill_value=0)
+    comptage = total.groupby([colonne_x, colonne_serie]).size().unstack(fill_value=0)
     return comptage
 
-def graphique(comptage,para1:str,para2:str):
+def graphique(comptage, colonne_x:str, colonne_serie:str):
 
     plt.figure(figsize=(12,6))
 
-    for x in comptage.columns:
+    for valeur_serie in comptage.columns:
         plt.plot(
             comptage.index,
-            comptage[x],
+            comptage[valeur_serie],
             marker="o",
-            label=x
+            label=valeur_serie
         )
 
-    plt.title("Nombre d'accidents par " + para1 +" et par " +para2)
-    plt.xlabel(para1)
+    plt.title("Nombre d'accidents par " + colonne_x + " et par " + colonne_serie)
+    plt.xlabel(colonne_x)
     plt.ylabel("Nombre d'accidents")
 
     plt.grid(True)
     plt.legend()
 
-    plt.show()
+    os.makedirs("visualization/accidents", exist_ok=True)
+    plt.tight_layout()
+    nom_fichier = f"visualization/accidents/accidents_by_{colonne_x}_and_{colonne_serie}.png"
+    plt.savefig(nom_fichier, dpi=150)
+    plt.close()
     
-def comptage_croise_bis(para1:str, para2:str, para3:str):
+def comptage_croise_bis(colonne_filtre:str, colonne_groupe:str, valeur_filtre:str):
     """Comme comptage_croise, mais filtré ex le nb d'accidnet de bateaux de croisière en fonction des saisons"""
     total = charger_donnees_finales()
 
-    total = total[total[para1] == para3]
-    comptage = total.groupby(para2).size()
+    total = total[total[colonne_filtre] == valeur_filtre]
+    comptage = total.groupby(colonne_groupe).size()
     return comptage
  
-def graphique_bis(comptage,para1:str, para2:str, para3:str):
-    """Affiche l'évolution du nombre d'accidents selon para2, pour la seule valeur para3 filtrée en amont"""
+def graphique_bis(comptage, colonne_filtre:str, colonne_groupe:str, valeur_filtre:str):
+    """Affiche l'évolution du nombre d'accidents selon colonne_groupe, pour la seule valeur valeur_filtre filtrée en amont"""
     plt.figure(figsize=(12,6))
  
     plt.plot(comptage.index, comptage.values, marker="o")
  
-    plt.title(f"Nombre d'accidents par {para2}, pour {para1} = \"{para3}\"", fontsize=14)
-    plt.xlabel(f"{para2}", fontsize=12)
+    plt.title(f"Nombre d'accidents par {colonne_groupe}, pour {colonne_filtre} = \"{valeur_filtre}\"", fontsize=14)
+    plt.xlabel(f"{colonne_groupe}", fontsize=12)
     plt.ylabel("Nombre d'accidents", fontsize=12)
     plt.grid(True)
+
+    os.makedirs("visualization/accidents", exist_ok=True)
+    plt.tight_layout()
+    valeur_nettoyee = valeur_filtre.replace(" ", "_")
+    nom_fichier = f"visualization/accidents/accidents_by_{colonne_groupe}_for_{colonne_filtre}_{valeur_nettoyee}.png"
+    plt.savefig(nom_fichier, dpi=150)
+    plt.close()
  
-    plt.show()
+colonne_x = "saison"
+colonne_serie = "bateau"
+graphique((comptage_croise(colonne_x, colonne_serie)), colonne_x, colonne_serie)
  
-# b="saison"
-# a="bateau"
-# graphique((comptage_croise(b,a)),b,a)
- 
-# Exemple d'utilisation de la version filtrée (les noms de port incluent le pays, ex: "NETHERLANDS - Rotterdam") :
-a="bateau"
-b="saison"
-c= "Cargo ship"
-graphique_bis(comptage_croise_bis(a, b,c),a, b, c)
+colonne_filtre = "bateau"
+colonne_groupe = "saison"
+type_bateau = "Cargo ship"
+graphique_bis(comptage_croise_bis(colonne_filtre, colonne_groupe, type_bateau), colonne_filtre, colonne_groupe, type_bateau)

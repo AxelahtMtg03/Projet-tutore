@@ -1,7 +1,8 @@
 import sys
 import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'traitement_donnee'))
-from flotte_global import charger_flotte
+from pathlib import Path
+sys.path.append(str(Path(__file__).parent.parent.parent))
+from data_processing.loader import charger_flotte
 import matplotlib.pyplot as plt
 
 def flotte_totale_par_annee(economie="Monde"):
@@ -24,8 +25,10 @@ def graphique_flotte_totale(comptage, economie="Monde"):
     plt.xlabel("Année", fontsize=12)
     plt.ylabel("Nombre de navires", fontsize=12)
     plt.grid(True)
+    os.makedirs("visualization/fleet", exist_ok=True)
     plt.tight_layout()
-    plt.show()
+    plt.savefig("visualization/fleet/graph_global_fleet.png", dpi=150)
+    plt.close()
 
 
 def graphique_flotte_par_type(comptage, economie="Monde"):
@@ -38,7 +41,10 @@ def graphique_flotte_par_type(comptage, economie="Monde"):
     plt.grid(True)
     plt.legend()
     plt.tight_layout()
-    plt.show()
+    os.makedirs("visualization/fleet", exist_ok=True)
+    plt.tight_layout()
+    plt.savefig("visualization/fleet/graph_fleet_by_economy.png", dpi=150)
+    plt.close()
 
 
 graphique_flotte_totale(flotte_totale_par_annee())

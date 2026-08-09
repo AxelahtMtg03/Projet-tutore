@@ -1,3 +1,5 @@
+import os
+
 import matplotlib.pyplot as plt
 import sys
 import textwrap
@@ -25,8 +27,11 @@ def graphique_type_accident(total):
     for bar in bars:
         height = bar.get_height()
         plt.text(bar.get_x() + bar.get_width()/2.0, height + 0.5, f'{int(height)}', ha='center', va='bottom', fontweight='bold')
+    os.makedirs("visualization/accidents", exist_ok=True)
     plt.tight_layout()
-    plt.show()
+    plt.savefig("visualization/accidents/graph_accident_by_type.png", dpi=150)
+    plt.close()
+
 
 def accidents_par_annee_pour_type(type_accident:str):
     """le nombre type d'accident par année"""
@@ -58,7 +63,11 @@ def graphique_type_annee(comptage):
     plt.ylabel("Nombre d'accidents")
     plt.grid(True)
     plt.legend()
-    plt.show()
+
+    os.makedirs("visualization/accidents", exist_ok=True)
+    plt.tight_layout()
+    plt.savefig("visualization/accidents/accidents_by_type_per_year.png", dpi=150)
+    plt.close()
 
 def cause_accident_humain_global():
     """Compte le nombre d'accidents pour chaque cause d'accident humain, triée du plus au moins fréquent"""
@@ -85,8 +94,11 @@ def graphique_cause_accident_humain(total):
     for bar in bars:
         width = bar.get_width()
         plt.text(width + 0.5, bar.get_y() + bar.get_height()/2.0, f'{int(width)}', ha='left', va='center', fontweight='bold')
+
+    os.makedirs("visualization/accidents", exist_ok=True)
     plt.tight_layout()
-    plt.show()
+    plt.savefig("visualization/accidents/human_cause_accidents.png", dpi=150)
+    plt.close()
  
 def accidents_par_annee_pour_cause(cause:str):
     """Compte, pour une seule cause d'accident humain donnée, le nombre d'accidents par année"""
@@ -119,9 +131,12 @@ def graphique_cause_annee(comptage):
     plt.grid(True)
     plt.legend(fontsize=9, loc='upper left', bbox_to_anchor=(1, 1))  # légende sortie du graphique (noms longs)
     plt.tight_layout()
-    plt.show()
 
-# graphique_type_accident(type_accident_global())
-# graphique_type_annee(accidents_par_annee_type())
+    os.makedirs("visualization/accidents", exist_ok=True)
+    plt.savefig("visualization/accidents/human_cause_by_year.png", dpi=150)
+    plt.close()
+
+graphique_type_accident(type_accident_global())
+graphique_type_annee(accidents_par_annee_type())
 graphique_cause_accident_humain(cause_accident_humain_global())
 graphique_cause_annee(accidents_par_annee_cause())

@@ -1,3 +1,5 @@
+import os
+
 import matplotlib.pyplot as plt
 import sys
 from pathlib import Path
@@ -26,7 +28,9 @@ def graphique_gravite(total):
         plt.text(bar.get_x() + bar.get_width()/2., height + 0.5,
                 f'{int(height)}', ha='center', va='bottom', fontweight='bold')
 
+    os.makedirs("visualization/accidents", exist_ok=True)
     plt.tight_layout()
-    plt.show()
+    plt.savefig("visualization/accidents/graph_accident_by_severity.png", dpi=150)
+    plt.close()
 
 graphique_gravite(gravite_global())
