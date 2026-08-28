@@ -1,8 +1,13 @@
+import sys
+from pathlib import Path
 import pandas as pd
 import folium
 import branca.colormap as cm
 from folium.plugins import MarkerCluster, HeatMap, TimestampedGeoJson
 import json
+sys.path.append(str(Path(__file__).resolve().parents[1]))
+    
+from data_processing.accident_processing import calculer_tendance_reelle, categoriser_tendance, COULEURS as COULEURS_TENDANCE
 
 df = pd.read_csv("data/processed/maritime_accidents.csv")
 
@@ -17,6 +22,16 @@ couleurs = {
     'Marine incident': 'blue',
     'less serious': 'gray'
 }
+
+COULEURS_TENDANCE = {
+    'Forte diminution': '#08306b',
+    'Faible diminution': '#27ae60',
+    'Stable': '#8e44ad',
+    'Faible augmentation': '#f4d03f',
+    'Forte augmentation': '#e74c3c',
+    'Données insuffisantes': '#cccccc',
+}
+
 
 def accidents():
     """Carte 1 : tous les accidents, avec regroupement en clusters et couleur selon la gravité"""
@@ -358,6 +373,99 @@ def accident_grille_temps(taille_grille=2):
     m6.get_root().html.add_child(folium.Element(title_html6))
 
     m6.save("maps/maritime_accidents_maps/accident_grid_timeline.html")
+
+
+def accident_grille_tendance(taille_grille=1.5):
+    """Carte 7 : quadrillage coloré selon la TENDANCE (valeur réelle de l'année vs
+    moyenne historique de la case), avec un curseur de temps (TimestampedGeoJson).
+ 
+    Le calcul (grille, référence historique, catégorisation) vient entièrement de
+    calculer_tendance_reelle() dans data_processing/accidents_processing.py -> plus
+    de logique dupliquée entre ce fichier et le module de traitement des données."""
+ 
+    agrege = calculer_tendance_reelle(taille_grille_deg=taille_grille, sauvegarder=False)
+ 
+    features = []
+    for _, row in agrege.iterrows():
+        lat, lon, annee = row['grille_lat'], row['grille_lon'], int(row['annee'])
+        couleur = row['couleur']
+ 
+        polygone = [[
+            [lon, lat],
+            [lon + taille_grille, lat],
+            [lon + taille_grille, lat + taille_grille],
+            [lon, lat + taille_grille],
+            [lon, lat],
+        ]]
+ 
+        pct = row['pct_evolution']
+        pct_texte = "N/A" if pd.isna(pct) else f"{pct:+.1f}%"
+ 
+        feature = {
+            'type': 'Feature',
+            'geometry': {'type': 'Polygon', 'coordinates': polygone},
+            'properties': {
+                'time': f"{annee}-01-01",
+                'style': {
+                    'color': couleur,
+                    'fillColor': couleur,
+                    'fillOpacity': 0.6,
+                    'weight': 1,
+                },
+                'popup': (
+                    f"Référence historique : {row['reference_historique']:.1f}<br>"
+                    f"Accidents en {annee} : {int(row['nb_accidents'])}<br>"
+                    f"Évolution : {pct_texte}<br>"
+                    f"Catégorie : {row['categorie']}"
+                ),
+            }
+        }
+        features.append(feature)
+ 
+    geojson_data = {'type': 'FeatureCollection', 'features': features}
+ 
+    m7 = folium.Map(
+        location=[center_lat, center_lon],
+        zoom_start=6,
+        tiles='OpenStreetMap'
+    )
+ 
+    TimestampedGeoJson(
+        geojson_data,
+        period='P1Y',
+        duration='P1D',
+        add_last_point=False,
+        auto_play=False,
+        loop=False,
+        max_speed=2,
+        loop_button=True,
+        date_options='YYYY',
+        time_slider_drag_update=True
+    ).add_to(m7)
+ 
+    title_html7 = '''
+                <h3 align="center" style="font-size:16px"><b>Tendance des accidents par quadrillage et par année</b></h3>
+                <p align="center" style="font-size:12px">Utilise le curseur en bas pour voir l'évolution année par année</p>
+                '''
+    m7.get_root().html.add_child(folium.Element(title_html7))
+ 
+    legend_html7 = '''
+    <div style="position: fixed; bottom: 50px; left: 50px; z-index: 1000; background-color: white;
+                padding: 10px; border: 2px solid grey; border-radius: 5px; font-size: 12px;">
+        <p><b>Légende - Tendance</b></p>
+        <p><span style="color: #08306b;">●</span> Forte diminution</p>
+        <p><span style="color: #27ae60;">●</span> Faible diminution</p>
+        <p><span style="color: #8e44ad;">●</span> Stable</p>
+        <p><span style="color: #f4d03f;">●</span> Faible augmentation</p>
+        <p><span style="color: #e74c3c;">●</span> Forte augmentation</p>
+        <p><span style="color: #cccccc;">●</span> Données insuffisantes</p>
+    </div>
+    '''
+    m7.get_root().html.add_child(folium.Element(legend_html7))
+ 
+    m7.save("maps/maritime_accidents_maps/accident_grid_tendance.html")
+
+
  
 def accident_filtrable_intersection():
     """"""
@@ -467,10 +575,11 @@ def accident_filtrable_intersection():
 
     
     
-accidents()
-heatmap()
-accident_annee()
-accident_temps_animation()
-accident_grille()
-accident_grille_temps()
-accident_filtrable_intersection()
+# accidents()
+# heatmap()
+# accident_annee()
+# accident_temps_animation()
+# accident_grille()
+# accident_grille_temps()
+accident_grille_tendance()
+# accident_filtrable_intersection()
