@@ -1,0 +1,4705 @@
+zone,annee,tendance,classe
+z_-1.5_-52.5,2023,Stable,2
+z_-1.5_-52.5,2024,Stable,2
+z_-1.5_-52.5,2025,Stable,2
+z_-1.5_-52.5,2026,Stable,2
+z_-1.5_-52.5,2027,Stable,2
+z_-1.5_-52.5,2028,Stable,2
+z_-1.5_-52.5,2029,Stable,2
+z_-1.5_-52.5,2030,Stable,2
+z_-13.5_-39.0,2023,Forte diminution,0
+z_-13.5_-39.0,2024,Forte diminution,0
+z_-13.5_-39.0,2025,Forte diminution,0
+z_-13.5_-39.0,2026,Forte diminution,0
+z_-13.5_-39.0,2027,Forte diminution,0
+z_-13.5_-39.0,2028,Forte diminution,0
+z_-13.5_-39.0,2029,Forte diminution,0
+z_-13.5_-39.0,2030,Forte diminution,0
+z_-13.5_-78.0,2023,Forte augmentation,4
+z_-13.5_-78.0,2024,Forte augmentation,4
+z_-13.5_-78.0,2025,Forte augmentation,4
+z_-13.5_-78.0,2026,Forte augmentation,4
+z_-13.5_-78.0,2027,Forte augmentation,4
+z_-13.5_-78.0,2028,Forte augmentation,4
+z_-13.5_-78.0,2029,Forte augmentation,4
+z_-13.5_-78.0,2030,Forte augmentation,4
+z_-13.5_130.5,2023,Faible diminution,1
+z_-13.5_130.5,2024,Faible diminution,1
+z_-13.5_130.5,2025,Faible diminution,1
+z_-13.5_130.5,2026,Faible diminution,1
+z_-13.5_130.5,2027,Faible diminution,1
+z_-13.5_130.5,2028,Faible diminution,1
+z_-13.5_130.5,2029,Faible diminution,1
+z_-13.5_130.5,2030,Faible diminution,1
+z_-18.0_145.5,2023,Faible diminution,1
+z_-18.0_145.5,2024,Faible diminution,1
+z_-18.0_145.5,2025,Faible diminution,1
+z_-18.0_145.5,2026,Faible diminution,1
+z_-18.0_145.5,2027,Faible diminution,1
+z_-18.0_145.5,2028,Faible diminution,1
+z_-18.0_145.5,2029,Faible diminution,1
+z_-18.0_145.5,2030,Faible diminution,1
+z_-18.0_168.0,2023,Forte diminution,0
+z_-18.0_168.0,2024,Forte diminution,0
+z_-18.0_168.0,2025,Forte diminution,0
+z_-18.0_168.0,2026,Forte diminution,0
+z_-18.0_168.0,2027,Forte diminution,0
+z_-18.0_168.0,2028,Forte diminution,0
+z_-18.0_168.0,2029,Forte diminution,0
+z_-18.0_168.0,2030,Forte diminution,0
+z_-19.5_177.0,2023,Faible diminution,1
+z_-19.5_177.0,2024,Faible diminution,1
+z_-19.5_177.0,2025,Faible diminution,1
+z_-19.5_177.0,2026,Faible diminution,1
+z_-19.5_177.0,2027,Faible diminution,1
+z_-19.5_177.0,2028,Faible diminution,1
+z_-19.5_177.0,2029,Faible diminution,1
+z_-19.5_177.0,2030,Faible diminution,1
+z_-21.0_-40.5,2023,Faible diminution,1
+z_-21.0_-40.5,2024,Faible diminution,1
+z_-21.0_-40.5,2025,Faible diminution,1
+z_-21.0_-40.5,2026,Faible diminution,1
+z_-21.0_-40.5,2027,Faible diminution,1
+z_-21.0_-40.5,2028,Faible diminution,1
+z_-21.0_-40.5,2029,Faible diminution,1
+z_-21.0_-40.5,2030,Faible diminution,1
+z_-21.0_115.5,2023,Forte diminution,0
+z_-21.0_115.5,2024,Forte diminution,0
+z_-21.0_115.5,2025,Forte diminution,0
+z_-21.0_115.5,2026,Forte diminution,0
+z_-21.0_115.5,2027,Forte diminution,0
+z_-21.0_115.5,2028,Forte diminution,0
+z_-21.0_115.5,2029,Forte diminution,0
+z_-21.0_115.5,2030,Forte diminution,0
+z_-21.0_118.5,2023,Forte diminution,0
+z_-21.0_118.5,2024,Forte diminution,0
+z_-21.0_118.5,2025,Forte diminution,0
+z_-21.0_118.5,2026,Forte diminution,0
+z_-21.0_118.5,2027,Forte diminution,0
+z_-21.0_118.5,2028,Forte diminution,0
+z_-21.0_118.5,2029,Forte diminution,0
+z_-21.0_118.5,2030,Forte diminution,0
+z_-21.0_148.5,2023,Forte diminution,0
+z_-21.0_148.5,2024,Forte diminution,0
+z_-21.0_148.5,2025,Forte diminution,0
+z_-21.0_148.5,2026,Forte diminution,0
+z_-21.0_148.5,2027,Forte diminution,0
+z_-21.0_148.5,2028,Forte diminution,0
+z_-21.0_148.5,2029,Forte diminution,0
+z_-21.0_148.5,2030,Forte diminution,0
+z_-21.0_166.5,2023,Forte diminution,0
+z_-21.0_166.5,2024,Forte diminution,0
+z_-21.0_166.5,2025,Forte diminution,0
+z_-21.0_166.5,2026,Forte diminution,0
+z_-21.0_166.5,2027,Forte diminution,0
+z_-21.0_166.5,2028,Forte diminution,0
+z_-21.0_166.5,2029,Forte diminution,0
+z_-21.0_166.5,2030,Forte diminution,0
+z_-21.0_169.5,2023,Faible diminution,1
+z_-21.0_169.5,2024,Faible diminution,1
+z_-21.0_169.5,2025,Faible diminution,1
+z_-21.0_169.5,2026,Faible diminution,1
+z_-21.0_169.5,2027,Faible diminution,1
+z_-21.0_169.5,2028,Faible diminution,1
+z_-21.0_169.5,2029,Faible diminution,1
+z_-21.0_169.5,2030,Faible diminution,1
+z_-21.0_34.5,2023,Stable,2
+z_-21.0_34.5,2024,Stable,2
+z_-21.0_34.5,2025,Stable,2
+z_-21.0_34.5,2026,Stable,2
+z_-21.0_34.5,2027,Stable,2
+z_-21.0_34.5,2028,Stable,2
+z_-21.0_34.5,2029,Stable,2
+z_-21.0_34.5,2030,Stable,2
+z_-21.0_54.0,2023,Faible diminution,1
+z_-21.0_54.0,2024,Faible diminution,1
+z_-21.0_54.0,2025,Faible diminution,1
+z_-21.0_54.0,2026,Faible diminution,1
+z_-21.0_54.0,2027,Faible diminution,1
+z_-21.0_54.0,2028,Faible diminution,1
+z_-21.0_54.0,2029,Faible diminution,1
+z_-21.0_54.0,2030,Faible diminution,1
+z_-21.0_57.0,2023,Faible diminution,1
+z_-21.0_57.0,2024,Faible diminution,1
+z_-21.0_57.0,2025,Faible diminution,1
+z_-21.0_57.0,2026,Faible diminution,1
+z_-21.0_57.0,2027,Faible diminution,1
+z_-21.0_57.0,2028,Faible diminution,1
+z_-21.0_57.0,2029,Faible diminution,1
+z_-21.0_57.0,2030,Faible diminution,1
+z_-22.5_148.5,2023,Faible diminution,1
+z_-22.5_148.5,2024,Faible diminution,1
+z_-22.5_148.5,2025,Faible diminution,1
+z_-22.5_148.5,2026,Faible diminution,1
+z_-22.5_148.5,2027,Faible diminution,1
+z_-22.5_148.5,2028,Faible diminution,1
+z_-22.5_148.5,2029,Faible diminution,1
+z_-22.5_148.5,2030,Faible diminution,1
+z_-22.5_165.0,2023,Faible diminution,1
+z_-22.5_165.0,2024,Faible diminution,1
+z_-22.5_165.0,2025,Faible diminution,1
+z_-22.5_165.0,2026,Faible diminution,1
+z_-22.5_165.0,2027,Faible diminution,1
+z_-22.5_165.0,2028,Faible diminution,1
+z_-22.5_165.0,2029,Faible diminution,1
+z_-22.5_165.0,2030,Faible diminution,1
+z_-22.5_166.5,2023,Faible diminution,1
+z_-22.5_166.5,2024,Faible diminution,1
+z_-22.5_166.5,2025,Faible diminution,1
+z_-22.5_166.5,2026,Faible diminution,1
+z_-22.5_166.5,2027,Faible diminution,1
+z_-22.5_166.5,2028,Faible diminution,1
+z_-22.5_166.5,2029,Faible diminution,1
+z_-22.5_166.5,2030,Faible diminution,1
+z_-22.5_168.0,2023,Forte augmentation,4
+z_-22.5_168.0,2024,Forte augmentation,4
+z_-22.5_168.0,2025,Forte augmentation,4
+z_-22.5_168.0,2026,Forte augmentation,4
+z_-22.5_168.0,2027,Forte augmentation,4
+z_-22.5_168.0,2028,Forte augmentation,4
+z_-22.5_168.0,2029,Forte augmentation,4
+z_-22.5_168.0,2030,Forte augmentation,4
+z_-24.0_-43.5,2023,Forte augmentation,4
+z_-24.0_-43.5,2024,Forte augmentation,4
+z_-24.0_-43.5,2025,Forte augmentation,4
+z_-24.0_-43.5,2026,Forte augmentation,4
+z_-24.0_-43.5,2027,Forte augmentation,4
+z_-24.0_-43.5,2028,Forte augmentation,4
+z_-24.0_-43.5,2029,Forte augmentation,4
+z_-24.0_-43.5,2030,Forte augmentation,4
+z_-24.0_-46.5,2023,Faible augmentation,3
+z_-24.0_-46.5,2024,Faible augmentation,3
+z_-24.0_-46.5,2025,Faible augmentation,3
+z_-24.0_-46.5,2026,Faible augmentation,3
+z_-24.0_-46.5,2027,Faible augmentation,3
+z_-24.0_-46.5,2028,Faible augmentation,3
+z_-24.0_-46.5,2029,Faible augmentation,3
+z_-24.0_-46.5,2030,Faible augmentation,3
+z_-24.0_150.0,2023,Faible diminution,1
+z_-24.0_150.0,2024,Faible diminution,1
+z_-24.0_150.0,2025,Faible diminution,1
+z_-24.0_150.0,2026,Faible diminution,1
+z_-24.0_150.0,2027,Faible diminution,1
+z_-24.0_150.0,2028,Faible diminution,1
+z_-24.0_150.0,2029,Faible diminution,1
+z_-24.0_150.0,2030,Faible diminution,1
+z_-24.0_151.5,2023,Faible diminution,1
+z_-24.0_151.5,2024,Faible diminution,1
+z_-24.0_151.5,2025,Faible diminution,1
+z_-24.0_151.5,2026,Faible diminution,1
+z_-24.0_151.5,2027,Faible diminution,1
+z_-24.0_151.5,2028,Faible diminution,1
+z_-24.0_151.5,2029,Faible diminution,1
+z_-24.0_151.5,2030,Faible diminution,1
+z_-24.0_166.5,2023,Faible diminution,1
+z_-24.0_166.5,2024,Faible diminution,1
+z_-24.0_166.5,2025,Faible diminution,1
+z_-24.0_166.5,2026,Faible diminution,1
+z_-24.0_166.5,2027,Faible diminution,1
+z_-24.0_166.5,2028,Faible diminution,1
+z_-24.0_166.5,2029,Faible diminution,1
+z_-24.0_166.5,2030,Faible diminution,1
+z_-27.0_-49.5,2023,Forte diminution,0
+z_-27.0_-49.5,2024,Forte diminution,0
+z_-27.0_-49.5,2025,Forte diminution,0
+z_-27.0_-49.5,2026,Forte diminution,0
+z_-27.0_-49.5,2027,Forte diminution,0
+z_-27.0_-49.5,2028,Forte diminution,0
+z_-27.0_-49.5,2029,Forte diminution,0
+z_-27.0_-49.5,2030,Forte diminution,0
+z_-27.0_153.0,2023,Faible augmentation,3
+z_-27.0_153.0,2024,Faible augmentation,3
+z_-27.0_153.0,2025,Faible augmentation,3
+z_-27.0_153.0,2026,Faible augmentation,3
+z_-27.0_153.0,2027,Faible augmentation,3
+z_-27.0_153.0,2028,Faible augmentation,3
+z_-27.0_153.0,2029,Faible augmentation,3
+z_-27.0_153.0,2030,Faible augmentation,3
+z_-28.5_153.0,2023,Forte diminution,0
+z_-28.5_153.0,2024,Forte diminution,0
+z_-28.5_153.0,2025,Forte diminution,0
+z_-28.5_153.0,2026,Forte diminution,0
+z_-28.5_153.0,2027,Forte diminution,0
+z_-28.5_153.0,2028,Forte diminution,0
+z_-28.5_153.0,2029,Forte diminution,0
+z_-28.5_153.0,2030,Forte diminution,0
+z_-28.5_159.0,2023,Faible diminution,1
+z_-28.5_159.0,2024,Faible diminution,1
+z_-28.5_159.0,2025,Faible diminution,1
+z_-28.5_159.0,2026,Faible diminution,1
+z_-28.5_159.0,2027,Faible diminution,1
+z_-28.5_159.0,2028,Faible diminution,1
+z_-28.5_159.0,2029,Faible diminution,1
+z_-28.5_159.0,2030,Faible diminution,1
+z_-3.0_-81.0,2023,Forte augmentation,4
+z_-3.0_-81.0,2024,Forte augmentation,4
+z_-3.0_-81.0,2025,Forte augmentation,4
+z_-3.0_-81.0,2026,Forte augmentation,4
+z_-3.0_-81.0,2027,Forte augmentation,4
+z_-3.0_-81.0,2028,Forte augmentation,4
+z_-3.0_-81.0,2029,Forte augmentation,4
+z_-3.0_-81.0,2030,Forte augmentation,4
+z_-30.0_30.0,2023,Forte augmentation,4
+z_-30.0_30.0,2024,Forte augmentation,4
+z_-30.0_30.0,2025,Forte augmentation,4
+z_-30.0_30.0,2026,Forte augmentation,4
+z_-30.0_30.0,2027,Forte augmentation,4
+z_-30.0_30.0,2028,Forte augmentation,4
+z_-30.0_30.0,2029,Forte augmentation,4
+z_-30.0_30.0,2030,Forte augmentation,4
+z_-31.5_153.0,2023,Stable,2
+z_-31.5_153.0,2024,Stable,2
+z_-31.5_153.0,2025,Stable,2
+z_-31.5_153.0,2026,Stable,2
+z_-31.5_153.0,2027,Stable,2
+z_-31.5_153.0,2028,Stable,2
+z_-31.5_153.0,2029,Stable,2
+z_-31.5_153.0,2030,Stable,2
+z_-31.5_154.5,2023,Faible diminution,1
+z_-31.5_154.5,2024,Faible diminution,1
+z_-31.5_154.5,2025,Faible diminution,1
+z_-31.5_154.5,2026,Faible diminution,1
+z_-31.5_154.5,2027,Faible diminution,1
+z_-31.5_154.5,2028,Faible diminution,1
+z_-31.5_154.5,2029,Faible diminution,1
+z_-31.5_154.5,2030,Faible diminution,1
+z_-33.0_-52.5,2023,Forte augmentation,4
+z_-33.0_-52.5,2024,Forte augmentation,4
+z_-33.0_-52.5,2025,Forte augmentation,4
+z_-33.0_-52.5,2026,Forte augmentation,4
+z_-33.0_-52.5,2027,Forte augmentation,4
+z_-33.0_-52.5,2028,Forte augmentation,4
+z_-33.0_-52.5,2029,Forte augmentation,4
+z_-33.0_-52.5,2030,Forte augmentation,4
+z_-33.0_-61.5,2023,Forte diminution,0
+z_-33.0_-61.5,2024,Forte diminution,0
+z_-33.0_-61.5,2025,Forte diminution,0
+z_-33.0_-61.5,2026,Forte diminution,0
+z_-33.0_-61.5,2027,Forte diminution,0
+z_-33.0_-61.5,2028,Forte diminution,0
+z_-33.0_-61.5,2029,Forte diminution,0
+z_-33.0_-61.5,2030,Forte diminution,0
+z_-33.0_115.5,2023,Stable,2
+z_-33.0_115.5,2024,Stable,2
+z_-33.0_115.5,2025,Stable,2
+z_-33.0_115.5,2026,Stable,2
+z_-33.0_115.5,2027,Stable,2
+z_-33.0_115.5,2028,Stable,2
+z_-33.0_115.5,2029,Stable,2
+z_-33.0_115.5,2030,Stable,2
+z_-33.0_151.5,2023,Stable,2
+z_-33.0_151.5,2024,Stable,2
+z_-33.0_151.5,2025,Stable,2
+z_-33.0_151.5,2026,Stable,2
+z_-33.0_151.5,2027,Stable,2
+z_-33.0_151.5,2028,Stable,2
+z_-33.0_151.5,2029,Stable,2
+z_-33.0_151.5,2030,Stable,2
+z_-34.5_-60.0,2023,Forte diminution,0
+z_-34.5_-60.0,2024,Forte diminution,0
+z_-34.5_-60.0,2025,Forte diminution,0
+z_-34.5_-60.0,2026,Forte diminution,0
+z_-34.5_-60.0,2027,Forte diminution,0
+z_-34.5_-60.0,2028,Forte diminution,0
+z_-34.5_-60.0,2029,Forte diminution,0
+z_-34.5_-60.0,2030,Forte diminution,0
+z_-34.5_-61.5,2023,Stable,2
+z_-34.5_-61.5,2024,Stable,2
+z_-34.5_-61.5,2025,Stable,2
+z_-34.5_-61.5,2026,Stable,2
+z_-34.5_-61.5,2027,Stable,2
+z_-34.5_-61.5,2028,Stable,2
+z_-34.5_-61.5,2029,Stable,2
+z_-34.5_-61.5,2030,Stable,2
+z_-34.5_150.0,2023,Forte diminution,0
+z_-34.5_150.0,2024,Forte diminution,0
+z_-34.5_150.0,2025,Forte diminution,0
+z_-34.5_150.0,2026,Forte diminution,0
+z_-34.5_150.0,2027,Forte diminution,0
+z_-34.5_150.0,2028,Forte diminution,0
+z_-34.5_150.0,2029,Forte diminution,0
+z_-34.5_150.0,2030,Forte diminution,0
+z_-34.5_151.5,2023,Forte diminution,0
+z_-34.5_151.5,2024,Forte diminution,0
+z_-34.5_151.5,2025,Forte diminution,0
+z_-34.5_151.5,2026,Forte diminution,0
+z_-34.5_151.5,2027,Forte diminution,0
+z_-34.5_151.5,2028,Forte diminution,0
+z_-34.5_151.5,2029,Forte diminution,0
+z_-34.5_151.5,2030,Forte diminution,0
+z_-34.5_18.0,2023,Stable,2
+z_-34.5_18.0,2024,Stable,2
+z_-34.5_18.0,2025,Stable,2
+z_-34.5_18.0,2026,Stable,2
+z_-34.5_18.0,2027,Stable,2
+z_-34.5_18.0,2028,Stable,2
+z_-34.5_18.0,2029,Stable,2
+z_-34.5_18.0,2030,Stable,2
+z_-36.0_-57.0,2023,Forte diminution,0
+z_-36.0_-57.0,2024,Forte diminution,0
+z_-36.0_-57.0,2025,Forte diminution,0
+z_-36.0_-57.0,2026,Forte diminution,0
+z_-36.0_-57.0,2027,Forte diminution,0
+z_-36.0_-57.0,2028,Forte diminution,0
+z_-36.0_-57.0,2029,Forte diminution,0
+z_-36.0_-57.0,2030,Forte diminution,0
+z_-36.0_-58.5,2023,Forte diminution,0
+z_-36.0_-58.5,2024,Forte diminution,0
+z_-36.0_-58.5,2025,Forte diminution,0
+z_-36.0_-58.5,2026,Forte diminution,0
+z_-36.0_-58.5,2027,Forte diminution,0
+z_-36.0_-58.5,2028,Forte diminution,0
+z_-36.0_-58.5,2029,Forte diminution,0
+z_-36.0_-58.5,2030,Forte diminution,0
+z_-37.5_174.0,2023,Faible diminution,1
+z_-37.5_174.0,2024,Faible diminution,1
+z_-37.5_174.0,2025,Faible diminution,1
+z_-37.5_174.0,2026,Faible diminution,1
+z_-37.5_174.0,2027,Faible diminution,1
+z_-37.5_174.0,2028,Faible diminution,1
+z_-37.5_174.0,2029,Faible diminution,1
+z_-37.5_174.0,2030,Faible diminution,1
+z_-39.0_144.0,2023,Forte diminution,0
+z_-39.0_144.0,2024,Forte diminution,0
+z_-39.0_144.0,2025,Forte diminution,0
+z_-39.0_144.0,2026,Forte diminution,0
+z_-39.0_144.0,2027,Forte diminution,0
+z_-39.0_144.0,2028,Forte diminution,0
+z_-39.0_144.0,2029,Forte diminution,0
+z_-39.0_144.0,2030,Forte diminution,0
+z_-42.0_174.0,2023,Forte diminution,0
+z_-42.0_174.0,2024,Forte diminution,0
+z_-42.0_174.0,2025,Forte diminution,0
+z_-42.0_174.0,2026,Forte diminution,0
+z_-42.0_174.0,2027,Forte diminution,0
+z_-42.0_174.0,2028,Forte diminution,0
+z_-42.0_174.0,2029,Forte diminution,0
+z_-42.0_174.0,2030,Forte diminution,0
+z_-52.5_-58.5,2023,Forte diminution,0
+z_-52.5_-58.5,2024,Forte diminution,0
+z_-52.5_-58.5,2025,Forte diminution,0
+z_-52.5_-58.5,2026,Forte diminution,0
+z_-52.5_-58.5,2027,Forte diminution,0
+z_-52.5_-58.5,2028,Forte diminution,0
+z_-52.5_-58.5,2029,Forte diminution,0
+z_-52.5_-58.5,2030,Forte diminution,0
+z_-6.0_10.5,2023,Forte diminution,0
+z_-6.0_10.5,2024,Forte diminution,0
+z_-6.0_10.5,2025,Forte diminution,0
+z_-6.0_10.5,2026,Forte diminution,0
+z_-6.0_10.5,2027,Forte diminution,0
+z_-6.0_10.5,2028,Forte diminution,0
+z_-6.0_10.5,2029,Forte diminution,0
+z_-6.0_10.5,2030,Forte diminution,0
+z_-6.0_12.0,2023,Faible diminution,1
+z_-6.0_12.0,2024,Faible diminution,1
+z_-6.0_12.0,2025,Faible diminution,1
+z_-6.0_12.0,2026,Faible diminution,1
+z_-6.0_12.0,2027,Faible diminution,1
+z_-6.0_12.0,2028,Faible diminution,1
+z_-6.0_12.0,2029,Faible diminution,1
+z_-6.0_12.0,2030,Faible diminution,1
+z_-7.5_112.5,2023,Faible diminution,1
+z_-7.5_112.5,2024,Faible diminution,1
+z_-7.5_112.5,2025,Faible diminution,1
+z_-7.5_112.5,2026,Faible diminution,1
+z_-7.5_112.5,2027,Faible diminution,1
+z_-7.5_112.5,2028,Faible diminution,1
+z_-7.5_112.5,2029,Faible diminution,1
+z_-7.5_112.5,2030,Faible diminution,1
+z_-9.0_114.0,2023,Forte diminution,0
+z_-9.0_114.0,2024,Forte diminution,0
+z_-9.0_114.0,2025,Forte diminution,0
+z_-9.0_114.0,2026,Forte diminution,0
+z_-9.0_114.0,2027,Forte diminution,0
+z_-9.0_114.0,2028,Forte diminution,0
+z_-9.0_114.0,2029,Forte diminution,0
+z_-9.0_114.0,2030,Forte diminution,0
+z_-9.0_118.5,2023,Faible diminution,1
+z_-9.0_118.5,2024,Faible diminution,1
+z_-9.0_118.5,2025,Faible diminution,1
+z_-9.0_118.5,2026,Faible diminution,1
+z_-9.0_118.5,2027,Faible diminution,1
+z_-9.0_118.5,2028,Faible diminution,1
+z_-9.0_118.5,2029,Faible diminution,1
+z_-9.0_118.5,2030,Faible diminution,1
+z_-9.0_12.0,2023,Forte augmentation,4
+z_-9.0_12.0,2024,Forte augmentation,4
+z_-9.0_12.0,2025,Forte augmentation,4
+z_-9.0_12.0,2026,Forte augmentation,4
+z_-9.0_12.0,2027,Forte augmentation,4
+z_-9.0_12.0,2028,Forte augmentation,4
+z_-9.0_12.0,2029,Forte augmentation,4
+z_-9.0_12.0,2030,Forte augmentation,4
+z_0.0_-51.0,2023,Forte diminution,0
+z_0.0_-51.0,2024,Forte diminution,0
+z_0.0_-51.0,2025,Forte diminution,0
+z_0.0_-51.0,2026,Forte diminution,0
+z_0.0_-51.0,2027,Forte diminution,0
+z_0.0_-51.0,2028,Forte diminution,0
+z_0.0_-51.0,2029,Forte diminution,0
+z_0.0_-51.0,2030,Forte diminution,0
+z_0.0_0.0,2023,Forte diminution,0
+z_0.0_0.0,2024,Forte diminution,0
+z_0.0_0.0,2025,Forte diminution,0
+z_0.0_0.0,2026,Forte diminution,0
+z_0.0_0.0,2027,Forte diminution,0
+z_0.0_0.0,2028,Forte diminution,0
+z_0.0_0.0,2029,Forte diminution,0
+z_0.0_0.0,2030,Forte diminution,0
+z_0.0_102.0,2023,Faible diminution,1
+z_0.0_102.0,2024,Faible diminution,1
+z_0.0_102.0,2025,Faible diminution,1
+z_0.0_102.0,2026,Faible diminution,1
+z_0.0_102.0,2027,Faible diminution,1
+z_0.0_102.0,2028,Faible diminution,1
+z_0.0_102.0,2029,Faible diminution,1
+z_0.0_102.0,2030,Faible diminution,1
+z_0.0_103.5,2023,Forte diminution,0
+z_0.0_103.5,2024,Forte diminution,0
+z_0.0_103.5,2025,Forte diminution,0
+z_0.0_103.5,2026,Forte diminution,0
+z_0.0_103.5,2027,Forte diminution,0
+z_0.0_103.5,2028,Forte diminution,0
+z_0.0_103.5,2029,Forte diminution,0
+z_0.0_103.5,2030,Forte diminution,0
+z_1.5_100.5,2023,Faible diminution,1
+z_1.5_100.5,2024,Faible diminution,1
+z_1.5_100.5,2025,Faible diminution,1
+z_1.5_100.5,2026,Faible diminution,1
+z_1.5_100.5,2027,Faible diminution,1
+z_1.5_100.5,2028,Faible diminution,1
+z_1.5_100.5,2029,Faible diminution,1
+z_1.5_100.5,2030,Faible diminution,1
+z_1.5_102.0,2023,Faible diminution,1
+z_1.5_102.0,2024,Faible diminution,1
+z_1.5_102.0,2025,Faible diminution,1
+z_1.5_102.0,2026,Faible diminution,1
+z_1.5_102.0,2027,Faible diminution,1
+z_1.5_102.0,2028,Faible diminution,1
+z_1.5_102.0,2029,Faible diminution,1
+z_1.5_102.0,2030,Faible diminution,1
+z_1.5_103.5,2023,Forte diminution,0
+z_1.5_103.5,2024,Forte diminution,0
+z_1.5_103.5,2025,Forte diminution,0
+z_1.5_103.5,2026,Forte diminution,0
+z_1.5_103.5,2027,Forte diminution,0
+z_1.5_103.5,2028,Forte diminution,0
+z_1.5_103.5,2029,Forte diminution,0
+z_1.5_103.5,2030,Forte diminution,0
+z_1.5_9.0,2023,Stable,2
+z_1.5_9.0,2024,Stable,2
+z_1.5_9.0,2025,Stable,2
+z_1.5_9.0,2026,Stable,2
+z_1.5_9.0,2027,Stable,2
+z_1.5_9.0,2028,Stable,2
+z_1.5_9.0,2029,Stable,2
+z_1.5_9.0,2030,Stable,2
+z_10.5_-63.0,2023,Forte diminution,0
+z_10.5_-63.0,2024,Forte diminution,0
+z_10.5_-63.0,2025,Forte diminution,0
+z_10.5_-63.0,2026,Forte diminution,0
+z_10.5_-63.0,2027,Forte diminution,0
+z_10.5_-63.0,2028,Forte diminution,0
+z_10.5_-63.0,2029,Forte diminution,0
+z_10.5_-63.0,2030,Forte diminution,0
+z_10.5_-75.0,2023,Forte diminution,0
+z_10.5_-75.0,2024,Forte diminution,0
+z_10.5_-75.0,2025,Forte diminution,0
+z_10.5_-75.0,2026,Forte diminution,0
+z_10.5_-75.0,2027,Forte diminution,0
+z_10.5_-75.0,2028,Forte diminution,0
+z_10.5_-75.0,2029,Forte diminution,0
+z_10.5_-75.0,2030,Forte diminution,0
+z_10.5_106.5,2023,Forte augmentation,4
+z_10.5_106.5,2024,Forte augmentation,4
+z_10.5_106.5,2025,Forte augmentation,4
+z_10.5_106.5,2026,Forte augmentation,4
+z_10.5_106.5,2027,Forte augmentation,4
+z_10.5_106.5,2028,Forte augmentation,4
+z_10.5_106.5,2029,Forte augmentation,4
+z_10.5_106.5,2030,Forte augmentation,4
+z_12.0_-60.0,2023,Faible diminution,1
+z_12.0_-60.0,2024,Faible diminution,1
+z_12.0_-60.0,2025,Faible diminution,1
+z_12.0_-60.0,2026,Faible diminution,1
+z_12.0_-60.0,2027,Faible diminution,1
+z_12.0_-60.0,2028,Faible diminution,1
+z_12.0_-60.0,2029,Faible diminution,1
+z_12.0_-60.0,2030,Faible diminution,1
+z_12.0_-63.0,2023,Forte diminution,0
+z_12.0_-63.0,2024,Forte diminution,0
+z_12.0_-63.0,2025,Forte diminution,0
+z_12.0_-63.0,2026,Forte diminution,0
+z_12.0_-63.0,2027,Forte diminution,0
+z_12.0_-63.0,2028,Forte diminution,0
+z_12.0_-63.0,2029,Forte diminution,0
+z_12.0_-63.0,2030,Forte diminution,0
+z_12.0_-69.0,2023,Stable,2
+z_12.0_-69.0,2024,Stable,2
+z_12.0_-69.0,2025,Stable,2
+z_12.0_-69.0,2026,Stable,2
+z_12.0_-69.0,2027,Stable,2
+z_12.0_-69.0,2028,Stable,2
+z_12.0_-69.0,2029,Stable,2
+z_12.0_-69.0,2030,Stable,2
+z_12.0_100.5,2023,Forte diminution,0
+z_12.0_100.5,2024,Forte diminution,0
+z_12.0_100.5,2025,Forte diminution,0
+z_12.0_100.5,2026,Forte diminution,0
+z_12.0_100.5,2027,Forte diminution,0
+z_12.0_100.5,2028,Forte diminution,0
+z_12.0_100.5,2029,Forte diminution,0
+z_12.0_100.5,2030,Forte diminution,0
+z_13.5_-18.0,2023,Forte augmentation,4
+z_13.5_-18.0,2024,Forte augmentation,4
+z_13.5_-18.0,2025,Forte augmentation,4
+z_13.5_-18.0,2026,Forte augmentation,4
+z_13.5_-18.0,2027,Forte augmentation,4
+z_13.5_-18.0,2028,Forte augmentation,4
+z_13.5_-18.0,2029,Forte augmentation,4
+z_13.5_-18.0,2030,Forte augmentation,4
+z_13.5_-61.5,2023,Forte diminution,0
+z_13.5_-61.5,2024,Forte diminution,0
+z_13.5_-61.5,2025,Forte diminution,0
+z_13.5_-61.5,2026,Forte diminution,0
+z_13.5_-61.5,2027,Forte diminution,0
+z_13.5_-61.5,2028,Forte diminution,0
+z_13.5_-61.5,2029,Forte diminution,0
+z_13.5_-61.5,2030,Forte diminution,0
+z_13.5_120.0,2023,Forte augmentation,4
+z_13.5_120.0,2024,Forte augmentation,4
+z_13.5_120.0,2025,Forte augmentation,4
+z_13.5_120.0,2026,Forte augmentation,4
+z_13.5_120.0,2027,Forte augmentation,4
+z_13.5_120.0,2028,Forte augmentation,4
+z_13.5_120.0,2029,Forte augmentation,4
+z_13.5_120.0,2030,Forte augmentation,4
+z_15.0_-63.0,2023,Forte diminution,0
+z_15.0_-63.0,2024,Forte diminution,0
+z_15.0_-63.0,2025,Forte diminution,0
+z_15.0_-63.0,2026,Forte diminution,0
+z_15.0_-63.0,2027,Forte diminution,0
+z_15.0_-63.0,2028,Forte diminution,0
+z_15.0_-63.0,2029,Forte diminution,0
+z_15.0_-63.0,2030,Forte diminution,0
+z_15.0_108.0,2023,Faible diminution,1
+z_15.0_108.0,2024,Faible diminution,1
+z_15.0_108.0,2025,Faible diminution,1
+z_15.0_108.0,2026,Faible diminution,1
+z_15.0_108.0,2027,Faible diminution,1
+z_15.0_108.0,2028,Faible diminution,1
+z_15.0_108.0,2029,Faible diminution,1
+z_15.0_108.0,2030,Faible diminution,1
+z_16.5_-16.5,2023,Forte diminution,0
+z_16.5_-16.5,2024,Forte diminution,0
+z_16.5_-16.5,2025,Forte diminution,0
+z_16.5_-16.5,2026,Forte diminution,0
+z_16.5_-16.5,2027,Forte diminution,0
+z_16.5_-16.5,2028,Forte diminution,0
+z_16.5_-16.5,2029,Forte diminution,0
+z_16.5_-16.5,2030,Forte diminution,0
+z_16.5_-63.0,2023,Forte diminution,0
+z_16.5_-63.0,2024,Forte diminution,0
+z_16.5_-63.0,2025,Forte diminution,0
+z_16.5_-63.0,2026,Forte diminution,0
+z_16.5_-63.0,2027,Forte diminution,0
+z_16.5_-63.0,2028,Forte diminution,0
+z_16.5_-63.0,2029,Forte diminution,0
+z_16.5_-63.0,2030,Forte diminution,0
+z_16.5_-64.5,2023,Forte diminution,0
+z_16.5_-64.5,2024,Forte diminution,0
+z_16.5_-64.5,2025,Forte diminution,0
+z_16.5_-64.5,2026,Forte diminution,0
+z_16.5_-64.5,2027,Forte diminution,0
+z_16.5_-64.5,2028,Forte diminution,0
+z_16.5_-64.5,2029,Forte diminution,0
+z_16.5_-64.5,2030,Forte diminution,0
+z_16.5_-78.0,2023,Stable,2
+z_16.5_-78.0,2024,Stable,2
+z_16.5_-78.0,2025,Stable,2
+z_16.5_-78.0,2026,Stable,2
+z_16.5_-78.0,2027,Stable,2
+z_16.5_-78.0,2028,Stable,2
+z_16.5_-78.0,2029,Stable,2
+z_16.5_-78.0,2030,Stable,2
+z_18.0_-64.5,2023,Stable,2
+z_18.0_-64.5,2024,Stable,2
+z_18.0_-64.5,2025,Stable,2
+z_18.0_-64.5,2026,Stable,2
+z_18.0_-64.5,2027,Stable,2
+z_18.0_-64.5,2028,Stable,2
+z_18.0_-64.5,2029,Stable,2
+z_18.0_-64.5,2030,Stable,2
+z_18.0_-70.5,2023,Faible diminution,1
+z_18.0_-70.5,2024,Faible diminution,1
+z_18.0_-70.5,2025,Faible diminution,1
+z_18.0_-70.5,2026,Faible diminution,1
+z_18.0_-70.5,2027,Faible diminution,1
+z_18.0_-70.5,2028,Faible diminution,1
+z_18.0_-70.5,2029,Faible diminution,1
+z_18.0_-70.5,2030,Faible diminution,1
+z_18.0_-97.5,2023,Forte diminution,0
+z_18.0_-97.5,2024,Forte diminution,0
+z_18.0_-97.5,2025,Forte diminution,0
+z_18.0_-97.5,2026,Forte diminution,0
+z_18.0_-97.5,2027,Forte diminution,0
+z_18.0_-97.5,2028,Forte diminution,0
+z_18.0_-97.5,2029,Forte diminution,0
+z_18.0_-97.5,2030,Forte diminution,0
+z_18.0_105.0,2023,Forte diminution,0
+z_18.0_105.0,2024,Forte diminution,0
+z_18.0_105.0,2025,Forte diminution,0
+z_18.0_105.0,2026,Forte diminution,0
+z_18.0_105.0,2027,Forte diminution,0
+z_18.0_105.0,2028,Forte diminution,0
+z_18.0_105.0,2029,Forte diminution,0
+z_18.0_105.0,2030,Forte diminution,0
+z_18.0_72.0,2023,Forte augmentation,4
+z_18.0_72.0,2024,Forte augmentation,4
+z_18.0_72.0,2025,Forte augmentation,4
+z_18.0_72.0,2026,Forte augmentation,4
+z_18.0_72.0,2027,Forte augmentation,4
+z_18.0_72.0,2028,Forte augmentation,4
+z_18.0_72.0,2029,Forte augmentation,4
+z_18.0_72.0,2030,Forte augmentation,4
+z_19.5_-18.0,2023,Forte diminution,0
+z_19.5_-18.0,2024,Forte diminution,0
+z_19.5_-18.0,2025,Forte diminution,0
+z_19.5_-18.0,2026,Forte diminution,0
+z_19.5_-18.0,2027,Forte diminution,0
+z_19.5_-18.0,2028,Forte diminution,0
+z_19.5_-18.0,2029,Forte diminution,0
+z_19.5_-18.0,2030,Forte diminution,0
+z_19.5_-73.5,2023,Faible diminution,1
+z_19.5_-73.5,2024,Faible diminution,1
+z_19.5_-73.5,2025,Faible diminution,1
+z_19.5_-73.5,2026,Faible diminution,1
+z_19.5_-73.5,2027,Faible diminution,1
+z_19.5_-73.5,2028,Faible diminution,1
+z_19.5_-73.5,2029,Faible diminution,1
+z_19.5_-73.5,2030,Faible diminution,1
+z_19.5_106.5,2023,Forte diminution,0
+z_19.5_106.5,2024,Forte diminution,0
+z_19.5_106.5,2025,Forte diminution,0
+z_19.5_106.5,2026,Forte diminution,0
+z_19.5_106.5,2027,Forte diminution,0
+z_19.5_106.5,2028,Forte diminution,0
+z_19.5_106.5,2029,Forte diminution,0
+z_19.5_106.5,2030,Forte diminution,0
+z_19.5_85.5,2023,Stable,2
+z_19.5_85.5,2024,Stable,2
+z_19.5_85.5,2025,Stable,2
+z_19.5_85.5,2026,Stable,2
+z_19.5_85.5,2027,Stable,2
+z_19.5_85.5,2028,Stable,2
+z_19.5_85.5,2029,Stable,2
+z_19.5_85.5,2030,Stable,2
+z_21.0_-99.0,2023,Forte augmentation,4
+z_21.0_-99.0,2024,Forte augmentation,4
+z_21.0_-99.0,2025,Forte augmentation,4
+z_21.0_-99.0,2026,Forte augmentation,4
+z_21.0_-99.0,2027,Forte augmentation,4
+z_21.0_-99.0,2028,Forte augmentation,4
+z_21.0_-99.0,2029,Forte augmentation,4
+z_21.0_-99.0,2030,Forte augmentation,4
+z_21.0_108.0,2023,Faible diminution,1
+z_21.0_108.0,2024,Faible diminution,1
+z_21.0_108.0,2025,Faible diminution,1
+z_21.0_108.0,2026,Faible diminution,1
+z_21.0_108.0,2027,Faible diminution,1
+z_21.0_108.0,2028,Faible diminution,1
+z_21.0_108.0,2029,Faible diminution,1
+z_21.0_108.0,2030,Faible diminution,1
+z_21.0_112.5,2023,Forte diminution,0
+z_21.0_112.5,2024,Forte diminution,0
+z_21.0_112.5,2025,Forte diminution,0
+z_21.0_112.5,2026,Forte diminution,0
+z_21.0_112.5,2027,Forte diminution,0
+z_21.0_112.5,2028,Forte diminution,0
+z_21.0_112.5,2029,Forte diminution,0
+z_21.0_112.5,2030,Forte diminution,0
+z_21.0_114.0,2023,Faible augmentation,3
+z_21.0_114.0,2024,Faible augmentation,3
+z_21.0_114.0,2025,Faible augmentation,3
+z_21.0_114.0,2026,Faible augmentation,3
+z_21.0_114.0,2027,Faible augmentation,3
+z_21.0_114.0,2028,Faible augmentation,3
+z_21.0_114.0,2029,Faible augmentation,3
+z_21.0_114.0,2030,Faible augmentation,3
+z_21.0_39.0,2023,Faible diminution,1
+z_21.0_39.0,2024,Faible diminution,1
+z_21.0_39.0,2025,Faible diminution,1
+z_21.0_39.0,2026,Faible diminution,1
+z_21.0_39.0,2027,Faible diminution,1
+z_21.0_39.0,2028,Faible diminution,1
+z_21.0_39.0,2029,Faible diminution,1
+z_21.0_39.0,2030,Faible diminution,1
+z_21.0_87.0,2023,Stable,2
+z_21.0_87.0,2024,Stable,2
+z_21.0_87.0,2025,Stable,2
+z_21.0_87.0,2026,Stable,2
+z_21.0_87.0,2027,Stable,2
+z_21.0_87.0,2028,Stable,2
+z_21.0_87.0,2029,Stable,2
+z_21.0_87.0,2030,Stable,2
+z_21.0_91.5,2023,Forte diminution,0
+z_21.0_91.5,2024,Forte diminution,0
+z_21.0_91.5,2025,Forte diminution,0
+z_21.0_91.5,2026,Forte diminution,0
+z_21.0_91.5,2027,Forte diminution,0
+z_21.0_91.5,2028,Forte diminution,0
+z_21.0_91.5,2029,Forte diminution,0
+z_21.0_91.5,2030,Forte diminution,0
+z_22.5_-18.0,2023,Faible diminution,1
+z_22.5_-18.0,2024,Faible diminution,1
+z_22.5_-18.0,2025,Faible diminution,1
+z_22.5_-18.0,2026,Faible diminution,1
+z_22.5_-18.0,2027,Faible diminution,1
+z_22.5_-18.0,2028,Faible diminution,1
+z_22.5_-18.0,2029,Faible diminution,1
+z_22.5_-18.0,2030,Faible diminution,1
+z_22.5_112.5,2023,Forte diminution,0
+z_22.5_112.5,2024,Forte diminution,0
+z_22.5_112.5,2025,Forte diminution,0
+z_22.5_112.5,2026,Forte diminution,0
+z_22.5_112.5,2027,Forte diminution,0
+z_22.5_112.5,2028,Forte diminution,0
+z_22.5_112.5,2029,Forte diminution,0
+z_22.5_112.5,2030,Forte diminution,0
+z_22.5_114.0,2023,Stable,2
+z_22.5_114.0,2024,Stable,2
+z_22.5_114.0,2025,Stable,2
+z_22.5_114.0,2026,Stable,2
+z_22.5_114.0,2027,Stable,2
+z_22.5_114.0,2028,Stable,2
+z_22.5_114.0,2029,Stable,2
+z_22.5_114.0,2030,Stable,2
+z_22.5_120.0,2023,Stable,2
+z_22.5_120.0,2024,Stable,2
+z_22.5_120.0,2025,Stable,2
+z_22.5_120.0,2026,Stable,2
+z_22.5_120.0,2027,Stable,2
+z_22.5_120.0,2028,Stable,2
+z_22.5_120.0,2029,Stable,2
+z_22.5_120.0,2030,Stable,2
+z_22.5_121.5,2023,Faible diminution,1
+z_22.5_121.5,2024,Faible diminution,1
+z_22.5_121.5,2025,Faible diminution,1
+z_22.5_121.5,2026,Faible diminution,1
+z_22.5_121.5,2027,Faible diminution,1
+z_22.5_121.5,2028,Faible diminution,1
+z_22.5_121.5,2029,Faible diminution,1
+z_22.5_121.5,2030,Faible diminution,1
+z_24.0_118.5,2023,Forte diminution,0
+z_24.0_118.5,2024,Forte diminution,0
+z_24.0_118.5,2025,Forte diminution,0
+z_24.0_118.5,2026,Forte diminution,0
+z_24.0_118.5,2027,Forte diminution,0
+z_24.0_118.5,2028,Forte diminution,0
+z_24.0_118.5,2029,Forte diminution,0
+z_24.0_118.5,2030,Forte diminution,0
+z_24.0_120.0,2023,Forte augmentation,4
+z_24.0_120.0,2024,Forte augmentation,4
+z_24.0_120.0,2025,Forte augmentation,4
+z_24.0_120.0,2026,Forte augmentation,4
+z_24.0_120.0,2027,Forte augmentation,4
+z_24.0_120.0,2028,Forte augmentation,4
+z_24.0_120.0,2029,Forte augmentation,4
+z_24.0_120.0,2030,Forte augmentation,4
+z_24.0_121.5,2023,Forte augmentation,4
+z_24.0_121.5,2024,Forte augmentation,4
+z_24.0_121.5,2025,Forte augmentation,4
+z_24.0_121.5,2026,Forte augmentation,4
+z_24.0_121.5,2027,Forte augmentation,4
+z_24.0_121.5,2028,Forte augmentation,4
+z_24.0_121.5,2029,Forte augmentation,4
+z_24.0_121.5,2030,Forte augmentation,4
+z_24.0_51.0,2023,Forte augmentation,4
+z_24.0_51.0,2024,Forte augmentation,4
+z_24.0_51.0,2025,Forte augmentation,4
+z_24.0_51.0,2026,Forte augmentation,4
+z_24.0_51.0,2027,Forte augmentation,4
+z_24.0_51.0,2028,Forte augmentation,4
+z_24.0_51.0,2029,Forte augmentation,4
+z_24.0_51.0,2030,Forte augmentation,4
+z_24.0_52.5,2023,Forte diminution,0
+z_24.0_52.5,2024,Forte diminution,0
+z_24.0_52.5,2025,Forte diminution,0
+z_24.0_52.5,2026,Forte diminution,0
+z_24.0_52.5,2027,Forte diminution,0
+z_24.0_52.5,2028,Forte diminution,0
+z_24.0_52.5,2029,Forte diminution,0
+z_24.0_52.5,2030,Forte diminution,0
+z_24.0_54.0,2023,Forte diminution,0
+z_24.0_54.0,2024,Forte diminution,0
+z_24.0_54.0,2025,Forte diminution,0
+z_24.0_54.0,2026,Forte diminution,0
+z_24.0_54.0,2027,Forte diminution,0
+z_24.0_54.0,2028,Forte diminution,0
+z_24.0_54.0,2029,Forte diminution,0
+z_24.0_54.0,2030,Forte diminution,0
+z_24.0_55.5,2023,Forte diminution,0
+z_24.0_55.5,2024,Forte diminution,0
+z_24.0_55.5,2025,Forte diminution,0
+z_24.0_55.5,2026,Forte diminution,0
+z_24.0_55.5,2027,Forte diminution,0
+z_24.0_55.5,2028,Forte diminution,0
+z_24.0_55.5,2029,Forte diminution,0
+z_24.0_55.5,2030,Forte diminution,0
+z_24.0_66.0,2023,Forte diminution,0
+z_24.0_66.0,2024,Forte diminution,0
+z_24.0_66.0,2025,Forte diminution,0
+z_24.0_66.0,2026,Forte diminution,0
+z_24.0_66.0,2027,Forte diminution,0
+z_24.0_66.0,2028,Forte diminution,0
+z_24.0_66.0,2029,Forte diminution,0
+z_24.0_66.0,2030,Forte diminution,0
+z_25.5_-79.5,2023,Forte diminution,0
+z_25.5_-79.5,2024,Forte diminution,0
+z_25.5_-79.5,2025,Forte diminution,0
+z_25.5_-79.5,2026,Forte diminution,0
+z_25.5_-79.5,2027,Forte diminution,0
+z_25.5_-79.5,2028,Forte diminution,0
+z_25.5_-79.5,2029,Forte diminution,0
+z_25.5_-79.5,2030,Forte diminution,0
+z_25.5_-81.0,2023,Faible diminution,1
+z_25.5_-81.0,2024,Faible diminution,1
+z_25.5_-81.0,2025,Faible diminution,1
+z_25.5_-81.0,2026,Faible diminution,1
+z_25.5_-81.0,2027,Faible diminution,1
+z_25.5_-81.0,2028,Faible diminution,1
+z_25.5_-81.0,2029,Faible diminution,1
+z_25.5_-81.0,2030,Faible diminution,1
+z_25.5_49.5,2023,Forte diminution,0
+z_25.5_49.5,2024,Forte diminution,0
+z_25.5_49.5,2025,Forte diminution,0
+z_25.5_49.5,2026,Forte diminution,0
+z_25.5_49.5,2027,Forte diminution,0
+z_25.5_49.5,2028,Forte diminution,0
+z_25.5_49.5,2029,Forte diminution,0
+z_25.5_49.5,2030,Forte diminution,0
+z_25.5_51.0,2023,Stable,2
+z_25.5_51.0,2024,Stable,2
+z_25.5_51.0,2025,Stable,2
+z_25.5_51.0,2026,Stable,2
+z_25.5_51.0,2027,Stable,2
+z_25.5_51.0,2028,Stable,2
+z_25.5_51.0,2029,Stable,2
+z_25.5_51.0,2030,Stable,2
+z_27.0_-16.5,2023,Forte diminution,0
+z_27.0_-16.5,2024,Forte diminution,0
+z_27.0_-16.5,2025,Forte diminution,0
+z_27.0_-16.5,2026,Forte diminution,0
+z_27.0_-16.5,2027,Forte diminution,0
+z_27.0_-16.5,2028,Forte diminution,0
+z_27.0_-16.5,2029,Forte diminution,0
+z_27.0_-16.5,2030,Forte diminution,0
+z_27.0_-18.0,2023,Forte augmentation,4
+z_27.0_-18.0,2024,Forte augmentation,4
+z_27.0_-18.0,2025,Forte augmentation,4
+z_27.0_-18.0,2026,Forte augmentation,4
+z_27.0_-18.0,2027,Forte augmentation,4
+z_27.0_-18.0,2028,Forte augmentation,4
+z_27.0_-18.0,2029,Forte augmentation,4
+z_27.0_-18.0,2030,Forte augmentation,4
+z_27.0_-84.0,2023,Faible diminution,1
+z_27.0_-84.0,2024,Faible diminution,1
+z_27.0_-84.0,2025,Faible diminution,1
+z_27.0_-84.0,2026,Faible diminution,1
+z_27.0_-84.0,2027,Faible diminution,1
+z_27.0_-84.0,2028,Faible diminution,1
+z_27.0_-84.0,2029,Faible diminution,1
+z_27.0_-84.0,2030,Faible diminution,1
+z_27.0_-97.5,2023,Faible diminution,1
+z_27.0_-97.5,2024,Faible diminution,1
+z_27.0_-97.5,2025,Faible diminution,1
+z_27.0_-97.5,2026,Faible diminution,1
+z_27.0_-97.5,2027,Faible diminution,1
+z_27.0_-97.5,2028,Faible diminution,1
+z_27.0_-97.5,2029,Faible diminution,1
+z_27.0_-97.5,2030,Faible diminution,1
+z_27.0_121.5,2023,Faible diminution,1
+z_27.0_121.5,2024,Faible diminution,1
+z_27.0_121.5,2025,Faible diminution,1
+z_27.0_121.5,2026,Faible diminution,1
+z_27.0_121.5,2027,Faible diminution,1
+z_27.0_121.5,2028,Faible diminution,1
+z_27.0_121.5,2029,Faible diminution,1
+z_27.0_121.5,2030,Faible diminution,1
+z_27.0_49.5,2023,Stable,2
+z_27.0_49.5,2024,Stable,2
+z_27.0_49.5,2025,Stable,2
+z_27.0_49.5,2026,Stable,2
+z_27.0_49.5,2027,Stable,2
+z_27.0_49.5,2028,Stable,2
+z_27.0_49.5,2029,Stable,2
+z_27.0_49.5,2030,Stable,2
+z_28.5_-15.0,2023,Stable,2
+z_28.5_-15.0,2024,Stable,2
+z_28.5_-15.0,2025,Stable,2
+z_28.5_-15.0,2026,Stable,2
+z_28.5_-15.0,2027,Stable,2
+z_28.5_-15.0,2028,Stable,2
+z_28.5_-15.0,2029,Stable,2
+z_28.5_-15.0,2030,Stable,2
+z_28.5_-16.5,2023,Forte diminution,0
+z_28.5_-16.5,2024,Forte diminution,0
+z_28.5_-16.5,2025,Forte diminution,0
+z_28.5_-16.5,2026,Forte diminution,0
+z_28.5_-16.5,2027,Forte diminution,0
+z_28.5_-16.5,2028,Forte diminution,0
+z_28.5_-16.5,2029,Forte diminution,0
+z_28.5_-16.5,2030,Forte diminution,0
+z_28.5_-18.0,2023,Faible diminution,1
+z_28.5_-18.0,2024,Faible diminution,1
+z_28.5_-18.0,2025,Faible diminution,1
+z_28.5_-18.0,2026,Faible diminution,1
+z_28.5_-18.0,2027,Faible diminution,1
+z_28.5_-18.0,2028,Faible diminution,1
+z_28.5_-18.0,2029,Faible diminution,1
+z_28.5_-18.0,2030,Faible diminution,1
+z_28.5_-90.0,2023,Forte diminution,0
+z_28.5_-90.0,2024,Forte diminution,0
+z_28.5_-90.0,2025,Forte diminution,0
+z_28.5_-90.0,2026,Forte diminution,0
+z_28.5_-90.0,2027,Forte diminution,0
+z_28.5_-90.0,2028,Forte diminution,0
+z_28.5_-90.0,2029,Forte diminution,0
+z_28.5_-90.0,2030,Forte diminution,0
+z_28.5_-91.5,2023,Faible diminution,1
+z_28.5_-91.5,2024,Faible diminution,1
+z_28.5_-91.5,2025,Faible diminution,1
+z_28.5_-91.5,2026,Faible diminution,1
+z_28.5_-91.5,2027,Faible diminution,1
+z_28.5_-91.5,2028,Faible diminution,1
+z_28.5_-91.5,2029,Faible diminution,1
+z_28.5_-91.5,2030,Faible diminution,1
+z_28.5_-94.5,2023,Stable,2
+z_28.5_-94.5,2024,Stable,2
+z_28.5_-94.5,2025,Stable,2
+z_28.5_-94.5,2026,Stable,2
+z_28.5_-94.5,2027,Stable,2
+z_28.5_-94.5,2028,Stable,2
+z_28.5_-94.5,2029,Stable,2
+z_28.5_-94.5,2030,Stable,2
+z_28.5_-96.0,2023,Forte augmentation,4
+z_28.5_-96.0,2024,Forte augmentation,4
+z_28.5_-96.0,2025,Forte augmentation,4
+z_28.5_-96.0,2026,Forte augmentation,4
+z_28.5_-96.0,2027,Forte augmentation,4
+z_28.5_-96.0,2028,Forte augmentation,4
+z_28.5_-96.0,2029,Forte augmentation,4
+z_28.5_-96.0,2030,Forte augmentation,4
+z_28.5_121.5,2023,Forte diminution,0
+z_28.5_121.5,2024,Forte diminution,0
+z_28.5_121.5,2025,Forte diminution,0
+z_28.5_121.5,2026,Forte diminution,0
+z_28.5_121.5,2027,Forte diminution,0
+z_28.5_121.5,2028,Forte diminution,0
+z_28.5_121.5,2029,Forte diminution,0
+z_28.5_121.5,2030,Forte diminution,0
+z_28.5_123.0,2023,Faible diminution,1
+z_28.5_123.0,2024,Faible diminution,1
+z_28.5_123.0,2025,Faible diminution,1
+z_28.5_123.0,2026,Faible diminution,1
+z_28.5_123.0,2027,Faible diminution,1
+z_28.5_123.0,2028,Faible diminution,1
+z_28.5_123.0,2029,Faible diminution,1
+z_28.5_123.0,2030,Faible diminution,1
+z_28.5_31.5,2023,Forte augmentation,4
+z_28.5_31.5,2024,Forte augmentation,4
+z_28.5_31.5,2025,Forte augmentation,4
+z_28.5_31.5,2026,Forte augmentation,4
+z_28.5_31.5,2027,Forte augmentation,4
+z_28.5_31.5,2028,Forte augmentation,4
+z_28.5_31.5,2029,Forte augmentation,4
+z_28.5_31.5,2030,Forte augmentation,4
+z_28.5_48.0,2023,Stable,2
+z_28.5_48.0,2024,Stable,2
+z_28.5_48.0,2025,Stable,2
+z_28.5_48.0,2026,Stable,2
+z_28.5_48.0,2027,Stable,2
+z_28.5_48.0,2028,Stable,2
+z_28.5_48.0,2029,Stable,2
+z_28.5_48.0,2030,Stable,2
+z_3.0_-78.0,2023,Stable,2
+z_3.0_-78.0,2024,Stable,2
+z_3.0_-78.0,2025,Stable,2
+z_3.0_-78.0,2026,Stable,2
+z_3.0_-78.0,2027,Stable,2
+z_3.0_-78.0,2028,Stable,2
+z_3.0_-78.0,2029,Stable,2
+z_3.0_-78.0,2030,Stable,2
+z_3.0_100.5,2023,Stable,2
+z_3.0_100.5,2024,Stable,2
+z_3.0_100.5,2025,Stable,2
+z_3.0_100.5,2026,Stable,2
+z_3.0_100.5,2027,Stable,2
+z_3.0_100.5,2028,Stable,2
+z_3.0_100.5,2029,Stable,2
+z_3.0_100.5,2030,Stable,2
+z_3.0_6.0,2023,Faible diminution,1
+z_3.0_6.0,2024,Faible diminution,1
+z_3.0_6.0,2025,Faible diminution,1
+z_3.0_6.0,2026,Faible diminution,1
+z_3.0_6.0,2027,Faible diminution,1
+z_3.0_6.0,2028,Faible diminution,1
+z_3.0_6.0,2029,Faible diminution,1
+z_3.0_6.0,2030,Faible diminution,1
+z_3.0_9.0,2023,Forte diminution,0
+z_3.0_9.0,2024,Forte diminution,0
+z_3.0_9.0,2025,Forte diminution,0
+z_3.0_9.0,2026,Forte diminution,0
+z_3.0_9.0,2027,Forte diminution,0
+z_3.0_9.0,2028,Forte diminution,0
+z_3.0_9.0,2029,Forte diminution,0
+z_3.0_9.0,2030,Forte diminution,0
+z_30.0_-88.5,2023,Stable,2
+z_30.0_-88.5,2024,Stable,2
+z_30.0_-88.5,2025,Stable,2
+z_30.0_-88.5,2026,Stable,2
+z_30.0_-88.5,2027,Stable,2
+z_30.0_-88.5,2028,Stable,2
+z_30.0_-88.5,2029,Stable,2
+z_30.0_-88.5,2030,Stable,2
+z_30.0_-90.0,2023,Stable,2
+z_30.0_-90.0,2024,Stable,2
+z_30.0_-90.0,2025,Stable,2
+z_30.0_-90.0,2026,Stable,2
+z_30.0_-90.0,2027,Stable,2
+z_30.0_-90.0,2028,Stable,2
+z_30.0_-90.0,2029,Stable,2
+z_30.0_-90.0,2030,Stable,2
+z_30.0_-91.5,2023,Forte diminution,0
+z_30.0_-91.5,2024,Forte diminution,0
+z_30.0_-91.5,2025,Forte diminution,0
+z_30.0_-91.5,2026,Forte diminution,0
+z_30.0_-91.5,2027,Forte diminution,0
+z_30.0_-91.5,2028,Forte diminution,0
+z_30.0_-91.5,2029,Forte diminution,0
+z_30.0_-91.5,2030,Forte diminution,0
+z_30.0_-94.5,2023,Stable,2
+z_30.0_-94.5,2024,Stable,2
+z_30.0_-94.5,2025,Stable,2
+z_30.0_-94.5,2026,Stable,2
+z_30.0_-94.5,2027,Stable,2
+z_30.0_-94.5,2028,Stable,2
+z_30.0_-94.5,2029,Stable,2
+z_30.0_-94.5,2030,Stable,2
+z_30.0_121.5,2023,Faible diminution,1
+z_30.0_121.5,2024,Faible diminution,1
+z_30.0_121.5,2025,Faible diminution,1
+z_30.0_121.5,2026,Faible diminution,1
+z_30.0_121.5,2027,Faible diminution,1
+z_30.0_121.5,2028,Faible diminution,1
+z_30.0_121.5,2029,Faible diminution,1
+z_30.0_121.5,2030,Faible diminution,1
+z_30.0_123.0,2023,Faible diminution,1
+z_30.0_123.0,2024,Faible diminution,1
+z_30.0_123.0,2025,Faible diminution,1
+z_30.0_123.0,2026,Faible diminution,1
+z_30.0_123.0,2027,Faible diminution,1
+z_30.0_123.0,2028,Faible diminution,1
+z_30.0_123.0,2029,Faible diminution,1
+z_30.0_123.0,2030,Faible diminution,1
+z_30.0_28.5,2023,Faible diminution,1
+z_30.0_28.5,2024,Faible diminution,1
+z_30.0_28.5,2025,Faible diminution,1
+z_30.0_28.5,2026,Faible diminution,1
+z_30.0_28.5,2027,Faible diminution,1
+z_30.0_28.5,2028,Faible diminution,1
+z_30.0_28.5,2029,Faible diminution,1
+z_30.0_28.5,2030,Faible diminution,1
+z_30.0_31.5,2023,Forte diminution,0
+z_30.0_31.5,2024,Forte diminution,0
+z_30.0_31.5,2025,Forte diminution,0
+z_30.0_31.5,2026,Forte diminution,0
+z_30.0_31.5,2027,Forte diminution,0
+z_30.0_31.5,2028,Forte diminution,0
+z_30.0_31.5,2029,Forte diminution,0
+z_30.0_31.5,2030,Forte diminution,0
+z_31.5_-18.0,2023,Forte augmentation,4
+z_31.5_-18.0,2024,Forte augmentation,4
+z_31.5_-18.0,2025,Forte augmentation,4
+z_31.5_-18.0,2026,Forte augmentation,4
+z_31.5_-18.0,2027,Forte augmentation,4
+z_31.5_-18.0,2028,Forte augmentation,4
+z_31.5_-18.0,2029,Forte augmentation,4
+z_31.5_-18.0,2030,Forte augmentation,4
+z_31.5_-81.0,2023,Faible diminution,1
+z_31.5_-81.0,2024,Faible diminution,1
+z_31.5_-81.0,2025,Faible diminution,1
+z_31.5_-81.0,2026,Faible diminution,1
+z_31.5_-81.0,2027,Faible diminution,1
+z_31.5_-81.0,2028,Faible diminution,1
+z_31.5_-81.0,2029,Faible diminution,1
+z_31.5_-81.0,2030,Faible diminution,1
+z_31.5_-82.5,2023,Faible augmentation,3
+z_31.5_-82.5,2024,Faible augmentation,3
+z_31.5_-82.5,2025,Faible augmentation,3
+z_31.5_-82.5,2026,Faible augmentation,3
+z_31.5_-82.5,2027,Faible augmentation,3
+z_31.5_-82.5,2028,Faible augmentation,3
+z_31.5_-82.5,2029,Faible augmentation,3
+z_31.5_-82.5,2030,Faible augmentation,3
+z_31.5_120.0,2023,Forte augmentation,4
+z_31.5_120.0,2024,Forte augmentation,4
+z_31.5_120.0,2025,Forte augmentation,4
+z_31.5_120.0,2026,Forte augmentation,4
+z_31.5_120.0,2027,Forte augmentation,4
+z_31.5_120.0,2028,Forte augmentation,4
+z_31.5_120.0,2029,Forte augmentation,4
+z_31.5_120.0,2030,Forte augmentation,4
+z_31.5_123.0,2023,Faible augmentation,3
+z_31.5_123.0,2024,Faible augmentation,3
+z_31.5_123.0,2025,Faible augmentation,3
+z_31.5_123.0,2026,Faible augmentation,3
+z_31.5_123.0,2027,Faible augmentation,3
+z_31.5_123.0,2028,Faible augmentation,3
+z_31.5_123.0,2029,Faible augmentation,3
+z_31.5_123.0,2030,Faible augmentation,3
+z_31.5_124.5,2023,Faible diminution,1
+z_31.5_124.5,2024,Faible diminution,1
+z_31.5_124.5,2025,Faible diminution,1
+z_31.5_124.5,2026,Faible diminution,1
+z_31.5_124.5,2027,Faible diminution,1
+z_31.5_124.5,2028,Faible diminution,1
+z_31.5_124.5,2029,Faible diminution,1
+z_31.5_124.5,2030,Faible diminution,1
+z_31.5_34.5,2023,Forte diminution,0
+z_31.5_34.5,2024,Forte diminution,0
+z_31.5_34.5,2025,Forte diminution,0
+z_31.5_34.5,2026,Forte diminution,0
+z_31.5_34.5,2027,Forte diminution,0
+z_31.5_34.5,2028,Forte diminution,0
+z_31.5_34.5,2029,Forte diminution,0
+z_31.5_34.5,2030,Forte diminution,0
+z_33.0_-118.5,2023,Stable,2
+z_33.0_-118.5,2024,Stable,2
+z_33.0_-118.5,2025,Stable,2
+z_33.0_-118.5,2026,Stable,2
+z_33.0_-118.5,2027,Stable,2
+z_33.0_-118.5,2028,Stable,2
+z_33.0_-118.5,2029,Stable,2
+z_33.0_-118.5,2030,Stable,2
+z_33.0_-78.0,2023,Stable,2
+z_33.0_-78.0,2024,Stable,2
+z_33.0_-78.0,2025,Stable,2
+z_33.0_-78.0,2026,Stable,2
+z_33.0_-78.0,2027,Stable,2
+z_33.0_-78.0,2028,Stable,2
+z_33.0_-78.0,2029,Stable,2
+z_33.0_-78.0,2030,Stable,2
+z_33.0_-9.0,2023,Forte augmentation,4
+z_33.0_-9.0,2024,Forte augmentation,4
+z_33.0_-9.0,2025,Forte augmentation,4
+z_33.0_-9.0,2026,Forte augmentation,4
+z_33.0_-9.0,2027,Forte augmentation,4
+z_33.0_-9.0,2028,Forte augmentation,4
+z_33.0_-9.0,2029,Forte augmentation,4
+z_33.0_-9.0,2030,Forte augmentation,4
+z_33.0_127.5,2023,Faible diminution,1
+z_33.0_127.5,2024,Faible diminution,1
+z_33.0_127.5,2025,Faible diminution,1
+z_33.0_127.5,2026,Faible diminution,1
+z_33.0_127.5,2027,Faible diminution,1
+z_33.0_127.5,2028,Faible diminution,1
+z_33.0_127.5,2029,Faible diminution,1
+z_33.0_127.5,2030,Faible diminution,1
+z_33.0_129.0,2023,Forte diminution,0
+z_33.0_129.0,2024,Forte diminution,0
+z_33.0_129.0,2025,Forte diminution,0
+z_33.0_129.0,2026,Forte diminution,0
+z_33.0_129.0,2027,Forte diminution,0
+z_33.0_129.0,2028,Forte diminution,0
+z_33.0_129.0,2029,Forte diminution,0
+z_33.0_129.0,2030,Forte diminution,0
+z_33.0_130.5,2023,Faible augmentation,3
+z_33.0_130.5,2024,Faible augmentation,3
+z_33.0_130.5,2025,Faible augmentation,3
+z_33.0_130.5,2026,Faible augmentation,3
+z_33.0_130.5,2027,Faible augmentation,3
+z_33.0_130.5,2028,Faible augmentation,3
+z_33.0_130.5,2029,Faible augmentation,3
+z_33.0_130.5,2030,Faible augmentation,3
+z_33.0_138.0,2023,Stable,2
+z_33.0_138.0,2024,Stable,2
+z_33.0_138.0,2025,Stable,2
+z_33.0_138.0,2026,Stable,2
+z_33.0_138.0,2027,Stable,2
+z_33.0_138.0,2028,Stable,2
+z_33.0_138.0,2029,Stable,2
+z_33.0_138.0,2030,Stable,2
+z_34.5_-1.5,2023,Faible augmentation,3
+z_34.5_-1.5,2024,Faible augmentation,3
+z_34.5_-1.5,2025,Faible augmentation,3
+z_34.5_-1.5,2026,Faible augmentation,3
+z_34.5_-1.5,2027,Faible augmentation,3
+z_34.5_-1.5,2028,Faible augmentation,3
+z_34.5_-1.5,2029,Faible augmentation,3
+z_34.5_-1.5,2030,Faible augmentation,3
+z_34.5_-4.5,2023,Faible diminution,1
+z_34.5_-4.5,2024,Faible diminution,1
+z_34.5_-4.5,2025,Faible diminution,1
+z_34.5_-4.5,2026,Faible diminution,1
+z_34.5_-4.5,2027,Faible diminution,1
+z_34.5_-4.5,2028,Faible diminution,1
+z_34.5_-4.5,2029,Faible diminution,1
+z_34.5_-4.5,2030,Faible diminution,1
+z_34.5_-6.0,2023,Forte diminution,0
+z_34.5_-6.0,2024,Forte diminution,0
+z_34.5_-6.0,2025,Forte diminution,0
+z_34.5_-6.0,2026,Forte diminution,0
+z_34.5_-6.0,2027,Forte diminution,0
+z_34.5_-6.0,2028,Forte diminution,0
+z_34.5_-6.0,2029,Forte diminution,0
+z_34.5_-6.0,2030,Forte diminution,0
+z_34.5_-7.5,2023,Stable,2
+z_34.5_-7.5,2024,Stable,2
+z_34.5_-7.5,2025,Stable,2
+z_34.5_-7.5,2026,Stable,2
+z_34.5_-7.5,2027,Stable,2
+z_34.5_-7.5,2028,Stable,2
+z_34.5_-7.5,2029,Stable,2
+z_34.5_-7.5,2030,Stable,2
+z_34.5_10.5,2023,Forte augmentation,4
+z_34.5_10.5,2024,Forte augmentation,4
+z_34.5_10.5,2025,Forte augmentation,4
+z_34.5_10.5,2026,Forte augmentation,4
+z_34.5_10.5,2027,Forte augmentation,4
+z_34.5_10.5,2028,Forte augmentation,4
+z_34.5_10.5,2029,Forte augmentation,4
+z_34.5_10.5,2030,Forte augmentation,4
+z_34.5_118.5,2023,Stable,2
+z_34.5_118.5,2024,Stable,2
+z_34.5_118.5,2025,Stable,2
+z_34.5_118.5,2026,Stable,2
+z_34.5_118.5,2027,Stable,2
+z_34.5_118.5,2028,Stable,2
+z_34.5_118.5,2029,Stable,2
+z_34.5_118.5,2030,Stable,2
+z_34.5_12.0,2023,Stable,2
+z_34.5_12.0,2024,Stable,2
+z_34.5_12.0,2025,Stable,2
+z_34.5_12.0,2026,Stable,2
+z_34.5_12.0,2027,Stable,2
+z_34.5_12.0,2028,Stable,2
+z_34.5_12.0,2029,Stable,2
+z_34.5_12.0,2030,Stable,2
+z_34.5_120.0,2023,Forte augmentation,4
+z_34.5_120.0,2024,Forte augmentation,4
+z_34.5_120.0,2025,Forte augmentation,4
+z_34.5_120.0,2026,Forte augmentation,4
+z_34.5_120.0,2027,Forte augmentation,4
+z_34.5_120.0,2028,Forte augmentation,4
+z_34.5_120.0,2029,Forte augmentation,4
+z_34.5_120.0,2030,Forte augmentation,4
+z_34.5_127.5,2023,Forte augmentation,4
+z_34.5_127.5,2024,Forte augmentation,4
+z_34.5_127.5,2025,Forte augmentation,4
+z_34.5_127.5,2026,Forte augmentation,4
+z_34.5_127.5,2027,Forte augmentation,4
+z_34.5_127.5,2028,Forte augmentation,4
+z_34.5_127.5,2029,Forte augmentation,4
+z_34.5_127.5,2030,Forte augmentation,4
+z_34.5_129.0,2023,Forte augmentation,4
+z_34.5_129.0,2024,Forte augmentation,4
+z_34.5_129.0,2025,Forte augmentation,4
+z_34.5_129.0,2026,Forte augmentation,4
+z_34.5_129.0,2027,Forte augmentation,4
+z_34.5_129.0,2028,Forte augmentation,4
+z_34.5_129.0,2029,Forte augmentation,4
+z_34.5_129.0,2030,Forte augmentation,4
+z_34.5_13.5,2023,Faible augmentation,3
+z_34.5_13.5,2024,Faible augmentation,3
+z_34.5_13.5,2025,Faible augmentation,3
+z_34.5_13.5,2026,Faible augmentation,3
+z_34.5_13.5,2027,Faible augmentation,3
+z_34.5_13.5,2028,Faible augmentation,3
+z_34.5_13.5,2029,Faible augmentation,3
+z_34.5_13.5,2030,Faible augmentation,3
+z_34.5_135.0,2023,Stable,2
+z_34.5_135.0,2024,Stable,2
+z_34.5_135.0,2025,Stable,2
+z_34.5_135.0,2026,Stable,2
+z_34.5_135.0,2027,Stable,2
+z_34.5_135.0,2028,Stable,2
+z_34.5_135.0,2029,Stable,2
+z_34.5_135.0,2030,Stable,2
+z_34.5_139.5,2023,Faible diminution,1
+z_34.5_139.5,2024,Faible diminution,1
+z_34.5_139.5,2025,Faible diminution,1
+z_34.5_139.5,2026,Faible diminution,1
+z_34.5_139.5,2027,Faible diminution,1
+z_34.5_139.5,2028,Faible diminution,1
+z_34.5_139.5,2029,Faible diminution,1
+z_34.5_139.5,2030,Faible diminution,1
+z_34.5_15.0,2023,Faible diminution,1
+z_34.5_15.0,2024,Faible diminution,1
+z_34.5_15.0,2025,Faible diminution,1
+z_34.5_15.0,2026,Faible diminution,1
+z_34.5_15.0,2027,Faible diminution,1
+z_34.5_15.0,2028,Faible diminution,1
+z_34.5_15.0,2029,Faible diminution,1
+z_34.5_15.0,2030,Faible diminution,1
+z_34.5_22.5,2023,Stable,2
+z_34.5_22.5,2024,Stable,2
+z_34.5_22.5,2025,Stable,2
+z_34.5_22.5,2026,Stable,2
+z_34.5_22.5,2027,Stable,2
+z_34.5_22.5,2028,Stable,2
+z_34.5_22.5,2029,Stable,2
+z_34.5_22.5,2030,Stable,2
+z_34.5_24.0,2023,Forte diminution,0
+z_34.5_24.0,2024,Forte diminution,0
+z_34.5_24.0,2025,Forte diminution,0
+z_34.5_24.0,2026,Forte diminution,0
+z_34.5_24.0,2027,Forte diminution,0
+z_34.5_24.0,2028,Forte diminution,0
+z_34.5_24.0,2029,Forte diminution,0
+z_34.5_24.0,2030,Forte diminution,0
+z_34.5_25.5,2023,Faible diminution,1
+z_34.5_25.5,2024,Faible diminution,1
+z_34.5_25.5,2025,Faible diminution,1
+z_34.5_25.5,2026,Faible diminution,1
+z_34.5_25.5,2027,Faible diminution,1
+z_34.5_25.5,2028,Faible diminution,1
+z_34.5_25.5,2029,Faible diminution,1
+z_34.5_25.5,2030,Faible diminution,1
+z_34.5_27.0,2023,Faible diminution,1
+z_34.5_27.0,2024,Faible diminution,1
+z_34.5_27.0,2025,Faible diminution,1
+z_34.5_27.0,2026,Faible diminution,1
+z_34.5_27.0,2027,Faible diminution,1
+z_34.5_27.0,2028,Faible diminution,1
+z_34.5_27.0,2029,Faible diminution,1
+z_34.5_27.0,2030,Faible diminution,1
+z_34.5_31.5,2023,Faible augmentation,3
+z_34.5_31.5,2024,Faible augmentation,3
+z_34.5_31.5,2025,Faible augmentation,3
+z_34.5_31.5,2026,Faible augmentation,3
+z_34.5_31.5,2027,Faible augmentation,3
+z_34.5_31.5,2028,Faible augmentation,3
+z_34.5_31.5,2029,Faible augmentation,3
+z_34.5_31.5,2030,Faible augmentation,3
+z_34.5_33.0,2023,Forte diminution,0
+z_34.5_33.0,2024,Forte diminution,0
+z_34.5_33.0,2025,Forte diminution,0
+z_34.5_33.0,2026,Forte diminution,0
+z_34.5_33.0,2027,Forte diminution,0
+z_34.5_33.0,2028,Forte diminution,0
+z_34.5_33.0,2029,Forte diminution,0
+z_34.5_33.0,2030,Forte diminution,0
+z_36.0_-1.5,2023,Forte diminution,0
+z_36.0_-1.5,2024,Forte diminution,0
+z_36.0_-1.5,2025,Forte diminution,0
+z_36.0_-1.5,2026,Forte diminution,0
+z_36.0_-1.5,2027,Forte diminution,0
+z_36.0_-1.5,2028,Forte diminution,0
+z_36.0_-1.5,2029,Forte diminution,0
+z_36.0_-1.5,2030,Forte diminution,0
+z_36.0_-10.5,2023,Forte augmentation,4
+z_36.0_-10.5,2024,Forte augmentation,4
+z_36.0_-10.5,2025,Forte augmentation,4
+z_36.0_-10.5,2026,Forte augmentation,4
+z_36.0_-10.5,2027,Forte augmentation,4
+z_36.0_-10.5,2028,Forte augmentation,4
+z_36.0_-10.5,2029,Forte augmentation,4
+z_36.0_-10.5,2030,Forte augmentation,4
+z_36.0_-3.0,2023,Stable,2
+z_36.0_-3.0,2024,Stable,2
+z_36.0_-3.0,2025,Stable,2
+z_36.0_-3.0,2026,Stable,2
+z_36.0_-3.0,2027,Stable,2
+z_36.0_-3.0,2028,Stable,2
+z_36.0_-3.0,2029,Stable,2
+z_36.0_-3.0,2030,Stable,2
+z_36.0_-4.5,2023,Forte diminution,0
+z_36.0_-4.5,2024,Forte diminution,0
+z_36.0_-4.5,2025,Forte diminution,0
+z_36.0_-4.5,2026,Forte diminution,0
+z_36.0_-4.5,2027,Forte diminution,0
+z_36.0_-4.5,2028,Forte diminution,0
+z_36.0_-4.5,2029,Forte diminution,0
+z_36.0_-4.5,2030,Forte diminution,0
+z_36.0_-6.0,2023,Forte diminution,0
+z_36.0_-6.0,2024,Forte diminution,0
+z_36.0_-6.0,2025,Forte diminution,0
+z_36.0_-6.0,2026,Forte diminution,0
+z_36.0_-6.0,2027,Forte diminution,0
+z_36.0_-6.0,2028,Forte diminution,0
+z_36.0_-6.0,2029,Forte diminution,0
+z_36.0_-6.0,2030,Forte diminution,0
+z_36.0_-7.5,2023,Stable,2
+z_36.0_-7.5,2024,Stable,2
+z_36.0_-7.5,2025,Stable,2
+z_36.0_-7.5,2026,Stable,2
+z_36.0_-7.5,2027,Stable,2
+z_36.0_-7.5,2028,Stable,2
+z_36.0_-7.5,2029,Stable,2
+z_36.0_-7.5,2030,Stable,2
+z_36.0_-76.5,2023,Forte augmentation,4
+z_36.0_-76.5,2024,Forte augmentation,4
+z_36.0_-76.5,2025,Forte augmentation,4
+z_36.0_-76.5,2026,Forte augmentation,4
+z_36.0_-76.5,2027,Forte augmentation,4
+z_36.0_-76.5,2028,Forte augmentation,4
+z_36.0_-76.5,2029,Forte augmentation,4
+z_36.0_-76.5,2030,Forte augmentation,4
+z_36.0_-9.0,2023,Forte diminution,0
+z_36.0_-9.0,2024,Forte diminution,0
+z_36.0_-9.0,2025,Forte diminution,0
+z_36.0_-9.0,2026,Forte diminution,0
+z_36.0_-9.0,2027,Forte diminution,0
+z_36.0_-9.0,2028,Forte diminution,0
+z_36.0_-9.0,2029,Forte diminution,0
+z_36.0_-9.0,2030,Forte diminution,0
+z_36.0_0.0,2023,Forte diminution,0
+z_36.0_0.0,2024,Forte diminution,0
+z_36.0_0.0,2025,Forte diminution,0
+z_36.0_0.0,2026,Forte diminution,0
+z_36.0_0.0,2027,Forte diminution,0
+z_36.0_0.0,2028,Forte diminution,0
+z_36.0_0.0,2029,Forte diminution,0
+z_36.0_0.0,2030,Forte diminution,0
+z_36.0_10.5,2023,Stable,2
+z_36.0_10.5,2024,Stable,2
+z_36.0_10.5,2025,Stable,2
+z_36.0_10.5,2026,Stable,2
+z_36.0_10.5,2027,Stable,2
+z_36.0_10.5,2028,Stable,2
+z_36.0_10.5,2029,Stable,2
+z_36.0_10.5,2030,Stable,2
+z_36.0_12.0,2023,Forte diminution,0
+z_36.0_12.0,2024,Forte diminution,0
+z_36.0_12.0,2025,Forte diminution,0
+z_36.0_12.0,2026,Forte diminution,0
+z_36.0_12.0,2027,Forte diminution,0
+z_36.0_12.0,2028,Forte diminution,0
+z_36.0_12.0,2029,Forte diminution,0
+z_36.0_12.0,2030,Forte diminution,0
+z_36.0_120.0,2023,Forte augmentation,4
+z_36.0_120.0,2024,Forte augmentation,4
+z_36.0_120.0,2025,Forte augmentation,4
+z_36.0_120.0,2026,Forte augmentation,4
+z_36.0_120.0,2027,Forte augmentation,4
+z_36.0_120.0,2028,Forte augmentation,4
+z_36.0_120.0,2029,Forte augmentation,4
+z_36.0_120.0,2030,Forte augmentation,4
+z_36.0_126.0,2023,Forte augmentation,4
+z_36.0_126.0,2024,Forte augmentation,4
+z_36.0_126.0,2025,Forte augmentation,4
+z_36.0_126.0,2026,Forte augmentation,4
+z_36.0_126.0,2027,Forte augmentation,4
+z_36.0_126.0,2028,Forte augmentation,4
+z_36.0_126.0,2029,Forte augmentation,4
+z_36.0_126.0,2030,Forte augmentation,4
+z_36.0_13.5,2023,Forte diminution,0
+z_36.0_13.5,2024,Forte diminution,0
+z_36.0_13.5,2025,Forte diminution,0
+z_36.0_13.5,2026,Forte diminution,0
+z_36.0_13.5,2027,Forte diminution,0
+z_36.0_13.5,2028,Forte diminution,0
+z_36.0_13.5,2029,Forte diminution,0
+z_36.0_13.5,2030,Forte diminution,0
+z_36.0_15.0,2023,Forte augmentation,4
+z_36.0_15.0,2024,Forte augmentation,4
+z_36.0_15.0,2025,Forte augmentation,4
+z_36.0_15.0,2026,Forte augmentation,4
+z_36.0_15.0,2027,Forte augmentation,4
+z_36.0_15.0,2028,Forte augmentation,4
+z_36.0_15.0,2029,Forte augmentation,4
+z_36.0_15.0,2030,Forte augmentation,4
+z_36.0_16.5,2023,Faible diminution,1
+z_36.0_16.5,2024,Faible diminution,1
+z_36.0_16.5,2025,Faible diminution,1
+z_36.0_16.5,2026,Faible diminution,1
+z_36.0_16.5,2027,Faible diminution,1
+z_36.0_16.5,2028,Faible diminution,1
+z_36.0_16.5,2029,Faible diminution,1
+z_36.0_16.5,2030,Faible diminution,1
+z_36.0_18.0,2023,Faible diminution,1
+z_36.0_18.0,2024,Faible diminution,1
+z_36.0_18.0,2025,Faible diminution,1
+z_36.0_18.0,2026,Faible diminution,1
+z_36.0_18.0,2027,Faible diminution,1
+z_36.0_18.0,2028,Faible diminution,1
+z_36.0_18.0,2029,Faible diminution,1
+z_36.0_18.0,2030,Faible diminution,1
+z_36.0_19.5,2023,Faible diminution,1
+z_36.0_19.5,2024,Faible diminution,1
+z_36.0_19.5,2025,Faible diminution,1
+z_36.0_19.5,2026,Faible diminution,1
+z_36.0_19.5,2027,Faible diminution,1
+z_36.0_19.5,2028,Faible diminution,1
+z_36.0_19.5,2029,Faible diminution,1
+z_36.0_19.5,2030,Faible diminution,1
+z_36.0_21.0,2023,Forte augmentation,4
+z_36.0_21.0,2024,Forte augmentation,4
+z_36.0_21.0,2025,Forte augmentation,4
+z_36.0_21.0,2026,Forte augmentation,4
+z_36.0_21.0,2027,Forte augmentation,4
+z_36.0_21.0,2028,Forte augmentation,4
+z_36.0_21.0,2029,Forte augmentation,4
+z_36.0_21.0,2030,Forte augmentation,4
+z_36.0_22.5,2023,Stable,2
+z_36.0_22.5,2024,Stable,2
+z_36.0_22.5,2025,Stable,2
+z_36.0_22.5,2026,Stable,2
+z_36.0_22.5,2027,Stable,2
+z_36.0_22.5,2028,Stable,2
+z_36.0_22.5,2029,Stable,2
+z_36.0_22.5,2030,Stable,2
+z_36.0_24.0,2023,Faible augmentation,3
+z_36.0_24.0,2024,Faible augmentation,3
+z_36.0_24.0,2025,Faible augmentation,3
+z_36.0_24.0,2026,Faible augmentation,3
+z_36.0_24.0,2027,Faible augmentation,3
+z_36.0_24.0,2028,Faible augmentation,3
+z_36.0_24.0,2029,Faible augmentation,3
+z_36.0_24.0,2030,Faible augmentation,3
+z_36.0_25.5,2023,Stable,2
+z_36.0_25.5,2024,Stable,2
+z_36.0_25.5,2025,Stable,2
+z_36.0_25.5,2026,Stable,2
+z_36.0_25.5,2027,Stable,2
+z_36.0_25.5,2028,Stable,2
+z_36.0_25.5,2029,Stable,2
+z_36.0_25.5,2030,Stable,2
+z_36.0_27.0,2023,Stable,2
+z_36.0_27.0,2024,Stable,2
+z_36.0_27.0,2025,Stable,2
+z_36.0_27.0,2026,Stable,2
+z_36.0_27.0,2027,Stable,2
+z_36.0_27.0,2028,Stable,2
+z_36.0_27.0,2029,Stable,2
+z_36.0_27.0,2030,Stable,2
+z_36.0_3.0,2023,Forte augmentation,4
+z_36.0_3.0,2024,Forte augmentation,4
+z_36.0_3.0,2025,Forte augmentation,4
+z_36.0_3.0,2026,Forte augmentation,4
+z_36.0_3.0,2027,Forte augmentation,4
+z_36.0_3.0,2028,Forte augmentation,4
+z_36.0_3.0,2029,Forte augmentation,4
+z_36.0_3.0,2030,Forte augmentation,4
+z_36.0_30.0,2023,Stable,2
+z_36.0_30.0,2024,Stable,2
+z_36.0_30.0,2025,Stable,2
+z_36.0_30.0,2026,Stable,2
+z_36.0_30.0,2027,Stable,2
+z_36.0_30.0,2028,Stable,2
+z_36.0_30.0,2029,Stable,2
+z_36.0_30.0,2030,Stable,2
+z_36.0_34.5,2023,Forte diminution,0
+z_36.0_34.5,2024,Forte diminution,0
+z_36.0_34.5,2025,Forte diminution,0
+z_36.0_34.5,2026,Forte diminution,0
+z_36.0_34.5,2027,Forte diminution,0
+z_36.0_34.5,2028,Forte diminution,0
+z_36.0_34.5,2029,Forte diminution,0
+z_36.0_34.5,2030,Forte diminution,0
+z_36.0_36.0,2023,Faible diminution,1
+z_36.0_36.0,2024,Faible diminution,1
+z_36.0_36.0,2025,Faible diminution,1
+z_36.0_36.0,2026,Faible diminution,1
+z_36.0_36.0,2027,Faible diminution,1
+z_36.0_36.0,2028,Faible diminution,1
+z_36.0_36.0,2029,Faible diminution,1
+z_36.0_36.0,2030,Faible diminution,1
+z_36.0_4.5,2023,Faible diminution,1
+z_36.0_4.5,2024,Faible diminution,1
+z_36.0_4.5,2025,Faible diminution,1
+z_36.0_4.5,2026,Faible diminution,1
+z_36.0_4.5,2027,Faible diminution,1
+z_36.0_4.5,2028,Faible diminution,1
+z_36.0_4.5,2029,Faible diminution,1
+z_36.0_4.5,2030,Faible diminution,1
+z_36.0_6.0,2023,Forte diminution,0
+z_36.0_6.0,2024,Forte diminution,0
+z_36.0_6.0,2025,Forte diminution,0
+z_36.0_6.0,2026,Forte diminution,0
+z_36.0_6.0,2027,Forte diminution,0
+z_36.0_6.0,2028,Forte diminution,0
+z_36.0_6.0,2029,Forte diminution,0
+z_36.0_6.0,2030,Forte diminution,0
+z_36.0_7.5,2023,Forte diminution,0
+z_36.0_7.5,2024,Forte diminution,0
+z_36.0_7.5,2025,Forte diminution,0
+z_36.0_7.5,2026,Forte diminution,0
+z_36.0_7.5,2027,Forte diminution,0
+z_36.0_7.5,2028,Forte diminution,0
+z_36.0_7.5,2029,Forte diminution,0
+z_36.0_7.5,2030,Forte diminution,0
+z_36.0_9.0,2023,Faible diminution,1
+z_36.0_9.0,2024,Faible diminution,1
+z_36.0_9.0,2025,Faible diminution,1
+z_36.0_9.0,2026,Faible diminution,1
+z_36.0_9.0,2027,Faible diminution,1
+z_36.0_9.0,2028,Faible diminution,1
+z_36.0_9.0,2029,Faible diminution,1
+z_36.0_9.0,2030,Faible diminution,1
+z_37.5_-1.5,2023,Stable,2
+z_37.5_-1.5,2024,Stable,2
+z_37.5_-1.5,2025,Stable,2
+z_37.5_-1.5,2026,Stable,2
+z_37.5_-1.5,2027,Stable,2
+z_37.5_-1.5,2028,Stable,2
+z_37.5_-1.5,2029,Stable,2
+z_37.5_-1.5,2030,Stable,2
+z_37.5_-10.5,2023,Forte augmentation,4
+z_37.5_-10.5,2024,Forte augmentation,4
+z_37.5_-10.5,2025,Forte augmentation,4
+z_37.5_-10.5,2026,Forte augmentation,4
+z_37.5_-10.5,2027,Forte augmentation,4
+z_37.5_-10.5,2028,Forte augmentation,4
+z_37.5_-10.5,2029,Forte augmentation,4
+z_37.5_-10.5,2030,Forte augmentation,4
+z_37.5_-123.0,2023,Stable,2
+z_37.5_-123.0,2024,Stable,2
+z_37.5_-123.0,2025,Stable,2
+z_37.5_-123.0,2026,Stable,2
+z_37.5_-123.0,2027,Stable,2
+z_37.5_-123.0,2028,Stable,2
+z_37.5_-123.0,2029,Stable,2
+z_37.5_-123.0,2030,Stable,2
+z_37.5_-27.0,2023,Forte augmentation,4
+z_37.5_-27.0,2024,Forte augmentation,4
+z_37.5_-27.0,2025,Forte augmentation,4
+z_37.5_-27.0,2026,Forte augmentation,4
+z_37.5_-27.0,2027,Forte augmentation,4
+z_37.5_-27.0,2028,Forte augmentation,4
+z_37.5_-27.0,2029,Forte augmentation,4
+z_37.5_-27.0,2030,Forte augmentation,4
+z_37.5_-28.5,2023,Faible diminution,1
+z_37.5_-28.5,2024,Faible diminution,1
+z_37.5_-28.5,2025,Faible diminution,1
+z_37.5_-28.5,2026,Faible diminution,1
+z_37.5_-28.5,2027,Faible diminution,1
+z_37.5_-28.5,2028,Faible diminution,1
+z_37.5_-28.5,2029,Faible diminution,1
+z_37.5_-28.5,2030,Faible diminution,1
+z_37.5_-9.0,2023,Forte diminution,0
+z_37.5_-9.0,2024,Forte diminution,0
+z_37.5_-9.0,2025,Forte diminution,0
+z_37.5_-9.0,2026,Forte diminution,0
+z_37.5_-9.0,2027,Forte diminution,0
+z_37.5_-9.0,2028,Forte diminution,0
+z_37.5_-9.0,2029,Forte diminution,0
+z_37.5_-9.0,2030,Forte diminution,0
+z_37.5_0.0,2023,Forte diminution,0
+z_37.5_0.0,2024,Forte diminution,0
+z_37.5_0.0,2025,Forte diminution,0
+z_37.5_0.0,2026,Forte diminution,0
+z_37.5_0.0,2027,Forte diminution,0
+z_37.5_0.0,2028,Forte diminution,0
+z_37.5_0.0,2029,Forte diminution,0
+z_37.5_0.0,2030,Forte diminution,0
+z_37.5_10.5,2023,Faible diminution,1
+z_37.5_10.5,2024,Faible diminution,1
+z_37.5_10.5,2025,Faible diminution,1
+z_37.5_10.5,2026,Faible diminution,1
+z_37.5_10.5,2027,Faible diminution,1
+z_37.5_10.5,2028,Faible diminution,1
+z_37.5_10.5,2029,Faible diminution,1
+z_37.5_10.5,2030,Faible diminution,1
+z_37.5_117.0,2023,Faible diminution,1
+z_37.5_117.0,2024,Faible diminution,1
+z_37.5_117.0,2025,Faible diminution,1
+z_37.5_117.0,2026,Faible diminution,1
+z_37.5_117.0,2027,Faible diminution,1
+z_37.5_117.0,2028,Faible diminution,1
+z_37.5_117.0,2029,Faible diminution,1
+z_37.5_117.0,2030,Faible diminution,1
+z_37.5_12.0,2023,Forte augmentation,4
+z_37.5_12.0,2024,Forte augmentation,4
+z_37.5_12.0,2025,Forte augmentation,4
+z_37.5_12.0,2026,Forte augmentation,4
+z_37.5_12.0,2027,Forte augmentation,4
+z_37.5_12.0,2028,Forte augmentation,4
+z_37.5_12.0,2029,Forte augmentation,4
+z_37.5_12.0,2030,Forte augmentation,4
+z_37.5_13.5,2023,Faible augmentation,3
+z_37.5_13.5,2024,Faible augmentation,3
+z_37.5_13.5,2025,Faible augmentation,3
+z_37.5_13.5,2026,Faible augmentation,3
+z_37.5_13.5,2027,Faible augmentation,3
+z_37.5_13.5,2028,Faible augmentation,3
+z_37.5_13.5,2029,Faible augmentation,3
+z_37.5_13.5,2030,Faible augmentation,3
+z_37.5_15.0,2023,Forte augmentation,4
+z_37.5_15.0,2024,Forte augmentation,4
+z_37.5_15.0,2025,Forte augmentation,4
+z_37.5_15.0,2026,Forte augmentation,4
+z_37.5_15.0,2027,Forte augmentation,4
+z_37.5_15.0,2028,Forte augmentation,4
+z_37.5_15.0,2029,Forte augmentation,4
+z_37.5_15.0,2030,Forte augmentation,4
+z_37.5_16.5,2023,Forte augmentation,4
+z_37.5_16.5,2024,Forte augmentation,4
+z_37.5_16.5,2025,Forte augmentation,4
+z_37.5_16.5,2026,Forte augmentation,4
+z_37.5_16.5,2027,Forte augmentation,4
+z_37.5_16.5,2028,Forte augmentation,4
+z_37.5_16.5,2029,Forte augmentation,4
+z_37.5_16.5,2030,Forte augmentation,4
+z_37.5_19.5,2023,Stable,2
+z_37.5_19.5,2024,Stable,2
+z_37.5_19.5,2025,Stable,2
+z_37.5_19.5,2026,Stable,2
+z_37.5_19.5,2027,Stable,2
+z_37.5_19.5,2028,Stable,2
+z_37.5_19.5,2029,Stable,2
+z_37.5_19.5,2030,Stable,2
+z_37.5_21.0,2023,Forte diminution,0
+z_37.5_21.0,2024,Forte diminution,0
+z_37.5_21.0,2025,Forte diminution,0
+z_37.5_21.0,2026,Forte diminution,0
+z_37.5_21.0,2027,Forte diminution,0
+z_37.5_21.0,2028,Forte diminution,0
+z_37.5_21.0,2029,Forte diminution,0
+z_37.5_21.0,2030,Forte diminution,0
+z_37.5_22.5,2023,Faible augmentation,3
+z_37.5_22.5,2024,Faible augmentation,3
+z_37.5_22.5,2025,Faible augmentation,3
+z_37.5_22.5,2026,Faible augmentation,3
+z_37.5_22.5,2027,Faible augmentation,3
+z_37.5_22.5,2028,Faible augmentation,3
+z_37.5_22.5,2029,Faible augmentation,3
+z_37.5_22.5,2030,Faible augmentation,3
+z_37.5_24.0,2023,Faible diminution,1
+z_37.5_24.0,2024,Faible diminution,1
+z_37.5_24.0,2025,Faible diminution,1
+z_37.5_24.0,2026,Faible diminution,1
+z_37.5_24.0,2027,Faible diminution,1
+z_37.5_24.0,2028,Faible diminution,1
+z_37.5_24.0,2029,Faible diminution,1
+z_37.5_24.0,2030,Faible diminution,1
+z_37.5_25.5,2023,Stable,2
+z_37.5_25.5,2024,Stable,2
+z_37.5_25.5,2025,Stable,2
+z_37.5_25.5,2026,Stable,2
+z_37.5_25.5,2027,Stable,2
+z_37.5_25.5,2028,Stable,2
+z_37.5_25.5,2029,Stable,2
+z_37.5_25.5,2030,Stable,2
+z_37.5_4.5,2023,Faible diminution,1
+z_37.5_4.5,2024,Faible diminution,1
+z_37.5_4.5,2025,Faible diminution,1
+z_37.5_4.5,2026,Faible diminution,1
+z_37.5_4.5,2027,Faible diminution,1
+z_37.5_4.5,2028,Faible diminution,1
+z_37.5_4.5,2029,Faible diminution,1
+z_37.5_4.5,2030,Faible diminution,1
+z_37.5_7.5,2023,Forte diminution,0
+z_37.5_7.5,2024,Forte diminution,0
+z_37.5_7.5,2025,Forte diminution,0
+z_37.5_7.5,2026,Forte diminution,0
+z_37.5_7.5,2027,Forte diminution,0
+z_37.5_7.5,2028,Forte diminution,0
+z_37.5_7.5,2029,Forte diminution,0
+z_37.5_7.5,2030,Forte diminution,0
+z_37.5_9.0,2023,Forte diminution,0
+z_37.5_9.0,2024,Forte diminution,0
+z_37.5_9.0,2025,Forte diminution,0
+z_37.5_9.0,2026,Forte diminution,0
+z_37.5_9.0,2027,Forte diminution,0
+z_37.5_9.0,2028,Forte diminution,0
+z_37.5_9.0,2029,Forte diminution,0
+z_37.5_9.0,2030,Forte diminution,0
+z_39.0_-1.5,2023,Forte augmentation,4
+z_39.0_-1.5,2024,Forte augmentation,4
+z_39.0_-1.5,2025,Forte augmentation,4
+z_39.0_-1.5,2026,Forte augmentation,4
+z_39.0_-1.5,2027,Forte augmentation,4
+z_39.0_-1.5,2028,Forte augmentation,4
+z_39.0_-1.5,2029,Forte augmentation,4
+z_39.0_-1.5,2030,Forte augmentation,4
+z_39.0_-10.5,2023,Forte augmentation,4
+z_39.0_-10.5,2024,Forte augmentation,4
+z_39.0_-10.5,2025,Forte augmentation,4
+z_39.0_-10.5,2026,Forte augmentation,4
+z_39.0_-10.5,2027,Forte augmentation,4
+z_39.0_-10.5,2028,Forte augmentation,4
+z_39.0_-10.5,2029,Forte augmentation,4
+z_39.0_-10.5,2030,Forte augmentation,4
+z_39.0_-12.0,2023,Faible diminution,1
+z_39.0_-12.0,2024,Faible diminution,1
+z_39.0_-12.0,2025,Faible diminution,1
+z_39.0_-12.0,2026,Faible diminution,1
+z_39.0_-12.0,2027,Faible diminution,1
+z_39.0_-12.0,2028,Faible diminution,1
+z_39.0_-12.0,2029,Faible diminution,1
+z_39.0_-12.0,2030,Faible diminution,1
+z_39.0_-76.5,2023,Forte diminution,0
+z_39.0_-76.5,2024,Forte diminution,0
+z_39.0_-76.5,2025,Forte diminution,0
+z_39.0_-76.5,2026,Forte diminution,0
+z_39.0_-76.5,2027,Forte diminution,0
+z_39.0_-76.5,2028,Forte diminution,0
+z_39.0_-76.5,2029,Forte diminution,0
+z_39.0_-76.5,2030,Forte diminution,0
+z_39.0_-78.0,2023,Forte diminution,0
+z_39.0_-78.0,2024,Forte diminution,0
+z_39.0_-78.0,2025,Forte diminution,0
+z_39.0_-78.0,2026,Forte diminution,0
+z_39.0_-78.0,2027,Forte diminution,0
+z_39.0_-78.0,2028,Forte diminution,0
+z_39.0_-78.0,2029,Forte diminution,0
+z_39.0_-78.0,2030,Forte diminution,0
+z_39.0_-9.0,2023,Forte augmentation,4
+z_39.0_-9.0,2024,Forte augmentation,4
+z_39.0_-9.0,2025,Forte augmentation,4
+z_39.0_-9.0,2026,Forte augmentation,4
+z_39.0_-9.0,2027,Forte augmentation,4
+z_39.0_-9.0,2028,Forte augmentation,4
+z_39.0_-9.0,2029,Forte augmentation,4
+z_39.0_-9.0,2030,Forte augmentation,4
+z_39.0_0.0,2023,Forte diminution,0
+z_39.0_0.0,2024,Forte diminution,0
+z_39.0_0.0,2025,Forte diminution,0
+z_39.0_0.0,2026,Forte diminution,0
+z_39.0_0.0,2027,Forte diminution,0
+z_39.0_0.0,2028,Forte diminution,0
+z_39.0_0.0,2029,Forte diminution,0
+z_39.0_0.0,2030,Forte diminution,0
+z_39.0_1.5,2023,Forte augmentation,4
+z_39.0_1.5,2024,Forte augmentation,4
+z_39.0_1.5,2025,Forte augmentation,4
+z_39.0_1.5,2026,Forte augmentation,4
+z_39.0_1.5,2027,Forte augmentation,4
+z_39.0_1.5,2028,Forte augmentation,4
+z_39.0_1.5,2029,Forte augmentation,4
+z_39.0_1.5,2030,Forte augmentation,4
+z_39.0_10.5,2023,Stable,2
+z_39.0_10.5,2024,Stable,2
+z_39.0_10.5,2025,Stable,2
+z_39.0_10.5,2026,Stable,2
+z_39.0_10.5,2027,Stable,2
+z_39.0_10.5,2028,Stable,2
+z_39.0_10.5,2029,Stable,2
+z_39.0_10.5,2030,Stable,2
+z_39.0_13.5,2023,Faible augmentation,3
+z_39.0_13.5,2024,Faible augmentation,3
+z_39.0_13.5,2025,Faible augmentation,3
+z_39.0_13.5,2026,Faible augmentation,3
+z_39.0_13.5,2027,Faible augmentation,3
+z_39.0_13.5,2028,Faible augmentation,3
+z_39.0_13.5,2029,Faible augmentation,3
+z_39.0_13.5,2030,Faible augmentation,3
+z_39.0_15.0,2023,Faible diminution,1
+z_39.0_15.0,2024,Faible diminution,1
+z_39.0_15.0,2025,Faible diminution,1
+z_39.0_15.0,2026,Faible diminution,1
+z_39.0_15.0,2027,Faible diminution,1
+z_39.0_15.0,2028,Faible diminution,1
+z_39.0_15.0,2029,Faible diminution,1
+z_39.0_15.0,2030,Faible diminution,1
+z_39.0_16.5,2023,Forte augmentation,4
+z_39.0_16.5,2024,Forte augmentation,4
+z_39.0_16.5,2025,Forte augmentation,4
+z_39.0_16.5,2026,Forte augmentation,4
+z_39.0_16.5,2027,Forte augmentation,4
+z_39.0_16.5,2028,Forte augmentation,4
+z_39.0_16.5,2029,Forte augmentation,4
+z_39.0_16.5,2030,Forte augmentation,4
+z_39.0_18.0,2023,Forte diminution,0
+z_39.0_18.0,2024,Forte diminution,0
+z_39.0_18.0,2025,Forte diminution,0
+z_39.0_18.0,2026,Forte diminution,0
+z_39.0_18.0,2027,Forte diminution,0
+z_39.0_18.0,2028,Forte diminution,0
+z_39.0_18.0,2029,Forte diminution,0
+z_39.0_18.0,2030,Forte diminution,0
+z_39.0_19.5,2023,Forte diminution,0
+z_39.0_19.5,2024,Forte diminution,0
+z_39.0_19.5,2025,Forte diminution,0
+z_39.0_19.5,2026,Forte diminution,0
+z_39.0_19.5,2027,Forte diminution,0
+z_39.0_19.5,2028,Forte diminution,0
+z_39.0_19.5,2029,Forte diminution,0
+z_39.0_19.5,2030,Forte diminution,0
+z_39.0_22.5,2023,Forte augmentation,4
+z_39.0_22.5,2024,Forte augmentation,4
+z_39.0_22.5,2025,Forte augmentation,4
+z_39.0_22.5,2026,Forte augmentation,4
+z_39.0_22.5,2027,Forte augmentation,4
+z_39.0_22.5,2028,Forte augmentation,4
+z_39.0_22.5,2029,Forte augmentation,4
+z_39.0_22.5,2030,Forte augmentation,4
+z_39.0_24.0,2023,Forte diminution,0
+z_39.0_24.0,2024,Forte diminution,0
+z_39.0_24.0,2025,Forte diminution,0
+z_39.0_24.0,2026,Forte diminution,0
+z_39.0_24.0,2027,Forte diminution,0
+z_39.0_24.0,2028,Forte diminution,0
+z_39.0_24.0,2029,Forte diminution,0
+z_39.0_24.0,2030,Forte diminution,0
+z_39.0_25.5,2023,Forte diminution,0
+z_39.0_25.5,2024,Forte diminution,0
+z_39.0_25.5,2025,Forte diminution,0
+z_39.0_25.5,2026,Forte diminution,0
+z_39.0_25.5,2027,Forte diminution,0
+z_39.0_25.5,2028,Forte diminution,0
+z_39.0_25.5,2029,Forte diminution,0
+z_39.0_25.5,2030,Forte diminution,0
+z_39.0_28.5,2023,Stable,2
+z_39.0_28.5,2024,Stable,2
+z_39.0_28.5,2025,Stable,2
+z_39.0_28.5,2026,Stable,2
+z_39.0_28.5,2027,Stable,2
+z_39.0_28.5,2028,Stable,2
+z_39.0_28.5,2029,Stable,2
+z_39.0_28.5,2030,Stable,2
+z_39.0_3.0,2023,Forte diminution,0
+z_39.0_3.0,2024,Forte diminution,0
+z_39.0_3.0,2025,Forte diminution,0
+z_39.0_3.0,2026,Forte diminution,0
+z_39.0_3.0,2027,Forte diminution,0
+z_39.0_3.0,2028,Forte diminution,0
+z_39.0_3.0,2029,Forte diminution,0
+z_39.0_3.0,2030,Forte diminution,0
+z_39.0_4.5,2023,Forte augmentation,4
+z_39.0_4.5,2024,Forte augmentation,4
+z_39.0_4.5,2025,Forte augmentation,4
+z_39.0_4.5,2026,Forte augmentation,4
+z_39.0_4.5,2027,Forte augmentation,4
+z_39.0_4.5,2028,Forte augmentation,4
+z_39.0_4.5,2029,Forte augmentation,4
+z_39.0_4.5,2030,Forte augmentation,4
+z_39.0_7.5,2023,Forte diminution,0
+z_39.0_7.5,2024,Forte diminution,0
+z_39.0_7.5,2025,Forte diminution,0
+z_39.0_7.5,2026,Forte diminution,0
+z_39.0_7.5,2027,Forte diminution,0
+z_39.0_7.5,2028,Forte diminution,0
+z_39.0_7.5,2029,Forte diminution,0
+z_39.0_7.5,2030,Forte diminution,0
+z_39.0_9.0,2023,Forte diminution,0
+z_39.0_9.0,2024,Forte diminution,0
+z_39.0_9.0,2025,Forte diminution,0
+z_39.0_9.0,2026,Forte diminution,0
+z_39.0_9.0,2027,Forte diminution,0
+z_39.0_9.0,2028,Forte diminution,0
+z_39.0_9.0,2029,Forte diminution,0
+z_39.0_9.0,2030,Forte diminution,0
+z_4.5_-3.0,2023,Faible diminution,1
+z_4.5_-3.0,2024,Faible diminution,1
+z_4.5_-3.0,2025,Faible diminution,1
+z_4.5_-3.0,2026,Faible diminution,1
+z_4.5_-3.0,2027,Faible diminution,1
+z_4.5_-3.0,2028,Faible diminution,1
+z_4.5_-3.0,2029,Faible diminution,1
+z_4.5_-3.0,2030,Faible diminution,1
+z_4.5_-4.5,2023,Faible diminution,1
+z_4.5_-4.5,2024,Faible diminution,1
+z_4.5_-4.5,2025,Faible diminution,1
+z_4.5_-4.5,2026,Faible diminution,1
+z_4.5_-4.5,2027,Faible diminution,1
+z_4.5_-4.5,2028,Faible diminution,1
+z_4.5_-4.5,2029,Faible diminution,1
+z_4.5_-4.5,2030,Faible diminution,1
+z_4.5_-52.5,2023,Faible augmentation,3
+z_4.5_-52.5,2024,Faible augmentation,3
+z_4.5_-52.5,2025,Faible augmentation,3
+z_4.5_-52.5,2026,Faible augmentation,3
+z_4.5_-52.5,2027,Faible augmentation,3
+z_4.5_-52.5,2028,Faible augmentation,3
+z_4.5_-52.5,2029,Faible augmentation,3
+z_4.5_-52.5,2030,Faible augmentation,3
+z_4.5_0.0,2023,Stable,2
+z_4.5_0.0,2024,Stable,2
+z_4.5_0.0,2025,Stable,2
+z_4.5_0.0,2026,Stable,2
+z_4.5_0.0,2027,Stable,2
+z_4.5_0.0,2028,Stable,2
+z_4.5_0.0,2029,Stable,2
+z_4.5_0.0,2030,Stable,2
+z_4.5_106.5,2023,Faible diminution,1
+z_4.5_106.5,2024,Faible diminution,1
+z_4.5_106.5,2025,Faible diminution,1
+z_4.5_106.5,2026,Faible diminution,1
+z_4.5_106.5,2027,Faible diminution,1
+z_4.5_106.5,2028,Faible diminution,1
+z_4.5_106.5,2029,Faible diminution,1
+z_4.5_106.5,2030,Faible diminution,1
+z_4.5_3.0,2023,Forte diminution,0
+z_4.5_3.0,2024,Forte diminution,0
+z_4.5_3.0,2025,Forte diminution,0
+z_4.5_3.0,2026,Forte diminution,0
+z_4.5_3.0,2027,Forte diminution,0
+z_4.5_3.0,2028,Forte diminution,0
+z_4.5_3.0,2029,Forte diminution,0
+z_4.5_3.0,2030,Forte diminution,0
+z_4.5_6.0,2023,Faible augmentation,3
+z_4.5_6.0,2024,Faible augmentation,3
+z_4.5_6.0,2025,Faible augmentation,3
+z_4.5_6.0,2026,Faible augmentation,3
+z_4.5_6.0,2027,Faible augmentation,3
+z_4.5_6.0,2028,Faible augmentation,3
+z_4.5_6.0,2029,Faible augmentation,3
+z_4.5_6.0,2030,Faible augmentation,3
+z_4.5_97.5,2023,Forte augmentation,4
+z_4.5_97.5,2024,Forte augmentation,4
+z_4.5_97.5,2025,Forte augmentation,4
+z_4.5_97.5,2026,Forte augmentation,4
+z_4.5_97.5,2027,Forte augmentation,4
+z_4.5_97.5,2028,Forte augmentation,4
+z_4.5_97.5,2029,Forte augmentation,4
+z_4.5_97.5,2030,Forte augmentation,4
+z_4.5_99.0,2023,Faible diminution,1
+z_4.5_99.0,2024,Faible diminution,1
+z_4.5_99.0,2025,Faible diminution,1
+z_4.5_99.0,2026,Faible diminution,1
+z_4.5_99.0,2027,Faible diminution,1
+z_4.5_99.0,2028,Faible diminution,1
+z_4.5_99.0,2029,Faible diminution,1
+z_4.5_99.0,2030,Faible diminution,1
+z_40.5_-10.5,2023,Forte diminution,0
+z_40.5_-10.5,2024,Forte diminution,0
+z_40.5_-10.5,2025,Forte diminution,0
+z_40.5_-10.5,2026,Forte diminution,0
+z_40.5_-10.5,2027,Forte diminution,0
+z_40.5_-10.5,2028,Forte diminution,0
+z_40.5_-10.5,2029,Forte diminution,0
+z_40.5_-10.5,2030,Forte diminution,0
+z_40.5_-75.0,2023,Faible diminution,1
+z_40.5_-75.0,2024,Faible diminution,1
+z_40.5_-75.0,2025,Faible diminution,1
+z_40.5_-75.0,2026,Faible diminution,1
+z_40.5_-75.0,2027,Faible diminution,1
+z_40.5_-75.0,2028,Faible diminution,1
+z_40.5_-75.0,2029,Faible diminution,1
+z_40.5_-75.0,2030,Faible diminution,1
+z_40.5_-9.0,2023,Stable,2
+z_40.5_-9.0,2024,Stable,2
+z_40.5_-9.0,2025,Stable,2
+z_40.5_-9.0,2026,Stable,2
+z_40.5_-9.0,2027,Stable,2
+z_40.5_-9.0,2028,Stable,2
+z_40.5_-9.0,2029,Stable,2
+z_40.5_-9.0,2030,Stable,2
+z_40.5_0.0,2023,Forte diminution,0
+z_40.5_0.0,2024,Forte diminution,0
+z_40.5_0.0,2025,Forte diminution,0
+z_40.5_0.0,2026,Forte diminution,0
+z_40.5_0.0,2027,Forte diminution,0
+z_40.5_0.0,2028,Forte diminution,0
+z_40.5_0.0,2029,Forte diminution,0
+z_40.5_0.0,2030,Forte diminution,0
+z_40.5_1.5,2023,Forte augmentation,4
+z_40.5_1.5,2024,Forte augmentation,4
+z_40.5_1.5,2025,Forte augmentation,4
+z_40.5_1.5,2026,Forte augmentation,4
+z_40.5_1.5,2027,Forte augmentation,4
+z_40.5_1.5,2028,Forte augmentation,4
+z_40.5_1.5,2029,Forte augmentation,4
+z_40.5_1.5,2030,Forte augmentation,4
+z_40.5_10.5,2023,Forte diminution,0
+z_40.5_10.5,2024,Forte diminution,0
+z_40.5_10.5,2025,Forte diminution,0
+z_40.5_10.5,2026,Forte diminution,0
+z_40.5_10.5,2027,Forte diminution,0
+z_40.5_10.5,2028,Forte diminution,0
+z_40.5_10.5,2029,Forte diminution,0
+z_40.5_10.5,2030,Forte diminution,0
+z_40.5_12.0,2023,Stable,2
+z_40.5_12.0,2024,Stable,2
+z_40.5_12.0,2025,Stable,2
+z_40.5_12.0,2026,Stable,2
+z_40.5_12.0,2027,Stable,2
+z_40.5_12.0,2028,Stable,2
+z_40.5_12.0,2029,Stable,2
+z_40.5_12.0,2030,Stable,2
+z_40.5_13.5,2023,Forte augmentation,4
+z_40.5_13.5,2024,Forte augmentation,4
+z_40.5_13.5,2025,Forte augmentation,4
+z_40.5_13.5,2026,Forte augmentation,4
+z_40.5_13.5,2027,Forte augmentation,4
+z_40.5_13.5,2028,Forte augmentation,4
+z_40.5_13.5,2029,Forte augmentation,4
+z_40.5_13.5,2030,Forte augmentation,4
+z_40.5_139.5,2023,Faible diminution,1
+z_40.5_139.5,2024,Faible diminution,1
+z_40.5_139.5,2025,Faible diminution,1
+z_40.5_139.5,2026,Faible diminution,1
+z_40.5_139.5,2027,Faible diminution,1
+z_40.5_139.5,2028,Faible diminution,1
+z_40.5_139.5,2029,Faible diminution,1
+z_40.5_139.5,2030,Faible diminution,1
+z_40.5_15.0,2023,Forte diminution,0
+z_40.5_15.0,2024,Forte diminution,0
+z_40.5_15.0,2025,Forte diminution,0
+z_40.5_15.0,2026,Forte diminution,0
+z_40.5_15.0,2027,Forte diminution,0
+z_40.5_15.0,2028,Forte diminution,0
+z_40.5_15.0,2029,Forte diminution,0
+z_40.5_15.0,2030,Forte diminution,0
+z_40.5_16.5,2023,Forte augmentation,4
+z_40.5_16.5,2024,Forte augmentation,4
+z_40.5_16.5,2025,Forte augmentation,4
+z_40.5_16.5,2026,Forte augmentation,4
+z_40.5_16.5,2027,Forte augmentation,4
+z_40.5_16.5,2028,Forte augmentation,4
+z_40.5_16.5,2029,Forte augmentation,4
+z_40.5_16.5,2030,Forte augmentation,4
+z_40.5_18.0,2023,Forte diminution,0
+z_40.5_18.0,2024,Forte diminution,0
+z_40.5_18.0,2025,Forte diminution,0
+z_40.5_18.0,2026,Forte diminution,0
+z_40.5_18.0,2027,Forte diminution,0
+z_40.5_18.0,2028,Forte diminution,0
+z_40.5_18.0,2029,Forte diminution,0
+z_40.5_18.0,2030,Forte diminution,0
+z_40.5_22.5,2023,Forte diminution,0
+z_40.5_22.5,2024,Forte diminution,0
+z_40.5_22.5,2025,Forte diminution,0
+z_40.5_22.5,2026,Forte diminution,0
+z_40.5_22.5,2027,Forte diminution,0
+z_40.5_22.5,2028,Forte diminution,0
+z_40.5_22.5,2029,Forte diminution,0
+z_40.5_22.5,2030,Forte diminution,0
+z_40.5_24.0,2023,Forte augmentation,4
+z_40.5_24.0,2024,Forte augmentation,4
+z_40.5_24.0,2025,Forte augmentation,4
+z_40.5_24.0,2026,Forte augmentation,4
+z_40.5_24.0,2027,Forte augmentation,4
+z_40.5_24.0,2028,Forte augmentation,4
+z_40.5_24.0,2029,Forte augmentation,4
+z_40.5_24.0,2030,Forte augmentation,4
+z_40.5_25.5,2023,Forte diminution,0
+z_40.5_25.5,2024,Forte diminution,0
+z_40.5_25.5,2025,Forte diminution,0
+z_40.5_25.5,2026,Forte diminution,0
+z_40.5_25.5,2027,Forte diminution,0
+z_40.5_25.5,2028,Forte diminution,0
+z_40.5_25.5,2029,Forte diminution,0
+z_40.5_25.5,2030,Forte diminution,0
+z_40.5_27.0,2023,Forte diminution,0
+z_40.5_27.0,2024,Forte diminution,0
+z_40.5_27.0,2025,Forte diminution,0
+z_40.5_27.0,2026,Forte diminution,0
+z_40.5_27.0,2027,Forte diminution,0
+z_40.5_27.0,2028,Forte diminution,0
+z_40.5_27.0,2029,Forte diminution,0
+z_40.5_27.0,2030,Forte diminution,0
+z_40.5_28.5,2023,Forte diminution,0
+z_40.5_28.5,2024,Forte diminution,0
+z_40.5_28.5,2025,Forte diminution,0
+z_40.5_28.5,2026,Forte diminution,0
+z_40.5_28.5,2027,Forte diminution,0
+z_40.5_28.5,2028,Forte diminution,0
+z_40.5_28.5,2029,Forte diminution,0
+z_40.5_28.5,2030,Forte diminution,0
+z_40.5_3.0,2023,Forte augmentation,4
+z_40.5_3.0,2024,Forte augmentation,4
+z_40.5_3.0,2025,Forte augmentation,4
+z_40.5_3.0,2026,Forte augmentation,4
+z_40.5_3.0,2027,Forte augmentation,4
+z_40.5_3.0,2028,Forte augmentation,4
+z_40.5_3.0,2029,Forte augmentation,4
+z_40.5_3.0,2030,Forte augmentation,4
+z_40.5_36.0,2023,Stable,2
+z_40.5_36.0,2024,Stable,2
+z_40.5_36.0,2025,Stable,2
+z_40.5_36.0,2026,Stable,2
+z_40.5_36.0,2027,Stable,2
+z_40.5_36.0,2028,Stable,2
+z_40.5_36.0,2029,Stable,2
+z_40.5_36.0,2030,Stable,2
+z_40.5_7.5,2023,Forte augmentation,4
+z_40.5_7.5,2024,Forte augmentation,4
+z_40.5_7.5,2025,Forte augmentation,4
+z_40.5_7.5,2026,Forte augmentation,4
+z_40.5_7.5,2027,Forte augmentation,4
+z_40.5_7.5,2028,Forte augmentation,4
+z_40.5_7.5,2029,Forte augmentation,4
+z_40.5_7.5,2030,Forte augmentation,4
+z_40.5_9.0,2023,Forte diminution,0
+z_40.5_9.0,2024,Forte diminution,0
+z_40.5_9.0,2025,Forte diminution,0
+z_40.5_9.0,2026,Forte diminution,0
+z_40.5_9.0,2027,Forte diminution,0
+z_40.5_9.0,2028,Forte diminution,0
+z_40.5_9.0,2029,Forte diminution,0
+z_40.5_9.0,2030,Forte diminution,0
+z_42.0_-10.5,2023,Stable,2
+z_42.0_-10.5,2024,Stable,2
+z_42.0_-10.5,2025,Stable,2
+z_42.0_-10.5,2026,Stable,2
+z_42.0_-10.5,2027,Stable,2
+z_42.0_-10.5,2028,Stable,2
+z_42.0_-10.5,2029,Stable,2
+z_42.0_-10.5,2030,Stable,2
+z_42.0_-3.0,2023,Forte diminution,0
+z_42.0_-3.0,2024,Forte diminution,0
+z_42.0_-3.0,2025,Forte diminution,0
+z_42.0_-3.0,2026,Forte diminution,0
+z_42.0_-3.0,2027,Forte diminution,0
+z_42.0_-3.0,2028,Forte diminution,0
+z_42.0_-3.0,2029,Forte diminution,0
+z_42.0_-3.0,2030,Forte diminution,0
+z_42.0_-4.5,2023,Forte diminution,0
+z_42.0_-4.5,2024,Forte diminution,0
+z_42.0_-4.5,2025,Forte diminution,0
+z_42.0_-4.5,2026,Forte diminution,0
+z_42.0_-4.5,2027,Forte diminution,0
+z_42.0_-4.5,2028,Forte diminution,0
+z_42.0_-4.5,2029,Forte diminution,0
+z_42.0_-4.5,2030,Forte diminution,0
+z_42.0_-79.5,2023,Faible diminution,1
+z_42.0_-79.5,2024,Faible diminution,1
+z_42.0_-79.5,2025,Faible diminution,1
+z_42.0_-79.5,2026,Faible diminution,1
+z_42.0_-79.5,2027,Faible diminution,1
+z_42.0_-79.5,2028,Faible diminution,1
+z_42.0_-79.5,2029,Faible diminution,1
+z_42.0_-79.5,2030,Faible diminution,1
+z_42.0_-9.0,2023,Forte diminution,0
+z_42.0_-9.0,2024,Forte diminution,0
+z_42.0_-9.0,2025,Forte diminution,0
+z_42.0_-9.0,2026,Forte diminution,0
+z_42.0_-9.0,2027,Forte diminution,0
+z_42.0_-9.0,2028,Forte diminution,0
+z_42.0_-9.0,2029,Forte diminution,0
+z_42.0_-9.0,2030,Forte diminution,0
+z_42.0_10.5,2023,Forte augmentation,4
+z_42.0_10.5,2024,Forte augmentation,4
+z_42.0_10.5,2025,Forte augmentation,4
+z_42.0_10.5,2026,Forte augmentation,4
+z_42.0_10.5,2027,Forte augmentation,4
+z_42.0_10.5,2028,Forte augmentation,4
+z_42.0_10.5,2029,Forte augmentation,4
+z_42.0_10.5,2030,Forte augmentation,4
+z_42.0_13.5,2023,Stable,2
+z_42.0_13.5,2024,Stable,2
+z_42.0_13.5,2025,Stable,2
+z_42.0_13.5,2026,Stable,2
+z_42.0_13.5,2027,Stable,2
+z_42.0_13.5,2028,Stable,2
+z_42.0_13.5,2029,Stable,2
+z_42.0_13.5,2030,Stable,2
+z_42.0_15.0,2023,Forte diminution,0
+z_42.0_15.0,2024,Forte diminution,0
+z_42.0_15.0,2025,Forte diminution,0
+z_42.0_15.0,2026,Forte diminution,0
+z_42.0_15.0,2027,Forte diminution,0
+z_42.0_15.0,2028,Forte diminution,0
+z_42.0_15.0,2029,Forte diminution,0
+z_42.0_15.0,2030,Forte diminution,0
+z_42.0_16.5,2023,Faible diminution,1
+z_42.0_16.5,2024,Faible diminution,1
+z_42.0_16.5,2025,Faible diminution,1
+z_42.0_16.5,2026,Faible diminution,1
+z_42.0_16.5,2027,Faible diminution,1
+z_42.0_16.5,2028,Faible diminution,1
+z_42.0_16.5,2029,Faible diminution,1
+z_42.0_16.5,2030,Faible diminution,1
+z_42.0_18.0,2023,Forte diminution,0
+z_42.0_18.0,2024,Forte diminution,0
+z_42.0_18.0,2025,Forte diminution,0
+z_42.0_18.0,2026,Forte diminution,0
+z_42.0_18.0,2027,Forte diminution,0
+z_42.0_18.0,2028,Forte diminution,0
+z_42.0_18.0,2029,Forte diminution,0
+z_42.0_18.0,2030,Forte diminution,0
+z_42.0_27.0,2023,Forte diminution,0
+z_42.0_27.0,2024,Forte diminution,0
+z_42.0_27.0,2025,Forte diminution,0
+z_42.0_27.0,2026,Forte diminution,0
+z_42.0_27.0,2027,Forte diminution,0
+z_42.0_27.0,2028,Forte diminution,0
+z_42.0_27.0,2029,Forte diminution,0
+z_42.0_27.0,2030,Forte diminution,0
+z_42.0_3.0,2023,Forte diminution,0
+z_42.0_3.0,2024,Forte diminution,0
+z_42.0_3.0,2025,Forte diminution,0
+z_42.0_3.0,2026,Forte diminution,0
+z_42.0_3.0,2027,Forte diminution,0
+z_42.0_3.0,2028,Forte diminution,0
+z_42.0_3.0,2029,Forte diminution,0
+z_42.0_3.0,2030,Forte diminution,0
+z_42.0_4.5,2023,Forte diminution,0
+z_42.0_4.5,2024,Forte diminution,0
+z_42.0_4.5,2025,Forte diminution,0
+z_42.0_4.5,2026,Forte diminution,0
+z_42.0_4.5,2027,Forte diminution,0
+z_42.0_4.5,2028,Forte diminution,0
+z_42.0_4.5,2029,Forte diminution,0
+z_42.0_4.5,2030,Forte diminution,0
+z_42.0_6.0,2023,Forte diminution,0
+z_42.0_6.0,2024,Forte diminution,0
+z_42.0_6.0,2025,Forte diminution,0
+z_42.0_6.0,2026,Forte diminution,0
+z_42.0_6.0,2027,Forte diminution,0
+z_42.0_6.0,2028,Forte diminution,0
+z_42.0_6.0,2029,Forte diminution,0
+z_42.0_6.0,2030,Forte diminution,0
+z_42.0_7.5,2023,Faible diminution,1
+z_42.0_7.5,2024,Faible diminution,1
+z_42.0_7.5,2025,Faible diminution,1
+z_42.0_7.5,2026,Faible diminution,1
+z_42.0_7.5,2027,Faible diminution,1
+z_42.0_7.5,2028,Faible diminution,1
+z_42.0_7.5,2029,Faible diminution,1
+z_42.0_7.5,2030,Faible diminution,1
+z_42.0_9.0,2023,Forte augmentation,4
+z_42.0_9.0,2024,Forte augmentation,4
+z_42.0_9.0,2025,Forte augmentation,4
+z_42.0_9.0,2026,Forte augmentation,4
+z_42.0_9.0,2027,Forte augmentation,4
+z_42.0_9.0,2028,Forte augmentation,4
+z_42.0_9.0,2029,Forte augmentation,4
+z_42.0_9.0,2030,Forte augmentation,4
+z_43.5_-1.5,2023,Forte augmentation,4
+z_43.5_-1.5,2024,Forte augmentation,4
+z_43.5_-1.5,2025,Forte augmentation,4
+z_43.5_-1.5,2026,Forte augmentation,4
+z_43.5_-1.5,2027,Forte augmentation,4
+z_43.5_-1.5,2028,Forte augmentation,4
+z_43.5_-1.5,2029,Forte augmentation,4
+z_43.5_-1.5,2030,Forte augmentation,4
+z_43.5_-10.5,2023,Forte augmentation,4
+z_43.5_-10.5,2024,Forte augmentation,4
+z_43.5_-10.5,2025,Forte augmentation,4
+z_43.5_-10.5,2026,Forte augmentation,4
+z_43.5_-10.5,2027,Forte augmentation,4
+z_43.5_-10.5,2028,Forte augmentation,4
+z_43.5_-10.5,2029,Forte augmentation,4
+z_43.5_-10.5,2030,Forte augmentation,4
+z_43.5_-3.0,2023,Forte diminution,0
+z_43.5_-3.0,2024,Forte diminution,0
+z_43.5_-3.0,2025,Forte diminution,0
+z_43.5_-3.0,2026,Forte diminution,0
+z_43.5_-3.0,2027,Forte diminution,0
+z_43.5_-3.0,2028,Forte diminution,0
+z_43.5_-3.0,2029,Forte diminution,0
+z_43.5_-3.0,2030,Forte diminution,0
+z_43.5_-4.5,2023,Forte augmentation,4
+z_43.5_-4.5,2024,Forte augmentation,4
+z_43.5_-4.5,2025,Forte augmentation,4
+z_43.5_-4.5,2026,Forte augmentation,4
+z_43.5_-4.5,2027,Forte augmentation,4
+z_43.5_-4.5,2028,Forte augmentation,4
+z_43.5_-4.5,2029,Forte augmentation,4
+z_43.5_-4.5,2030,Forte augmentation,4
+z_43.5_-6.0,2023,Forte augmentation,4
+z_43.5_-6.0,2024,Forte augmentation,4
+z_43.5_-6.0,2025,Forte augmentation,4
+z_43.5_-6.0,2026,Forte augmentation,4
+z_43.5_-6.0,2027,Forte augmentation,4
+z_43.5_-6.0,2028,Forte augmentation,4
+z_43.5_-6.0,2029,Forte augmentation,4
+z_43.5_-6.0,2030,Forte augmentation,4
+z_43.5_-64.5,2023,Forte augmentation,4
+z_43.5_-64.5,2024,Forte augmentation,4
+z_43.5_-64.5,2025,Forte augmentation,4
+z_43.5_-64.5,2026,Forte augmentation,4
+z_43.5_-64.5,2027,Forte augmentation,4
+z_43.5_-64.5,2028,Forte augmentation,4
+z_43.5_-64.5,2029,Forte augmentation,4
+z_43.5_-64.5,2030,Forte augmentation,4
+z_43.5_-7.5,2023,Forte diminution,0
+z_43.5_-7.5,2024,Forte diminution,0
+z_43.5_-7.5,2025,Forte diminution,0
+z_43.5_-7.5,2026,Forte diminution,0
+z_43.5_-7.5,2027,Forte diminution,0
+z_43.5_-7.5,2028,Forte diminution,0
+z_43.5_-7.5,2029,Forte diminution,0
+z_43.5_-7.5,2030,Forte diminution,0
+z_43.5_-9.0,2023,Stable,2
+z_43.5_-9.0,2024,Stable,2
+z_43.5_-9.0,2025,Stable,2
+z_43.5_-9.0,2026,Stable,2
+z_43.5_-9.0,2027,Stable,2
+z_43.5_-9.0,2028,Stable,2
+z_43.5_-9.0,2029,Stable,2
+z_43.5_-9.0,2030,Stable,2
+z_43.5_12.0,2023,Forte diminution,0
+z_43.5_12.0,2024,Forte diminution,0
+z_43.5_12.0,2025,Forte diminution,0
+z_43.5_12.0,2026,Forte diminution,0
+z_43.5_12.0,2027,Forte diminution,0
+z_43.5_12.0,2028,Forte diminution,0
+z_43.5_12.0,2029,Forte diminution,0
+z_43.5_12.0,2030,Forte diminution,0
+z_43.5_13.5,2023,Forte diminution,0
+z_43.5_13.5,2024,Forte diminution,0
+z_43.5_13.5,2025,Forte diminution,0
+z_43.5_13.5,2026,Forte diminution,0
+z_43.5_13.5,2027,Forte diminution,0
+z_43.5_13.5,2028,Forte diminution,0
+z_43.5_13.5,2029,Forte diminution,0
+z_43.5_13.5,2030,Forte diminution,0
+z_43.5_15.0,2023,Forte augmentation,4
+z_43.5_15.0,2024,Forte augmentation,4
+z_43.5_15.0,2025,Forte augmentation,4
+z_43.5_15.0,2026,Forte augmentation,4
+z_43.5_15.0,2027,Forte augmentation,4
+z_43.5_15.0,2028,Forte augmentation,4
+z_43.5_15.0,2029,Forte augmentation,4
+z_43.5_15.0,2030,Forte augmentation,4
+z_43.5_28.5,2023,Faible diminution,1
+z_43.5_28.5,2024,Faible diminution,1
+z_43.5_28.5,2025,Faible diminution,1
+z_43.5_28.5,2026,Faible diminution,1
+z_43.5_28.5,2027,Faible diminution,1
+z_43.5_28.5,2028,Faible diminution,1
+z_43.5_28.5,2029,Faible diminution,1
+z_43.5_28.5,2030,Faible diminution,1
+z_43.5_37.5,2023,Forte diminution,0
+z_43.5_37.5,2024,Forte diminution,0
+z_43.5_37.5,2025,Forte diminution,0
+z_43.5_37.5,2026,Forte diminution,0
+z_43.5_37.5,2027,Forte diminution,0
+z_43.5_37.5,2028,Forte diminution,0
+z_43.5_37.5,2029,Forte diminution,0
+z_43.5_37.5,2030,Forte diminution,0
+z_43.5_6.0,2023,Faible diminution,1
+z_43.5_6.0,2024,Faible diminution,1
+z_43.5_6.0,2025,Faible diminution,1
+z_43.5_6.0,2026,Faible diminution,1
+z_43.5_6.0,2027,Faible diminution,1
+z_43.5_6.0,2028,Faible diminution,1
+z_43.5_6.0,2029,Faible diminution,1
+z_43.5_6.0,2030,Faible diminution,1
+z_43.5_7.5,2023,Forte diminution,0
+z_43.5_7.5,2024,Forte diminution,0
+z_43.5_7.5,2025,Forte diminution,0
+z_43.5_7.5,2026,Forte diminution,0
+z_43.5_7.5,2027,Forte diminution,0
+z_43.5_7.5,2028,Forte diminution,0
+z_43.5_7.5,2029,Forte diminution,0
+z_43.5_7.5,2030,Forte diminution,0
+z_43.5_9.0,2023,Forte augmentation,4
+z_43.5_9.0,2024,Forte augmentation,4
+z_43.5_9.0,2025,Forte augmentation,4
+z_43.5_9.0,2026,Forte augmentation,4
+z_43.5_9.0,2027,Forte augmentation,4
+z_43.5_9.0,2028,Forte augmentation,4
+z_43.5_9.0,2029,Forte augmentation,4
+z_43.5_9.0,2030,Forte augmentation,4
+z_45.0_-1.5,2023,Forte diminution,0
+z_45.0_-1.5,2024,Forte diminution,0
+z_45.0_-1.5,2025,Forte diminution,0
+z_45.0_-1.5,2026,Forte diminution,0
+z_45.0_-1.5,2027,Forte diminution,0
+z_45.0_-1.5,2028,Forte diminution,0
+z_45.0_-1.5,2029,Forte diminution,0
+z_45.0_-1.5,2030,Forte diminution,0
+z_45.0_-124.5,2023,Forte diminution,0
+z_45.0_-124.5,2024,Forte diminution,0
+z_45.0_-124.5,2025,Forte diminution,0
+z_45.0_-124.5,2026,Forte diminution,0
+z_45.0_-124.5,2027,Forte diminution,0
+z_45.0_-124.5,2028,Forte diminution,0
+z_45.0_-124.5,2029,Forte diminution,0
+z_45.0_-124.5,2030,Forte diminution,0
+z_45.0_-3.0,2023,Stable,2
+z_45.0_-3.0,2024,Stable,2
+z_45.0_-3.0,2025,Stable,2
+z_45.0_-3.0,2026,Stable,2
+z_45.0_-3.0,2027,Stable,2
+z_45.0_-3.0,2028,Stable,2
+z_45.0_-3.0,2029,Stable,2
+z_45.0_-3.0,2030,Stable,2
+z_45.0_-4.5,2023,Faible diminution,1
+z_45.0_-4.5,2024,Faible diminution,1
+z_45.0_-4.5,2025,Faible diminution,1
+z_45.0_-4.5,2026,Faible diminution,1
+z_45.0_-4.5,2027,Faible diminution,1
+z_45.0_-4.5,2028,Faible diminution,1
+z_45.0_-4.5,2029,Faible diminution,1
+z_45.0_-4.5,2030,Faible diminution,1
+z_45.0_-6.0,2023,Stable,2
+z_45.0_-6.0,2024,Stable,2
+z_45.0_-6.0,2025,Stable,2
+z_45.0_-6.0,2026,Stable,2
+z_45.0_-6.0,2027,Stable,2
+z_45.0_-6.0,2028,Stable,2
+z_45.0_-6.0,2029,Stable,2
+z_45.0_-6.0,2030,Stable,2
+z_45.0_-7.5,2023,Faible diminution,1
+z_45.0_-7.5,2024,Faible diminution,1
+z_45.0_-7.5,2025,Faible diminution,1
+z_45.0_-7.5,2026,Faible diminution,1
+z_45.0_-7.5,2027,Faible diminution,1
+z_45.0_-7.5,2028,Faible diminution,1
+z_45.0_-7.5,2029,Faible diminution,1
+z_45.0_-7.5,2030,Faible diminution,1
+z_45.0_-73.5,2023,Forte augmentation,4
+z_45.0_-73.5,2024,Forte augmentation,4
+z_45.0_-73.5,2025,Forte augmentation,4
+z_45.0_-73.5,2026,Forte augmentation,4
+z_45.0_-73.5,2027,Forte augmentation,4
+z_45.0_-73.5,2028,Forte augmentation,4
+z_45.0_-73.5,2029,Forte augmentation,4
+z_45.0_-73.5,2030,Forte augmentation,4
+z_45.0_-75.0,2023,Forte diminution,0
+z_45.0_-75.0,2024,Forte diminution,0
+z_45.0_-75.0,2025,Forte diminution,0
+z_45.0_-75.0,2026,Forte diminution,0
+z_45.0_-75.0,2027,Forte diminution,0
+z_45.0_-75.0,2028,Forte diminution,0
+z_45.0_-75.0,2029,Forte diminution,0
+z_45.0_-75.0,2030,Forte diminution,0
+z_45.0_-9.0,2023,Forte augmentation,4
+z_45.0_-9.0,2024,Forte augmentation,4
+z_45.0_-9.0,2025,Forte augmentation,4
+z_45.0_-9.0,2026,Forte augmentation,4
+z_45.0_-9.0,2027,Forte augmentation,4
+z_45.0_-9.0,2028,Forte augmentation,4
+z_45.0_-9.0,2029,Forte augmentation,4
+z_45.0_-9.0,2030,Forte augmentation,4
+z_45.0_12.0,2023,Forte augmentation,4
+z_45.0_12.0,2024,Forte augmentation,4
+z_45.0_12.0,2025,Forte augmentation,4
+z_45.0_12.0,2026,Forte augmentation,4
+z_45.0_12.0,2027,Forte augmentation,4
+z_45.0_12.0,2028,Forte augmentation,4
+z_45.0_12.0,2029,Forte augmentation,4
+z_45.0_12.0,2030,Forte augmentation,4
+z_45.0_13.5,2023,Forte augmentation,4
+z_45.0_13.5,2024,Forte augmentation,4
+z_45.0_13.5,2025,Forte augmentation,4
+z_45.0_13.5,2026,Forte augmentation,4
+z_45.0_13.5,2027,Forte augmentation,4
+z_45.0_13.5,2028,Forte augmentation,4
+z_45.0_13.5,2029,Forte augmentation,4
+z_45.0_13.5,2030,Forte augmentation,4
+z_45.0_28.5,2023,Stable,2
+z_45.0_28.5,2024,Stable,2
+z_45.0_28.5,2025,Stable,2
+z_45.0_28.5,2026,Stable,2
+z_45.0_28.5,2027,Stable,2
+z_45.0_28.5,2028,Stable,2
+z_45.0_28.5,2029,Stable,2
+z_45.0_28.5,2030,Stable,2
+z_45.0_36.0,2023,Faible diminution,1
+z_45.0_36.0,2024,Faible diminution,1
+z_45.0_36.0,2025,Faible diminution,1
+z_45.0_36.0,2026,Faible diminution,1
+z_45.0_36.0,2027,Faible diminution,1
+z_45.0_36.0,2028,Faible diminution,1
+z_45.0_36.0,2029,Faible diminution,1
+z_45.0_36.0,2030,Faible diminution,1
+z_46.5_-123.0,2023,Forte augmentation,4
+z_46.5_-123.0,2024,Forte augmentation,4
+z_46.5_-123.0,2025,Forte augmentation,4
+z_46.5_-123.0,2026,Forte augmentation,4
+z_46.5_-123.0,2027,Forte augmentation,4
+z_46.5_-123.0,2028,Forte augmentation,4
+z_46.5_-123.0,2029,Forte augmentation,4
+z_46.5_-123.0,2030,Forte augmentation,4
+z_46.5_-3.0,2023,Forte diminution,0
+z_46.5_-3.0,2024,Forte diminution,0
+z_46.5_-3.0,2025,Forte diminution,0
+z_46.5_-3.0,2026,Forte diminution,0
+z_46.5_-3.0,2027,Forte diminution,0
+z_46.5_-3.0,2028,Forte diminution,0
+z_46.5_-3.0,2029,Forte diminution,0
+z_46.5_-3.0,2030,Forte diminution,0
+z_46.5_-4.5,2023,Forte augmentation,4
+z_46.5_-4.5,2024,Forte augmentation,4
+z_46.5_-4.5,2025,Forte augmentation,4
+z_46.5_-4.5,2026,Forte augmentation,4
+z_46.5_-4.5,2027,Forte augmentation,4
+z_46.5_-4.5,2028,Forte augmentation,4
+z_46.5_-4.5,2029,Forte augmentation,4
+z_46.5_-4.5,2030,Forte augmentation,4
+z_46.5_-57.0,2023,Faible diminution,1
+z_46.5_-57.0,2024,Faible diminution,1
+z_46.5_-57.0,2025,Faible diminution,1
+z_46.5_-57.0,2026,Faible diminution,1
+z_46.5_-57.0,2027,Faible diminution,1
+z_46.5_-57.0,2028,Faible diminution,1
+z_46.5_-57.0,2029,Faible diminution,1
+z_46.5_-57.0,2030,Faible diminution,1
+z_46.5_-6.0,2023,Forte diminution,0
+z_46.5_-6.0,2024,Forte diminution,0
+z_46.5_-6.0,2025,Forte diminution,0
+z_46.5_-6.0,2026,Forte diminution,0
+z_46.5_-6.0,2027,Forte diminution,0
+z_46.5_-6.0,2028,Forte diminution,0
+z_46.5_-6.0,2029,Forte diminution,0
+z_46.5_-6.0,2030,Forte diminution,0
+z_46.5_-7.5,2023,Faible diminution,1
+z_46.5_-7.5,2024,Faible diminution,1
+z_46.5_-7.5,2025,Faible diminution,1
+z_46.5_-7.5,2026,Faible diminution,1
+z_46.5_-7.5,2027,Faible diminution,1
+z_46.5_-7.5,2028,Faible diminution,1
+z_46.5_-7.5,2029,Faible diminution,1
+z_46.5_-7.5,2030,Faible diminution,1
+z_46.5_-72.0,2023,Stable,2
+z_46.5_-72.0,2024,Stable,2
+z_46.5_-72.0,2025,Stable,2
+z_46.5_-72.0,2026,Stable,2
+z_46.5_-72.0,2027,Stable,2
+z_46.5_-72.0,2028,Stable,2
+z_46.5_-72.0,2029,Stable,2
+z_46.5_-72.0,2030,Stable,2
+z_46.5_-9.0,2023,Faible diminution,1
+z_46.5_-9.0,2024,Faible diminution,1
+z_46.5_-9.0,2025,Faible diminution,1
+z_46.5_-9.0,2026,Faible diminution,1
+z_46.5_-9.0,2027,Faible diminution,1
+z_46.5_-9.0,2028,Faible diminution,1
+z_46.5_-9.0,2029,Faible diminution,1
+z_46.5_-9.0,2030,Faible diminution,1
+z_46.5_31.5,2023,Faible diminution,1
+z_46.5_31.5,2024,Faible diminution,1
+z_46.5_31.5,2025,Faible diminution,1
+z_46.5_31.5,2026,Faible diminution,1
+z_46.5_31.5,2027,Faible diminution,1
+z_46.5_31.5,2028,Faible diminution,1
+z_46.5_31.5,2029,Faible diminution,1
+z_46.5_31.5,2030,Faible diminution,1
+z_46.5_39.0,2023,Forte augmentation,4
+z_46.5_39.0,2024,Forte augmentation,4
+z_46.5_39.0,2025,Forte augmentation,4
+z_46.5_39.0,2026,Forte augmentation,4
+z_46.5_39.0,2027,Forte augmentation,4
+z_46.5_39.0,2028,Forte augmentation,4
+z_46.5_39.0,2029,Forte augmentation,4
+z_46.5_39.0,2030,Forte augmentation,4
+z_48.0_-1.5,2023,Forte diminution,0
+z_48.0_-1.5,2024,Forte diminution,0
+z_48.0_-1.5,2025,Forte diminution,0
+z_48.0_-1.5,2026,Forte diminution,0
+z_48.0_-1.5,2027,Forte diminution,0
+z_48.0_-1.5,2028,Forte diminution,0
+z_48.0_-1.5,2029,Forte diminution,0
+z_48.0_-1.5,2030,Forte diminution,0
+z_48.0_-10.5,2023,Faible diminution,1
+z_48.0_-10.5,2024,Faible diminution,1
+z_48.0_-10.5,2025,Faible diminution,1
+z_48.0_-10.5,2026,Faible diminution,1
+z_48.0_-10.5,2027,Faible diminution,1
+z_48.0_-10.5,2028,Faible diminution,1
+z_48.0_-10.5,2029,Faible diminution,1
+z_48.0_-10.5,2030,Faible diminution,1
+z_48.0_-124.5,2023,Forte diminution,0
+z_48.0_-124.5,2024,Forte diminution,0
+z_48.0_-124.5,2025,Forte diminution,0
+z_48.0_-124.5,2026,Forte diminution,0
+z_48.0_-124.5,2027,Forte diminution,0
+z_48.0_-124.5,2028,Forte diminution,0
+z_48.0_-124.5,2029,Forte diminution,0
+z_48.0_-124.5,2030,Forte diminution,0
+z_48.0_-3.0,2023,Forte diminution,0
+z_48.0_-3.0,2024,Forte diminution,0
+z_48.0_-3.0,2025,Forte diminution,0
+z_48.0_-3.0,2026,Forte diminution,0
+z_48.0_-3.0,2027,Forte diminution,0
+z_48.0_-3.0,2028,Forte diminution,0
+z_48.0_-3.0,2029,Forte diminution,0
+z_48.0_-3.0,2030,Forte diminution,0
+z_48.0_-4.5,2023,Forte diminution,0
+z_48.0_-4.5,2024,Forte diminution,0
+z_48.0_-4.5,2025,Forte diminution,0
+z_48.0_-4.5,2026,Forte diminution,0
+z_48.0_-4.5,2027,Forte diminution,0
+z_48.0_-4.5,2028,Forte diminution,0
+z_48.0_-4.5,2029,Forte diminution,0
+z_48.0_-4.5,2030,Forte diminution,0
+z_48.0_-6.0,2023,Forte augmentation,4
+z_48.0_-6.0,2024,Forte augmentation,4
+z_48.0_-6.0,2025,Forte augmentation,4
+z_48.0_-6.0,2026,Forte augmentation,4
+z_48.0_-6.0,2027,Forte augmentation,4
+z_48.0_-6.0,2028,Forte augmentation,4
+z_48.0_-6.0,2029,Forte augmentation,4
+z_48.0_-6.0,2030,Forte augmentation,4
+z_48.0_-7.5,2023,Forte diminution,0
+z_48.0_-7.5,2024,Forte diminution,0
+z_48.0_-7.5,2025,Forte diminution,0
+z_48.0_-7.5,2026,Forte diminution,0
+z_48.0_-7.5,2027,Forte diminution,0
+z_48.0_-7.5,2028,Forte diminution,0
+z_48.0_-7.5,2029,Forte diminution,0
+z_48.0_-7.5,2030,Forte diminution,0
+z_48.0_-9.0,2023,Forte augmentation,4
+z_48.0_-9.0,2024,Forte augmentation,4
+z_48.0_-9.0,2025,Forte augmentation,4
+z_48.0_-9.0,2026,Forte augmentation,4
+z_48.0_-9.0,2027,Forte augmentation,4
+z_48.0_-9.0,2028,Forte augmentation,4
+z_48.0_-9.0,2029,Forte augmentation,4
+z_48.0_-9.0,2030,Forte augmentation,4
+z_48.0_0.0,2023,Forte augmentation,4
+z_48.0_0.0,2024,Forte augmentation,4
+z_48.0_0.0,2025,Forte augmentation,4
+z_48.0_0.0,2026,Forte augmentation,4
+z_48.0_0.0,2027,Forte augmentation,4
+z_48.0_0.0,2028,Forte augmentation,4
+z_48.0_0.0,2029,Forte augmentation,4
+z_48.0_0.0,2030,Forte augmentation,4
+z_49.5_-1.5,2023,Faible augmentation,3
+z_49.5_-1.5,2024,Faible augmentation,3
+z_49.5_-1.5,2025,Faible augmentation,3
+z_49.5_-1.5,2026,Faible augmentation,3
+z_49.5_-1.5,2027,Faible augmentation,3
+z_49.5_-1.5,2028,Faible augmentation,3
+z_49.5_-1.5,2029,Faible augmentation,3
+z_49.5_-1.5,2030,Faible augmentation,3
+z_49.5_-10.5,2023,Stable,2
+z_49.5_-10.5,2024,Stable,2
+z_49.5_-10.5,2025,Stable,2
+z_49.5_-10.5,2026,Stable,2
+z_49.5_-10.5,2027,Stable,2
+z_49.5_-10.5,2028,Stable,2
+z_49.5_-10.5,2029,Stable,2
+z_49.5_-10.5,2030,Stable,2
+z_49.5_-12.0,2023,Forte diminution,0
+z_49.5_-12.0,2024,Forte diminution,0
+z_49.5_-12.0,2025,Forte diminution,0
+z_49.5_-12.0,2026,Forte diminution,0
+z_49.5_-12.0,2027,Forte diminution,0
+z_49.5_-12.0,2028,Forte diminution,0
+z_49.5_-12.0,2029,Forte diminution,0
+z_49.5_-12.0,2030,Forte diminution,0
+z_49.5_-3.0,2023,Stable,2
+z_49.5_-3.0,2024,Stable,2
+z_49.5_-3.0,2025,Stable,2
+z_49.5_-3.0,2026,Stable,2
+z_49.5_-3.0,2027,Stable,2
+z_49.5_-3.0,2028,Stable,2
+z_49.5_-3.0,2029,Stable,2
+z_49.5_-3.0,2030,Stable,2
+z_49.5_-4.5,2023,Forte diminution,0
+z_49.5_-4.5,2024,Forte diminution,0
+z_49.5_-4.5,2025,Forte diminution,0
+z_49.5_-4.5,2026,Forte diminution,0
+z_49.5_-4.5,2027,Forte diminution,0
+z_49.5_-4.5,2028,Forte diminution,0
+z_49.5_-4.5,2029,Forte diminution,0
+z_49.5_-4.5,2030,Forte diminution,0
+z_49.5_-6.0,2023,Forte diminution,0
+z_49.5_-6.0,2024,Forte diminution,0
+z_49.5_-6.0,2025,Forte diminution,0
+z_49.5_-6.0,2026,Forte diminution,0
+z_49.5_-6.0,2027,Forte diminution,0
+z_49.5_-6.0,2028,Forte diminution,0
+z_49.5_-6.0,2029,Forte diminution,0
+z_49.5_-6.0,2030,Forte diminution,0
+z_49.5_-7.5,2023,Forte diminution,0
+z_49.5_-7.5,2024,Forte diminution,0
+z_49.5_-7.5,2025,Forte diminution,0
+z_49.5_-7.5,2026,Forte diminution,0
+z_49.5_-7.5,2027,Forte diminution,0
+z_49.5_-7.5,2028,Forte diminution,0
+z_49.5_-7.5,2029,Forte diminution,0
+z_49.5_-7.5,2030,Forte diminution,0
+z_49.5_-9.0,2023,Faible diminution,1
+z_49.5_-9.0,2024,Faible diminution,1
+z_49.5_-9.0,2025,Faible diminution,1
+z_49.5_-9.0,2026,Faible diminution,1
+z_49.5_-9.0,2027,Faible diminution,1
+z_49.5_-9.0,2028,Faible diminution,1
+z_49.5_-9.0,2029,Faible diminution,1
+z_49.5_-9.0,2030,Faible diminution,1
+z_49.5_0.0,2023,Faible diminution,1
+z_49.5_0.0,2024,Faible diminution,1
+z_49.5_0.0,2025,Faible diminution,1
+z_49.5_0.0,2026,Faible diminution,1
+z_49.5_0.0,2027,Faible diminution,1
+z_49.5_0.0,2028,Faible diminution,1
+z_49.5_0.0,2029,Faible diminution,1
+z_49.5_0.0,2030,Faible diminution,1
+z_49.5_1.5,2023,Forte diminution,0
+z_49.5_1.5,2024,Forte diminution,0
+z_49.5_1.5,2025,Forte diminution,0
+z_49.5_1.5,2026,Forte diminution,0
+z_49.5_1.5,2027,Forte diminution,0
+z_49.5_1.5,2028,Forte diminution,0
+z_49.5_1.5,2029,Forte diminution,0
+z_49.5_1.5,2030,Forte diminution,0
+z_51.0_-1.5,2023,Forte diminution,0
+z_51.0_-1.5,2024,Forte diminution,0
+z_51.0_-1.5,2025,Forte diminution,0
+z_51.0_-1.5,2026,Forte diminution,0
+z_51.0_-1.5,2027,Forte diminution,0
+z_51.0_-1.5,2028,Forte diminution,0
+z_51.0_-1.5,2029,Forte diminution,0
+z_51.0_-1.5,2030,Forte diminution,0
+z_51.0_-10.5,2023,Forte diminution,0
+z_51.0_-10.5,2024,Forte diminution,0
+z_51.0_-10.5,2025,Forte diminution,0
+z_51.0_-10.5,2026,Forte diminution,0
+z_51.0_-10.5,2027,Forte diminution,0
+z_51.0_-10.5,2028,Forte diminution,0
+z_51.0_-10.5,2029,Forte diminution,0
+z_51.0_-10.5,2030,Forte diminution,0
+z_51.0_-12.0,2023,Stable,2
+z_51.0_-12.0,2024,Stable,2
+z_51.0_-12.0,2025,Stable,2
+z_51.0_-12.0,2026,Stable,2
+z_51.0_-12.0,2027,Stable,2
+z_51.0_-12.0,2028,Stable,2
+z_51.0_-12.0,2029,Stable,2
+z_51.0_-12.0,2030,Stable,2
+z_51.0_-13.5,2023,Stable,2
+z_51.0_-13.5,2024,Stable,2
+z_51.0_-13.5,2025,Stable,2
+z_51.0_-13.5,2026,Stable,2
+z_51.0_-13.5,2027,Stable,2
+z_51.0_-13.5,2028,Stable,2
+z_51.0_-13.5,2029,Stable,2
+z_51.0_-13.5,2030,Stable,2
+z_51.0_-15.0,2023,Forte augmentation,4
+z_51.0_-15.0,2024,Forte augmentation,4
+z_51.0_-15.0,2025,Forte augmentation,4
+z_51.0_-15.0,2026,Forte augmentation,4
+z_51.0_-15.0,2027,Forte augmentation,4
+z_51.0_-15.0,2028,Forte augmentation,4
+z_51.0_-15.0,2029,Forte augmentation,4
+z_51.0_-15.0,2030,Forte augmentation,4
+z_51.0_-3.0,2023,Forte diminution,0
+z_51.0_-3.0,2024,Forte diminution,0
+z_51.0_-3.0,2025,Forte diminution,0
+z_51.0_-3.0,2026,Forte diminution,0
+z_51.0_-3.0,2027,Forte diminution,0
+z_51.0_-3.0,2028,Forte diminution,0
+z_51.0_-3.0,2029,Forte diminution,0
+z_51.0_-3.0,2030,Forte diminution,0
+z_51.0_-4.5,2023,Forte diminution,0
+z_51.0_-4.5,2024,Forte diminution,0
+z_51.0_-4.5,2025,Forte diminution,0
+z_51.0_-4.5,2026,Forte diminution,0
+z_51.0_-4.5,2027,Forte diminution,0
+z_51.0_-4.5,2028,Forte diminution,0
+z_51.0_-4.5,2029,Forte diminution,0
+z_51.0_-4.5,2030,Forte diminution,0
+z_51.0_-6.0,2023,Faible diminution,1
+z_51.0_-6.0,2024,Faible diminution,1
+z_51.0_-6.0,2025,Faible diminution,1
+z_51.0_-6.0,2026,Faible diminution,1
+z_51.0_-6.0,2027,Faible diminution,1
+z_51.0_-6.0,2028,Faible diminution,1
+z_51.0_-6.0,2029,Faible diminution,1
+z_51.0_-6.0,2030,Faible diminution,1
+z_51.0_-7.5,2023,Forte diminution,0
+z_51.0_-7.5,2024,Forte diminution,0
+z_51.0_-7.5,2025,Forte diminution,0
+z_51.0_-7.5,2026,Forte diminution,0
+z_51.0_-7.5,2027,Forte diminution,0
+z_51.0_-7.5,2028,Forte diminution,0
+z_51.0_-7.5,2029,Forte diminution,0
+z_51.0_-7.5,2030,Forte diminution,0
+z_51.0_-9.0,2023,Forte diminution,0
+z_51.0_-9.0,2024,Forte diminution,0
+z_51.0_-9.0,2025,Forte diminution,0
+z_51.0_-9.0,2026,Forte diminution,0
+z_51.0_-9.0,2027,Forte diminution,0
+z_51.0_-9.0,2028,Forte diminution,0
+z_51.0_-9.0,2029,Forte diminution,0
+z_51.0_-9.0,2030,Forte diminution,0
+z_51.0_0.0,2023,Forte diminution,0
+z_51.0_0.0,2024,Forte diminution,0
+z_51.0_0.0,2025,Forte diminution,0
+z_51.0_0.0,2026,Forte diminution,0
+z_51.0_0.0,2027,Forte diminution,0
+z_51.0_0.0,2028,Forte diminution,0
+z_51.0_0.0,2029,Forte diminution,0
+z_51.0_0.0,2030,Forte diminution,0
+z_51.0_1.5,2023,Stable,2
+z_51.0_1.5,2024,Stable,2
+z_51.0_1.5,2025,Stable,2
+z_51.0_1.5,2026,Stable,2
+z_51.0_1.5,2027,Stable,2
+z_51.0_1.5,2028,Stable,2
+z_51.0_1.5,2029,Stable,2
+z_51.0_1.5,2030,Stable,2
+z_51.0_3.0,2023,Stable,2
+z_51.0_3.0,2024,Stable,2
+z_51.0_3.0,2025,Stable,2
+z_51.0_3.0,2026,Stable,2
+z_51.0_3.0,2027,Stable,2
+z_51.0_3.0,2028,Stable,2
+z_51.0_3.0,2029,Stable,2
+z_51.0_3.0,2030,Stable,2
+z_51.0_4.5,2023,Forte diminution,0
+z_51.0_4.5,2024,Forte diminution,0
+z_51.0_4.5,2025,Forte diminution,0
+z_51.0_4.5,2026,Forte diminution,0
+z_51.0_4.5,2027,Forte diminution,0
+z_51.0_4.5,2028,Forte diminution,0
+z_51.0_4.5,2029,Forte diminution,0
+z_51.0_4.5,2030,Forte diminution,0
+z_52.5_-1.5,2023,Forte diminution,0
+z_52.5_-1.5,2024,Forte diminution,0
+z_52.5_-1.5,2025,Forte diminution,0
+z_52.5_-1.5,2026,Forte diminution,0
+z_52.5_-1.5,2027,Forte diminution,0
+z_52.5_-1.5,2028,Forte diminution,0
+z_52.5_-1.5,2029,Forte diminution,0
+z_52.5_-1.5,2030,Forte diminution,0
+z_52.5_-10.5,2023,Forte augmentation,4
+z_52.5_-10.5,2024,Forte augmentation,4
+z_52.5_-10.5,2025,Forte augmentation,4
+z_52.5_-10.5,2026,Forte augmentation,4
+z_52.5_-10.5,2027,Forte augmentation,4
+z_52.5_-10.5,2028,Forte augmentation,4
+z_52.5_-10.5,2029,Forte augmentation,4
+z_52.5_-10.5,2030,Forte augmentation,4
+z_52.5_-12.0,2023,Faible diminution,1
+z_52.5_-12.0,2024,Faible diminution,1
+z_52.5_-12.0,2025,Faible diminution,1
+z_52.5_-12.0,2026,Faible diminution,1
+z_52.5_-12.0,2027,Faible diminution,1
+z_52.5_-12.0,2028,Faible diminution,1
+z_52.5_-12.0,2029,Faible diminution,1
+z_52.5_-12.0,2030,Faible diminution,1
+z_52.5_-13.5,2023,Faible diminution,1
+z_52.5_-13.5,2024,Faible diminution,1
+z_52.5_-13.5,2025,Faible diminution,1
+z_52.5_-13.5,2026,Faible diminution,1
+z_52.5_-13.5,2027,Faible diminution,1
+z_52.5_-13.5,2028,Faible diminution,1
+z_52.5_-13.5,2029,Faible diminution,1
+z_52.5_-13.5,2030,Faible diminution,1
+z_52.5_-15.0,2023,Faible augmentation,3
+z_52.5_-15.0,2024,Faible augmentation,3
+z_52.5_-15.0,2025,Faible augmentation,3
+z_52.5_-15.0,2026,Faible augmentation,3
+z_52.5_-15.0,2027,Faible augmentation,3
+z_52.5_-15.0,2028,Faible augmentation,3
+z_52.5_-15.0,2029,Faible augmentation,3
+z_52.5_-15.0,2030,Faible augmentation,3
+z_52.5_-3.0,2023,Forte diminution,0
+z_52.5_-3.0,2024,Forte diminution,0
+z_52.5_-3.0,2025,Forte diminution,0
+z_52.5_-3.0,2026,Forte diminution,0
+z_52.5_-3.0,2027,Forte diminution,0
+z_52.5_-3.0,2028,Forte diminution,0
+z_52.5_-3.0,2029,Forte diminution,0
+z_52.5_-3.0,2030,Forte diminution,0
+z_52.5_-4.5,2023,Forte diminution,0
+z_52.5_-4.5,2024,Forte diminution,0
+z_52.5_-4.5,2025,Forte diminution,0
+z_52.5_-4.5,2026,Forte diminution,0
+z_52.5_-4.5,2027,Forte diminution,0
+z_52.5_-4.5,2028,Forte diminution,0
+z_52.5_-4.5,2029,Forte diminution,0
+z_52.5_-4.5,2030,Forte diminution,0
+z_52.5_-6.0,2023,Forte diminution,0
+z_52.5_-6.0,2024,Forte diminution,0
+z_52.5_-6.0,2025,Forte diminution,0
+z_52.5_-6.0,2026,Forte diminution,0
+z_52.5_-6.0,2027,Forte diminution,0
+z_52.5_-6.0,2028,Forte diminution,0
+z_52.5_-6.0,2029,Forte diminution,0
+z_52.5_-6.0,2030,Forte diminution,0
+z_52.5_-7.5,2023,Forte diminution,0
+z_52.5_-7.5,2024,Forte diminution,0
+z_52.5_-7.5,2025,Forte diminution,0
+z_52.5_-7.5,2026,Forte diminution,0
+z_52.5_-7.5,2027,Forte diminution,0
+z_52.5_-7.5,2028,Forte diminution,0
+z_52.5_-7.5,2029,Forte diminution,0
+z_52.5_-7.5,2030,Forte diminution,0
+z_52.5_0.0,2023,Forte augmentation,4
+z_52.5_0.0,2024,Forte augmentation,4
+z_52.5_0.0,2025,Forte augmentation,4
+z_52.5_0.0,2026,Forte augmentation,4
+z_52.5_0.0,2027,Forte augmentation,4
+z_52.5_0.0,2028,Forte augmentation,4
+z_52.5_0.0,2029,Forte augmentation,4
+z_52.5_0.0,2030,Forte augmentation,4
+z_52.5_1.5,2023,Forte augmentation,4
+z_52.5_1.5,2024,Forte augmentation,4
+z_52.5_1.5,2025,Forte augmentation,4
+z_52.5_1.5,2026,Forte augmentation,4
+z_52.5_1.5,2027,Forte augmentation,4
+z_52.5_1.5,2028,Forte augmentation,4
+z_52.5_1.5,2029,Forte augmentation,4
+z_52.5_1.5,2030,Forte augmentation,4
+z_52.5_10.5,2023,Stable,2
+z_52.5_10.5,2024,Stable,2
+z_52.5_10.5,2025,Stable,2
+z_52.5_10.5,2026,Stable,2
+z_52.5_10.5,2027,Stable,2
+z_52.5_10.5,2028,Stable,2
+z_52.5_10.5,2029,Stable,2
+z_52.5_10.5,2030,Stable,2
+z_52.5_13.5,2023,Forte diminution,0
+z_52.5_13.5,2024,Forte diminution,0
+z_52.5_13.5,2025,Forte diminution,0
+z_52.5_13.5,2026,Forte diminution,0
+z_52.5_13.5,2027,Forte diminution,0
+z_52.5_13.5,2028,Forte diminution,0
+z_52.5_13.5,2029,Forte diminution,0
+z_52.5_13.5,2030,Forte diminution,0
+z_52.5_3.0,2023,Forte diminution,0
+z_52.5_3.0,2024,Forte diminution,0
+z_52.5_3.0,2025,Forte diminution,0
+z_52.5_3.0,2026,Forte diminution,0
+z_52.5_3.0,2027,Forte diminution,0
+z_52.5_3.0,2028,Forte diminution,0
+z_52.5_3.0,2029,Forte diminution,0
+z_52.5_3.0,2030,Forte diminution,0
+z_52.5_4.5,2023,Forte diminution,0
+z_52.5_4.5,2024,Forte diminution,0
+z_52.5_4.5,2025,Forte diminution,0
+z_52.5_4.5,2026,Forte diminution,0
+z_52.5_4.5,2027,Forte diminution,0
+z_52.5_4.5,2028,Forte diminution,0
+z_52.5_4.5,2029,Forte diminution,0
+z_52.5_4.5,2030,Forte diminution,0
+z_52.5_6.0,2023,Faible augmentation,3
+z_52.5_6.0,2024,Faible augmentation,3
+z_52.5_6.0,2025,Faible augmentation,3
+z_52.5_6.0,2026,Faible augmentation,3
+z_52.5_6.0,2027,Faible augmentation,3
+z_52.5_6.0,2028,Faible augmentation,3
+z_52.5_6.0,2029,Faible augmentation,3
+z_52.5_6.0,2030,Faible augmentation,3
+z_52.5_7.5,2023,Faible augmentation,3
+z_52.5_7.5,2024,Faible augmentation,3
+z_52.5_7.5,2025,Faible augmentation,3
+z_52.5_7.5,2026,Faible augmentation,3
+z_52.5_7.5,2027,Faible augmentation,3
+z_52.5_7.5,2028,Faible augmentation,3
+z_52.5_7.5,2029,Faible augmentation,3
+z_52.5_7.5,2030,Faible augmentation,3
+z_52.5_9.0,2023,Faible augmentation,3
+z_52.5_9.0,2024,Faible augmentation,3
+z_52.5_9.0,2025,Faible augmentation,3
+z_52.5_9.0,2026,Faible augmentation,3
+z_52.5_9.0,2027,Faible augmentation,3
+z_52.5_9.0,2028,Faible augmentation,3
+z_52.5_9.0,2029,Faible augmentation,3
+z_52.5_9.0,2030,Faible augmentation,3
+z_54.0_-1.5,2023,Forte diminution,0
+z_54.0_-1.5,2024,Forte diminution,0
+z_54.0_-1.5,2025,Forte diminution,0
+z_54.0_-1.5,2026,Forte diminution,0
+z_54.0_-1.5,2027,Forte diminution,0
+z_54.0_-1.5,2028,Forte diminution,0
+z_54.0_-1.5,2029,Forte diminution,0
+z_54.0_-1.5,2030,Forte diminution,0
+z_54.0_-10.5,2023,Stable,2
+z_54.0_-10.5,2024,Stable,2
+z_54.0_-10.5,2025,Stable,2
+z_54.0_-10.5,2026,Stable,2
+z_54.0_-10.5,2027,Stable,2
+z_54.0_-10.5,2028,Stable,2
+z_54.0_-10.5,2029,Stable,2
+z_54.0_-10.5,2030,Stable,2
+z_54.0_-132.0,2023,Forte diminution,0
+z_54.0_-132.0,2024,Forte diminution,0
+z_54.0_-132.0,2025,Forte diminution,0
+z_54.0_-132.0,2026,Forte diminution,0
+z_54.0_-132.0,2027,Forte diminution,0
+z_54.0_-132.0,2028,Forte diminution,0
+z_54.0_-132.0,2029,Forte diminution,0
+z_54.0_-132.0,2030,Forte diminution,0
+z_54.0_-3.0,2023,Forte diminution,0
+z_54.0_-3.0,2024,Forte diminution,0
+z_54.0_-3.0,2025,Forte diminution,0
+z_54.0_-3.0,2026,Forte diminution,0
+z_54.0_-3.0,2027,Forte diminution,0
+z_54.0_-3.0,2028,Forte diminution,0
+z_54.0_-3.0,2029,Forte diminution,0
+z_54.0_-3.0,2030,Forte diminution,0
+z_54.0_-4.5,2023,Forte diminution,0
+z_54.0_-4.5,2024,Forte diminution,0
+z_54.0_-4.5,2025,Forte diminution,0
+z_54.0_-4.5,2026,Forte diminution,0
+z_54.0_-4.5,2027,Forte diminution,0
+z_54.0_-4.5,2028,Forte diminution,0
+z_54.0_-4.5,2029,Forte diminution,0
+z_54.0_-4.5,2030,Forte diminution,0
+z_54.0_-6.0,2023,Forte diminution,0
+z_54.0_-6.0,2024,Forte diminution,0
+z_54.0_-6.0,2025,Forte diminution,0
+z_54.0_-6.0,2026,Forte diminution,0
+z_54.0_-6.0,2027,Forte diminution,0
+z_54.0_-6.0,2028,Forte diminution,0
+z_54.0_-6.0,2029,Forte diminution,0
+z_54.0_-6.0,2030,Forte diminution,0
+z_54.0_-7.5,2023,Forte augmentation,4
+z_54.0_-7.5,2024,Forte augmentation,4
+z_54.0_-7.5,2025,Forte augmentation,4
+z_54.0_-7.5,2026,Forte augmentation,4
+z_54.0_-7.5,2027,Forte augmentation,4
+z_54.0_-7.5,2028,Forte augmentation,4
+z_54.0_-7.5,2029,Forte augmentation,4
+z_54.0_-7.5,2030,Forte augmentation,4
+z_54.0_-9.0,2023,Faible diminution,1
+z_54.0_-9.0,2024,Faible diminution,1
+z_54.0_-9.0,2025,Faible diminution,1
+z_54.0_-9.0,2026,Faible diminution,1
+z_54.0_-9.0,2027,Faible diminution,1
+z_54.0_-9.0,2028,Faible diminution,1
+z_54.0_-9.0,2029,Faible diminution,1
+z_54.0_-9.0,2030,Faible diminution,1
+z_54.0_0.0,2023,Forte diminution,0
+z_54.0_0.0,2024,Forte diminution,0
+z_54.0_0.0,2025,Forte diminution,0
+z_54.0_0.0,2026,Forte diminution,0
+z_54.0_0.0,2027,Forte diminution,0
+z_54.0_0.0,2028,Forte diminution,0
+z_54.0_0.0,2029,Forte diminution,0
+z_54.0_0.0,2030,Forte diminution,0
+z_54.0_1.5,2023,Faible diminution,1
+z_54.0_1.5,2024,Faible diminution,1
+z_54.0_1.5,2025,Faible diminution,1
+z_54.0_1.5,2026,Faible diminution,1
+z_54.0_1.5,2027,Faible diminution,1
+z_54.0_1.5,2028,Faible diminution,1
+z_54.0_1.5,2029,Faible diminution,1
+z_54.0_1.5,2030,Faible diminution,1
+z_54.0_10.5,2023,Faible augmentation,3
+z_54.0_10.5,2024,Faible augmentation,3
+z_54.0_10.5,2025,Faible augmentation,3
+z_54.0_10.5,2026,Faible augmentation,3
+z_54.0_10.5,2027,Faible augmentation,3
+z_54.0_10.5,2028,Faible augmentation,3
+z_54.0_10.5,2029,Faible augmentation,3
+z_54.0_10.5,2030,Faible augmentation,3
+z_54.0_12.0,2023,Forte diminution,0
+z_54.0_12.0,2024,Forte diminution,0
+z_54.0_12.0,2025,Forte diminution,0
+z_54.0_12.0,2026,Forte diminution,0
+z_54.0_12.0,2027,Forte diminution,0
+z_54.0_12.0,2028,Forte diminution,0
+z_54.0_12.0,2029,Forte diminution,0
+z_54.0_12.0,2030,Forte diminution,0
+z_54.0_13.5,2023,Forte diminution,0
+z_54.0_13.5,2024,Forte diminution,0
+z_54.0_13.5,2025,Forte diminution,0
+z_54.0_13.5,2026,Forte diminution,0
+z_54.0_13.5,2027,Forte diminution,0
+z_54.0_13.5,2028,Forte diminution,0
+z_54.0_13.5,2029,Forte diminution,0
+z_54.0_13.5,2030,Forte diminution,0
+z_54.0_15.0,2023,Forte augmentation,4
+z_54.0_15.0,2024,Forte augmentation,4
+z_54.0_15.0,2025,Forte augmentation,4
+z_54.0_15.0,2026,Forte augmentation,4
+z_54.0_15.0,2027,Forte augmentation,4
+z_54.0_15.0,2028,Forte augmentation,4
+z_54.0_15.0,2029,Forte augmentation,4
+z_54.0_15.0,2030,Forte augmentation,4
+z_54.0_16.5,2023,Faible diminution,1
+z_54.0_16.5,2024,Faible diminution,1
+z_54.0_16.5,2025,Faible diminution,1
+z_54.0_16.5,2026,Faible diminution,1
+z_54.0_16.5,2027,Faible diminution,1
+z_54.0_16.5,2028,Faible diminution,1
+z_54.0_16.5,2029,Faible diminution,1
+z_54.0_16.5,2030,Faible diminution,1
+z_54.0_18.0,2023,Forte diminution,0
+z_54.0_18.0,2024,Forte diminution,0
+z_54.0_18.0,2025,Forte diminution,0
+z_54.0_18.0,2026,Forte diminution,0
+z_54.0_18.0,2027,Forte diminution,0
+z_54.0_18.0,2028,Forte diminution,0
+z_54.0_18.0,2029,Forte diminution,0
+z_54.0_18.0,2030,Forte diminution,0
+z_54.0_19.5,2023,Forte diminution,0
+z_54.0_19.5,2024,Forte diminution,0
+z_54.0_19.5,2025,Forte diminution,0
+z_54.0_19.5,2026,Forte diminution,0
+z_54.0_19.5,2027,Forte diminution,0
+z_54.0_19.5,2028,Forte diminution,0
+z_54.0_19.5,2029,Forte diminution,0
+z_54.0_19.5,2030,Forte diminution,0
+z_54.0_3.0,2023,Forte diminution,0
+z_54.0_3.0,2024,Forte diminution,0
+z_54.0_3.0,2025,Forte diminution,0
+z_54.0_3.0,2026,Forte diminution,0
+z_54.0_3.0,2027,Forte diminution,0
+z_54.0_3.0,2028,Forte diminution,0
+z_54.0_3.0,2029,Forte diminution,0
+z_54.0_3.0,2030,Forte diminution,0
+z_54.0_4.5,2023,Faible diminution,1
+z_54.0_4.5,2024,Faible diminution,1
+z_54.0_4.5,2025,Faible diminution,1
+z_54.0_4.5,2026,Faible diminution,1
+z_54.0_4.5,2027,Faible diminution,1
+z_54.0_4.5,2028,Faible diminution,1
+z_54.0_4.5,2029,Faible diminution,1
+z_54.0_4.5,2030,Faible diminution,1
+z_54.0_6.0,2023,Forte diminution,0
+z_54.0_6.0,2024,Forte diminution,0
+z_54.0_6.0,2025,Forte diminution,0
+z_54.0_6.0,2026,Forte diminution,0
+z_54.0_6.0,2027,Forte diminution,0
+z_54.0_6.0,2028,Forte diminution,0
+z_54.0_6.0,2029,Forte diminution,0
+z_54.0_6.0,2030,Forte diminution,0
+z_54.0_7.5,2023,Faible diminution,1
+z_54.0_7.5,2024,Faible diminution,1
+z_54.0_7.5,2025,Faible diminution,1
+z_54.0_7.5,2026,Faible diminution,1
+z_54.0_7.5,2027,Faible diminution,1
+z_54.0_7.5,2028,Faible diminution,1
+z_54.0_7.5,2029,Faible diminution,1
+z_54.0_7.5,2030,Faible diminution,1
+z_54.0_9.0,2023,Faible augmentation,3
+z_54.0_9.0,2024,Faible augmentation,3
+z_54.0_9.0,2025,Faible augmentation,3
+z_54.0_9.0,2026,Faible augmentation,3
+z_54.0_9.0,2027,Faible augmentation,3
+z_54.0_9.0,2028,Faible augmentation,3
+z_54.0_9.0,2029,Faible augmentation,3
+z_54.0_9.0,2030,Faible augmentation,3
+z_55.5_-1.5,2023,Forte diminution,0
+z_55.5_-1.5,2024,Forte diminution,0
+z_55.5_-1.5,2025,Forte diminution,0
+z_55.5_-1.5,2026,Forte diminution,0
+z_55.5_-1.5,2027,Forte diminution,0
+z_55.5_-1.5,2028,Forte diminution,0
+z_55.5_-1.5,2029,Forte diminution,0
+z_55.5_-1.5,2030,Forte diminution,0
+z_55.5_-10.5,2023,Stable,2
+z_55.5_-10.5,2024,Stable,2
+z_55.5_-10.5,2025,Stable,2
+z_55.5_-10.5,2026,Stable,2
+z_55.5_-10.5,2027,Stable,2
+z_55.5_-10.5,2028,Stable,2
+z_55.5_-10.5,2029,Stable,2
+z_55.5_-10.5,2030,Stable,2
+z_55.5_-3.0,2023,Forte diminution,0
+z_55.5_-3.0,2024,Forte diminution,0
+z_55.5_-3.0,2025,Forte diminution,0
+z_55.5_-3.0,2026,Forte diminution,0
+z_55.5_-3.0,2027,Forte diminution,0
+z_55.5_-3.0,2028,Forte diminution,0
+z_55.5_-3.0,2029,Forte diminution,0
+z_55.5_-3.0,2030,Forte diminution,0
+z_55.5_-4.5,2023,Forte diminution,0
+z_55.5_-4.5,2024,Forte diminution,0
+z_55.5_-4.5,2025,Forte diminution,0
+z_55.5_-4.5,2026,Forte diminution,0
+z_55.5_-4.5,2027,Forte diminution,0
+z_55.5_-4.5,2028,Forte diminution,0
+z_55.5_-4.5,2029,Forte diminution,0
+z_55.5_-4.5,2030,Forte diminution,0
+z_55.5_-6.0,2023,Forte diminution,0
+z_55.5_-6.0,2024,Forte diminution,0
+z_55.5_-6.0,2025,Forte diminution,0
+z_55.5_-6.0,2026,Forte diminution,0
+z_55.5_-6.0,2027,Forte diminution,0
+z_55.5_-6.0,2028,Forte diminution,0
+z_55.5_-6.0,2029,Forte diminution,0
+z_55.5_-6.0,2030,Forte diminution,0
+z_55.5_-7.5,2023,Forte diminution,0
+z_55.5_-7.5,2024,Forte diminution,0
+z_55.5_-7.5,2025,Forte diminution,0
+z_55.5_-7.5,2026,Forte diminution,0
+z_55.5_-7.5,2027,Forte diminution,0
+z_55.5_-7.5,2028,Forte diminution,0
+z_55.5_-7.5,2029,Forte diminution,0
+z_55.5_-7.5,2030,Forte diminution,0
+z_55.5_0.0,2023,Stable,2
+z_55.5_0.0,2024,Stable,2
+z_55.5_0.0,2025,Stable,2
+z_55.5_0.0,2026,Stable,2
+z_55.5_0.0,2027,Stable,2
+z_55.5_0.0,2028,Stable,2
+z_55.5_0.0,2029,Stable,2
+z_55.5_0.0,2030,Stable,2
+z_55.5_1.5,2023,Stable,2
+z_55.5_1.5,2024,Stable,2
+z_55.5_1.5,2025,Stable,2
+z_55.5_1.5,2026,Stable,2
+z_55.5_1.5,2027,Stable,2
+z_55.5_1.5,2028,Stable,2
+z_55.5_1.5,2029,Stable,2
+z_55.5_1.5,2030,Stable,2
+z_55.5_10.5,2023,Forte diminution,0
+z_55.5_10.5,2024,Forte diminution,0
+z_55.5_10.5,2025,Forte diminution,0
+z_55.5_10.5,2026,Forte diminution,0
+z_55.5_10.5,2027,Forte diminution,0
+z_55.5_10.5,2028,Forte diminution,0
+z_55.5_10.5,2029,Forte diminution,0
+z_55.5_10.5,2030,Forte diminution,0
+z_55.5_12.0,2023,Forte augmentation,4
+z_55.5_12.0,2024,Forte augmentation,4
+z_55.5_12.0,2025,Forte augmentation,4
+z_55.5_12.0,2026,Forte augmentation,4
+z_55.5_12.0,2027,Forte augmentation,4
+z_55.5_12.0,2028,Forte augmentation,4
+z_55.5_12.0,2029,Forte augmentation,4
+z_55.5_12.0,2030,Forte augmentation,4
+z_55.5_13.5,2023,Forte diminution,0
+z_55.5_13.5,2024,Forte diminution,0
+z_55.5_13.5,2025,Forte diminution,0
+z_55.5_13.5,2026,Forte diminution,0
+z_55.5_13.5,2027,Forte diminution,0
+z_55.5_13.5,2028,Forte diminution,0
+z_55.5_13.5,2029,Forte diminution,0
+z_55.5_13.5,2030,Forte diminution,0
+z_55.5_15.0,2023,Forte diminution,0
+z_55.5_15.0,2024,Forte diminution,0
+z_55.5_15.0,2025,Forte diminution,0
+z_55.5_15.0,2026,Forte diminution,0
+z_55.5_15.0,2027,Forte diminution,0
+z_55.5_15.0,2028,Forte diminution,0
+z_55.5_15.0,2029,Forte diminution,0
+z_55.5_15.0,2030,Forte diminution,0
+z_55.5_16.5,2023,Forte diminution,0
+z_55.5_16.5,2024,Forte diminution,0
+z_55.5_16.5,2025,Forte diminution,0
+z_55.5_16.5,2026,Forte diminution,0
+z_55.5_16.5,2027,Forte diminution,0
+z_55.5_16.5,2028,Forte diminution,0
+z_55.5_16.5,2029,Forte diminution,0
+z_55.5_16.5,2030,Forte diminution,0
+z_55.5_18.0,2023,Forte augmentation,4
+z_55.5_18.0,2024,Forte augmentation,4
+z_55.5_18.0,2025,Forte augmentation,4
+z_55.5_18.0,2026,Forte augmentation,4
+z_55.5_18.0,2027,Forte augmentation,4
+z_55.5_18.0,2028,Forte augmentation,4
+z_55.5_18.0,2029,Forte augmentation,4
+z_55.5_18.0,2030,Forte augmentation,4
+z_55.5_19.5,2023,Forte diminution,0
+z_55.5_19.5,2024,Forte diminution,0
+z_55.5_19.5,2025,Forte diminution,0
+z_55.5_19.5,2026,Forte diminution,0
+z_55.5_19.5,2027,Forte diminution,0
+z_55.5_19.5,2028,Forte diminution,0
+z_55.5_19.5,2029,Forte diminution,0
+z_55.5_19.5,2030,Forte diminution,0
+z_55.5_21.0,2023,Forte diminution,0
+z_55.5_21.0,2024,Forte diminution,0
+z_55.5_21.0,2025,Forte diminution,0
+z_55.5_21.0,2026,Forte diminution,0
+z_55.5_21.0,2027,Forte diminution,0
+z_55.5_21.0,2028,Forte diminution,0
+z_55.5_21.0,2029,Forte diminution,0
+z_55.5_21.0,2030,Forte diminution,0
+z_55.5_3.0,2023,Faible diminution,1
+z_55.5_3.0,2024,Faible diminution,1
+z_55.5_3.0,2025,Faible diminution,1
+z_55.5_3.0,2026,Faible diminution,1
+z_55.5_3.0,2027,Faible diminution,1
+z_55.5_3.0,2028,Faible diminution,1
+z_55.5_3.0,2029,Faible diminution,1
+z_55.5_3.0,2030,Faible diminution,1
+z_55.5_4.5,2023,Faible diminution,1
+z_55.5_4.5,2024,Faible diminution,1
+z_55.5_4.5,2025,Faible diminution,1
+z_55.5_4.5,2026,Faible diminution,1
+z_55.5_4.5,2027,Faible diminution,1
+z_55.5_4.5,2028,Faible diminution,1
+z_55.5_4.5,2029,Faible diminution,1
+z_55.5_4.5,2030,Faible diminution,1
+z_55.5_6.0,2023,Forte diminution,0
+z_55.5_6.0,2024,Forte diminution,0
+z_55.5_6.0,2025,Forte diminution,0
+z_55.5_6.0,2026,Forte diminution,0
+z_55.5_6.0,2027,Forte diminution,0
+z_55.5_6.0,2028,Forte diminution,0
+z_55.5_6.0,2029,Forte diminution,0
+z_55.5_6.0,2030,Forte diminution,0
+z_55.5_7.5,2023,Forte diminution,0
+z_55.5_7.5,2024,Forte diminution,0
+z_55.5_7.5,2025,Forte diminution,0
+z_55.5_7.5,2026,Forte diminution,0
+z_55.5_7.5,2027,Forte diminution,0
+z_55.5_7.5,2028,Forte diminution,0
+z_55.5_7.5,2029,Forte diminution,0
+z_55.5_7.5,2030,Forte diminution,0
+z_55.5_9.0,2023,Stable,2
+z_55.5_9.0,2024,Stable,2
+z_55.5_9.0,2025,Stable,2
+z_55.5_9.0,2026,Stable,2
+z_55.5_9.0,2027,Stable,2
+z_55.5_9.0,2028,Stable,2
+z_55.5_9.0,2029,Stable,2
+z_55.5_9.0,2030,Stable,2
+z_57.0_-1.5,2023,Forte diminution,0
+z_57.0_-1.5,2024,Forte diminution,0
+z_57.0_-1.5,2025,Forte diminution,0
+z_57.0_-1.5,2026,Forte diminution,0
+z_57.0_-1.5,2027,Forte diminution,0
+z_57.0_-1.5,2028,Forte diminution,0
+z_57.0_-1.5,2029,Forte diminution,0
+z_57.0_-1.5,2030,Forte diminution,0
+z_57.0_-10.5,2023,Faible diminution,1
+z_57.0_-10.5,2024,Faible diminution,1
+z_57.0_-10.5,2025,Faible diminution,1
+z_57.0_-10.5,2026,Faible diminution,1
+z_57.0_-10.5,2027,Faible diminution,1
+z_57.0_-10.5,2028,Faible diminution,1
+z_57.0_-10.5,2029,Faible diminution,1
+z_57.0_-10.5,2030,Faible diminution,1
+z_57.0_-135.0,2023,Faible augmentation,3
+z_57.0_-135.0,2024,Faible augmentation,3
+z_57.0_-135.0,2025,Faible augmentation,3
+z_57.0_-135.0,2026,Faible augmentation,3
+z_57.0_-135.0,2027,Faible augmentation,3
+z_57.0_-135.0,2028,Faible augmentation,3
+z_57.0_-135.0,2029,Faible augmentation,3
+z_57.0_-135.0,2030,Faible augmentation,3
+z_57.0_-136.5,2023,Forte augmentation,4
+z_57.0_-136.5,2024,Forte augmentation,4
+z_57.0_-136.5,2025,Forte augmentation,4
+z_57.0_-136.5,2026,Forte augmentation,4
+z_57.0_-136.5,2027,Forte augmentation,4
+z_57.0_-136.5,2028,Forte augmentation,4
+z_57.0_-136.5,2029,Forte augmentation,4
+z_57.0_-136.5,2030,Forte augmentation,4
+z_57.0_-15.0,2023,Faible diminution,1
+z_57.0_-15.0,2024,Faible diminution,1
+z_57.0_-15.0,2025,Faible diminution,1
+z_57.0_-15.0,2026,Faible diminution,1
+z_57.0_-15.0,2027,Faible diminution,1
+z_57.0_-15.0,2028,Faible diminution,1
+z_57.0_-15.0,2029,Faible diminution,1
+z_57.0_-15.0,2030,Faible diminution,1
+z_57.0_-3.0,2023,Forte diminution,0
+z_57.0_-3.0,2024,Forte diminution,0
+z_57.0_-3.0,2025,Forte diminution,0
+z_57.0_-3.0,2026,Forte diminution,0
+z_57.0_-3.0,2027,Forte diminution,0
+z_57.0_-3.0,2028,Forte diminution,0
+z_57.0_-3.0,2029,Forte diminution,0
+z_57.0_-3.0,2030,Forte diminution,0
+z_57.0_-4.5,2023,Forte diminution,0
+z_57.0_-4.5,2024,Forte diminution,0
+z_57.0_-4.5,2025,Forte diminution,0
+z_57.0_-4.5,2026,Forte diminution,0
+z_57.0_-4.5,2027,Forte diminution,0
+z_57.0_-4.5,2028,Forte diminution,0
+z_57.0_-4.5,2029,Forte diminution,0
+z_57.0_-4.5,2030,Forte diminution,0
+z_57.0_-6.0,2023,Forte diminution,0
+z_57.0_-6.0,2024,Forte diminution,0
+z_57.0_-6.0,2025,Forte diminution,0
+z_57.0_-6.0,2026,Forte diminution,0
+z_57.0_-6.0,2027,Forte diminution,0
+z_57.0_-6.0,2028,Forte diminution,0
+z_57.0_-6.0,2029,Forte diminution,0
+z_57.0_-6.0,2030,Forte diminution,0
+z_57.0_-7.5,2023,Forte diminution,0
+z_57.0_-7.5,2024,Forte diminution,0
+z_57.0_-7.5,2025,Forte diminution,0
+z_57.0_-7.5,2026,Forte diminution,0
+z_57.0_-7.5,2027,Forte diminution,0
+z_57.0_-7.5,2028,Forte diminution,0
+z_57.0_-7.5,2029,Forte diminution,0
+z_57.0_-7.5,2030,Forte diminution,0
+z_57.0_-9.0,2023,Faible diminution,1
+z_57.0_-9.0,2024,Faible diminution,1
+z_57.0_-9.0,2025,Faible diminution,1
+z_57.0_-9.0,2026,Faible diminution,1
+z_57.0_-9.0,2027,Faible diminution,1
+z_57.0_-9.0,2028,Faible diminution,1
+z_57.0_-9.0,2029,Faible diminution,1
+z_57.0_-9.0,2030,Faible diminution,1
+z_57.0_0.0,2023,Faible augmentation,3
+z_57.0_0.0,2024,Faible augmentation,3
+z_57.0_0.0,2025,Faible augmentation,3
+z_57.0_0.0,2026,Faible augmentation,3
+z_57.0_0.0,2027,Faible augmentation,3
+z_57.0_0.0,2028,Faible augmentation,3
+z_57.0_0.0,2029,Faible augmentation,3
+z_57.0_0.0,2030,Faible augmentation,3
+z_57.0_1.5,2023,Faible diminution,1
+z_57.0_1.5,2024,Faible diminution,1
+z_57.0_1.5,2025,Faible diminution,1
+z_57.0_1.5,2026,Faible diminution,1
+z_57.0_1.5,2027,Faible diminution,1
+z_57.0_1.5,2028,Faible diminution,1
+z_57.0_1.5,2029,Faible diminution,1
+z_57.0_1.5,2030,Faible diminution,1
+z_57.0_10.5,2023,Stable,2
+z_57.0_10.5,2024,Stable,2
+z_57.0_10.5,2025,Stable,2
+z_57.0_10.5,2026,Stable,2
+z_57.0_10.5,2027,Stable,2
+z_57.0_10.5,2028,Stable,2
+z_57.0_10.5,2029,Stable,2
+z_57.0_10.5,2030,Stable,2
+z_57.0_12.0,2023,Forte diminution,0
+z_57.0_12.0,2024,Forte diminution,0
+z_57.0_12.0,2025,Forte diminution,0
+z_57.0_12.0,2026,Forte diminution,0
+z_57.0_12.0,2027,Forte diminution,0
+z_57.0_12.0,2028,Forte diminution,0
+z_57.0_12.0,2029,Forte diminution,0
+z_57.0_12.0,2030,Forte diminution,0
+z_57.0_15.0,2023,Forte diminution,0
+z_57.0_15.0,2024,Forte diminution,0
+z_57.0_15.0,2025,Forte diminution,0
+z_57.0_15.0,2026,Forte diminution,0
+z_57.0_15.0,2027,Forte diminution,0
+z_57.0_15.0,2028,Forte diminution,0
+z_57.0_15.0,2029,Forte diminution,0
+z_57.0_15.0,2030,Forte diminution,0
+z_57.0_16.5,2023,Forte augmentation,4
+z_57.0_16.5,2024,Forte augmentation,4
+z_57.0_16.5,2025,Forte augmentation,4
+z_57.0_16.5,2026,Forte augmentation,4
+z_57.0_16.5,2027,Forte augmentation,4
+z_57.0_16.5,2028,Forte augmentation,4
+z_57.0_16.5,2029,Forte augmentation,4
+z_57.0_16.5,2030,Forte augmentation,4
+z_57.0_18.0,2023,Forte diminution,0
+z_57.0_18.0,2024,Forte diminution,0
+z_57.0_18.0,2025,Forte diminution,0
+z_57.0_18.0,2026,Forte diminution,0
+z_57.0_18.0,2027,Forte diminution,0
+z_57.0_18.0,2028,Forte diminution,0
+z_57.0_18.0,2029,Forte diminution,0
+z_57.0_18.0,2030,Forte diminution,0
+z_57.0_19.5,2023,Forte augmentation,4
+z_57.0_19.5,2024,Forte augmentation,4
+z_57.0_19.5,2025,Forte augmentation,4
+z_57.0_19.5,2026,Forte augmentation,4
+z_57.0_19.5,2027,Forte augmentation,4
+z_57.0_19.5,2028,Forte augmentation,4
+z_57.0_19.5,2029,Forte augmentation,4
+z_57.0_19.5,2030,Forte augmentation,4
+z_57.0_21.0,2023,Forte diminution,0
+z_57.0_21.0,2024,Forte diminution,0
+z_57.0_21.0,2025,Forte diminution,0
+z_57.0_21.0,2026,Forte diminution,0
+z_57.0_21.0,2027,Forte diminution,0
+z_57.0_21.0,2028,Forte diminution,0
+z_57.0_21.0,2029,Forte diminution,0
+z_57.0_21.0,2030,Forte diminution,0
+z_57.0_22.5,2023,Forte diminution,0
+z_57.0_22.5,2024,Forte diminution,0
+z_57.0_22.5,2025,Forte diminution,0
+z_57.0_22.5,2026,Forte diminution,0
+z_57.0_22.5,2027,Forte diminution,0
+z_57.0_22.5,2028,Forte diminution,0
+z_57.0_22.5,2029,Forte diminution,0
+z_57.0_22.5,2030,Forte diminution,0
+z_57.0_24.0,2023,Forte augmentation,4
+z_57.0_24.0,2024,Forte augmentation,4
+z_57.0_24.0,2025,Forte augmentation,4
+z_57.0_24.0,2026,Forte augmentation,4
+z_57.0_24.0,2027,Forte augmentation,4
+z_57.0_24.0,2028,Forte augmentation,4
+z_57.0_24.0,2029,Forte augmentation,4
+z_57.0_24.0,2030,Forte augmentation,4
+z_57.0_3.0,2023,Stable,2
+z_57.0_3.0,2024,Stable,2
+z_57.0_3.0,2025,Stable,2
+z_57.0_3.0,2026,Stable,2
+z_57.0_3.0,2027,Stable,2
+z_57.0_3.0,2028,Stable,2
+z_57.0_3.0,2029,Stable,2
+z_57.0_3.0,2030,Stable,2
+z_57.0_4.5,2023,Forte diminution,0
+z_57.0_4.5,2024,Forte diminution,0
+z_57.0_4.5,2025,Forte diminution,0
+z_57.0_4.5,2026,Forte diminution,0
+z_57.0_4.5,2027,Forte diminution,0
+z_57.0_4.5,2028,Forte diminution,0
+z_57.0_4.5,2029,Forte diminution,0
+z_57.0_4.5,2030,Forte diminution,0
+z_57.0_6.0,2023,Forte diminution,0
+z_57.0_6.0,2024,Forte diminution,0
+z_57.0_6.0,2025,Forte diminution,0
+z_57.0_6.0,2026,Forte diminution,0
+z_57.0_6.0,2027,Forte diminution,0
+z_57.0_6.0,2028,Forte diminution,0
+z_57.0_6.0,2029,Forte diminution,0
+z_57.0_6.0,2030,Forte diminution,0
+z_57.0_7.5,2023,Forte diminution,0
+z_57.0_7.5,2024,Forte diminution,0
+z_57.0_7.5,2025,Forte diminution,0
+z_57.0_7.5,2026,Forte diminution,0
+z_57.0_7.5,2027,Forte diminution,0
+z_57.0_7.5,2028,Forte diminution,0
+z_57.0_7.5,2029,Forte diminution,0
+z_57.0_7.5,2030,Forte diminution,0
+z_57.0_9.0,2023,Forte diminution,0
+z_57.0_9.0,2024,Forte diminution,0
+z_57.0_9.0,2025,Forte diminution,0
+z_57.0_9.0,2026,Forte diminution,0
+z_57.0_9.0,2027,Forte diminution,0
+z_57.0_9.0,2028,Forte diminution,0
+z_57.0_9.0,2029,Forte diminution,0
+z_57.0_9.0,2030,Forte diminution,0
+z_58.5_-1.5,2023,Forte diminution,0
+z_58.5_-1.5,2024,Forte diminution,0
+z_58.5_-1.5,2025,Forte diminution,0
+z_58.5_-1.5,2026,Forte diminution,0
+z_58.5_-1.5,2027,Forte diminution,0
+z_58.5_-1.5,2028,Forte diminution,0
+z_58.5_-1.5,2029,Forte diminution,0
+z_58.5_-1.5,2030,Forte diminution,0
+z_58.5_-3.0,2023,Forte diminution,0
+z_58.5_-3.0,2024,Forte diminution,0
+z_58.5_-3.0,2025,Forte diminution,0
+z_58.5_-3.0,2026,Forte diminution,0
+z_58.5_-3.0,2027,Forte diminution,0
+z_58.5_-3.0,2028,Forte diminution,0
+z_58.5_-3.0,2029,Forte diminution,0
+z_58.5_-3.0,2030,Forte diminution,0
+z_58.5_-4.5,2023,Forte diminution,0
+z_58.5_-4.5,2024,Forte diminution,0
+z_58.5_-4.5,2025,Forte diminution,0
+z_58.5_-4.5,2026,Forte diminution,0
+z_58.5_-4.5,2027,Forte diminution,0
+z_58.5_-4.5,2028,Forte diminution,0
+z_58.5_-4.5,2029,Forte diminution,0
+z_58.5_-4.5,2030,Forte diminution,0
+z_58.5_-6.0,2023,Forte diminution,0
+z_58.5_-6.0,2024,Forte diminution,0
+z_58.5_-6.0,2025,Forte diminution,0
+z_58.5_-6.0,2026,Forte diminution,0
+z_58.5_-6.0,2027,Forte diminution,0
+z_58.5_-6.0,2028,Forte diminution,0
+z_58.5_-6.0,2029,Forte diminution,0
+z_58.5_-6.0,2030,Forte diminution,0
+z_58.5_-7.5,2023,Forte diminution,0
+z_58.5_-7.5,2024,Forte diminution,0
+z_58.5_-7.5,2025,Forte diminution,0
+z_58.5_-7.5,2026,Forte diminution,0
+z_58.5_-7.5,2027,Forte diminution,0
+z_58.5_-7.5,2028,Forte diminution,0
+z_58.5_-7.5,2029,Forte diminution,0
+z_58.5_-7.5,2030,Forte diminution,0
+z_58.5_-9.0,2023,Stable,2
+z_58.5_-9.0,2024,Stable,2
+z_58.5_-9.0,2025,Stable,2
+z_58.5_-9.0,2026,Stable,2
+z_58.5_-9.0,2027,Stable,2
+z_58.5_-9.0,2028,Stable,2
+z_58.5_-9.0,2029,Stable,2
+z_58.5_-9.0,2030,Stable,2
+z_58.5_0.0,2023,Faible diminution,1
+z_58.5_0.0,2024,Faible diminution,1
+z_58.5_0.0,2025,Faible diminution,1
+z_58.5_0.0,2026,Faible diminution,1
+z_58.5_0.0,2027,Faible diminution,1
+z_58.5_0.0,2028,Faible diminution,1
+z_58.5_0.0,2029,Faible diminution,1
+z_58.5_0.0,2030,Faible diminution,1
+z_58.5_1.5,2023,Faible diminution,1
+z_58.5_1.5,2024,Faible diminution,1
+z_58.5_1.5,2025,Faible diminution,1
+z_58.5_1.5,2026,Faible diminution,1
+z_58.5_1.5,2027,Faible diminution,1
+z_58.5_1.5,2028,Faible diminution,1
+z_58.5_1.5,2029,Faible diminution,1
+z_58.5_1.5,2030,Faible diminution,1
+z_58.5_10.5,2023,Forte diminution,0
+z_58.5_10.5,2024,Forte diminution,0
+z_58.5_10.5,2025,Forte diminution,0
+z_58.5_10.5,2026,Forte diminution,0
+z_58.5_10.5,2027,Forte diminution,0
+z_58.5_10.5,2028,Forte diminution,0
+z_58.5_10.5,2029,Forte diminution,0
+z_58.5_10.5,2030,Forte diminution,0
+z_58.5_12.0,2023,Forte diminution,0
+z_58.5_12.0,2024,Forte diminution,0
+z_58.5_12.0,2025,Forte diminution,0
+z_58.5_12.0,2026,Forte diminution,0
+z_58.5_12.0,2027,Forte diminution,0
+z_58.5_12.0,2028,Forte diminution,0
+z_58.5_12.0,2029,Forte diminution,0
+z_58.5_12.0,2030,Forte diminution,0
+z_58.5_13.5,2023,Forte augmentation,4
+z_58.5_13.5,2024,Forte augmentation,4
+z_58.5_13.5,2025,Forte augmentation,4
+z_58.5_13.5,2026,Forte augmentation,4
+z_58.5_13.5,2027,Forte augmentation,4
+z_58.5_13.5,2028,Forte augmentation,4
+z_58.5_13.5,2029,Forte augmentation,4
+z_58.5_13.5,2030,Forte augmentation,4
+z_58.5_15.0,2023,Faible diminution,1
+z_58.5_15.0,2024,Faible diminution,1
+z_58.5_15.0,2025,Faible diminution,1
+z_58.5_15.0,2026,Faible diminution,1
+z_58.5_15.0,2027,Faible diminution,1
+z_58.5_15.0,2028,Faible diminution,1
+z_58.5_15.0,2029,Faible diminution,1
+z_58.5_15.0,2030,Faible diminution,1
+z_58.5_16.5,2023,Forte augmentation,4
+z_58.5_16.5,2024,Forte augmentation,4
+z_58.5_16.5,2025,Forte augmentation,4
+z_58.5_16.5,2026,Forte augmentation,4
+z_58.5_16.5,2027,Forte augmentation,4
+z_58.5_16.5,2028,Forte augmentation,4
+z_58.5_16.5,2029,Forte augmentation,4
+z_58.5_16.5,2030,Forte augmentation,4
+z_58.5_18.0,2023,Faible augmentation,3
+z_58.5_18.0,2024,Faible augmentation,3
+z_58.5_18.0,2025,Faible augmentation,3
+z_58.5_18.0,2026,Faible augmentation,3
+z_58.5_18.0,2027,Faible augmentation,3
+z_58.5_18.0,2028,Faible augmentation,3
+z_58.5_18.0,2029,Faible augmentation,3
+z_58.5_18.0,2030,Faible augmentation,3
+z_58.5_19.5,2023,Forte diminution,0
+z_58.5_19.5,2024,Forte diminution,0
+z_58.5_19.5,2025,Forte diminution,0
+z_58.5_19.5,2026,Forte diminution,0
+z_58.5_19.5,2027,Forte diminution,0
+z_58.5_19.5,2028,Forte diminution,0
+z_58.5_19.5,2029,Forte diminution,0
+z_58.5_19.5,2030,Forte diminution,0
+z_58.5_21.0,2023,Forte augmentation,4
+z_58.5_21.0,2024,Forte augmentation,4
+z_58.5_21.0,2025,Forte augmentation,4
+z_58.5_21.0,2026,Forte augmentation,4
+z_58.5_21.0,2027,Forte augmentation,4
+z_58.5_21.0,2028,Forte augmentation,4
+z_58.5_21.0,2029,Forte augmentation,4
+z_58.5_21.0,2030,Forte augmentation,4
+z_58.5_22.5,2023,Faible diminution,1
+z_58.5_22.5,2024,Faible diminution,1
+z_58.5_22.5,2025,Faible diminution,1
+z_58.5_22.5,2026,Faible diminution,1
+z_58.5_22.5,2027,Faible diminution,1
+z_58.5_22.5,2028,Faible diminution,1
+z_58.5_22.5,2029,Faible diminution,1
+z_58.5_22.5,2030,Faible diminution,1
+z_58.5_24.0,2023,Forte diminution,0
+z_58.5_24.0,2024,Forte diminution,0
+z_58.5_24.0,2025,Forte diminution,0
+z_58.5_24.0,2026,Forte diminution,0
+z_58.5_24.0,2027,Forte diminution,0
+z_58.5_24.0,2028,Forte diminution,0
+z_58.5_24.0,2029,Forte diminution,0
+z_58.5_24.0,2030,Forte diminution,0
+z_58.5_25.5,2023,Forte diminution,0
+z_58.5_25.5,2024,Forte diminution,0
+z_58.5_25.5,2025,Forte diminution,0
+z_58.5_25.5,2026,Forte diminution,0
+z_58.5_25.5,2027,Forte diminution,0
+z_58.5_25.5,2028,Forte diminution,0
+z_58.5_25.5,2029,Forte diminution,0
+z_58.5_25.5,2030,Forte diminution,0
+z_58.5_27.0,2023,Faible diminution,1
+z_58.5_27.0,2024,Faible diminution,1
+z_58.5_27.0,2025,Faible diminution,1
+z_58.5_27.0,2026,Faible diminution,1
+z_58.5_27.0,2027,Faible diminution,1
+z_58.5_27.0,2028,Faible diminution,1
+z_58.5_27.0,2029,Faible diminution,1
+z_58.5_27.0,2030,Faible diminution,1
+z_58.5_28.5,2023,Faible diminution,1
+z_58.5_28.5,2024,Faible diminution,1
+z_58.5_28.5,2025,Faible diminution,1
+z_58.5_28.5,2026,Faible diminution,1
+z_58.5_28.5,2027,Faible diminution,1
+z_58.5_28.5,2028,Faible diminution,1
+z_58.5_28.5,2029,Faible diminution,1
+z_58.5_28.5,2030,Faible diminution,1
+z_58.5_3.0,2023,Forte augmentation,4
+z_58.5_3.0,2024,Forte augmentation,4
+z_58.5_3.0,2025,Forte augmentation,4
+z_58.5_3.0,2026,Forte augmentation,4
+z_58.5_3.0,2027,Forte augmentation,4
+z_58.5_3.0,2028,Forte augmentation,4
+z_58.5_3.0,2029,Forte augmentation,4
+z_58.5_3.0,2030,Forte augmentation,4
+z_58.5_30.0,2023,Forte diminution,0
+z_58.5_30.0,2024,Forte diminution,0
+z_58.5_30.0,2025,Forte diminution,0
+z_58.5_30.0,2026,Forte diminution,0
+z_58.5_30.0,2027,Forte diminution,0
+z_58.5_30.0,2028,Forte diminution,0
+z_58.5_30.0,2029,Forte diminution,0
+z_58.5_30.0,2030,Forte diminution,0
+z_58.5_4.5,2023,Forte diminution,0
+z_58.5_4.5,2024,Forte diminution,0
+z_58.5_4.5,2025,Forte diminution,0
+z_58.5_4.5,2026,Forte diminution,0
+z_58.5_4.5,2027,Forte diminution,0
+z_58.5_4.5,2028,Forte diminution,0
+z_58.5_4.5,2029,Forte diminution,0
+z_58.5_4.5,2030,Forte diminution,0
+z_58.5_6.0,2023,Forte diminution,0
+z_58.5_6.0,2024,Forte diminution,0
+z_58.5_6.0,2025,Forte diminution,0
+z_58.5_6.0,2026,Forte diminution,0
+z_58.5_6.0,2027,Forte diminution,0
+z_58.5_6.0,2028,Forte diminution,0
+z_58.5_6.0,2029,Forte diminution,0
+z_58.5_6.0,2030,Forte diminution,0
+z_58.5_9.0,2023,Forte diminution,0
+z_58.5_9.0,2024,Forte diminution,0
+z_58.5_9.0,2025,Forte diminution,0
+z_58.5_9.0,2026,Forte diminution,0
+z_58.5_9.0,2027,Forte diminution,0
+z_58.5_9.0,2028,Forte diminution,0
+z_58.5_9.0,2029,Forte diminution,0
+z_58.5_9.0,2030,Forte diminution,0
+z_6.0_-12.0,2023,Forte augmentation,4
+z_6.0_-12.0,2024,Forte augmentation,4
+z_6.0_-12.0,2025,Forte augmentation,4
+z_6.0_-12.0,2026,Forte augmentation,4
+z_6.0_-12.0,2027,Forte augmentation,4
+z_6.0_-12.0,2028,Forte augmentation,4
+z_6.0_-12.0,2029,Forte augmentation,4
+z_6.0_-12.0,2030,Forte augmentation,4
+z_6.0_-58.5,2023,Forte diminution,0
+z_6.0_-58.5,2024,Forte diminution,0
+z_6.0_-58.5,2025,Forte diminution,0
+z_6.0_-58.5,2026,Forte diminution,0
+z_6.0_-58.5,2027,Forte diminution,0
+z_6.0_-58.5,2028,Forte diminution,0
+z_6.0_-58.5,2029,Forte diminution,0
+z_6.0_-58.5,2030,Forte diminution,0
+z_6.0_0.0,2023,Forte diminution,0
+z_6.0_0.0,2024,Forte diminution,0
+z_6.0_0.0,2025,Forte diminution,0
+z_6.0_0.0,2026,Forte diminution,0
+z_6.0_0.0,2027,Forte diminution,0
+z_6.0_0.0,2028,Forte diminution,0
+z_6.0_0.0,2029,Forte diminution,0
+z_6.0_0.0,2030,Forte diminution,0
+z_6.0_3.0,2023,Stable,2
+z_6.0_3.0,2024,Stable,2
+z_6.0_3.0,2025,Stable,2
+z_6.0_3.0,2026,Stable,2
+z_6.0_3.0,2027,Stable,2
+z_6.0_3.0,2028,Stable,2
+z_6.0_3.0,2029,Stable,2
+z_6.0_3.0,2030,Stable,2
+z_6.0_79.5,2023,Stable,2
+z_6.0_79.5,2024,Stable,2
+z_6.0_79.5,2025,Stable,2
+z_6.0_79.5,2026,Stable,2
+z_6.0_79.5,2027,Stable,2
+z_6.0_79.5,2028,Stable,2
+z_6.0_79.5,2029,Stable,2
+z_6.0_79.5,2030,Stable,2
+z_60.0_-1.5,2023,Forte diminution,0
+z_60.0_-1.5,2024,Forte diminution,0
+z_60.0_-1.5,2025,Forte diminution,0
+z_60.0_-1.5,2026,Forte diminution,0
+z_60.0_-1.5,2027,Forte diminution,0
+z_60.0_-1.5,2028,Forte diminution,0
+z_60.0_-1.5,2029,Forte diminution,0
+z_60.0_-1.5,2030,Forte diminution,0
+z_60.0_-3.0,2023,Forte diminution,0
+z_60.0_-3.0,2024,Forte diminution,0
+z_60.0_-3.0,2025,Forte diminution,0
+z_60.0_-3.0,2026,Forte diminution,0
+z_60.0_-3.0,2027,Forte diminution,0
+z_60.0_-3.0,2028,Forte diminution,0
+z_60.0_-3.0,2029,Forte diminution,0
+z_60.0_-3.0,2030,Forte diminution,0
+z_60.0_-4.5,2023,Forte diminution,0
+z_60.0_-4.5,2024,Forte diminution,0
+z_60.0_-4.5,2025,Forte diminution,0
+z_60.0_-4.5,2026,Forte diminution,0
+z_60.0_-4.5,2027,Forte diminution,0
+z_60.0_-4.5,2028,Forte diminution,0
+z_60.0_-4.5,2029,Forte diminution,0
+z_60.0_-4.5,2030,Forte diminution,0
+z_60.0_0.0,2023,Forte diminution,0
+z_60.0_0.0,2024,Forte diminution,0
+z_60.0_0.0,2025,Forte diminution,0
+z_60.0_0.0,2026,Forte diminution,0
+z_60.0_0.0,2027,Forte diminution,0
+z_60.0_0.0,2028,Forte diminution,0
+z_60.0_0.0,2029,Forte diminution,0
+z_60.0_0.0,2030,Forte diminution,0
+z_60.0_1.5,2023,Stable,2
+z_60.0_1.5,2024,Stable,2
+z_60.0_1.5,2025,Stable,2
+z_60.0_1.5,2026,Stable,2
+z_60.0_1.5,2027,Stable,2
+z_60.0_1.5,2028,Stable,2
+z_60.0_1.5,2029,Stable,2
+z_60.0_1.5,2030,Stable,2
+z_60.0_16.5,2023,Forte diminution,0
+z_60.0_16.5,2024,Forte diminution,0
+z_60.0_16.5,2025,Forte diminution,0
+z_60.0_16.5,2026,Forte diminution,0
+z_60.0_16.5,2027,Forte diminution,0
+z_60.0_16.5,2028,Forte diminution,0
+z_60.0_16.5,2029,Forte diminution,0
+z_60.0_16.5,2030,Forte diminution,0
+z_60.0_18.0,2023,Forte augmentation,4
+z_60.0_18.0,2024,Forte augmentation,4
+z_60.0_18.0,2025,Forte augmentation,4
+z_60.0_18.0,2026,Forte augmentation,4
+z_60.0_18.0,2027,Forte augmentation,4
+z_60.0_18.0,2028,Forte augmentation,4
+z_60.0_18.0,2029,Forte augmentation,4
+z_60.0_18.0,2030,Forte augmentation,4
+z_60.0_19.5,2023,Forte diminution,0
+z_60.0_19.5,2024,Forte diminution,0
+z_60.0_19.5,2025,Forte diminution,0
+z_60.0_19.5,2026,Forte diminution,0
+z_60.0_19.5,2027,Forte diminution,0
+z_60.0_19.5,2028,Forte diminution,0
+z_60.0_19.5,2029,Forte diminution,0
+z_60.0_19.5,2030,Forte diminution,0
+z_60.0_21.0,2023,Forte diminution,0
+z_60.0_21.0,2024,Forte diminution,0
+z_60.0_21.0,2025,Forte diminution,0
+z_60.0_21.0,2026,Forte diminution,0
+z_60.0_21.0,2027,Forte diminution,0
+z_60.0_21.0,2028,Forte diminution,0
+z_60.0_21.0,2029,Forte diminution,0
+z_60.0_21.0,2030,Forte diminution,0
+z_60.0_24.0,2023,Forte diminution,0
+z_60.0_24.0,2024,Forte diminution,0
+z_60.0_24.0,2025,Forte diminution,0
+z_60.0_24.0,2026,Forte diminution,0
+z_60.0_24.0,2027,Forte diminution,0
+z_60.0_24.0,2028,Forte diminution,0
+z_60.0_24.0,2029,Forte diminution,0
+z_60.0_24.0,2030,Forte diminution,0
+z_60.0_25.5,2023,Forte augmentation,4
+z_60.0_25.5,2024,Forte augmentation,4
+z_60.0_25.5,2025,Forte augmentation,4
+z_60.0_25.5,2026,Forte augmentation,4
+z_60.0_25.5,2027,Forte augmentation,4
+z_60.0_25.5,2028,Forte augmentation,4
+z_60.0_25.5,2029,Forte augmentation,4
+z_60.0_25.5,2030,Forte augmentation,4
+z_60.0_27.0,2023,Forte diminution,0
+z_60.0_27.0,2024,Forte diminution,0
+z_60.0_27.0,2025,Forte diminution,0
+z_60.0_27.0,2026,Forte diminution,0
+z_60.0_27.0,2027,Forte diminution,0
+z_60.0_27.0,2028,Forte diminution,0
+z_60.0_27.0,2029,Forte diminution,0
+z_60.0_27.0,2030,Forte diminution,0
+z_60.0_28.5,2023,Forte diminution,0
+z_60.0_28.5,2024,Forte diminution,0
+z_60.0_28.5,2025,Forte diminution,0
+z_60.0_28.5,2026,Forte diminution,0
+z_60.0_28.5,2027,Forte diminution,0
+z_60.0_28.5,2028,Forte diminution,0
+z_60.0_28.5,2029,Forte diminution,0
+z_60.0_28.5,2030,Forte diminution,0
+z_60.0_3.0,2023,Stable,2
+z_60.0_3.0,2024,Stable,2
+z_60.0_3.0,2025,Stable,2
+z_60.0_3.0,2026,Stable,2
+z_60.0_3.0,2027,Stable,2
+z_60.0_3.0,2028,Stable,2
+z_60.0_3.0,2029,Stable,2
+z_60.0_3.0,2030,Stable,2
+z_60.0_4.5,2023,Forte augmentation,4
+z_60.0_4.5,2024,Forte augmentation,4
+z_60.0_4.5,2025,Forte augmentation,4
+z_60.0_4.5,2026,Forte augmentation,4
+z_60.0_4.5,2027,Forte augmentation,4
+z_60.0_4.5,2028,Forte augmentation,4
+z_60.0_4.5,2029,Forte augmentation,4
+z_60.0_4.5,2030,Forte augmentation,4
+z_60.0_6.0,2023,Forte augmentation,4
+z_60.0_6.0,2024,Forte augmentation,4
+z_60.0_6.0,2025,Forte augmentation,4
+z_60.0_6.0,2026,Forte augmentation,4
+z_60.0_6.0,2027,Forte augmentation,4
+z_60.0_6.0,2028,Forte augmentation,4
+z_60.0_6.0,2029,Forte augmentation,4
+z_60.0_6.0,2030,Forte augmentation,4
+z_61.5_-7.5,2023,Faible diminution,1
+z_61.5_-7.5,2024,Faible diminution,1
+z_61.5_-7.5,2025,Faible diminution,1
+z_61.5_-7.5,2026,Faible diminution,1
+z_61.5_-7.5,2027,Faible diminution,1
+z_61.5_-7.5,2028,Faible diminution,1
+z_61.5_-7.5,2029,Faible diminution,1
+z_61.5_-7.5,2030,Faible diminution,1
+z_61.5_0.0,2023,Forte diminution,0
+z_61.5_0.0,2024,Forte diminution,0
+z_61.5_0.0,2025,Forte diminution,0
+z_61.5_0.0,2026,Forte diminution,0
+z_61.5_0.0,2027,Forte diminution,0
+z_61.5_0.0,2028,Forte diminution,0
+z_61.5_0.0,2029,Forte diminution,0
+z_61.5_0.0,2030,Forte diminution,0
+z_61.5_1.5,2023,Faible diminution,1
+z_61.5_1.5,2024,Faible diminution,1
+z_61.5_1.5,2025,Faible diminution,1
+z_61.5_1.5,2026,Faible diminution,1
+z_61.5_1.5,2027,Faible diminution,1
+z_61.5_1.5,2028,Faible diminution,1
+z_61.5_1.5,2029,Faible diminution,1
+z_61.5_1.5,2030,Faible diminution,1
+z_61.5_16.5,2023,Forte diminution,0
+z_61.5_16.5,2024,Forte diminution,0
+z_61.5_16.5,2025,Forte diminution,0
+z_61.5_16.5,2026,Forte diminution,0
+z_61.5_16.5,2027,Forte diminution,0
+z_61.5_16.5,2028,Forte diminution,0
+z_61.5_16.5,2029,Forte diminution,0
+z_61.5_16.5,2030,Forte diminution,0
+z_61.5_19.5,2023,Forte diminution,0
+z_61.5_19.5,2024,Forte diminution,0
+z_61.5_19.5,2025,Forte diminution,0
+z_61.5_19.5,2026,Forte diminution,0
+z_61.5_19.5,2027,Forte diminution,0
+z_61.5_19.5,2028,Forte diminution,0
+z_61.5_19.5,2029,Forte diminution,0
+z_61.5_19.5,2030,Forte diminution,0
+z_61.5_21.0,2023,Faible diminution,1
+z_61.5_21.0,2024,Faible diminution,1
+z_61.5_21.0,2025,Faible diminution,1
+z_61.5_21.0,2026,Faible diminution,1
+z_61.5_21.0,2027,Faible diminution,1
+z_61.5_21.0,2028,Faible diminution,1
+z_61.5_21.0,2029,Faible diminution,1
+z_61.5_21.0,2030,Faible diminution,1
+z_61.5_3.0,2023,Faible diminution,1
+z_61.5_3.0,2024,Faible diminution,1
+z_61.5_3.0,2025,Faible diminution,1
+z_61.5_3.0,2026,Faible diminution,1
+z_61.5_3.0,2027,Faible diminution,1
+z_61.5_3.0,2028,Faible diminution,1
+z_61.5_3.0,2029,Faible diminution,1
+z_61.5_3.0,2030,Faible diminution,1
+z_61.5_4.5,2023,Stable,2
+z_61.5_4.5,2024,Stable,2
+z_61.5_4.5,2025,Stable,2
+z_61.5_4.5,2026,Stable,2
+z_61.5_4.5,2027,Stable,2
+z_61.5_4.5,2028,Stable,2
+z_61.5_4.5,2029,Stable,2
+z_61.5_4.5,2030,Stable,2
+z_61.5_6.0,2023,Forte augmentation,4
+z_61.5_6.0,2024,Forte augmentation,4
+z_61.5_6.0,2025,Forte augmentation,4
+z_61.5_6.0,2026,Forte augmentation,4
+z_61.5_6.0,2027,Forte augmentation,4
+z_61.5_6.0,2028,Forte augmentation,4
+z_61.5_6.0,2029,Forte augmentation,4
+z_61.5_6.0,2030,Forte augmentation,4
+z_61.5_7.5,2023,Faible diminution,1
+z_61.5_7.5,2024,Faible diminution,1
+z_61.5_7.5,2025,Faible diminution,1
+z_61.5_7.5,2026,Faible diminution,1
+z_61.5_7.5,2027,Faible diminution,1
+z_61.5_7.5,2028,Faible diminution,1
+z_61.5_7.5,2029,Faible diminution,1
+z_61.5_7.5,2030,Faible diminution,1
+z_63.0_-13.5,2023,Forte diminution,0
+z_63.0_-13.5,2024,Forte diminution,0
+z_63.0_-13.5,2025,Forte diminution,0
+z_63.0_-13.5,2026,Forte diminution,0
+z_63.0_-13.5,2027,Forte diminution,0
+z_63.0_-13.5,2028,Forte diminution,0
+z_63.0_-13.5,2029,Forte diminution,0
+z_63.0_-13.5,2030,Forte diminution,0
+z_63.0_-15.0,2023,Faible diminution,1
+z_63.0_-15.0,2024,Faible diminution,1
+z_63.0_-15.0,2025,Faible diminution,1
+z_63.0_-15.0,2026,Faible diminution,1
+z_63.0_-15.0,2027,Faible diminution,1
+z_63.0_-15.0,2028,Faible diminution,1
+z_63.0_-15.0,2029,Faible diminution,1
+z_63.0_-15.0,2030,Faible diminution,1
+z_63.0_-16.5,2023,Faible diminution,1
+z_63.0_-16.5,2024,Faible diminution,1
+z_63.0_-16.5,2025,Faible diminution,1
+z_63.0_-16.5,2026,Faible diminution,1
+z_63.0_-16.5,2027,Faible diminution,1
+z_63.0_-16.5,2028,Faible diminution,1
+z_63.0_-16.5,2029,Faible diminution,1
+z_63.0_-16.5,2030,Faible diminution,1
+z_63.0_-18.0,2023,Faible diminution,1
+z_63.0_-18.0,2024,Faible diminution,1
+z_63.0_-18.0,2025,Faible diminution,1
+z_63.0_-18.0,2026,Faible diminution,1
+z_63.0_-18.0,2027,Faible diminution,1
+z_63.0_-18.0,2028,Faible diminution,1
+z_63.0_-18.0,2029,Faible diminution,1
+z_63.0_-18.0,2030,Faible diminution,1
+z_63.0_-19.5,2023,Faible diminution,1
+z_63.0_-19.5,2024,Faible diminution,1
+z_63.0_-19.5,2025,Faible diminution,1
+z_63.0_-19.5,2026,Faible diminution,1
+z_63.0_-19.5,2027,Faible diminution,1
+z_63.0_-19.5,2028,Faible diminution,1
+z_63.0_-19.5,2029,Faible diminution,1
+z_63.0_-19.5,2030,Faible diminution,1
+z_63.0_-21.0,2023,Forte diminution,0
+z_63.0_-21.0,2024,Forte diminution,0
+z_63.0_-21.0,2025,Forte diminution,0
+z_63.0_-21.0,2026,Forte diminution,0
+z_63.0_-21.0,2027,Forte diminution,0
+z_63.0_-21.0,2028,Forte diminution,0
+z_63.0_-21.0,2029,Forte diminution,0
+z_63.0_-21.0,2030,Forte diminution,0
+z_63.0_-22.5,2023,Forte diminution,0
+z_63.0_-22.5,2024,Forte diminution,0
+z_63.0_-22.5,2025,Forte diminution,0
+z_63.0_-22.5,2026,Forte diminution,0
+z_63.0_-22.5,2027,Forte diminution,0
+z_63.0_-22.5,2028,Forte diminution,0
+z_63.0_-22.5,2029,Forte diminution,0
+z_63.0_-22.5,2030,Forte diminution,0
+z_63.0_-24.0,2023,Forte diminution,0
+z_63.0_-24.0,2024,Forte diminution,0
+z_63.0_-24.0,2025,Forte diminution,0
+z_63.0_-24.0,2026,Forte diminution,0
+z_63.0_-24.0,2027,Forte diminution,0
+z_63.0_-24.0,2028,Forte diminution,0
+z_63.0_-24.0,2029,Forte diminution,0
+z_63.0_-24.0,2030,Forte diminution,0
+z_63.0_-25.5,2023,Forte augmentation,4
+z_63.0_-25.5,2024,Forte augmentation,4
+z_63.0_-25.5,2025,Forte augmentation,4
+z_63.0_-25.5,2026,Forte augmentation,4
+z_63.0_-25.5,2027,Forte augmentation,4
+z_63.0_-25.5,2028,Forte augmentation,4
+z_63.0_-25.5,2029,Forte augmentation,4
+z_63.0_-25.5,2030,Forte augmentation,4
+z_63.0_10.5,2023,Forte augmentation,4
+z_63.0_10.5,2024,Forte augmentation,4
+z_63.0_10.5,2025,Forte augmentation,4
+z_63.0_10.5,2026,Forte augmentation,4
+z_63.0_10.5,2027,Forte augmentation,4
+z_63.0_10.5,2028,Forte augmentation,4
+z_63.0_10.5,2029,Forte augmentation,4
+z_63.0_10.5,2030,Forte augmentation,4
+z_63.0_18.0,2023,Faible augmentation,3
+z_63.0_18.0,2024,Faible augmentation,3
+z_63.0_18.0,2025,Faible augmentation,3
+z_63.0_18.0,2026,Faible augmentation,3
+z_63.0_18.0,2027,Faible augmentation,3
+z_63.0_18.0,2028,Faible augmentation,3
+z_63.0_18.0,2029,Faible augmentation,3
+z_63.0_18.0,2030,Faible augmentation,3
+z_63.0_19.5,2023,Forte augmentation,4
+z_63.0_19.5,2024,Forte augmentation,4
+z_63.0_19.5,2025,Forte augmentation,4
+z_63.0_19.5,2026,Forte augmentation,4
+z_63.0_19.5,2027,Forte augmentation,4
+z_63.0_19.5,2028,Forte augmentation,4
+z_63.0_19.5,2029,Forte augmentation,4
+z_63.0_19.5,2030,Forte augmentation,4
+z_63.0_21.0,2023,Faible diminution,1
+z_63.0_21.0,2024,Faible diminution,1
+z_63.0_21.0,2025,Faible diminution,1
+z_63.0_21.0,2026,Faible diminution,1
+z_63.0_21.0,2027,Faible diminution,1
+z_63.0_21.0,2028,Faible diminution,1
+z_63.0_21.0,2029,Faible diminution,1
+z_63.0_21.0,2030,Faible diminution,1
+z_63.0_22.5,2023,Forte diminution,0
+z_63.0_22.5,2024,Forte diminution,0
+z_63.0_22.5,2025,Forte diminution,0
+z_63.0_22.5,2026,Forte diminution,0
+z_63.0_22.5,2027,Forte diminution,0
+z_63.0_22.5,2028,Forte diminution,0
+z_63.0_22.5,2029,Forte diminution,0
+z_63.0_22.5,2030,Forte diminution,0
+z_63.0_4.5,2023,Forte augmentation,4
+z_63.0_4.5,2024,Forte augmentation,4
+z_63.0_4.5,2025,Forte augmentation,4
+z_63.0_4.5,2026,Forte augmentation,4
+z_63.0_4.5,2027,Forte augmentation,4
+z_63.0_4.5,2028,Forte augmentation,4
+z_63.0_4.5,2029,Forte augmentation,4
+z_63.0_4.5,2030,Forte augmentation,4
+z_63.0_6.0,2023,Faible diminution,1
+z_63.0_6.0,2024,Faible diminution,1
+z_63.0_6.0,2025,Faible diminution,1
+z_63.0_6.0,2026,Faible diminution,1
+z_63.0_6.0,2027,Faible diminution,1
+z_63.0_6.0,2028,Faible diminution,1
+z_63.0_6.0,2029,Faible diminution,1
+z_63.0_6.0,2030,Faible diminution,1
+z_63.0_7.5,2023,Stable,2
+z_63.0_7.5,2024,Stable,2
+z_63.0_7.5,2025,Stable,2
+z_63.0_7.5,2026,Stable,2
+z_63.0_7.5,2027,Stable,2
+z_63.0_7.5,2028,Stable,2
+z_63.0_7.5,2029,Stable,2
+z_63.0_7.5,2030,Stable,2
+z_63.0_9.0,2023,Forte diminution,0
+z_63.0_9.0,2024,Forte diminution,0
+z_63.0_9.0,2025,Forte diminution,0
+z_63.0_9.0,2026,Forte diminution,0
+z_63.0_9.0,2027,Forte diminution,0
+z_63.0_9.0,2028,Forte diminution,0
+z_63.0_9.0,2029,Forte diminution,0
+z_63.0_9.0,2030,Forte diminution,0
+z_64.5_-12.0,2023,Faible diminution,1
+z_64.5_-12.0,2024,Faible diminution,1
+z_64.5_-12.0,2025,Faible diminution,1
+z_64.5_-12.0,2026,Faible diminution,1
+z_64.5_-12.0,2027,Faible diminution,1
+z_64.5_-12.0,2028,Faible diminution,1
+z_64.5_-12.0,2029,Faible diminution,1
+z_64.5_-12.0,2030,Faible diminution,1
+z_64.5_-13.5,2023,Forte diminution,0
+z_64.5_-13.5,2024,Forte diminution,0
+z_64.5_-13.5,2025,Forte diminution,0
+z_64.5_-13.5,2026,Forte diminution,0
+z_64.5_-13.5,2027,Forte diminution,0
+z_64.5_-13.5,2028,Forte diminution,0
+z_64.5_-13.5,2029,Forte diminution,0
+z_64.5_-13.5,2030,Forte diminution,0
+z_64.5_-15.0,2023,Faible augmentation,3
+z_64.5_-15.0,2024,Faible augmentation,3
+z_64.5_-15.0,2025,Faible augmentation,3
+z_64.5_-15.0,2026,Faible augmentation,3
+z_64.5_-15.0,2027,Faible augmentation,3
+z_64.5_-15.0,2028,Faible augmentation,3
+z_64.5_-15.0,2029,Faible augmentation,3
+z_64.5_-15.0,2030,Faible augmentation,3
+z_64.5_-19.5,2023,Forte diminution,0
+z_64.5_-19.5,2024,Forte diminution,0
+z_64.5_-19.5,2025,Forte diminution,0
+z_64.5_-19.5,2026,Forte diminution,0
+z_64.5_-19.5,2027,Forte diminution,0
+z_64.5_-19.5,2028,Forte diminution,0
+z_64.5_-19.5,2029,Forte diminution,0
+z_64.5_-19.5,2030,Forte diminution,0
+z_64.5_-21.0,2023,Forte diminution,0
+z_64.5_-21.0,2024,Forte diminution,0
+z_64.5_-21.0,2025,Forte diminution,0
+z_64.5_-21.0,2026,Forte diminution,0
+z_64.5_-21.0,2027,Forte diminution,0
+z_64.5_-21.0,2028,Forte diminution,0
+z_64.5_-21.0,2029,Forte diminution,0
+z_64.5_-21.0,2030,Forte diminution,0
+z_64.5_-22.5,2023,Stable,2
+z_64.5_-22.5,2024,Stable,2
+z_64.5_-22.5,2025,Stable,2
+z_64.5_-22.5,2026,Stable,2
+z_64.5_-22.5,2027,Stable,2
+z_64.5_-22.5,2028,Stable,2
+z_64.5_-22.5,2029,Stable,2
+z_64.5_-22.5,2030,Stable,2
+z_64.5_-24.0,2023,Faible augmentation,3
+z_64.5_-24.0,2024,Faible augmentation,3
+z_64.5_-24.0,2025,Faible augmentation,3
+z_64.5_-24.0,2026,Faible augmentation,3
+z_64.5_-24.0,2027,Faible augmentation,3
+z_64.5_-24.0,2028,Faible augmentation,3
+z_64.5_-24.0,2029,Faible augmentation,3
+z_64.5_-24.0,2030,Faible augmentation,3
+z_64.5_-25.5,2023,Faible augmentation,3
+z_64.5_-25.5,2024,Faible augmentation,3
+z_64.5_-25.5,2025,Faible augmentation,3
+z_64.5_-25.5,2026,Faible augmentation,3
+z_64.5_-25.5,2027,Faible augmentation,3
+z_64.5_-25.5,2028,Faible augmentation,3
+z_64.5_-25.5,2029,Faible augmentation,3
+z_64.5_-25.5,2030,Faible augmentation,3
+z_64.5_-27.0,2023,Forte augmentation,4
+z_64.5_-27.0,2024,Forte augmentation,4
+z_64.5_-27.0,2025,Forte augmentation,4
+z_64.5_-27.0,2026,Forte augmentation,4
+z_64.5_-27.0,2027,Forte augmentation,4
+z_64.5_-27.0,2028,Forte augmentation,4
+z_64.5_-27.0,2029,Forte augmentation,4
+z_64.5_-27.0,2030,Forte augmentation,4
+z_64.5_10.5,2023,Forte diminution,0
+z_64.5_10.5,2024,Forte diminution,0
+z_64.5_10.5,2025,Forte diminution,0
+z_64.5_10.5,2026,Forte diminution,0
+z_64.5_10.5,2027,Forte diminution,0
+z_64.5_10.5,2028,Forte diminution,0
+z_64.5_10.5,2029,Forte diminution,0
+z_64.5_10.5,2030,Forte diminution,0
+z_64.5_12.0,2023,Forte augmentation,4
+z_64.5_12.0,2024,Forte augmentation,4
+z_64.5_12.0,2025,Forte augmentation,4
+z_64.5_12.0,2026,Forte augmentation,4
+z_64.5_12.0,2027,Forte augmentation,4
+z_64.5_12.0,2028,Forte augmentation,4
+z_64.5_12.0,2029,Forte augmentation,4
+z_64.5_12.0,2030,Forte augmentation,4
+z_64.5_21.0,2023,Forte diminution,0
+z_64.5_21.0,2024,Forte diminution,0
+z_64.5_21.0,2025,Forte diminution,0
+z_64.5_21.0,2026,Forte diminution,0
+z_64.5_21.0,2027,Forte diminution,0
+z_64.5_21.0,2028,Forte diminution,0
+z_64.5_21.0,2029,Forte diminution,0
+z_64.5_21.0,2030,Forte diminution,0
+z_64.5_22.5,2023,Forte augmentation,4
+z_64.5_22.5,2024,Forte augmentation,4
+z_64.5_22.5,2025,Forte augmentation,4
+z_64.5_22.5,2026,Forte augmentation,4
+z_64.5_22.5,2027,Forte augmentation,4
+z_64.5_22.5,2028,Forte augmentation,4
+z_64.5_22.5,2029,Forte augmentation,4
+z_64.5_22.5,2030,Forte augmentation,4
+z_64.5_24.0,2023,Faible diminution,1
+z_64.5_24.0,2024,Faible diminution,1
+z_64.5_24.0,2025,Faible diminution,1
+z_64.5_24.0,2026,Faible diminution,1
+z_64.5_24.0,2027,Faible diminution,1
+z_64.5_24.0,2028,Faible diminution,1
+z_64.5_24.0,2029,Faible diminution,1
+z_64.5_24.0,2030,Faible diminution,1
+z_64.5_7.5,2023,Faible diminution,1
+z_64.5_7.5,2024,Faible diminution,1
+z_64.5_7.5,2025,Faible diminution,1
+z_64.5_7.5,2026,Faible diminution,1
+z_64.5_7.5,2027,Faible diminution,1
+z_64.5_7.5,2028,Faible diminution,1
+z_64.5_7.5,2029,Faible diminution,1
+z_64.5_7.5,2030,Faible diminution,1
+z_64.5_9.0,2023,Faible diminution,1
+z_64.5_9.0,2024,Faible diminution,1
+z_64.5_9.0,2025,Faible diminution,1
+z_64.5_9.0,2026,Faible diminution,1
+z_64.5_9.0,2027,Faible diminution,1
+z_64.5_9.0,2028,Faible diminution,1
+z_64.5_9.0,2029,Faible diminution,1
+z_64.5_9.0,2030,Faible diminution,1
+z_66.0_-16.5,2023,Forte augmentation,4
+z_66.0_-16.5,2024,Forte augmentation,4
+z_66.0_-16.5,2025,Forte augmentation,4
+z_66.0_-16.5,2026,Forte augmentation,4
+z_66.0_-16.5,2027,Forte augmentation,4
+z_66.0_-16.5,2028,Forte augmentation,4
+z_66.0_-16.5,2029,Forte augmentation,4
+z_66.0_-16.5,2030,Forte augmentation,4
+z_66.0_-18.0,2023,Forte augmentation,4
+z_66.0_-18.0,2024,Forte augmentation,4
+z_66.0_-18.0,2025,Forte augmentation,4
+z_66.0_-18.0,2026,Forte augmentation,4
+z_66.0_-18.0,2027,Forte augmentation,4
+z_66.0_-18.0,2028,Forte augmentation,4
+z_66.0_-18.0,2029,Forte augmentation,4
+z_66.0_-18.0,2030,Forte augmentation,4
+z_66.0_-19.5,2023,Forte diminution,0
+z_66.0_-19.5,2024,Forte diminution,0
+z_66.0_-19.5,2025,Forte diminution,0
+z_66.0_-19.5,2026,Forte diminution,0
+z_66.0_-19.5,2027,Forte diminution,0
+z_66.0_-19.5,2028,Forte diminution,0
+z_66.0_-19.5,2029,Forte diminution,0
+z_66.0_-19.5,2030,Forte diminution,0
+z_66.0_-21.0,2023,Faible diminution,1
+z_66.0_-21.0,2024,Faible diminution,1
+z_66.0_-21.0,2025,Faible diminution,1
+z_66.0_-21.0,2026,Faible diminution,1
+z_66.0_-21.0,2027,Faible diminution,1
+z_66.0_-21.0,2028,Faible diminution,1
+z_66.0_-21.0,2029,Faible diminution,1
+z_66.0_-21.0,2030,Faible diminution,1
+z_66.0_-22.5,2023,Stable,2
+z_66.0_-22.5,2024,Stable,2
+z_66.0_-22.5,2025,Stable,2
+z_66.0_-22.5,2026,Stable,2
+z_66.0_-22.5,2027,Stable,2
+z_66.0_-22.5,2028,Stable,2
+z_66.0_-22.5,2029,Stable,2
+z_66.0_-22.5,2030,Stable,2
+z_66.0_-24.0,2023,Forte diminution,0
+z_66.0_-24.0,2024,Forte diminution,0
+z_66.0_-24.0,2025,Forte diminution,0
+z_66.0_-24.0,2026,Forte diminution,0
+z_66.0_-24.0,2027,Forte diminution,0
+z_66.0_-24.0,2028,Forte diminution,0
+z_66.0_-24.0,2029,Forte diminution,0
+z_66.0_-24.0,2030,Forte diminution,0
+z_66.0_-25.5,2023,Forte diminution,0
+z_66.0_-25.5,2024,Forte diminution,0
+z_66.0_-25.5,2025,Forte diminution,0
+z_66.0_-25.5,2026,Forte diminution,0
+z_66.0_-25.5,2027,Forte diminution,0
+z_66.0_-25.5,2028,Forte diminution,0
+z_66.0_-25.5,2029,Forte diminution,0
+z_66.0_-25.5,2030,Forte diminution,0
+z_66.0_10.5,2023,Forte augmentation,4
+z_66.0_10.5,2024,Forte augmentation,4
+z_66.0_10.5,2025,Forte augmentation,4
+z_66.0_10.5,2026,Forte augmentation,4
+z_66.0_10.5,2027,Forte augmentation,4
+z_66.0_10.5,2028,Forte augmentation,4
+z_66.0_10.5,2029,Forte augmentation,4
+z_66.0_10.5,2030,Forte augmentation,4
+z_66.0_12.0,2023,Stable,2
+z_66.0_12.0,2024,Stable,2
+z_66.0_12.0,2025,Stable,2
+z_66.0_12.0,2026,Stable,2
+z_66.0_12.0,2027,Stable,2
+z_66.0_12.0,2028,Stable,2
+z_66.0_12.0,2029,Stable,2
+z_66.0_12.0,2030,Stable,2
+z_66.0_13.5,2023,Forte diminution,0
+z_66.0_13.5,2024,Forte diminution,0
+z_66.0_13.5,2025,Forte diminution,0
+z_66.0_13.5,2026,Forte diminution,0
+z_66.0_13.5,2027,Forte diminution,0
+z_66.0_13.5,2028,Forte diminution,0
+z_66.0_13.5,2029,Forte diminution,0
+z_66.0_13.5,2030,Forte diminution,0
+z_66.0_9.0,2023,Faible diminution,1
+z_66.0_9.0,2024,Faible diminution,1
+z_66.0_9.0,2025,Faible diminution,1
+z_66.0_9.0,2026,Faible diminution,1
+z_66.0_9.0,2027,Faible diminution,1
+z_66.0_9.0,2028,Faible diminution,1
+z_66.0_9.0,2029,Faible diminution,1
+z_66.0_9.0,2030,Faible diminution,1
+z_67.5_10.5,2023,Stable,2
+z_67.5_10.5,2024,Stable,2
+z_67.5_10.5,2025,Stable,2
+z_67.5_10.5,2026,Stable,2
+z_67.5_10.5,2027,Stable,2
+z_67.5_10.5,2028,Stable,2
+z_67.5_10.5,2029,Stable,2
+z_67.5_10.5,2030,Stable,2
+z_67.5_12.0,2023,Forte diminution,0
+z_67.5_12.0,2024,Forte diminution,0
+z_67.5_12.0,2025,Forte diminution,0
+z_67.5_12.0,2026,Forte diminution,0
+z_67.5_12.0,2027,Forte diminution,0
+z_67.5_12.0,2028,Forte diminution,0
+z_67.5_12.0,2029,Forte diminution,0
+z_67.5_12.0,2030,Forte diminution,0
+z_67.5_13.5,2023,Forte augmentation,4
+z_67.5_13.5,2024,Forte augmentation,4
+z_67.5_13.5,2025,Forte augmentation,4
+z_67.5_13.5,2026,Forte augmentation,4
+z_67.5_13.5,2027,Forte augmentation,4
+z_67.5_13.5,2028,Forte augmentation,4
+z_67.5_13.5,2029,Forte augmentation,4
+z_67.5_13.5,2030,Forte augmentation,4
+z_67.5_15.0,2023,Faible diminution,1
+z_67.5_15.0,2024,Faible diminution,1
+z_67.5_15.0,2025,Faible diminution,1
+z_67.5_15.0,2026,Faible diminution,1
+z_67.5_15.0,2027,Faible diminution,1
+z_67.5_15.0,2028,Faible diminution,1
+z_67.5_15.0,2029,Faible diminution,1
+z_67.5_15.0,2030,Faible diminution,1
+z_67.5_16.5,2023,Faible augmentation,3
+z_67.5_16.5,2024,Faible augmentation,3
+z_67.5_16.5,2025,Faible augmentation,3
+z_67.5_16.5,2026,Faible augmentation,3
+z_67.5_16.5,2027,Faible augmentation,3
+z_67.5_16.5,2028,Faible augmentation,3
+z_67.5_16.5,2029,Faible augmentation,3
+z_67.5_16.5,2030,Faible augmentation,3
+z_69.0_15.0,2023,Forte augmentation,4
+z_69.0_15.0,2024,Forte augmentation,4
+z_69.0_15.0,2025,Forte augmentation,4
+z_69.0_15.0,2026,Forte augmentation,4
+z_69.0_15.0,2027,Forte augmentation,4
+z_69.0_15.0,2028,Forte augmentation,4
+z_69.0_15.0,2029,Forte augmentation,4
+z_69.0_15.0,2030,Forte augmentation,4
+z_69.0_16.5,2023,Forte diminution,0
+z_69.0_16.5,2024,Forte diminution,0
+z_69.0_16.5,2025,Forte diminution,0
+z_69.0_16.5,2026,Forte diminution,0
+z_69.0_16.5,2027,Forte diminution,0
+z_69.0_16.5,2028,Forte diminution,0
+z_69.0_16.5,2029,Forte diminution,0
+z_69.0_16.5,2030,Forte diminution,0
+z_69.0_18.0,2023,Forte diminution,0
+z_69.0_18.0,2024,Forte diminution,0
+z_69.0_18.0,2025,Forte diminution,0
+z_69.0_18.0,2026,Forte diminution,0
+z_69.0_18.0,2027,Forte diminution,0
+z_69.0_18.0,2028,Forte diminution,0
+z_69.0_18.0,2029,Forte diminution,0
+z_69.0_18.0,2030,Forte diminution,0
+z_69.0_19.5,2023,Faible augmentation,3
+z_69.0_19.5,2024,Faible augmentation,3
+z_69.0_19.5,2025,Faible augmentation,3
+z_69.0_19.5,2026,Faible augmentation,3
+z_69.0_19.5,2027,Faible augmentation,3
+z_69.0_19.5,2028,Faible augmentation,3
+z_69.0_19.5,2029,Faible augmentation,3
+z_69.0_19.5,2030,Faible augmentation,3
+z_69.0_21.0,2023,Forte augmentation,4
+z_69.0_21.0,2024,Forte augmentation,4
+z_69.0_21.0,2025,Forte augmentation,4
+z_69.0_21.0,2026,Forte augmentation,4
+z_69.0_21.0,2027,Forte augmentation,4
+z_69.0_21.0,2028,Forte augmentation,4
+z_69.0_21.0,2029,Forte augmentation,4
+z_69.0_21.0,2030,Forte augmentation,4
+z_69.0_22.5,2023,Faible augmentation,3
+z_69.0_22.5,2024,Faible augmentation,3
+z_69.0_22.5,2025,Faible augmentation,3
+z_69.0_22.5,2026,Faible augmentation,3
+z_69.0_22.5,2027,Faible augmentation,3
+z_69.0_22.5,2028,Faible augmentation,3
+z_69.0_22.5,2029,Faible augmentation,3
+z_69.0_22.5,2030,Faible augmentation,3
+z_69.0_30.0,2023,Forte diminution,0
+z_69.0_30.0,2024,Forte diminution,0
+z_69.0_30.0,2025,Forte diminution,0
+z_69.0_30.0,2026,Forte diminution,0
+z_69.0_30.0,2027,Forte diminution,0
+z_69.0_30.0,2028,Forte diminution,0
+z_69.0_30.0,2029,Forte diminution,0
+z_69.0_30.0,2030,Forte diminution,0
+z_7.5_-13.5,2023,Faible diminution,1
+z_7.5_-13.5,2024,Faible diminution,1
+z_7.5_-13.5,2025,Faible diminution,1
+z_7.5_-13.5,2026,Faible diminution,1
+z_7.5_-13.5,2027,Faible diminution,1
+z_7.5_-13.5,2028,Faible diminution,1
+z_7.5_-13.5,2029,Faible diminution,1
+z_7.5_-13.5,2030,Faible diminution,1
+z_7.5_-81.0,2023,Faible diminution,1
+z_7.5_-81.0,2024,Faible diminution,1
+z_7.5_-81.0,2025,Faible diminution,1
+z_7.5_-81.0,2026,Faible diminution,1
+z_7.5_-81.0,2027,Faible diminution,1
+z_7.5_-81.0,2028,Faible diminution,1
+z_7.5_-81.0,2029,Faible diminution,1
+z_7.5_-81.0,2030,Faible diminution,1
+z_70.5_16.5,2023,Forte diminution,0
+z_70.5_16.5,2024,Forte diminution,0
+z_70.5_16.5,2025,Forte diminution,0
+z_70.5_16.5,2026,Forte diminution,0
+z_70.5_16.5,2027,Forte diminution,0
+z_70.5_16.5,2028,Forte diminution,0
+z_70.5_16.5,2029,Forte diminution,0
+z_70.5_16.5,2030,Forte diminution,0
+z_70.5_21.0,2023,Faible diminution,1
+z_70.5_21.0,2024,Faible diminution,1
+z_70.5_21.0,2025,Faible diminution,1
+z_70.5_21.0,2026,Faible diminution,1
+z_70.5_21.0,2027,Faible diminution,1
+z_70.5_21.0,2028,Faible diminution,1
+z_70.5_21.0,2029,Faible diminution,1
+z_70.5_21.0,2030,Faible diminution,1
+z_70.5_22.5,2023,Forte augmentation,4
+z_70.5_22.5,2024,Forte augmentation,4
+z_70.5_22.5,2025,Forte augmentation,4
+z_70.5_22.5,2026,Forte augmentation,4
+z_70.5_22.5,2027,Forte augmentation,4
+z_70.5_22.5,2028,Forte augmentation,4
+z_70.5_22.5,2029,Forte augmentation,4
+z_70.5_22.5,2030,Forte augmentation,4
+z_70.5_24.0,2023,Forte diminution,0
+z_70.5_24.0,2024,Forte diminution,0
+z_70.5_24.0,2025,Forte diminution,0
+z_70.5_24.0,2026,Forte diminution,0
+z_70.5_24.0,2027,Forte diminution,0
+z_70.5_24.0,2028,Forte diminution,0
+z_70.5_24.0,2029,Forte diminution,0
+z_70.5_24.0,2030,Forte diminution,0
+z_70.5_25.5,2023,Forte diminution,0
+z_70.5_25.5,2024,Forte diminution,0
+z_70.5_25.5,2025,Forte diminution,0
+z_70.5_25.5,2026,Forte diminution,0
+z_70.5_25.5,2027,Forte diminution,0
+z_70.5_25.5,2028,Forte diminution,0
+z_70.5_25.5,2029,Forte diminution,0
+z_70.5_25.5,2030,Forte diminution,0
+z_70.5_27.0,2023,Faible diminution,1
+z_70.5_27.0,2024,Faible diminution,1
+z_70.5_27.0,2025,Faible diminution,1
+z_70.5_27.0,2026,Faible diminution,1
+z_70.5_27.0,2027,Faible diminution,1
+z_70.5_27.0,2028,Faible diminution,1
+z_70.5_27.0,2029,Faible diminution,1
+z_70.5_27.0,2030,Faible diminution,1
+z_70.5_28.5,2023,Faible diminution,1
+z_70.5_28.5,2024,Faible diminution,1
+z_70.5_28.5,2025,Faible diminution,1
+z_70.5_28.5,2026,Faible diminution,1
+z_70.5_28.5,2027,Faible diminution,1
+z_70.5_28.5,2028,Faible diminution,1
+z_70.5_28.5,2029,Faible diminution,1
+z_70.5_28.5,2030,Faible diminution,1
+z_70.5_30.0,2023,Forte augmentation,4
+z_70.5_30.0,2024,Forte augmentation,4
+z_70.5_30.0,2025,Forte augmentation,4
+z_70.5_30.0,2026,Forte augmentation,4
+z_70.5_30.0,2027,Forte augmentation,4
+z_70.5_30.0,2028,Forte augmentation,4
+z_70.5_30.0,2029,Forte augmentation,4
+z_70.5_30.0,2030,Forte augmentation,4
+z_73.5_18.0,2023,Stable,2
+z_73.5_18.0,2024,Stable,2
+z_73.5_18.0,2025,Stable,2
+z_73.5_18.0,2026,Stable,2
+z_73.5_18.0,2027,Stable,2
+z_73.5_18.0,2028,Stable,2
+z_73.5_18.0,2029,Stable,2
+z_73.5_18.0,2030,Stable,2
+z_73.5_21.0,2023,Forte diminution,0
+z_73.5_21.0,2024,Forte diminution,0
+z_73.5_21.0,2025,Forte diminution,0
+z_73.5_21.0,2026,Forte diminution,0
+z_73.5_21.0,2027,Forte diminution,0
+z_73.5_21.0,2028,Forte diminution,0
+z_73.5_21.0,2029,Forte diminution,0
+z_73.5_21.0,2030,Forte diminution,0
+z_75.0_34.5,2023,Forte augmentation,4
+z_75.0_34.5,2024,Forte augmentation,4
+z_75.0_34.5,2025,Forte augmentation,4
+z_75.0_34.5,2026,Forte augmentation,4
+z_75.0_34.5,2027,Forte augmentation,4
+z_75.0_34.5,2028,Forte augmentation,4
+z_75.0_34.5,2029,Forte augmentation,4
+z_75.0_34.5,2030,Forte augmentation,4
+z_76.5_13.5,2023,Faible diminution,1
+z_76.5_13.5,2024,Faible diminution,1
+z_76.5_13.5,2025,Faible diminution,1
+z_76.5_13.5,2026,Faible diminution,1
+z_76.5_13.5,2027,Faible diminution,1
+z_76.5_13.5,2028,Faible diminution,1
+z_76.5_13.5,2029,Faible diminution,1
+z_76.5_13.5,2030,Faible diminution,1
+z_78.0_13.5,2023,Forte augmentation,4
+z_78.0_13.5,2024,Forte augmentation,4
+z_78.0_13.5,2025,Forte augmentation,4
+z_78.0_13.5,2026,Forte augmentation,4
+z_78.0_13.5,2027,Forte augmentation,4
+z_78.0_13.5,2028,Forte augmentation,4
+z_78.0_13.5,2029,Forte augmentation,4
+z_78.0_13.5,2030,Forte augmentation,4
+z_9.0_-15.0,2023,Faible diminution,1
+z_9.0_-15.0,2024,Faible diminution,1
+z_9.0_-15.0,2025,Faible diminution,1
+z_9.0_-15.0,2026,Faible diminution,1
+z_9.0_-15.0,2027,Faible diminution,1
+z_9.0_-15.0,2028,Faible diminution,1
+z_9.0_-15.0,2029,Faible diminution,1
+z_9.0_-15.0,2030,Faible diminution,1
+z_9.0_-76.5,2023,Stable,2
+z_9.0_-76.5,2024,Stable,2
+z_9.0_-76.5,2025,Stable,2
+z_9.0_-76.5,2026,Stable,2
+z_9.0_-76.5,2027,Stable,2
+z_9.0_-76.5,2028,Stable,2
+z_9.0_-76.5,2029,Stable,2
+z_9.0_-76.5,2030,Stable,2
+z_9.0_-81.0,2023,Forte diminution,0
+z_9.0_-81.0,2024,Forte diminution,0
+z_9.0_-81.0,2025,Forte diminution,0
+z_9.0_-81.0,2026,Forte diminution,0
+z_9.0_-81.0,2027,Forte diminution,0
+z_9.0_-81.0,2028,Forte diminution,0
+z_9.0_-81.0,2029,Forte diminution,0
+z_9.0_-81.0,2030,Forte diminution,0
+z_9.0_-84.0,2023,Forte augmentation,4
+z_9.0_-84.0,2024,Forte augmentation,4
+z_9.0_-84.0,2025,Forte augmentation,4
+z_9.0_-84.0,2026,Forte augmentation,4
+z_9.0_-84.0,2027,Forte augmentation,4
+z_9.0_-84.0,2028,Forte augmentation,4
+z_9.0_-84.0,2029,Forte augmentation,4
+z_9.0_-84.0,2030,Forte augmentation,4
+z_9.0_106.5,2023,Faible diminution,1
+z_9.0_106.5,2024,Faible diminution,1
+z_9.0_106.5,2025,Faible diminution,1
+z_9.0_106.5,2026,Faible diminution,1
+z_9.0_106.5,2027,Faible diminution,1
+z_9.0_106.5,2028,Faible diminution,1
+z_9.0_106.5,2029,Faible diminution,1
+z_9.0_106.5,2030,Faible diminution,1
+z_nan_nan,2023,Forte augmentation,4
+z_nan_nan,2024,Forte augmentation,4
+z_nan_nan,2025,Forte augmentation,4
+z_nan_nan,2026,Forte augmentation,4
+z_nan_nan,2027,Forte augmentation,4
+z_nan_nan,2028,Forte augmentation,4
+z_nan_nan,2029,Forte augmentation,4
+z_nan_nan,2030,Forte augmentation,4

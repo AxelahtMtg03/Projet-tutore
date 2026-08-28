@@ -611,17 +611,280 @@ def generate_risk_zones_map(data_path=None, output_path=None):
         'distribution': distribution.to_dict()
     }
     
+def generate_tendance_map(data_path=None, output_path=None):
+    """
+    Genere une carte des tendances predites par le classificateur (2026-2030).
+    Meme format que la carte des predictions avec curseur temporel.
+    """
+    
+    if data_path is None:
+        data_path = PROJECT_ROOT / "data" / "processed" / "predictions_tendance_2023_2030.csv"
+    if output_path is None:
+        output_path = PROJECT_ROOT / "maps" / "prediction_map" / "tendance_map.html"
+    
+    print("="*60)
+    print("CARTE DES TENDANCES PREDITES (2026-2030)")
+    print("="*60)
+    
+    # 1. Charger les predictions de tendance
+    df_tendance = pd.read_csv(data_path)
+    print(f"{len(df_tendance)} lignes chargees")
+    
+    # 2. Charger les coordonnees depuis le fichier de predictions
+    df_coords = pd.read_csv(PROJECT_ROOT / "data" / "processed" / "predictions_random_forest_densite_2023_2030.csv")
+    
+    # 3. Extraire les coordonnees par zone (une seule fois)
+    coords_par_zone = df_coords[['grille_lat', 'grille_lon']].drop_duplicates().reset_index(drop=True)
+    coords_par_zone['zone'] = "z_" + (coords_par_zone['grille_lat'] * 10).round().astype(int).astype(str) + "_" + (coords_par_zone['grille_lon'] * 10).round().astype(int).astype(str)
+    
+    # 4. Fusionner les predictions avec les coordonnees
+    df_merged = df_tendance.merge(coords_par_zone, on='zone', how='left')
+    df_merged = df_merged.dropna(subset=['grille_lat', 'grille_lon'])
+    
+    print(f"{len(df_merged)} lignes avec coordonnees")
+    
+    # 5. Preparer les donnees pour la carte
+    TAILLE_GRILLE_DEG = 1.5
+    
+    # Identifiant unique par cellule
+    df_merged['cell_id'] = (
+        "t_" + (df_merged['grille_lat'] * 100).round().astype(int).astype(str)
+        + "_" + (df_merged['grille_lon'] * 100).round().astype(int).astype(str)
+    )
+    
+    annees = sorted(df_merged['annee'].unique())
+    print(f"Annees: {annees}")
+    
+    # 6. Bornes des cases
+    cases_uniques = df_merged.drop_duplicates(subset='cell_id')[['cell_id', 'grille_lat', 'grille_lon']]
+    
+    cells_info = {
+        row['cell_id']: {
+            'lat0': row['grille_lat'],
+            'lon0': row['grille_lon'],
+            'lat1': row['grille_lat'] + TAILLE_GRILLE_DEG,
+            'lon1': row['grille_lon'] + TAILLE_GRILLE_DEG,
+        }
+        for _, row in cases_uniques.iterrows()
+    }
+    
+    # 7. Donnees par annee (couleur + tendance)
+    couleurs_tendance = {
+        'Forte diminution': '#08306b',
+        'Faible diminution': '#27ae60',
+        'Stable': '#8e44ad',
+        'Faible augmentation': '#f4d03f',
+        'Forte augmentation': '#e74c3c'
+    }
+    
+    data_par_annee = {}
+    for annee in annees:
+        data_par_annee[str(int(annee))] = {
+            row['cell_id']: {
+                'couleur': couleurs_tendance.get(row['tendance'], '#cccccc'),
+                'tendance': row['tendance'],
+                'classe': int(row['classe'])
+            }
+            for _, row in df_merged[df_merged['annee'] == annee].iterrows()
+        }
+    
+    # 8. Carte de base
+    lat_centre = df_merged['grille_lat'].mean() + TAILLE_GRILLE_DEG / 2
+    lon_centre = df_merged['grille_lon'].mean() + TAILLE_GRILLE_DEG / 2
+    
+    m = folium.Map(location=[lat_centre, lon_centre], zoom_start=5, tiles='CartoDB Positron')
+    nom_carte_js = m.get_name()
+    
+    # Titre
+    title_html = '''
+    <h3 align="center" style="font-size:18px; margin-top:5px; font-family: Arial, sans-serif;">
+        <b>Prediction de tendance des accidents (2026-2030)</b>
+    </h3>
+    '''
+    m.get_root().html.add_child(folium.Element(title_html))
+    
+    # Legende
+    legend_html = '''
+    <div style="position: fixed; bottom: 90px; left: 50px; width: 230px;
+                background-color: white; border: 1px solid #ccc; border-radius: 5px;
+                padding: 10px; z-index:9999; font-size:12px; font-family: Arial, sans-serif;">
+        <b>Tendance predite</b><br>
+        <div><span style="background:#08306b;padding:2px 10px;">&nbsp;</span> Forte diminution</div>
+        <div><span style="background:#27ae60;padding:2px 10px;">&nbsp;</span> Faible diminution</div>
+        <div><span style="background:#8e44ad;padding:2px 10px;">&nbsp;</span> Stable</div>
+        <div><span style="background:#f4d03f;padding:2px 10px;">&nbsp;</span> Faible augmentation</div>
+        <div><span style="background:#e74c3c;padding:2px 10px;">&nbsp;</span> Forte augmentation</div>
+    </div>
+    '''
+    m.get_root().html.add_child(folium.Element(legend_html))
+    
+    # 9. Code JS (identique a generate_prediction_map)
+    json_cells_info = json.dumps(cells_info)
+    json_data = json.dumps(data_par_annee)
+    json_annees = json.dumps([str(int(a)) for a in annees])
+    
+    js_code = f"""
+    <script>
+        var cellsInfo = {json_cells_info};
+        var dataParAnnee = {json_data};
+        var listeAnnees = {json_annees};
+        var rectangles = {{}};
+        var enLecture = false;
+        var intervalLecture = null;
+
+        function valeursCase(cellId, annee) {{
+            var donneesAnnee = dataParAnnee[annee] || {{}};
+            return donneesAnnee[cellId] || {{
+                couleur: '#cccccc',
+                tendance: 'Donnees insuffisantes',
+                classe: -1
+            }};
+        }}
+
+        function contenuPopup(cellId, annee) {{
+            var v = valeursCase(cellId, annee);
+            return '<b>Zone ' + cellId + '</b><br>' +
+                   'Annee : ' + annee + '<br>' +
+                   'Tendance : ' + v.tendance + '<br>' +
+                   'Classe : ' + v.classe;
+        }}
+
+        function initialiserCases() {{
+            Object.keys(cellsInfo).forEach(function(cellId) {{
+                var b = cellsInfo[cellId];
+                var v = valeursCase(cellId, listeAnnees[0]);
+
+                var rect = L.rectangle(
+                    [[b.lat0, b.lon0], [b.lat1, b.lon1]],
+                    {{ color: 'gray', weight: 0.4, fillColor: v.couleur, fillOpacity: 0.7 }}
+                ).addTo({nom_carte_js});
+
+                rect.bindPopup(contenuPopup(cellId, listeAnnees[0]));
+                rectangles[cellId] = rect;
+            }});
+        }}
+
+        function majCarte(annee) {{
+            Object.keys(rectangles).forEach(function(cellId) {{
+                var v = valeursCase(cellId, annee);
+                rectangles[cellId].setStyle({{ fillColor: v.couleur, fillOpacity: 0.7 }});
+                rectangles[cellId].setPopupContent(contenuPopup(cellId, annee));
+            }});
+            document.getElementById('sliderValeur').textContent = annee;
+            document.getElementById('sliderAnnee').value = annee;
+        }}
+
+        function creerCurseur() {{
+            var conteneur = document.createElement('div');
+            conteneur.style.position = 'fixed';
+            conteneur.style.bottom = '30px';
+            conteneur.style.left = '50%';
+            conteneur.style.transform = 'translateX(-50%)';
+            conteneur.style.zIndex = '1000';
+            conteneur.style.backgroundColor = 'white';
+            conteneur.style.padding = '12px 20px';
+            conteneur.style.borderRadius = '10px';
+            conteneur.style.boxShadow = '0 4px 20px rgba(0,0,0,0.3)';
+            conteneur.style.display = 'flex';
+            conteneur.style.alignItems = 'center';
+            conteneur.style.gap = '12px';
+            conteneur.style.fontFamily = 'Arial, sans-serif';
+
+            var label = document.createElement('span');
+            label.style.fontWeight = 'bold';
+            label.textContent = 'Annee :';
+            conteneur.appendChild(label);
+
+            var curseur = document.createElement('input');
+            curseur.type = 'range';
+            curseur.id = 'sliderAnnee';
+            curseur.min = listeAnnees[0];
+            curseur.max = listeAnnees[listeAnnees.length - 1];
+            curseur.value = listeAnnees[0];
+            curseur.step = 1;
+            curseur.style.width = '250px';
+            conteneur.appendChild(curseur);
+
+            var valeurAffichee = document.createElement('span');
+            valeurAffichee.id = 'sliderValeur';
+            valeurAffichee.style.fontWeight = 'bold';
+            valeurAffichee.style.fontSize = '16px';
+            valeurAffichee.style.minWidth = '45px';
+            valeurAffichee.style.color = '#8e44ad';
+            valeurAffichee.textContent = listeAnnees[0];
+            conteneur.appendChild(valeurAffichee);
+
+            var boutonLecture = document.createElement('button');
+            boutonLecture.textContent = 'Lecture';
+            boutonLecture.style.padding = '6px 14px';
+            boutonLecture.style.border = 'none';
+            boutonLecture.style.borderRadius = '5px';
+            boutonLecture.style.backgroundColor = '#4CAF50';
+            boutonLecture.style.color = 'white';
+            boutonLecture.style.cursor = 'pointer';
+            conteneur.appendChild(boutonLecture);
+
+            document.body.appendChild(conteneur);
+
+            curseur.addEventListener('input', function() {{
+                document.getElementById('sliderValeur').textContent = this.value;
+            }});
+            curseur.addEventListener('change', function() {{
+                majCarte(this.value);
+            }});
+
+            boutonLecture.addEventListener('click', function() {{
+                if (enLecture) {{
+                    clearInterval(intervalLecture);
+                    enLecture = false;
+                    this.textContent = 'Lecture';
+                    this.style.backgroundColor = '#4CAF50';
+                }} else {{
+                    enLecture = true;
+                    this.textContent = 'Arreter';
+                    this.style.backgroundColor = '#ff6b6b';
+
+                    var index = listeAnnees.indexOf(document.getElementById('sliderAnnee').value);
+                    if (index === -1 || index === listeAnnees.length - 1) index = 0;
+
+                    intervalLecture = setInterval(function() {{
+                        index = (index + 1) % listeAnnees.length;
+                        majCarte(listeAnnees[index]);
+                    }}, 1500);
+                }}
+            }});
+        }}
+
+        setTimeout(function() {{
+            initialiserCases();
+            creerCurseur();
+        }}, 500);
+    </script>
+    """
+    m.get_root().html.add_child(folium.Element(js_code))
+    
+    # 10. Sauvegarde
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    m.save(str(output_path))
+    print(f"Carte sauvegardee: {output_path}")
+    
+    return output_path
+    
 # 1. Carte des prédictions
 # print("\n1 Carte des prédictions...")
 # generate_prediction_map()
 
 # 2. Carte des erreurs (moyenne 2023-2025)
-print("\n2 Carte des erreurs (moyenne)...")
-error_stats = generate_error_map()
+# print("\n2 Carte des erreurs (moyenne)...")
+# error_stats = generate_error_map()
 
 # 3. Carte des zones à risque 
-print("\n3 Carte des zones à risque...")
-risk_stats = generate_risk_zones_map()
+# print("\n3 Carte des zones à risque...")
+# risk_stats = generate_risk_zones_map()
+
+# 4. Carte des tendances (NOUVELLE)
+print("4. Carte des tendances...")
+generate_tendance_map()
 
 # CARTE DES PRÉDICTIONS (curseur) :
 # Référence = 2011-2022 (passé)
