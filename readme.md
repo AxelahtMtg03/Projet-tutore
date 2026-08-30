@@ -36,7 +36,9 @@ Le projet utilise des données sur les accidents de navires (date de l’acciden
 
 ### Prétraitement des données
 
-<!-- Expliquer brièvement les principales étapes de nettoyage et de préparation des données. -->
+Le prétraitement consiste à éliminer les doublons ainsi que les données incomplètes ou invalides. Les dates, les heures et les coordonnées sont standardisées afin de permettre leur exploitation dans les analyses et les cartes.
+
+Le jeu de données présente toutefois deux limites : un semestre est manquant pour l’année 2011 et le mois de décembre est absent pour l’année 2025.
 
 ### Analyse exploratoire
 
