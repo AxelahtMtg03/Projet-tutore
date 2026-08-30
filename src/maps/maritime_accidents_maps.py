@@ -3,7 +3,7 @@ from pathlib import Path
 import pandas as pd
 import folium
 import branca.colormap as cm
-from folium.plugins import MarkerCluster, HeatMap, TimestampedGeoJson
+from folium.plugins import MarkerCluster, HeatMap, TimestampedGeoJson,HeatMapWithTime
 import json
 sys.path.append(str(Path(__file__).resolve().parents[1]))
     
@@ -96,27 +96,36 @@ def accidents():
     
 def heatmap():
     """Carte 2 : carte de chaleur (densité des accidents)"""
-    m2 = folium.Map(
+    m2b = folium.Map(
         location=[center_lat, center_lon],
         zoom_start=6,
         tiles='OpenStreetMap'
     )
 
-    heat_data = [[row['lat'], row['long']] for idx, row in df.iterrows()]
+    # Une liste de points par année, dans l'ordre chronologique
+    annees = sorted(df['annee'].dropna().unique())
+    heat_data_par_annee = [
+        df[df['annee'] == annee][['lat', 'long']].values.tolist()
+        for annee in annees
+    ]
+    index_annees = [str(int(annee)) for annee in annees]
 
-    HeatMap(heat_data, 
-            radius=15,
-            blur=10,
-            max_zoom=1,
-            min_opacity=0.3
-    ).add_to(m2)
+    HeatMapWithTime(
+        heat_data_par_annee,
+        index=index_annees,
+        radius=15,
+        auto_play=False,
+        max_opacity=0.8,
+        min_opacity=0.3
+    ).add_to(m2b)
 
-    title_html2 = '''
-                <h3 align="center" style="font-size:16px"><b>Carte de chaleur des accidents</b></h3>
+    title_html2b = '''
+                <h3 align="center" style="font-size:16px"><b>Carte de chaleur des accidents par année</b></h3>
+                <p align="center" style="font-size:12px">Utilise le curseur en bas pour voir l'évolution année par année</p>
                 '''
-    m2.get_root().html.add_child(folium.Element(title_html2))
+    m2b.get_root().html.add_child(folium.Element(title_html2b))
 
-    m2.save("maps/maritime_accidents_maps/heatmap_accident.html")
+    m2b.save("maps/maritime_accidents_maps/heatmap_accident_temps.html")
 
 def accident_annee():
     """Carte 3 : accidents par année, avec une couche activable/désactivable par année"""
@@ -576,10 +585,10 @@ def accident_filtrable_intersection():
     
     
 # accidents()
-# heatmap()
+heatmap()
 # accident_annee()
 # accident_temps_animation()
 # accident_grille()
 # accident_grille_temps()
-accident_grille_tendance()
+# accident_grille_tendance()
 # accident_filtrable_intersection()

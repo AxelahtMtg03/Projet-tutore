@@ -75,7 +75,7 @@ def generate_prediction_map(data_path=None, output_path=None):
     lat_centre = df['grille_lat'].mean() + TAILLE_GRILLE_DEG / 2
     lon_centre = df['grille_lon'].mean() + TAILLE_GRILLE_DEG / 2
     
-    m = folium.Map(location=[lat_centre, lon_centre], zoom_start=5, tiles='CartoDB Positron')
+    m = folium.Map(location=[lat_centre, lon_centre], zoom_start=5, tiles='OpenStreetMap')
     nom_carte_js = m.get_name()
     
     title_html = '''
@@ -357,7 +357,7 @@ def generate_error_map(data_path=None, output_path=None):
     m = folium.Map(
         location=[center_lat, center_lon],
         zoom_start=5,
-        tiles='CartoDB Positron'
+        tiles='OpenStreetMap'
     )
     
     # Ajouter les rectangles
@@ -542,7 +542,7 @@ def generate_risk_zones_map(data_path=None, output_path=None):
     m = folium.Map(
         location=[center_lat, center_lon],
         zoom_start=5,
-        tiles='CartoDB Positron'
+        tiles='OpenStreetMap'
     )
     
     couleurs_risque = {
@@ -635,8 +635,7 @@ def generate_tendance_map(data_path=None, output_path=None):
     
     # 3. Extraire les coordonnees par zone (une seule fois)
     coords_par_zone = df_coords[['grille_lat', 'grille_lon']].drop_duplicates().reset_index(drop=True)
-    coords_par_zone['zone'] = "z_" + (coords_par_zone['grille_lat'] * 10).round().astype(int).astype(str) + "_" + (coords_par_zone['grille_lon'] * 10).round().astype(int).astype(str)
-    
+    coords_par_zone['zone'] = "z_" + coords_par_zone['grille_lat'].astype(str) + "_" + coords_par_zone['grille_lon'].astype(str)    
     # 4. Fusionner les predictions avec les coordonnees
     df_merged = df_tendance.merge(coords_par_zone, on='zone', how='left')
     df_merged = df_merged.dropna(subset=['grille_lat', 'grille_lon'])
@@ -682,8 +681,7 @@ def generate_tendance_map(data_path=None, output_path=None):
         data_par_annee[str(int(annee))] = {
             row['cell_id']: {
                 'couleur': couleurs_tendance.get(row['tendance'], '#cccccc'),
-                'tendance': row['tendance'],
-                'classe': int(row['classe'])
+                'tendance': row['tendance']
             }
             for _, row in df_merged[df_merged['annee'] == annee].iterrows()
         }
@@ -692,7 +690,7 @@ def generate_tendance_map(data_path=None, output_path=None):
     lat_centre = df_merged['grille_lat'].mean() + TAILLE_GRILLE_DEG / 2
     lon_centre = df_merged['grille_lon'].mean() + TAILLE_GRILLE_DEG / 2
     
-    m = folium.Map(location=[lat_centre, lon_centre], zoom_start=5, tiles='CartoDB Positron')
+    m = folium.Map(location=[lat_centre, lon_centre], zoom_start=5, tiles='OpenStreetMap')
     nom_carte_js = m.get_name()
     
     # Titre

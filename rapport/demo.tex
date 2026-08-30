@@ -1,18 +1,371 @@
-\documentclass{article}
+\documentclass[12pt, a4paper]{report}
+
+% ========== PACKAGES UTILES ==========
+\usepackage[utf8]{inputenc}      % Encodage des caractères
+\usepackage[T1]{fontenc}         % Encodage des polices
+\usepackage[french]{babel}       % Langue française
+\usepackage{amsmath, amssymb}    % Maths
+\usepackage{graphicx}            % Images
+\usepackage{geometry}            % Marges
+\usepackage{xurl}                % Permet les retours à la ligne dans les URL
+\usepackage{titlesec}            % Personnalisation des titres
+\usepackage{fancyhdr}            % En-têtes/pieds de page
+\usepackage{hyperref}            % Liens cliquables
+\usepackage{xcolor}              % Couleurs
+\usepackage{booktabs}            % Tableaux propres
+\usepackage{listings}            % Code source
+\usepackage{enumitem}            % Listes personnalisées
+\usepackage{ragged2e}            % Justification du texte
+\usepackage{abstract}            % Amélioration de l'abstract
+\usepackage{tcolorbox}
+\usepackage{caption}             % Légendes sans numérotation
+\usepackage{subcaption}          % Sous-figures
+\usepackage{float}               % Placement exact des figures
+
+% ========== MISE EN PAGE ==========
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\setlength{\parindent}{0pt}      % Pas d'indentation
+\setlength{\parskip}{0.5em}      % Saut réduit entre paragraphes
+
+% ========== COULEURS ==========
+\definecolor{noir}{RGB}{0,0,0}
+\definecolor{gris}{RGB}{100, 100, 100}
+
+% Puces foncées dans toutes les listes
+\setlist[itemize]{label=\textcolor{noir}{\textbullet}, noitemsep, topsep=0.3em}
+
+% ============================================================
+% EN-TÊTE ET PIED DE PAGE AVANCÉS
+% ============================================================
+\pagestyle{fancy}
+
+% En-tête simple : titre du rapport à gauche et section courante à droite.
+\fancyhead{}
+\fancyhead[L]{\small\textcolor{gris}{\textsc{Prédiction des accidents maritimes}}}
+\fancyhead[R]{\small\textcolor{gris}{\textsc{Université de la Nouvelle-Calédonie}}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{gris}\leaders\hrule height \headrulewidth\hfill}}
+
+% Pied de page : informations personnalisées au centre
+\fancyfoot[C]{\small \textcolor{gris}{Axel Archambeault \& Ashley Roo — \thepage}}
+
+\renewcommand{\footrulewidth}{0.5pt}
+
+% Les pages de début de chapitre utilisent le style « plain ».
+% On lui applique donc le même pied de page que le style « fancy ».
+\fancypagestyle{plain}{
+  \fancyhead{}%
+  \fancyhead[L]{\small\textcolor{gris}{\textsc{Prédiction des accidents maritimes}}}%
+  \fancyhead[R]{\small\textcolor{gris}{\textsc{Université de la Nouvelle-Calédonie}}}%
+  \fancyfoot[C]{\small \textcolor{gris}{Axel Archambeault \& Ashley Roo — \thepage}}%
+  \renewcommand{\headrulewidth}{0.4pt}%
+  \renewcommand{\headrule}{\hbox to\headwidth{\color{gris}\leaders\hrule height \headrulewidth\hfill}}%
+  \renewcommand{\footrulewidth}{0.5pt}%
+}
+
+% ========== TITRES ==========
+\titleformat{\chapter}
+  {\normalfont\LARGE\bfseries\color{noir}}{\thechapter}{1em}{}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+% Réduit les espaces verticaux autour des titres.
+\titlespacing*{\chapter}{0pt}{-1.5em}{0.5em}
+\titlespacing*{\section}{0pt}{0.5em}{0.3em}
+\titlespacing*{\subsection}{0pt}{0.3em}{0.2em}
+
+% ========== HYPERLIENS ==========
+\hypersetup{
+  colorlinks=true,
+  linkcolor=noir,
+  urlcolor=noir,
+  citecolor=noir
+}
+
+% ========== DOCUMENT ==========
 \begin{document}
-1. Introduction
-2. Données
-   - Sources (accidents, flotte, densité AIS)
-   - Nettoyage et prétraitement
-3. Analyse exploratoire
-4. Modélisation
-   - Random Forest
-   - Validation
-5. Résultats
-   - Cartes de prédiction 2023-2030
-   - Analyse des tendances
-   - Zones à risque
-6. Améliorations et perspectives
-   - Limites du modèle
-   - Améliorations possibles
-7. Conclusion\end{document}
+
+% --- PAGE DE GARDE ---
+\begin{titlepage}
+  \thispagestyle{empty}
+  \centering
+  \vspace*{1cm}
+  \IfFileExists{UNC.jpg}{\includegraphics[width=0.25\textwidth]{UNC.jpg}}{\fbox{\parbox[c][3cm][c]{0.25\textwidth}{\centering Logo indisponible}}} \\[1cm]
+
+  {\Huge \textbf{Prédiction des accidents maritimes}} \\[0.5cm]
+  {\Large Analyse spatiale et temporelle par Random Forest} \\[2cm]
+
+  \textbf{Auteurs :} \\
+  Axel Archambeault \\
+  Ashley Roo \\[1cm]
+
+  \textbf{Encadrant :} \\
+  M. Salmon \\[1cm]
+
+  \vfill
+
+  \textit{Licence informatique TREC 5} \\
+  \textit{2026}
+
+  \vspace*{1cm}
+\end{titlepage}
+
+% --- TABLE DES MATIÈRES ---
+\pagestyle{empty}
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+\pagestyle{fancy}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% ========== CHAPITRE 1 : INTRODUCTION ==========
+\chapter{Introduction}
+\thispagestyle{plain}
+
+A completer
+% ========== CHAPITRE 2 : DONNÉES ==========
+\chapter{Données}
+
+\section{Sources des données}
+
+A completer
+\begin{itemize}
+    \item \textbf{Accidents maritimes} : 44 097 enregistrements d'accidents en Europe entre 2011 et 2025. Chaque enregistrement contient la localisation (latitude, longitude), la date, l'heure, la gravité, le type de bateau, le port, etc.
+    \item \textbf{Densité de trafic AIS} : Données de densité de navigation (Automatic Identification System) pour la période 2017-2021, fournissant l'intensité du trafic maritime par zone.
+    \item \textbf{Flotte mondiale} : Évolution du nombre de navires par type (cargo, pétrolier, vraquier, etc.) et par année entre 2011 et 2026.
+\end{itemize}
+
+\begin{tcolorbox}[colback=gray!5, colframe=black!50, sharp corners]
+\textbf{Résumé des données :}
+\begin{itemize}
+    \item \textbf{Accidents :} 44 097 lignes (2011-2025)
+    \item \textbf{Densité AIS :} 2017-2021
+    \item \textbf{Flotte mondiale :} 2011-2026
+    \item \textbf{Zones :} Grille de 1.5° × 1.5°
+\end{itemize}
+\end{tcolorbox}
+
+\section{Nettoyage et prétraitement}
+
+Les données ont subi plusieurs étapes de nettoyage :
+
+\begin{enumerate}
+    \item \textbf{Suppression des valeurs manquantes} : Les lignes sans latitude, longitude ou année ont été écartées.
+    \item \textbf{Standardisation des coordonnées} : Conversion des coordonnées en degrés décimaux.
+    \item \textbf{Assignation des accidents à des zones} : Chaque accident a été associé à une zone de grille de 1.5° × 1.5°.
+    \item \textbf{Création de variables temporelles} : Lags (1, 2, 3 ans), moyennes mobiles (3, 5 ans), évolution récente.
+    \item \textbf{Fusion avec la flotte et la densité} : Intégration des données de densité AIS et de flotte mondiale.
+\end{enumerate}
+
+\section{Structure des données finales}
+
+Le jeu de données final est organisé par zone et par année, avec les variables suivantes :
+
+\begin{itemize}
+    \item \textbf{Cible (régression)} : Nombre d'accidents par zone et par année
+    \item \textbf{Cible (classification)} : Tendance (5 classes)
+    \item \textbf{Features} : Année, densité moyenne, densité max, nombre de navires, lags (1,2,3), moyennes mobiles (3,5), évolution récente
+\end{itemize}
+
+% ========== CHAPITRE 3 : ANALYSE EXPLORATOIRE ==========
+\chapter{Analyse exploratoire}
+
+\section{Évolution temporelle}
+
+L'analyse des accidents par année révèle une tendance en trois phases :
+
+\begin{itemize}
+    \item \textbf{2011-2015} : Forte augmentation des accidents (de 1 269 à 3 510)
+    \item \textbf{2015-2019} : Plateau autour de 3 500 accidents par an
+    \item \textbf{2019-2025} : Diminution progressive (3 536 à 2 200)
+\end{itemize}
+
+\section{Distribution spatiale}
+
+Les accidents sont concentrés dans certaines zones stratégiques : Manche, Méditerranée, Atlantique nord. Une carte de chaleur (heatmap) met en évidence ces zones à forte densité d'accidents.
+
+\section{Facteurs influents}
+
+L'analyse des variables montre que :
+
+\begin{itemize}
+    \item Les accidents sont plus fréquents en été et en automne.
+    \item Les cargos et les pétroliers sont les types de bateaux les plus impliqués.
+    \item Les ports majeurs (Rotterdam, Anvers, Hambourg) concentrent un grand nombre d'accidents.
+\end{itemize}
+
+% ========== CHAPITRE 4 : MODÉLISATION ==========
+\chapter{Modélisation}
+
+\section{Approche retenue}
+
+Deux modèles Random Forest ont été développés :
+
+\begin{enumerate}
+    \item \textbf{Régression} : Prédiction du nombre exact d'accidents par zone et par année.
+    \item \textbf{Classification} : Prédiction directe de la tendance (5 classes).
+\end{enumerate}
+
+\section{Random Forest - Régression}
+
+Le modèle de régression utilise les paramètres suivants :
+
+\begin{itemize}
+    \item \textbf{Features} : densité moyenne, densité médiane, densité max, densité std, nombre de mesures, référence historique
+    \item \textbf{Entraînement} : 2017-2022
+    \item \textbf{Validation} : 2023-2025
+    \item \textbf{Prédiction} : 2026-2030
+\end{itemize}
+
+\section{Random Forest - Classification des tendances}
+
+Le modèle de classification prédit directement la tendance en 5 classes :
+
+\begin{itemize}
+    \item Classe 0 : Forte diminution ($< -30\%$)
+    \item Classe 1 : Faible diminution ($-30\%$ à $-10\%$)
+    \item Classe 2 : Stable ($-10\%$ à $+10\%$)
+    \item Classe 3 : Faible augmentation ($+10\%$ à $+30\%$)
+    \item Classe 4 : Forte augmentation ($> +30\%$)
+\end{itemize}
+
+\subsection{Validation du modèle}
+
+Le modèle est validé sur la période 2023-2025 :
+
+\begin{itemize}
+    \item \textbf{Accuracy} : 0.75 (75\%)
+    \item \textbf{Matrice de confusion} : Visualisation des erreurs par classe
+\end{itemize}
+
+\subsection{Importance des variables}
+
+Les variables les plus importantes sont :
+
+\begin{enumerate}
+    \item Moyenne 5 ans
+    \item Densité moyenne
+    \item Évolution récente
+    \item Nombre de navires
+    \item Lags (1, 2, 3)
+\end{enumerate}
+
+% ========== CHAPITRE 5 : RÉSULTATS ==========
+\chapter{Résultats}
+
+\section{Carte des prédictions}
+
+La carte des prédictions (2023-2030) permet de visualiser l'évolution des accidents par zone. Un curseur temporel permet de naviguer année par année.
+
+\begin{figure}[H]
+  \centering
+  \IfFileExists{../maps/prediction_map/predictions_random_forest_densite_2023_2030.png}{\includegraphics[width=0.8\textwidth]{../maps/prediction_map/predictions_random_forest_densite_2023_2030.png}}{\fbox{\parbox[c][5cm][c]{0.8\textwidth}{\centering Carte des prédictions}}}
+  \caption*{Carte des prédictions (2023-2030)}
+\end{figure}
+
+\section{Carte des erreurs}
+
+La carte des erreurs (2023-2025) montre où le modèle est fiable ou non. Les zones en vert indiquent une bonne précision, celles en rouge une forte erreur.
+
+\begin{figure}[H]
+  \centering
+  \IfFileExists{../maps/prediction_map/error_map.png}{\includegraphics[width=0.8\textwidth]{../maps/prediction_map/error_map.png}}{\fbox{\parbox[c][5cm][c]{0.8\textwidth}{\centering Carte des erreurs}}}
+  \caption*{Carte des erreurs du modèle}
+\end{figure}
+
+\section{Carte des zones à risque}
+
+La carte des zones à risque identifie les zones où une augmentation significative des accidents est attendue.
+
+\begin{figure}[H]
+  \centering
+  \IfFileExists{../maps/maritime_accidents_maps/risk_zones_map.png}{\includegraphics[width=0.8\textwidth]{../maps/maritime_accidents_maps/risk_zones_map.png}}{\fbox{\parbox[c][5cm][c]{0.8\textwidth}{\centering Carte des zones à risque}}}
+  \caption*{Carte des zones à risque (2026-2030)}
+\end{figure}
+
+\section{Carte des tendances}
+
+La carte des tendances prédites (2023-2030) visualise les 5 classes de tendance pour chaque zone.
+
+\begin{figure}[H]
+  \centering
+  \IfFileExists{../maps/prediction_map/tendance_map.png}{\includegraphics[width=0.8\textwidth]{../maps/prediction_map/tendance_map.png}}{\fbox{\parbox[c][5cm][c]{0.8\textwidth}{\centering Carte des tendances}}}
+  \caption*{Carte des tendances prédites (2023-2030)}
+\end{figure}
+
+% ========== CHAPITRE 6 : AMÉLIORATIONS ET PERSPECTIVES ==========
+\chapter{Améliorations et perspectives}
+
+\section{Limites du modèle}
+
+Plusieurs limites ont été identifiées :
+
+\begin{itemize}
+    \item \textbf{Données limitées} : Seulement 15 années de données disponibles.
+    \item \textbf{Résolution spatiale} : Grille de 1.5° × 1.5° (environ 150 km), trop large pour une analyse fine.
+    \item \textbf{Facteurs externes} : Non pris en compte (météo, régulations, nouvelles technologies).
+    \item \textbf{Extrapolation} : La densité AIS s'arrête en 2021, obligeant à utiliser des valeurs constantes pour les années futures.
+\end{itemize}
+
+\section{Améliorations possibles}
+
+Plusieurs pistes d'amélioration sont envisageables :
+
+\begin{enumerate}
+    \item \textbf{Modèles plus complexes} : XGBoost, LSTM (réseaux de neurones pour séries temporelles).
+    \item \textbf{Résolution plus fine} : Grille de 0.5° × 0.5°.
+    \item \textbf{Nouvelles variables} : Données météo, courants marins, densité portuaire.
+    \item \textbf{Interface interactive} : Développement d'un tableau de bord Streamlit.
+    \item \textbf{Mise à jour des données} : Intégration des données AIS plus récentes.
+\end{enumerate}
+
+% ========== CHAPITRE 7 : CONCLUSION ==========
+\chapter{Conclusion}
+
+Ce projet a permis de développer un outil de prédiction des accidents maritimes basé sur un modèle Random Forest, combinant des données d'accidents historiques, de densité de trafic AIS et de flotte mondiale.
+
+Les principaux résultats sont les suivants :
+
+\begin{itemize}
+    \item Une tendance générale à la baisse des accidents depuis 2019.
+    \item L'identification de zones à risque où une augmentation est attendue.
+    \item Un modèle de classification des tendances avec une accuracy de 75\% sur 2023-2025.
+    \item Des cartes interactives permettant une visualisation intuitive des prédictions.
+\end{itemize}
+
+Les perspectives d'amélioration sont nombreuses : utilisation de modèles plus complexes, résolution spatiale plus fine, intégration de nouvelles variables. Ce projet constitue une base solide pour des travaux futurs sur la sécurité maritime et la prévention des accidents.
+
+% ========== SOURCES ==========
+\chapter*{Sources}
+\addcontentsline{toc}{chapter}{Sources}
+
+\section*{Données}
+
+\begingroup
+\justifying
+\sloppy
+
+\begin{enumerate}[label={[1]}, leftmargin=2cm]
+\item \textsc{European Maritime Safety Agency (EMSA)}. \textit{Maritime Accident Database}. Disponible à l'adresse : \url{https://www.emsa.europa.eu/}.
+\end{enumerate}
+
+\section*{Bibliographie}
+
+\begin{enumerate}[label={[2]}, leftmargin=2cm, start=2]
+\item \textsc{Breiman, L.} (2001). \textit{Random Forests}. Machine Learning, 45(1), 5-32.
+\item \textsc{James, G., Witten, D., Hastie, T., \& Tibshirani, R.} (2013). \textit{An Introduction to Statistical Learning}. Springer.
+\end{enumerate}
+
+\section*{Outils et bibliothèques}
+
+\begin{enumerate}[label={[4]}, leftmargin=2cm, start=4]
+\item \textsc{Scikit-learn}. \textit{Random Forest Classifier and Regressor}. Disponible à l'adresse : \url{https://scikit-learn.org/}.
+\item \textsc{Folium}. \textit{Interactive Maps with Python}. Disponible à l'adresse : \url{https://python-visualization.github.io/folium/}.
+\end{enumerate}
+
+\endgroup
+
+\end{document}

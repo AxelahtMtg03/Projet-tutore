@@ -1,0 +1,26 @@
+\babel@toc {french}{}\relax 
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Données}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Sources des données}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Nettoyage et prétraitement}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Structure des données finales}{2}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Analyse exploratoire}{3}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Évolution temporelle}{3}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Distribution spatiale}{3}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Facteurs influents}{3}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Modélisation}{4}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Approche retenue}{4}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Random Forest - Régression}{4}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Random Forest - Classification des tendances}{4}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Validation du modèle}{4}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Importance des variables}{4}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Résultats}{5}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Carte des prédictions}{5}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Carte des erreurs}{5}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Carte des zones à risque}{5}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Carte des tendances}{6}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Améliorations et perspectives}{7}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Limites du modèle}{7}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Améliorations possibles}{7}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Conclusion}{8}{chapter.7}%
+\contentsline {chapter}{Sources}{9}{chapter*.6}%
