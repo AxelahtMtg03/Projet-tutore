@@ -1,0 +1,2126 @@
+zone,annee,trimestre,trimestre_annee,tendance,confiance,tendance_reelle,correct
+z_24.0_-19.5,2023,1,2023-T1,Données insuffisantes,98.6,Donnees insuffisantes,False
+z_27.0_-16.5,2023,1,2023-T1,Forte diminution,48.4,Stable,False
+z_30.0_31.5,2023,1,2023-T1,Stable,72.5,Stable,True
+z_33.0_-13.5,2023,1,2023-T1,Données insuffisantes,98.6,Donnees insuffisantes,False
+z_34.5_-15.0,2023,1,2023-T1,Données insuffisantes,97.6,Donnees insuffisantes,False
+z_34.5_-6.0,2023,1,2023-T1,Stable,72.6,Stable,True
+z_34.5_13.5,2023,1,2023-T1,Faible augmentation,41.7,Stable,False
+z_34.5_22.5,2023,1,2023-T1,Stable,71.7,Stable,True
+z_34.5_24.0,2023,1,2023-T1,Forte diminution,53.9,Stable,False
+z_34.5_27.0,2023,1,2023-T1,Données insuffisantes,98.1,Stable,False
+z_34.5_33.0,2023,1,2023-T1,Stable,73.8,Stable,True
+z_36.0_-10.5,2023,1,2023-T1,Stable,66.0,Stable,True
+z_36.0_-3.0,2023,1,2023-T1,Forte diminution,44.9,Forte augmentation,False
+z_36.0_-6.0,2023,1,2023-T1,Forte diminution,49.7,Forte diminution,True
+z_36.0_-9.0,2023,1,2023-T1,Forte diminution,44.7,Forte augmentation,False
+z_36.0_13.5,2023,1,2023-T1,Forte diminution,61.6,Stable,False
+z_36.0_22.5,2023,1,2023-T1,Forte diminution,52.2,Forte diminution,True
+z_36.0_24.0,2023,1,2023-T1,Forte augmentation,38.9,Stable,False
+z_36.0_25.5,2023,1,2023-T1,Forte augmentation,40.1,Stable,False
+z_36.0_27.0,2023,1,2023-T1,Forte diminution,51.9,Stable,False
+z_36.0_9.0,2023,1,2023-T1,Données insuffisantes,94.2,Forte augmentation,False
+z_37.5_-1.5,2023,1,2023-T1,Forte diminution,50.5,Stable,False
+z_37.5_-10.5,2023,1,2023-T1,Forte diminution,45.8,Stable,False
+z_37.5_-22.5,2023,1,2023-T1,Données insuffisantes,98.7,Donnees insuffisantes,False
+z_37.5_-9.0,2023,1,2023-T1,Forte diminution,42.6,Forte diminution,True
+z_37.5_10.5,2023,1,2023-T1,Données insuffisantes,90.6,Stable,False
+z_37.5_12.0,2023,1,2023-T1,Forte diminution,50.0,Stable,False
+z_37.5_13.5,2023,1,2023-T1,Stable,71.1,Stable,True
+z_37.5_15.0,2023,1,2023-T1,Forte diminution,54.6,Stable,False
+z_37.5_16.5,2023,1,2023-T1,Données insuffisantes,73.3,Stable,False
+z_37.5_21.0,2023,1,2023-T1,Forte diminution,58.8,Stable,False
+z_37.5_22.5,2023,1,2023-T1,Forte diminution,34.1,Forte augmentation,False
+z_37.5_24.0,2023,1,2023-T1,Forte diminution,50.5,Forte diminution,True
+z_39.0_0.0,2023,1,2023-T1,Stable,78.5,Stable,True
+z_39.0_19.5,2023,1,2023-T1,Forte diminution,56.0,Stable,False
+z_39.0_22.5,2023,1,2023-T1,Forte diminution,47.2,Forte diminution,True
+z_39.0_24.0,2023,1,2023-T1,Stable,63.0,Stable,True
+z_39.0_3.0,2023,1,2023-T1,Stable,70.2,Stable,True
+z_39.0_7.5,2023,1,2023-T1,Données insuffisantes,97.2,Stable,False
+z_39.0_9.0,2023,1,2023-T1,Stable,72.5,Stable,True
+z_40.5_-10.5,2023,1,2023-T1,Données insuffisantes,85.9,Stable,False
+z_40.5_-9.0,2023,1,2023-T1,Forte diminution,38.1,Stable,False
+z_40.5_0.0,2023,1,2023-T1,Stable,59.0,Forte diminution,False
+z_40.5_1.5,2023,1,2023-T1,Forte diminution,43.2,Stable,False
+z_40.5_12.0,2023,1,2023-T1,Stable,69.4,Stable,True
+z_40.5_13.5,2023,1,2023-T1,Forte diminution,46.9,Forte diminution,True
+z_40.5_16.5,2023,1,2023-T1,Stable,49.0,Stable,True
+z_40.5_22.5,2023,1,2023-T1,Stable,67.5,Stable,True
+z_40.5_28.5,2023,1,2023-T1,Stable,58.0,Stable,True
+z_40.5_3.0,2023,1,2023-T1,Stable,45.5,Stable,True
+z_42.0_-3.0,2023,1,2023-T1,Stable,64.3,Stable,True
+z_42.0_-4.5,2023,1,2023-T1,Stable,60.1,Stable,True
+z_42.0_-9.0,2023,1,2023-T1,Stable,49.4,Stable,True
+z_42.0_13.5,2023,1,2023-T1,Stable,52.6,Stable,True
+z_42.0_15.0,2023,1,2023-T1,Forte diminution,47.4,Stable,False
+z_42.0_28.5,2023,1,2023-T1,Données insuffisantes,98.6,Stable,False
+z_42.0_3.0,2023,1,2023-T1,Forte diminution,58.3,Stable,False
+z_42.0_4.5,2023,1,2023-T1,Stable,51.3,Stable,True
+z_42.0_9.0,2023,1,2023-T1,Forte diminution,39.3,Forte augmentation,False
+z_43.5_-3.0,2023,1,2023-T1,Stable,70.2,Stable,True
+z_43.5_-7.5,2023,1,2023-T1,Stable,51.8,Forte augmentation,False
+z_43.5_-9.0,2023,1,2023-T1,Forte diminution,54.5,Forte diminution,True
+z_43.5_12.0,2023,1,2023-T1,Forte diminution,55.4,Forte augmentation,False
+z_43.5_13.5,2023,1,2023-T1,Stable,73.3,Stable,True
+z_43.5_30.0,2023,1,2023-T1,Données insuffisantes,95.7,Donnees insuffisantes,False
+z_43.5_37.5,2023,1,2023-T1,Données insuffisantes,94.0,Stable,False
+z_43.5_7.5,2023,1,2023-T1,Forte diminution,51.2,Forte augmentation,False
+z_43.5_9.0,2023,1,2023-T1,Forte diminution,43.3,Forte diminution,True
+z_45.0_-1.5,2023,1,2023-T1,Forte diminution,39.1,Forte augmentation,False
+z_45.0_-3.0,2023,1,2023-T1,Forte diminution,57.4,Forte diminution,True
+z_45.0_-4.5,2023,1,2023-T1,Données insuffisantes,78.9,Stable,False
+z_45.0_-6.0,2023,1,2023-T1,Données insuffisantes,94.9,Stable,False
+z_45.0_-9.0,2023,1,2023-T1,Stable,60.8,Stable,True
+z_45.0_12.0,2023,1,2023-T1,Forte diminution,48.0,Stable,False
+z_45.0_13.5,2023,1,2023-T1,Forte diminution,47.4,Stable,False
+z_46.5_-10.5,2023,1,2023-T1,Données insuffisantes,98.6,Donnees insuffisantes,False
+z_46.5_-3.0,2023,1,2023-T1,Forte diminution,57.4,Stable,False
+z_46.5_-4.5,2023,1,2023-T1,Forte diminution,47.5,Forte diminution,True
+z_46.5_-6.0,2023,1,2023-T1,Forte diminution,52.7,Stable,False
+z_48.0_-1.5,2023,1,2023-T1,Forte diminution,53.1,Forte augmentation,False
+z_48.0_-3.0,2023,1,2023-T1,Stable,59.0,Stable,True
+z_48.0_-4.5,2023,1,2023-T1,Stable,48.6,Stable,True
+z_48.0_-6.0,2023,1,2023-T1,Forte diminution,49.6,Forte diminution,True
+z_48.0_-7.5,2023,1,2023-T1,Stable,67.0,Stable,True
+z_49.5_-1.5,2023,1,2023-T1,Forte diminution,46.3,Forte diminution,True
+z_49.5_-3.0,2023,1,2023-T1,Forte diminution,43.9,Forte diminution,True
+z_49.5_-6.0,2023,1,2023-T1,Stable,70.8,Forte diminution,False
+z_49.5_-9.0,2023,1,2023-T1,Stable,72.2,Stable,True
+z_49.5_0.0,2023,1,2023-T1,Forte diminution,55.7,Forte diminution,True
+z_49.5_1.5,2023,1,2023-T1,Données insuffisantes,98.8,Stable,False
+z_51.0_-10.5,2023,1,2023-T1,Stable,72.9,Stable,True
+z_51.0_-16.5,2023,1,2023-T1,Données insuffisantes,96.7,Stable,False
+z_51.0_-18.0,2023,1,2023-T1,Données insuffisantes,97.2,Donnees insuffisantes,False
+z_51.0_-4.5,2023,1,2023-T1,Données insuffisantes,86.9,Forte diminution,False
+z_51.0_-6.0,2023,1,2023-T1,Stable,66.7,Forte diminution,False
+z_51.0_-7.5,2023,1,2023-T1,Forte diminution,54.2,Stable,False
+z_51.0_-9.0,2023,1,2023-T1,Stable,72.3,Stable,True
+z_51.0_0.0,2023,1,2023-T1,Forte diminution,49.8,Forte diminution,True
+z_51.0_1.5,2023,1,2023-T1,Forte diminution,71.7,Forte diminution,True
+z_51.0_3.0,2023,1,2023-T1,Forte diminution,28.0,Faible augmentation,False
+z_52.5_-6.0,2023,1,2023-T1,Forte diminution,42.7,Forte diminution,True
+z_52.5_-7.5,2023,1,2023-T1,Forte diminution,38.8,Stable,False
+z_52.5_1.5,2023,1,2023-T1,Stable,74.4,Forte diminution,False
+z_52.5_13.5,2023,1,2023-T1,Forte diminution,59.9,Stable,False
+z_52.5_3.0,2023,1,2023-T1,Stable,49.9,Stable,True
+z_52.5_4.5,2023,1,2023-T1,Forte diminution,60.0,Stable,False
+z_52.5_6.0,2023,1,2023-T1,Forte diminution,52.2,Stable,False
+z_52.5_7.5,2023,1,2023-T1,Faible augmentation,39.2,Faible augmentation,True
+z_52.5_9.0,2023,1,2023-T1,Forte diminution,34.8,Stable,False
+z_54.0_-1.5,2023,1,2023-T1,Stable,46.1,Forte diminution,False
+z_54.0_-4.5,2023,1,2023-T1,Stable,65.9,Forte diminution,False
+z_54.0_-6.0,2023,1,2023-T1,Données insuffisantes,95.6,Forte diminution,False
+z_54.0_0.0,2023,1,2023-T1,Données insuffisantes,82.4,Stable,False
+z_54.0_10.5,2023,1,2023-T1,Forte diminution,40.8,Forte augmentation,False
+z_54.0_12.0,2023,1,2023-T1,Forte diminution,44.7,Forte augmentation,False
+z_54.0_13.5,2023,1,2023-T1,Forte diminution,58.5,Forte augmentation,False
+z_54.0_15.0,2023,1,2023-T1,Stable,71.3,Stable,True
+z_54.0_18.0,2023,1,2023-T1,Forte diminution,60.9,Forte augmentation,False
+z_54.0_4.5,2023,1,2023-T1,Stable,68.1,Stable,True
+z_54.0_6.0,2023,1,2023-T1,Stable,64.6,Stable,True
+z_54.0_7.5,2023,1,2023-T1,Faible augmentation,46.1,Stable,False
+z_54.0_9.0,2023,1,2023-T1,Forte diminution,51.0,Stable,False
+z_55.5_-10.5,2023,1,2023-T1,Données insuffisantes,98.3,Donnees insuffisantes,False
+z_55.5_-4.5,2023,1,2023-T1,Données insuffisantes,98.5,Forte diminution,False
+z_55.5_1.5,2023,1,2023-T1,Données insuffisantes,96.6,Stable,False
+z_55.5_10.5,2023,1,2023-T1,Forte diminution,57.9,Forte augmentation,False
+z_55.5_12.0,2023,1,2023-T1,Forte diminution,38.1,Stable,False
+z_55.5_13.5,2023,1,2023-T1,Données insuffisantes,71.7,Stable,False
+z_55.5_16.5,2023,1,2023-T1,Données insuffisantes,85.5,Stable,False
+z_55.5_21.0,2023,1,2023-T1,Forte diminution,71.4,Forte augmentation,False
+z_55.5_4.5,2023,1,2023-T1,Données insuffisantes,97.0,Stable,False
+z_55.5_6.0,2023,1,2023-T1,Stable,66.4,Forte augmentation,False
+z_55.5_7.5,2023,1,2023-T1,Forte diminution,54.3,Stable,False
+z_55.5_9.0,2023,1,2023-T1,Forte diminution,52.1,Stable,False
+z_57.0_-7.5,2023,1,2023-T1,Données insuffisantes,97.0,Forte diminution,False
+z_57.0_10.5,2023,1,2023-T1,Forte diminution,40.8,Forte augmentation,False
+z_57.0_12.0,2023,1,2023-T1,Données insuffisantes,91.3,Stable,False
+z_57.0_18.0,2023,1,2023-T1,Stable,72.7,Stable,True
+z_57.0_21.0,2023,1,2023-T1,Données insuffisantes,97.3,Stable,False
+z_57.0_4.5,2023,1,2023-T1,Stable,66.0,Forte augmentation,False
+z_57.0_7.5,2023,1,2023-T1,Stable,68.4,Stable,True
+z_57.0_9.0,2023,1,2023-T1,Stable,52.0,Forte augmentation,False
+z_58.5_10.5,2023,1,2023-T1,Forte diminution,56.3,Stable,False
+z_58.5_16.5,2023,1,2023-T1,Forte augmentation,40.9,Forte diminution,False
+z_58.5_18.0,2023,1,2023-T1,Forte augmentation,38.1,Stable,False
+z_58.5_19.5,2023,1,2023-T1,Stable,73.2,Stable,True
+z_58.5_24.0,2023,1,2023-T1,Forte diminution,37.6,Stable,False
+z_58.5_3.0,2023,1,2023-T1,Données insuffisantes,93.8,Stable,False
+z_58.5_4.5,2023,1,2023-T1,Forte diminution,67.4,Faible diminution,False
+z_58.5_9.0,2023,1,2023-T1,Stable,69.7,Stable,True
+z_60.0_-9.0,2023,1,2023-T1,Données insuffisantes,97.8,Donnees insuffisantes,False
+z_60.0_1.5,2023,1,2023-T1,Stable,73.7,Stable,True
+z_60.0_19.5,2023,1,2023-T1,Données insuffisantes,98.8,Stable,False
+z_60.0_21.0,2023,1,2023-T1,Forte diminution,49.4,Forte augmentation,False
+z_60.0_25.5,2023,1,2023-T1,Stable,64.2,Stable,True
+z_60.0_27.0,2023,1,2023-T1,Données insuffisantes,94.0,Stable,False
+z_60.0_4.5,2023,1,2023-T1,Forte diminution,48.6,Stable,False
+z_61.5_-1.5,2023,1,2023-T1,Données insuffisantes,97.7,Stable,False
+z_61.5_16.5,2023,1,2023-T1,Données insuffisantes,91.8,Stable,False
+z_61.5_19.5,2023,1,2023-T1,Données insuffisantes,95.2,Stable,False
+z_61.5_4.5,2023,1,2023-T1,Forte diminution,46.1,Forte augmentation,False
+z_61.5_6.0,2023,1,2023-T1,Forte diminution,46.4,Stable,False
+z_63.0_-24.0,2023,1,2023-T1,Stable,58.5,Stable,True
+z_63.0_-7.5,2023,1,2023-T1,Données insuffisantes,98.3,Donnees insuffisantes,False
+z_63.0_10.5,2023,1,2023-T1,Données insuffisantes,97.7,Forte augmentation,False
+z_63.0_18.0,2023,1,2023-T1,Données insuffisantes,95.6,Stable,False
+z_63.0_7.5,2023,1,2023-T1,Forte diminution,51.5,Stable,False
+z_64.5_-24.0,2023,1,2023-T1,Données insuffisantes,94.5,Stable,False
+z_64.5_10.5,2023,1,2023-T1,Stable,57.6,Stable,True
+z_64.5_12.0,2023,1,2023-T1,Stable,59.3,Stable,True
+z_64.5_24.0,2023,1,2023-T1,Stable,69.4,Stable,True
+z_64.5_7.5,2023,1,2023-T1,Données insuffisantes,98.3,Donnees insuffisantes,False
+z_66.0_12.0,2023,1,2023-T1,Forte diminution,47.0,Stable,False
+z_66.0_9.0,2023,1,2023-T1,Données insuffisantes,98.4,Stable,False
+z_67.5_10.5,2023,1,2023-T1,Données insuffisantes,92.0,Stable,False
+z_67.5_12.0,2023,1,2023-T1,Stable,47.1,Stable,True
+z_67.5_13.5,2023,1,2023-T1,Stable,63.1,Stable,True
+z_67.5_15.0,2023,1,2023-T1,Stable,65.5,Forte diminution,False
+z_67.5_16.5,2023,1,2023-T1,Stable,59.6,Forte augmentation,False
+z_69.0_13.5,2023,1,2023-T1,Données insuffisantes,99.2,Stable,False
+z_69.0_15.0,2023,1,2023-T1,Stable,68.2,Forte augmentation,False
+z_69.0_16.5,2023,1,2023-T1,Forte diminution,39.6,Forte augmentation,False
+z_69.0_18.0,2023,1,2023-T1,Stable,72.1,Stable,True
+z_69.0_19.5,2023,1,2023-T1,Données insuffisantes,89.4,Stable,False
+z_70.5_16.5,2023,1,2023-T1,Données insuffisantes,93.2,Stable,False
+z_70.5_21.0,2023,1,2023-T1,Données insuffisantes,96.4,Stable,False
+z_70.5_22.5,2023,1,2023-T1,Stable,72.2,Stable,True
+z_70.5_24.0,2023,1,2023-T1,Stable,63.7,Stable,True
+z_75.0_31.5,2023,1,2023-T1,Données insuffisantes,98.2,Donnees insuffisantes,False
+z_75.0_33.0,2023,1,2023-T1,Données insuffisantes,92.3,Donnees insuffisantes,False
+z_75.0_34.5,2023,1,2023-T1,Données insuffisantes,97.5,Donnees insuffisantes,False
+z_75.0_36.0,2023,1,2023-T1,Données insuffisantes,98.3,Stable,False
+z_27.0_-15.0,2023,2,2023-T2,Données insuffisantes,96.8,Stable,False
+z_28.5_-15.0,2023,2,2023-T2,Stable,76.7,Stable,True
+z_30.0_28.5,2023,2,2023-T2,Données insuffisantes,88.8,Stable,False
+z_30.0_31.5,2023,2,2023-T2,Stable,67.9,Stable,True
+z_34.5_-1.5,2023,2,2023-T2,Données insuffisantes,97.3,Stable,False
+z_34.5_-7.5,2023,2,2023-T2,Données insuffisantes,95.3,Stable,False
+z_34.5_12.0,2023,2,2023-T2,Données insuffisantes,97.8,Stable,False
+z_34.5_13.5,2023,2,2023-T2,Faible augmentation,31.4,Forte diminution,False
+z_34.5_22.5,2023,2,2023-T2,Stable,67.0,Stable,True
+z_34.5_24.0,2023,2,2023-T2,Forte diminution,51.6,Stable,False
+z_34.5_25.5,2023,2,2023-T2,Stable,69.6,Stable,True
+z_34.5_33.0,2023,2,2023-T2,Stable,70.7,Stable,True
+z_36.0_-3.0,2023,2,2023-T2,Forte diminution,48.2,Forte augmentation,False
+z_36.0_-4.5,2023,2,2023-T2,Stable,72.1,Stable,True
+z_36.0_-6.0,2023,2,2023-T2,Forte diminution,50.0,Stable,False
+z_36.0_-7.5,2023,2,2023-T2,Forte diminution,43.6,Stable,False
+z_36.0_10.5,2023,2,2023-T2,Stable,53.2,Stable,True
+z_36.0_12.0,2023,2,2023-T2,Stable,65.2,Stable,True
+z_36.0_13.5,2023,2,2023-T2,Forte diminution,64.1,Forte augmentation,False
+z_36.0_15.0,2023,2,2023-T2,Forte diminution,50.6,Stable,False
+z_36.0_16.5,2023,2,2023-T2,Données insuffisantes,98.6,Stable,False
+z_36.0_18.0,2023,2,2023-T2,Données insuffisantes,97.5,Donnees insuffisantes,False
+z_36.0_21.0,2023,2,2023-T2,Stable,70.8,Stable,True
+z_36.0_22.5,2023,2,2023-T2,Forte diminution,49.7,Forte augmentation,False
+z_36.0_24.0,2023,2,2023-T2,Forte diminution,48.6,Stable,False
+z_36.0_25.5,2023,2,2023-T2,Forte diminution,38.0,Forte diminution,True
+z_36.0_27.0,2023,2,2023-T2,Forte diminution,55.4,Forte augmentation,False
+z_37.5_-1.5,2023,2,2023-T2,Forte diminution,41.3,Stable,False
+z_37.5_-10.5,2023,2,2023-T2,Forte diminution,55.9,Stable,False
+z_37.5_-9.0,2023,2,2023-T2,Forte diminution,44.6,Forte diminution,True
+z_37.5_0.0,2023,2,2023-T2,Stable,70.2,Forte diminution,False
+z_37.5_12.0,2023,2,2023-T2,Forte diminution,42.2,Forte augmentation,False
+z_37.5_15.0,2023,2,2023-T2,Forte diminution,50.2,Forte augmentation,False
+z_37.5_19.5,2023,2,2023-T2,Forte diminution,54.6,Stable,False
+z_37.5_21.0,2023,2,2023-T2,Forte diminution,56.1,Stable,False
+z_37.5_22.5,2023,2,2023-T2,Faible augmentation,38.2,Stable,False
+z_37.5_24.0,2023,2,2023-T2,Forte diminution,45.8,Forte augmentation,False
+z_37.5_25.5,2023,2,2023-T2,Stable,56.2,Forte augmentation,False
+z_39.0_-1.5,2023,2,2023-T2,Stable,35.2,Stable,True
+z_39.0_1.5,2023,2,2023-T2,Stable,68.3,Stable,True
+z_39.0_16.5,2023,2,2023-T2,Stable,70.2,Stable,True
+z_39.0_19.5,2023,2,2023-T2,Forte diminution,59.7,Stable,False
+z_39.0_22.5,2023,2,2023-T2,Forte diminution,49.8,Forte diminution,True
+z_39.0_3.0,2023,2,2023-T2,Stable,67.9,Stable,True
+z_39.0_6.0,2023,2,2023-T2,Données insuffisantes,98.2,Donnees insuffisantes,False
+z_39.0_9.0,2023,2,2023-T2,Stable,69.8,Stable,True
+z_40.5_-10.5,2023,2,2023-T2,Données insuffisantes,88.1,Stable,False
+z_40.5_-9.0,2023,2,2023-T2,Stable,37.7,Stable,True
+z_40.5_13.5,2023,2,2023-T2,Forte diminution,47.4,Stable,False
+z_40.5_18.0,2023,2,2023-T2,Données insuffisantes,95.2,Stable,False
+z_40.5_22.5,2023,2,2023-T2,Stable,67.0,Stable,True
+z_40.5_28.5,2023,2,2023-T2,Stable,66.6,Stable,True
+z_40.5_3.0,2023,2,2023-T2,Stable,52.0,Stable,True
+z_40.5_9.0,2023,2,2023-T2,Stable,60.4,Stable,True
+z_42.0_-10.5,2023,2,2023-T2,Forte diminution,37.5,Stable,False
+z_42.0_-36.0,2023,2,2023-T2,Données insuffisantes,98.7,Donnees insuffisantes,False
+z_42.0_-6.0,2023,2,2023-T2,Données insuffisantes,98.5,Stable,False
+z_42.0_-9.0,2023,2,2023-T2,Stable,48.6,Forte augmentation,False
+z_42.0_10.5,2023,2,2023-T2,Stable,57.9,Stable,True
+z_42.0_13.5,2023,2,2023-T2,Stable,54.6,Stable,True
+z_42.0_15.0,2023,2,2023-T2,Forte diminution,43.9,Stable,False
+z_42.0_16.5,2023,2,2023-T2,Données insuffisantes,72.7,Stable,False
+z_42.0_27.0,2023,2,2023-T2,Stable,50.0,Stable,True
+z_42.0_3.0,2023,2,2023-T2,Forte diminution,64.2,Stable,False
+z_42.0_4.5,2023,2,2023-T2,Stable,44.3,Stable,True
+z_42.0_6.0,2023,2,2023-T2,Stable,69.9,Stable,True
+z_42.0_7.5,2023,2,2023-T2,Données insuffisantes,98.6,Stable,False
+z_42.0_9.0,2023,2,2023-T2,Forte diminution,42.4,Stable,False
+z_43.5_-3.0,2023,2,2023-T2,Stable,79.3,Stable,True
+z_43.5_-6.0,2023,2,2023-T2,Stable,66.1,Forte diminution,False
+z_43.5_-7.5,2023,2,2023-T2,Forte diminution,35.2,Stable,False
+z_43.5_-9.0,2023,2,2023-T2,Forte diminution,48.2,Forte augmentation,False
+z_43.5_12.0,2023,2,2023-T2,Forte diminution,52.2,Stable,False
+z_43.5_13.5,2023,2,2023-T2,Stable,73.8,Stable,True
+z_43.5_15.0,2023,2,2023-T2,Stable,73.3,Forte diminution,False
+z_43.5_28.5,2023,2,2023-T2,Données insuffisantes,96.3,Stable,False
+z_43.5_7.5,2023,2,2023-T2,Forte diminution,41.0,Stable,False
+z_43.5_9.0,2023,2,2023-T2,Forte diminution,46.4,Forte diminution,True
+z_45.0_-1.5,2023,2,2023-T2,Stable,35.7,Stable,True
+z_45.0_-3.0,2023,2,2023-T2,Forte diminution,53.9,Stable,False
+z_45.0_12.0,2023,2,2023-T2,Forte diminution,43.9,Stable,False
+z_45.0_13.5,2023,2,2023-T2,Forte diminution,57.6,Stable,False
+z_46.5_-3.0,2023,2,2023-T2,Forte diminution,57.2,Forte augmentation,False
+z_46.5_-4.5,2023,2,2023-T2,Forte diminution,45.6,Forte augmentation,False
+z_46.5_-6.0,2023,2,2023-T2,Forte diminution,41.7,Stable,False
+z_46.5_-7.5,2023,2,2023-T2,Données insuffisantes,83.5,Stable,False
+z_48.0_-1.5,2023,2,2023-T2,Forte diminution,55.7,Stable,False
+z_48.0_-3.0,2023,2,2023-T2,Stable,52.4,Forte augmentation,False
+z_48.0_-4.5,2023,2,2023-T2,Stable,52.2,Stable,True
+z_48.0_-6.0,2023,2,2023-T2,Forte diminution,56.0,Stable,False
+z_48.0_-7.5,2023,2,2023-T2,Stable,69.4,Stable,True
+z_48.0_-9.0,2023,2,2023-T2,Stable,71.2,Stable,True
+z_49.5_-1.5,2023,2,2023-T2,Forte diminution,45.1,Faible diminution,False
+z_49.5_-3.0,2023,2,2023-T2,Forte diminution,43.1,Forte diminution,True
+z_49.5_-4.5,2023,2,2023-T2,Stable,64.2,Forte diminution,False
+z_49.5_-6.0,2023,2,2023-T2,Stable,63.7,Forte diminution,False
+z_49.5_-7.5,2023,2,2023-T2,Données insuffisantes,93.9,Stable,False
+z_49.5_0.0,2023,2,2023-T2,Forte diminution,58.5,Forte diminution,True
+z_49.5_1.5,2023,2,2023-T2,Données insuffisantes,98.4,Stable,False
+z_51.0_-10.5,2023,2,2023-T2,Stable,73.6,Forte diminution,False
+z_51.0_-12.0,2023,2,2023-T2,Stable,75.7,Stable,True
+z_51.0_-7.5,2023,2,2023-T2,Forte diminution,46.0,Stable,False
+z_51.0_0.0,2023,2,2023-T2,Forte diminution,59.8,Forte diminution,True
+z_51.0_1.5,2023,2,2023-T2,Forte diminution,49.9,Faible diminution,False
+z_51.0_3.0,2023,2,2023-T2,Faible diminution,34.6,Forte augmentation,False
+z_52.5_-1.5,2023,2,2023-T2,Stable,72.9,Forte diminution,False
+z_52.5_-6.0,2023,2,2023-T2,Forte diminution,43.9,Stable,False
+z_52.5_0.0,2023,2,2023-T2,Stable,53.8,Forte diminution,False
+z_52.5_13.5,2023,2,2023-T2,Forte diminution,59.6,Forte augmentation,False
+z_52.5_3.0,2023,2,2023-T2,Stable,35.8,Forte augmentation,False
+z_52.5_4.5,2023,2,2023-T2,Forte diminution,53.5,Forte augmentation,False
+z_52.5_6.0,2023,2,2023-T2,Forte diminution,42.0,Stable,False
+z_52.5_7.5,2023,2,2023-T2,Faible augmentation,41.2,Faible diminution,False
+z_52.5_9.0,2023,2,2023-T2,Faible diminution,41.8,Stable,False
+z_54.0_-1.5,2023,2,2023-T2,Stable,54.0,Forte diminution,False
+z_54.0_-12.0,2023,2,2023-T2,Données insuffisantes,98.9,Donnees insuffisantes,False
+z_54.0_-9.0,2023,2,2023-T2,Données insuffisantes,97.4,Stable,False
+z_54.0_10.5,2023,2,2023-T2,Faible augmentation,47.1,Forte augmentation,False
+z_54.0_12.0,2023,2,2023-T2,Faible augmentation,33.3,Forte augmentation,False
+z_54.0_13.5,2023,2,2023-T2,Forte diminution,47.3,Forte augmentation,False
+z_54.0_15.0,2023,2,2023-T2,Stable,68.3,Stable,True
+z_54.0_18.0,2023,2,2023-T2,Forte diminution,49.4,Forte augmentation,False
+z_54.0_3.0,2023,2,2023-T2,Données insuffisantes,98.0,Stable,False
+z_54.0_4.5,2023,2,2023-T2,Stable,71.6,Stable,True
+z_54.0_7.5,2023,2,2023-T2,Faible augmentation,53.6,Stable,False
+z_54.0_9.0,2023,2,2023-T2,Forte diminution,27.5,Forte augmentation,False
+z_55.5_-6.0,2023,2,2023-T2,Données insuffisantes,93.6,Forte diminution,False
+z_55.5_10.5,2023,2,2023-T2,Forte diminution,52.0,Stable,False
+z_55.5_12.0,2023,2,2023-T2,Forte augmentation,32.5,Forte diminution,False
+z_55.5_13.5,2023,2,2023-T2,Données insuffisantes,73.9,Stable,False
+z_55.5_16.5,2023,2,2023-T2,Données insuffisantes,92.1,Stable,False
+z_55.5_21.0,2023,2,2023-T2,Forte diminution,48.8,Stable,False
+z_55.5_7.5,2023,2,2023-T2,Forte diminution,54.6,Stable,False
+z_55.5_9.0,2023,2,2023-T2,Forte diminution,37.7,Forte augmentation,False
+z_57.0_-10.5,2023,2,2023-T2,Données insuffisantes,98.6,Stable,False
+z_57.0_10.5,2023,2,2023-T2,Faible augmentation,46.0,Forte augmentation,False
+z_57.0_12.0,2023,2,2023-T2,Données insuffisantes,96.1,Stable,False
+z_57.0_21.0,2023,2,2023-T2,Données insuffisantes,98.5,Stable,False
+z_57.0_22.5,2023,2,2023-T2,Stable,75.3,Stable,True
+z_57.0_4.5,2023,2,2023-T2,Stable,70.9,Stable,True
+z_57.0_6.0,2023,2,2023-T2,Stable,50.8,Stable,True
+z_57.0_7.5,2023,2,2023-T2,Stable,66.8,Stable,True
+z_57.0_9.0,2023,2,2023-T2,Stable,40.2,Stable,True
+z_58.5_10.5,2023,2,2023-T2,Forte diminution,55.5,Stable,False
+z_58.5_16.5,2023,2,2023-T2,Forte diminution,45.4,Forte diminution,True
+z_58.5_18.0,2023,2,2023-T2,Forte augmentation,38.6,Forte augmentation,True
+z_58.5_21.0,2023,2,2023-T2,Stable,75.3,Stable,True
+z_58.5_22.5,2023,2,2023-T2,Stable,67.8,Stable,True
+z_58.5_24.0,2023,2,2023-T2,Forte diminution,40.4,Stable,False
+z_58.5_4.5,2023,2,2023-T2,Forte diminution,60.9,Faible diminution,False
+z_58.5_9.0,2023,2,2023-T2,Stable,74.7,Forte diminution,False
+z_60.0_-31.5,2023,2,2023-T2,Données insuffisantes,95.6,Donnees insuffisantes,False
+z_60.0_1.5,2023,2,2023-T2,Stable,76.2,Stable,True
+z_60.0_21.0,2023,2,2023-T2,Forte diminution,44.2,Forte diminution,True
+z_60.0_3.0,2023,2,2023-T2,Stable,51.6,Stable,True
+z_60.0_4.5,2023,2,2023-T2,Forte diminution,52.9,Forte diminution,True
+z_61.5_-7.5,2023,2,2023-T2,Données insuffisantes,93.3,Stable,False
+z_61.5_4.5,2023,2,2023-T2,Forte diminution,39.1,Stable,False
+z_61.5_6.0,2023,2,2023-T2,Forte diminution,49.8,Stable,False
+z_63.0_-21.0,2023,2,2023-T2,Données insuffisantes,89.0,Stable,False
+z_63.0_-22.5,2023,2,2023-T2,Stable,68.9,Forte diminution,False
+z_63.0_-24.0,2023,2,2023-T2,Stable,72.9,Stable,True
+z_63.0_3.0,2023,2,2023-T2,Données insuffisantes,98.5,Donnees insuffisantes,False
+z_63.0_4.5,2023,2,2023-T2,Stable,52.7,Stable,True
+z_63.0_7.5,2023,2,2023-T2,Forte diminution,42.6,Stable,False
+z_64.5_-22.5,2023,2,2023-T2,Données insuffisantes,98.6,Stable,False
+z_64.5_-24.0,2023,2,2023-T2,Données insuffisantes,91.2,Stable,False
+z_64.5_-25.5,2023,2,2023-T2,Données insuffisantes,94.8,Stable,False
+z_64.5_10.5,2023,2,2023-T2,Stable,47.4,Stable,True
+z_64.5_21.0,2023,2,2023-T2,Stable,57.1,Stable,True
+z_66.0_12.0,2023,2,2023-T2,Forte diminution,48.2,Stable,False
+z_66.0_13.5,2023,2,2023-T2,Stable,68.8,Stable,True
+z_67.5_12.0,2023,2,2023-T2,Stable,52.9,Stable,True
+z_67.5_15.0,2023,2,2023-T2,Stable,68.3,Stable,True
+z_69.0_15.0,2023,2,2023-T2,Stable,64.0,Stable,True
+z_69.0_16.5,2023,2,2023-T2,Forte diminution,49.7,Stable,False
+z_69.0_18.0,2023,2,2023-T2,Stable,61.7,Forte augmentation,False
+z_69.0_21.0,2023,2,2023-T2,Données insuffisantes,85.6,Stable,False
+z_70.5_24.0,2023,2,2023-T2,Stable,74.6,Stable,True
+z_72.0_13.5,2023,2,2023-T2,Données insuffisantes,97.2,Donnees insuffisantes,False
+z_72.0_19.5,2023,2,2023-T2,Données insuffisantes,98.6,Stable,False
+z_72.0_24.0,2023,2,2023-T2,Données insuffisantes,97.9,Donnees insuffisantes,False
+z_72.0_25.5,2023,2,2023-T2,Données insuffisantes,97.7,Donnees insuffisantes,False
+z_78.0_15.0,2023,2,2023-T2,Données insuffisantes,99.1,Donnees insuffisantes,False
+z_28.5_-15.0,2023,3,2023-T3,Stable,68.9,Stable,True
+z_30.0_31.5,2023,3,2023-T3,Stable,74.0,Stable,True
+z_31.5_-18.0,2023,3,2023-T3,Données insuffisantes,98.8,Stable,False
+z_34.5_-4.5,2023,3,2023-T3,Données insuffisantes,98.8,Stable,False
+z_34.5_12.0,2023,3,2023-T3,Données insuffisantes,96.2,Stable,False
+z_34.5_13.5,2023,3,2023-T3,Forte diminution,31.8,Faible augmentation,False
+z_34.5_22.5,2023,3,2023-T3,Stable,71.9,Stable,True
+z_34.5_24.0,2023,3,2023-T3,Forte diminution,50.3,Forte diminution,True
+z_34.5_25.5,2023,3,2023-T3,Stable,71.1,Stable,True
+z_34.5_27.0,2023,3,2023-T3,Données insuffisantes,97.9,Stable,False
+z_34.5_31.5,2023,3,2023-T3,Stable,65.9,Stable,True
+z_34.5_33.0,2023,3,2023-T3,Stable,71.6,Forte augmentation,False
+z_36.0_-12.0,2023,3,2023-T3,Données insuffisantes,98.5,Donnees insuffisantes,False
+z_36.0_-3.0,2023,3,2023-T3,Forte diminution,48.8,Stable,False
+z_36.0_-4.5,2023,3,2023-T3,Stable,67.7,Stable,True
+z_36.0_-6.0,2023,3,2023-T3,Forte diminution,51.6,Stable,False
+z_36.0_-7.5,2023,3,2023-T3,Forte diminution,48.0,Forte augmentation,False
+z_36.0_-9.0,2023,3,2023-T3,Forte diminution,42.1,Stable,False
+z_36.0_10.5,2023,3,2023-T3,Stable,56.1,Stable,True
+z_36.0_12.0,2023,3,2023-T3,Stable,66.9,Stable,True
+z_36.0_13.5,2023,3,2023-T3,Forte diminution,55.3,Forte diminution,True
+z_36.0_15.0,2023,3,2023-T3,Forte diminution,63.4,Stable,False
+z_36.0_21.0,2023,3,2023-T3,Stable,70.2,Stable,True
+z_36.0_22.5,2023,3,2023-T3,Forte diminution,51.3,Stable,False
+z_36.0_24.0,2023,3,2023-T3,Forte diminution,65.6,Stable,False
+z_36.0_25.5,2023,3,2023-T3,Forte diminution,47.2,Forte diminution,True
+z_36.0_27.0,2023,3,2023-T3,Forte diminution,48.4,Forte diminution,True
+z_36.0_34.5,2023,3,2023-T3,Données insuffisantes,93.2,Stable,False
+z_37.5_-1.5,2023,3,2023-T3,Forte diminution,48.3,Stable,False
+z_37.5_-10.5,2023,3,2023-T3,Forte diminution,56.4,Stable,False
+z_37.5_-28.5,2023,3,2023-T3,Données insuffisantes,95.3,Stable,False
+z_37.5_-9.0,2023,3,2023-T3,Forte diminution,46.9,Stable,False
+z_37.5_0.0,2023,3,2023-T3,Stable,71.8,Stable,True
+z_37.5_12.0,2023,3,2023-T3,Forte diminution,43.8,Stable,False
+z_37.5_13.5,2023,3,2023-T3,Stable,73.9,Stable,True
+z_37.5_15.0,2023,3,2023-T3,Forte diminution,51.0,Forte diminution,True
+z_37.5_19.5,2023,3,2023-T3,Forte diminution,58.3,Stable,False
+z_37.5_21.0,2023,3,2023-T3,Forte diminution,55.7,Forte augmentation,False
+z_37.5_22.5,2023,3,2023-T3,Faible diminution,39.4,Forte augmentation,False
+z_37.5_24.0,2023,3,2023-T3,Forte diminution,54.2,Faible diminution,False
+z_37.5_25.5,2023,3,2023-T3,Stable,61.9,Forte augmentation,False
+z_39.0_-10.5,2023,3,2023-T3,Stable,70.1,Stable,True
+z_39.0_0.0,2023,3,2023-T3,Stable,71.8,Stable,True
+z_39.0_1.5,2023,3,2023-T3,Stable,71.0,Stable,True
+z_39.0_10.5,2023,3,2023-T3,Données insuffisantes,97.9,Stable,False
+z_39.0_15.0,2023,3,2023-T3,Données insuffisantes,98.4,Stable,False
+z_39.0_16.5,2023,3,2023-T3,Stable,66.6,Stable,True
+z_39.0_19.5,2023,3,2023-T3,Forte diminution,55.4,Faible diminution,False
+z_39.0_22.5,2023,3,2023-T3,Forte diminution,43.7,Forte augmentation,False
+z_39.0_24.0,2023,3,2023-T3,Stable,71.9,Stable,True
+z_39.0_3.0,2023,3,2023-T3,Stable,67.3,Stable,True
+z_39.0_9.0,2023,3,2023-T3,Stable,70.9,Stable,True
+z_40.5_-10.5,2023,3,2023-T3,Données insuffisantes,83.2,Stable,False
+z_40.5_0.0,2023,3,2023-T3,Stable,68.4,Stable,True
+z_40.5_1.5,2023,3,2023-T3,Forte diminution,42.0,Forte diminution,True
+z_40.5_10.5,2023,3,2023-T3,Données insuffisantes,94.1,Stable,False
+z_40.5_18.0,2023,3,2023-T3,Données insuffisantes,95.8,Stable,False
+z_40.5_22.5,2023,3,2023-T3,Stable,65.3,Stable,True
+z_40.5_24.0,2023,3,2023-T3,Stable,45.6,Forte diminution,False
+z_40.5_25.5,2023,3,2023-T3,Données insuffisantes,71.0,Stable,False
+z_40.5_28.5,2023,3,2023-T3,Stable,45.1,Forte augmentation,False
+z_40.5_3.0,2023,3,2023-T3,Stable,57.3,Forte diminution,False
+z_40.5_7.5,2023,3,2023-T3,Stable,73.7,Stable,True
+z_40.5_9.0,2023,3,2023-T3,Stable,59.4,Forte diminution,False
+z_42.0_-10.5,2023,3,2023-T3,Stable,38.1,Forte augmentation,False
+z_42.0_-3.0,2023,3,2023-T3,Stable,56.6,Stable,True
+z_42.0_-9.0,2023,3,2023-T3,Forte diminution,36.6,Forte augmentation,False
+z_42.0_10.5,2023,3,2023-T3,Stable,67.9,Stable,True
+z_42.0_13.5,2023,3,2023-T3,Stable,48.9,Stable,True
+z_42.0_16.5,2023,3,2023-T3,Données insuffisantes,63.1,Stable,False
+z_42.0_18.0,2023,3,2023-T3,Données insuffisantes,99.1,Stable,False
+z_42.0_28.5,2023,3,2023-T3,Données insuffisantes,98.6,Stable,False
+z_42.0_3.0,2023,3,2023-T3,Forte diminution,52.8,Forte augmentation,False
+z_42.0_4.5,2023,3,2023-T3,Forte diminution,39.7,Forte augmentation,False
+z_42.0_6.0,2023,3,2023-T3,Stable,66.0,Stable,True
+z_42.0_9.0,2023,3,2023-T3,Forte diminution,38.6,Stable,False
+z_43.5_-1.5,2023,3,2023-T3,Stable,68.2,Stable,True
+z_43.5_-3.0,2023,3,2023-T3,Stable,68.2,Stable,True
+z_43.5_-4.5,2023,3,2023-T3,Stable,68.2,Stable,True
+z_43.5_-6.0,2023,3,2023-T3,Stable,66.1,Stable,True
+z_43.5_-7.5,2023,3,2023-T3,Forte diminution,43.4,Stable,False
+z_43.5_12.0,2023,3,2023-T3,Forte diminution,55.5,Stable,False
+z_43.5_13.5,2023,3,2023-T3,Stable,67.9,Stable,True
+z_43.5_15.0,2023,3,2023-T3,Stable,70.8,Stable,True
+z_43.5_6.0,2023,3,2023-T3,Données insuffisantes,98.5,Stable,False
+z_43.5_7.5,2023,3,2023-T3,Forte diminution,48.1,Stable,False
+z_43.5_9.0,2023,3,2023-T3,Forte diminution,41.1,Forte diminution,True
+z_45.0_-1.5,2023,3,2023-T3,Forte diminution,41.8,Forte diminution,True
+z_45.0_-3.0,2023,3,2023-T3,Forte diminution,56.4,Forte augmentation,False
+z_45.0_-4.5,2023,3,2023-T3,Données insuffisantes,86.7,Stable,False
+z_45.0_13.5,2023,3,2023-T3,Forte diminution,63.7,Forte augmentation,False
+z_45.0_28.5,2023,3,2023-T3,Données insuffisantes,98.7,Forte augmentation,False
+z_46.5_-3.0,2023,3,2023-T3,Forte diminution,60.9,Stable,False
+z_46.5_-4.5,2023,3,2023-T3,Forte diminution,53.2,Stable,False
+z_46.5_-6.0,2023,3,2023-T3,Forte diminution,47.7,Stable,False
+z_48.0_-1.5,2023,3,2023-T3,Forte diminution,53.6,Forte augmentation,False
+z_48.0_-3.0,2023,3,2023-T3,Stable,51.7,Forte diminution,False
+z_48.0_-4.5,2023,3,2023-T3,Stable,55.6,Stable,True
+z_48.0_-6.0,2023,3,2023-T3,Forte diminution,58.9,Forte augmentation,False
+z_48.0_-7.5,2023,3,2023-T3,Stable,62.9,Stable,True
+z_48.0_-9.0,2023,3,2023-T3,Stable,70.6,Stable,True
+z_49.5_-1.5,2023,3,2023-T3,Forte diminution,37.0,Forte diminution,True
+z_49.5_-3.0,2023,3,2023-T3,Forte diminution,47.1,Forte diminution,True
+z_49.5_-4.5,2023,3,2023-T3,Stable,69.8,Forte diminution,False
+z_49.5_-6.0,2023,3,2023-T3,Stable,62.8,Forte diminution,False
+z_49.5_-9.0,2023,3,2023-T3,Stable,70.8,Stable,True
+z_49.5_0.0,2023,3,2023-T3,Forte diminution,58.2,Stable,False
+z_51.0_-10.5,2023,3,2023-T3,Stable,67.1,Stable,True
+z_51.0_-6.0,2023,3,2023-T3,Stable,72.0,Forte diminution,False
+z_51.0_-7.5,2023,3,2023-T3,Forte diminution,44.4,Forte augmentation,False
+z_51.0_-9.0,2023,3,2023-T3,Stable,66.8,Stable,True
+z_51.0_0.0,2023,3,2023-T3,Forte diminution,50.8,Forte diminution,True
+z_51.0_1.5,2023,3,2023-T3,Forte diminution,37.8,Forte diminution,True
+z_51.0_3.0,2023,3,2023-T3,Faible diminution,35.3,Stable,False
+z_52.5_-1.5,2023,3,2023-T3,Stable,74.4,Forte diminution,False
+z_52.5_-4.5,2023,3,2023-T3,Stable,67.5,Forte diminution,False
+z_52.5_-6.0,2023,3,2023-T3,Stable,47.3,Stable,True
+z_52.5_-7.5,2023,3,2023-T3,Forte diminution,37.8,Stable,False
+z_52.5_0.0,2023,3,2023-T3,Stable,49.2,Forte diminution,False
+z_52.5_13.5,2023,3,2023-T3,Forte diminution,49.8,Stable,False
+z_52.5_3.0,2023,3,2023-T3,Stable,37.5,Stable,True
+z_52.5_4.5,2023,3,2023-T3,Forte diminution,49.1,Forte augmentation,False
+z_52.5_6.0,2023,3,2023-T3,Forte diminution,41.8,Forte augmentation,False
+z_52.5_7.5,2023,3,2023-T3,Forte diminution,30.2,Stable,False
+z_52.5_9.0,2023,3,2023-T3,Faible diminution,40.2,Faible diminution,True
+z_54.0_-1.5,2023,3,2023-T3,Stable,50.4,Forte diminution,False
+z_54.0_-7.5,2023,3,2023-T3,Données insuffisantes,48.9,Stable,False
+z_54.0_1.5,2023,3,2023-T3,Données insuffisantes,98.0,Stable,False
+z_54.0_10.5,2023,3,2023-T3,Faible augmentation,45.5,Forte augmentation,False
+z_54.0_12.0,2023,3,2023-T3,Faible diminution,28.6,Forte augmentation,False
+z_54.0_13.5,2023,3,2023-T3,Forte diminution,32.7,Stable,False
+z_54.0_15.0,2023,3,2023-T3,Stable,70.2,Stable,True
+z_54.0_18.0,2023,3,2023-T3,Forte diminution,38.2,Stable,False
+z_54.0_4.5,2023,3,2023-T3,Stable,75.3,Stable,True
+z_54.0_6.0,2023,3,2023-T3,Stable,79.2,Stable,True
+z_54.0_7.5,2023,3,2023-T3,Faible augmentation,46.6,Forte augmentation,False
+z_54.0_9.0,2023,3,2023-T3,Faible diminution,35.2,Forte augmentation,False
+z_55.5_10.5,2023,3,2023-T3,Forte diminution,56.0,Stable,False
+z_55.5_12.0,2023,3,2023-T3,Forte diminution,48.2,Forte diminution,True
+z_55.5_13.5,2023,3,2023-T3,Données insuffisantes,69.8,Stable,False
+z_55.5_15.0,2023,3,2023-T3,Stable,44.4,Stable,True
+z_55.5_21.0,2023,3,2023-T3,Forte diminution,52.8,Forte diminution,True
+z_55.5_6.0,2023,3,2023-T3,Stable,70.6,Stable,True
+z_57.0_-3.0,2023,3,2023-T3,Données insuffisantes,84.9,Forte diminution,False
+z_57.0_-4.5,2023,3,2023-T3,Données insuffisantes,98.1,Forte diminution,False
+z_57.0_10.5,2023,3,2023-T3,Faible augmentation,38.2,Faible augmentation,True
+z_57.0_16.5,2023,3,2023-T3,Stable,71.3,Stable,True
+z_57.0_18.0,2023,3,2023-T3,Stable,64.8,Forte augmentation,False
+z_57.0_6.0,2023,3,2023-T3,Stable,50.3,Stable,True
+z_57.0_9.0,2023,3,2023-T3,Forte diminution,38.5,Stable,False
+z_58.5_-1.5,2023,3,2023-T3,Données insuffisantes,98.4,Stable,False
+z_58.5_0.0,2023,3,2023-T3,Données insuffisantes,98.3,Stable,False
+z_58.5_1.5,2023,3,2023-T3,Données insuffisantes,98.3,Stable,False
+z_58.5_10.5,2023,3,2023-T3,Forte diminution,53.3,Stable,False
+z_58.5_15.0,2023,3,2023-T3,Données insuffisantes,43.3,Stable,False
+z_58.5_16.5,2023,3,2023-T3,Forte diminution,63.9,Stable,False
+z_58.5_18.0,2023,3,2023-T3,Forte diminution,54.6,Forte augmentation,False
+z_58.5_19.5,2023,3,2023-T3,Stable,72.8,Stable,True
+z_58.5_24.0,2023,3,2023-T3,Forte diminution,42.0,Stable,False
+z_58.5_6.0,2023,3,2023-T3,Données insuffisantes,99.2,Stable,False
+z_58.5_9.0,2023,3,2023-T3,Stable,66.6,Stable,True
+z_60.0_1.5,2023,3,2023-T3,Stable,73.5,Stable,True
+z_60.0_4.5,2023,3,2023-T3,Forte diminution,57.7,Forte diminution,True
+z_61.5_1.5,2023,3,2023-T3,Données insuffisantes,98.8,Stable,False
+z_61.5_19.5,2023,3,2023-T3,Données insuffisantes,94.8,Stable,False
+z_61.5_3.0,2023,3,2023-T3,Données insuffisantes,94.0,Donnees insuffisantes,False
+z_61.5_4.5,2023,3,2023-T3,Forte diminution,38.4,Stable,False
+z_61.5_6.0,2023,3,2023-T3,Forte diminution,52.2,Forte diminution,True
+z_63.0_-16.5,2023,3,2023-T3,Données insuffisantes,98.4,Stable,False
+z_63.0_-22.5,2023,3,2023-T3,Stable,60.3,Forte augmentation,False
+z_63.0_-24.0,2023,3,2023-T3,Stable,76.7,Stable,True
+z_63.0_0.0,2023,3,2023-T3,Données insuffisantes,95.3,Donnees insuffisantes,False
+z_63.0_19.5,2023,3,2023-T3,Stable,74.4,Stable,True
+z_63.0_22.5,2023,3,2023-T3,Données insuffisantes,97.1,Stable,False
+z_63.0_4.5,2023,3,2023-T3,Stable,50.0,Stable,True
+z_63.0_7.5,2023,3,2023-T3,Forte diminution,46.0,Stable,False
+z_64.5_-37.5,2023,3,2023-T3,Données insuffisantes,97.4,Donnees insuffisantes,False
+z_64.5_10.5,2023,3,2023-T3,Stable,40.7,Stable,True
+z_64.5_12.0,2023,3,2023-T3,Stable,65.4,Stable,True
+z_66.0_-13.5,2023,3,2023-T3,Données insuffisantes,97.4,Stable,False
+z_66.0_-24.0,2023,3,2023-T3,Stable,47.6,Stable,True
+z_66.0_-25.5,2023,3,2023-T3,Données insuffisantes,92.0,Stable,False
+z_66.0_-3.0,2023,3,2023-T3,Données insuffisantes,98.9,Donnees insuffisantes,False
+z_66.0_13.5,2023,3,2023-T3,Stable,58.7,Stable,True
+z_67.5_13.5,2023,3,2023-T3,Stable,63.4,Stable,True
+z_67.5_9.0,2023,3,2023-T3,Données insuffisantes,98.3,Donnees insuffisantes,False
+z_69.0_16.5,2023,3,2023-T3,Forte diminution,40.2,Stable,False
+z_70.5_25.5,2023,3,2023-T3,Données insuffisantes,95.0,Stable,False
+z_70.5_28.5,2023,3,2023-T3,Données insuffisantes,95.7,Stable,False
+z_27.0_-16.5,2023,4,2023-T4,Stable,43.8,Stable,True
+z_28.5_-15.0,2023,4,2023-T4,Stable,69.8,Stable,True
+z_30.0_31.5,2023,4,2023-T4,Stable,76.2,Stable,True
+z_31.5_-18.0,2023,4,2023-T4,Données insuffisantes,98.8,Stable,False
+z_33.0_-9.0,2023,4,2023-T4,Données insuffisantes,52.3,Stable,False
+z_34.5_-6.0,2023,4,2023-T4,Stable,71.3,Forte diminution,False
+z_34.5_-7.5,2023,4,2023-T4,Données insuffisantes,93.6,Stable,False
+z_34.5_13.5,2023,4,2023-T4,Forte diminution,26.9,Stable,False
+z_34.5_24.0,2023,4,2023-T4,Forte diminution,50.7,Stable,False
+z_34.5_33.0,2023,4,2023-T4,Stable,66.8,Stable,True
+z_36.0_-1.5,2023,4,2023-T4,Données insuffisantes,99.4,Stable,False
+z_36.0_-10.5,2023,4,2023-T4,Stable,72.2,Stable,True
+z_36.0_-3.0,2023,4,2023-T4,Forte diminution,50.2,Stable,False
+z_36.0_-4.5,2023,4,2023-T4,Stable,71.7,Stable,True
+z_36.0_-6.0,2023,4,2023-T4,Forte diminution,49.0,Forte diminution,True
+z_36.0_-7.5,2023,4,2023-T4,Forte diminution,41.1,Stable,False
+z_36.0_-9.0,2023,4,2023-T4,Forte diminution,36.0,Stable,False
+z_36.0_12.0,2023,4,2023-T4,Stable,71.6,Stable,True
+z_36.0_21.0,2023,4,2023-T4,Stable,69.3,Stable,True
+z_36.0_22.5,2023,4,2023-T4,Forte diminution,47.2,Stable,False
+z_36.0_24.0,2023,4,2023-T4,Forte diminution,53.9,Stable,False
+z_36.0_25.5,2023,4,2023-T4,Forte diminution,61.4,Forte augmentation,False
+z_37.5_-1.5,2023,4,2023-T4,Forte diminution,41.8,Stable,False
+z_37.5_-10.5,2023,4,2023-T4,Forte diminution,61.6,Stable,False
+z_37.5_-9.0,2023,4,2023-T4,Forte diminution,44.1,Forte augmentation,False
+z_37.5_13.5,2023,4,2023-T4,Stable,71.0,Stable,True
+z_37.5_15.0,2023,4,2023-T4,Forte diminution,50.7,Stable,False
+z_37.5_19.5,2023,4,2023-T4,Forte diminution,44.1,Forte diminution,True
+z_37.5_21.0,2023,4,2023-T4,Forte diminution,48.1,Stable,False
+z_37.5_22.5,2023,4,2023-T4,Faible diminution,32.5,Stable,False
+z_37.5_24.0,2023,4,2023-T4,Forte diminution,61.8,Forte diminution,True
+z_37.5_25.5,2023,4,2023-T4,Stable,47.7,Stable,True
+z_37.5_4.5,2023,4,2023-T4,Données insuffisantes,97.6,Donnees insuffisantes,False
+z_39.0_-1.5,2023,4,2023-T4,Stable,41.3,Forte augmentation,False
+z_39.0_-10.5,2023,4,2023-T4,Stable,69.5,Stable,True
+z_39.0_1.5,2023,4,2023-T4,Stable,59.5,Stable,True
+z_39.0_12.0,2023,4,2023-T4,Données insuffisantes,98.4,Donnees insuffisantes,False
+z_39.0_19.5,2023,4,2023-T4,Forte diminution,60.3,Forte diminution,True
+z_39.0_22.5,2023,4,2023-T4,Forte diminution,39.5,Stable,False
+z_39.0_25.5,2023,4,2023-T4,Stable,58.2,Forte augmentation,False
+z_39.0_9.0,2023,4,2023-T4,Stable,70.0,Stable,True
+z_40.5_-9.0,2023,4,2023-T4,Stable,50.3,Stable,True
+z_40.5_0.0,2023,4,2023-T4,Stable,59.0,Forte augmentation,False
+z_40.5_1.5,2023,4,2023-T4,Stable,42.7,Forte augmentation,False
+z_40.5_12.0,2023,4,2023-T4,Stable,60.5,Stable,True
+z_40.5_13.5,2023,4,2023-T4,Forte diminution,49.2,Forte diminution,True
+z_40.5_22.5,2023,4,2023-T4,Stable,64.8,Stable,True
+z_40.5_24.0,2023,4,2023-T4,Forte diminution,49.2,Stable,False
+z_40.5_9.0,2023,4,2023-T4,Stable,55.4,Stable,True
+z_42.0_-4.5,2023,4,2023-T4,Stable,60.3,Stable,True
+z_42.0_-9.0,2023,4,2023-T4,Forte diminution,40.1,Forte diminution,True
+z_42.0_10.5,2023,4,2023-T4,Stable,57.9,Stable,True
+z_42.0_13.5,2023,4,2023-T4,Forte augmentation,35.1,Stable,False
+z_42.0_15.0,2023,4,2023-T4,Forte diminution,38.3,Stable,False
+z_42.0_27.0,2023,4,2023-T4,Stable,52.3,Stable,True
+z_42.0_3.0,2023,4,2023-T4,Forte diminution,44.1,Stable,False
+z_42.0_4.5,2023,4,2023-T4,Forte diminution,41.5,Stable,False
+z_42.0_6.0,2023,4,2023-T4,Stable,71.3,Stable,True
+z_43.5_-3.0,2023,4,2023-T4,Stable,73.0,Stable,True
+z_43.5_-4.5,2023,4,2023-T4,Stable,66.6,Stable,True
+z_43.5_-7.5,2023,4,2023-T4,Forte augmentation,33.9,Stable,False
+z_43.5_-9.0,2023,4,2023-T4,Forte diminution,50.7,Stable,False
+z_43.5_12.0,2023,4,2023-T4,Forte diminution,48.3,Stable,False
+z_43.5_28.5,2023,4,2023-T4,Données insuffisantes,95.9,Stable,False
+z_43.5_7.5,2023,4,2023-T4,Forte diminution,42.6,Stable,False
+z_43.5_9.0,2023,4,2023-T4,Forte diminution,43.5,Stable,False
+z_45.0_-1.5,2023,4,2023-T4,Forte diminution,38.8,Stable,False
+z_45.0_-3.0,2023,4,2023-T4,Forte diminution,49.9,Stable,False
+z_45.0_-9.0,2023,4,2023-T4,Stable,45.4,Stable,True
+z_45.0_12.0,2023,4,2023-T4,Forte diminution,46.1,Stable,False
+z_45.0_36.0,2023,4,2023-T4,Données insuffisantes,98.4,Stable,False
+z_46.5_-10.5,2023,4,2023-T4,Données insuffisantes,98.9,Donnees insuffisantes,False
+z_46.5_-3.0,2023,4,2023-T4,Forte diminution,59.5,Forte diminution,True
+z_46.5_-4.5,2023,4,2023-T4,Forte diminution,55.6,Forte diminution,True
+z_46.5_-6.0,2023,4,2023-T4,Forte diminution,42.2,Stable,False
+z_48.0_-1.5,2023,4,2023-T4,Forte diminution,44.5,Stable,False
+z_48.0_-10.5,2023,4,2023-T4,Données insuffisantes,97.7,Donnees insuffisantes,False
+z_48.0_-15.0,2023,4,2023-T4,Données insuffisantes,97.5,Donnees insuffisantes,False
+z_48.0_-3.0,2023,4,2023-T4,Stable,42.4,Forte diminution,False
+z_48.0_-6.0,2023,4,2023-T4,Forte diminution,62.6,Forte diminution,True
+z_48.0_-9.0,2023,4,2023-T4,Stable,68.1,Stable,True
+z_49.5_-1.5,2023,4,2023-T4,Forte diminution,40.0,Forte diminution,True
+z_49.5_-12.0,2023,4,2023-T4,Données insuffisantes,97.0,Stable,False
+z_49.5_-4.5,2023,4,2023-T4,Stable,68.0,Forte diminution,False
+z_49.5_-6.0,2023,4,2023-T4,Stable,65.4,Forte diminution,False
+z_49.5_0.0,2023,4,2023-T4,Forte diminution,49.4,Forte diminution,True
+z_49.5_1.5,2023,4,2023-T4,Données insuffisantes,99.1,Forte diminution,False
+z_51.0_-10.5,2023,4,2023-T4,Stable,65.0,Stable,True
+z_51.0_-12.0,2023,4,2023-T4,Stable,69.2,Stable,True
+z_51.0_-13.5,2023,4,2023-T4,Données insuffisantes,97.5,Stable,False
+z_51.0_-6.0,2023,4,2023-T4,Stable,66.5,Forte diminution,False
+z_51.0_-7.5,2023,4,2023-T4,Forte diminution,44.4,Forte augmentation,False
+z_51.0_-9.0,2023,4,2023-T4,Stable,72.9,Stable,True
+z_51.0_0.0,2023,4,2023-T4,Forte diminution,41.1,Forte diminution,True
+z_51.0_1.5,2023,4,2023-T4,Forte diminution,41.8,Forte augmentation,False
+z_51.0_3.0,2023,4,2023-T4,Faible augmentation,30.2,Faible augmentation,True
+z_52.5_-1.5,2023,4,2023-T4,Stable,69.1,Forte diminution,False
+z_52.5_-4.5,2023,4,2023-T4,Stable,67.2,Forte diminution,False
+z_52.5_-6.0,2023,4,2023-T4,Forte diminution,43.1,Stable,False
+z_52.5_-7.5,2023,4,2023-T4,Stable,40.0,Stable,True
+z_52.5_13.5,2023,4,2023-T4,Forte diminution,47.8,Stable,False
+z_52.5_3.0,2023,4,2023-T4,Forte diminution,42.0,Forte diminution,True
+z_52.5_4.5,2023,4,2023-T4,Forte diminution,44.8,Forte diminution,True
+z_52.5_6.0,2023,4,2023-T4,Forte diminution,41.7,Forte augmentation,False
+z_52.5_7.5,2023,4,2023-T4,Forte diminution,34.5,Faible augmentation,False
+z_52.5_9.0,2023,4,2023-T4,Faible augmentation,39.9,Faible augmentation,True
+z_54.0_-10.5,2023,4,2023-T4,Données insuffisantes,98.5,Stable,False
+z_54.0_-4.5,2023,4,2023-T4,Stable,72.9,Forte diminution,False
+z_54.0_0.0,2023,4,2023-T4,Données insuffisantes,81.2,Stable,False
+z_54.0_1.5,2023,4,2023-T4,Données insuffisantes,94.9,Stable,False
+z_54.0_10.5,2023,4,2023-T4,Forte diminution,31.7,Stable,False
+z_54.0_12.0,2023,4,2023-T4,Faible diminution,31.9,Forte augmentation,False
+z_54.0_13.5,2023,4,2023-T4,Forte diminution,30.7,Forte augmentation,False
+z_54.0_18.0,2023,4,2023-T4,Forte augmentation,40.8,Forte augmentation,True
+z_54.0_6.0,2023,4,2023-T4,Stable,70.6,Stable,True
+z_54.0_7.5,2023,4,2023-T4,Faible augmentation,46.5,Forte augmentation,False
+z_54.0_9.0,2023,4,2023-T4,Faible augmentation,34.0,Forte augmentation,False
+z_55.5_10.5,2023,4,2023-T4,Forte diminution,43.0,Stable,False
+z_55.5_12.0,2023,4,2023-T4,Forte diminution,55.4,Forte augmentation,False
+z_55.5_13.5,2023,4,2023-T4,Données insuffisantes,64.5,Stable,False
+z_55.5_15.0,2023,4,2023-T4,Stable,39.8,Stable,True
+z_55.5_21.0,2023,4,2023-T4,Forte diminution,41.3,Stable,False
+z_55.5_3.0,2023,4,2023-T4,Données insuffisantes,97.9,Forte diminution,False
+z_55.5_7.5,2023,4,2023-T4,Forte diminution,60.6,Stable,False
+z_55.5_9.0,2023,4,2023-T4,Forte diminution,42.5,Forte diminution,True
+z_57.0_-15.0,2023,4,2023-T4,Données insuffisantes,97.3,Donnees insuffisantes,False
+z_57.0_10.5,2023,4,2023-T4,Faible augmentation,38.9,Stable,False
+z_57.0_12.0,2023,4,2023-T4,Données insuffisantes,90.9,Stable,False
+z_57.0_16.5,2023,4,2023-T4,Stable,72.2,Stable,True
+z_57.0_18.0,2023,4,2023-T4,Stable,73.6,Stable,True
+z_57.0_19.5,2023,4,2023-T4,Données insuffisantes,97.1,Stable,False
+z_57.0_22.5,2023,4,2023-T4,Stable,66.5,Forte augmentation,False
+z_57.0_4.5,2023,4,2023-T4,Stable,73.0,Stable,True
+z_57.0_7.5,2023,4,2023-T4,Stable,60.1,Stable,True
+z_57.0_9.0,2023,4,2023-T4,Forte diminution,33.6,Stable,False
+z_58.5_0.0,2023,4,2023-T4,Données insuffisantes,98.7,Stable,False
+z_58.5_10.5,2023,4,2023-T4,Forte diminution,50.9,Stable,False
+z_58.5_15.0,2023,4,2023-T4,Stable,67.3,Stable,True
+z_58.5_16.5,2023,4,2023-T4,Forte diminution,53.6,Stable,False
+z_58.5_18.0,2023,4,2023-T4,Forte diminution,40.1,Stable,False
+z_58.5_24.0,2023,4,2023-T4,Forte diminution,42.2,Stable,False
+z_58.5_25.5,2023,4,2023-T4,Données insuffisantes,98.0,Stable,False
+z_58.5_4.5,2023,4,2023-T4,Forte diminution,56.6,Stable,False
+z_58.5_6.0,2023,4,2023-T4,Données insuffisantes,99.4,Stable,False
+z_58.5_9.0,2023,4,2023-T4,Stable,66.1,Stable,True
+z_60.0_-4.5,2023,4,2023-T4,Données insuffisantes,97.6,Stable,False
+z_60.0_0.0,2023,4,2023-T4,Données insuffisantes,97.6,Stable,False
+z_60.0_16.5,2023,4,2023-T4,Données insuffisantes,59.7,Stable,False
+z_60.0_18.0,2023,4,2023-T4,Données insuffisantes,93.3,Forte augmentation,False
+z_60.0_25.5,2023,4,2023-T4,Stable,67.5,Stable,True
+z_60.0_4.5,2023,4,2023-T4,Forte diminution,58.6,Forte diminution,True
+z_61.5_4.5,2023,4,2023-T4,Forte diminution,38.3,Forte diminution,True
+z_61.5_6.0,2023,4,2023-T4,Forte diminution,53.0,Forte diminution,True
+z_63.0_-21.0,2023,4,2023-T4,Données insuffisantes,81.2,Stable,False
+z_63.0_-22.5,2023,4,2023-T4,Stable,52.8,Stable,True
+z_63.0_10.5,2023,4,2023-T4,Données insuffisantes,98.0,Stable,False
+z_63.0_19.5,2023,4,2023-T4,Données insuffisantes,51.0,Stable,False
+z_63.0_7.5,2023,4,2023-T4,Forte diminution,45.5,Forte augmentation,False
+z_63.0_9.0,2023,4,2023-T4,Forte diminution,48.1,Stable,False
+z_64.5_-24.0,2023,4,2023-T4,Données insuffisantes,83.2,Stable,False
+z_64.5_12.0,2023,4,2023-T4,Stable,64.4,Stable,True
+z_64.5_9.0,2023,4,2023-T4,Données insuffisantes,98.3,Stable,False
+z_67.5_13.5,2023,4,2023-T4,Stable,68.6,Stable,True
+z_67.5_16.5,2023,4,2023-T4,Stable,73.6,Stable,True
+z_69.0_18.0,2023,4,2023-T4,Stable,62.5,Stable,True
+z_69.0_30.0,2023,4,2023-T4,Données insuffisantes,95.2,Stable,False
+z_70.5_18.0,2023,4,2023-T4,Données insuffisantes,97.6,Donnees insuffisantes,False
+z_70.5_24.0,2023,4,2023-T4,Stable,60.9,Stable,True
+z_70.5_30.0,2023,4,2023-T4,Données insuffisantes,80.5,Stable,False
+z_72.0_15.0,2023,4,2023-T4,Données insuffisantes,98.0,Donnees insuffisantes,False
+z_73.5_18.0,2023,4,2023-T4,Données insuffisantes,97.8,Stable,False
+z_73.5_21.0,2023,4,2023-T4,Données insuffisantes,97.7,Stable,False
+z_73.5_25.5,2023,4,2023-T4,Données insuffisantes,98.5,Donnees insuffisantes,False
+z_75.0_16.5,2023,4,2023-T4,Données insuffisantes,93.4,Donnees insuffisantes,False
+z_27.0_-16.5,2024,1,2024-T1,Forte diminution,46.5,Stable,False
+z_30.0_-10.5,2024,1,2024-T1,Données insuffisantes,97.8,Donnees insuffisantes,False
+z_30.0_-13.5,2024,1,2024-T1,Données insuffisantes,98.4,Stable,False
+z_33.0_-9.0,2024,1,2024-T1,Stable,48.5,Stable,True
+z_34.5_-10.5,2024,1,2024-T1,Données insuffisantes,98.2,Stable,False
+z_34.5_-6.0,2024,1,2024-T1,Stable,72.1,Stable,True
+z_34.5_13.5,2024,1,2024-T1,Forte diminution,37.5,Forte augmentation,False
+z_34.5_19.5,2024,1,2024-T1,Données insuffisantes,98.2,Stable,False
+z_34.5_24.0,2024,1,2024-T1,Forte diminution,50.3,Stable,False
+z_34.5_25.5,2024,1,2024-T1,Stable,76.2,Stable,True
+z_34.5_33.0,2024,1,2024-T1,Stable,70.1,Stable,True
+z_36.0_-3.0,2024,1,2024-T1,Forte diminution,52.2,Stable,False
+z_36.0_-4.5,2024,1,2024-T1,Stable,69.5,Stable,True
+z_36.0_-6.0,2024,1,2024-T1,Forte diminution,44.7,Forte diminution,True
+z_36.0_-7.5,2024,1,2024-T1,Forte diminution,46.5,Forte augmentation,False
+z_36.0_-9.0,2024,1,2024-T1,Forte diminution,48.2,Forte augmentation,False
+z_36.0_12.0,2024,1,2024-T1,Stable,64.3,Stable,True
+z_36.0_15.0,2024,1,2024-T1,Forte diminution,46.3,Stable,False
+z_36.0_21.0,2024,1,2024-T1,Stable,67.1,Stable,True
+z_36.0_22.5,2024,1,2024-T1,Forte augmentation,39.3,Stable,False
+z_36.0_24.0,2024,1,2024-T1,Forte diminution,38.9,Forte diminution,True
+z_36.0_25.5,2024,1,2024-T1,Forte diminution,50.4,Stable,False
+z_36.0_27.0,2024,1,2024-T1,Forte diminution,47.8,Stable,False
+z_37.5_-10.5,2024,1,2024-T1,Forte diminution,57.6,Stable,False
+z_37.5_-28.5,2024,1,2024-T1,Données insuffisantes,94.6,Stable,False
+z_37.5_-9.0,2024,1,2024-T1,Forte diminution,36.8,Stable,False
+z_37.5_12.0,2024,1,2024-T1,Forte diminution,47.2,Forte diminution,True
+z_37.5_13.5,2024,1,2024-T1,Stable,72.4,Stable,True
+z_37.5_15.0,2024,1,2024-T1,Forte diminution,47.4,Stable,False
+z_37.5_21.0,2024,1,2024-T1,Forte diminution,51.2,Stable,False
+z_37.5_22.5,2024,1,2024-T1,Faible augmentation,38.8,Forte augmentation,False
+z_37.5_24.0,2024,1,2024-T1,Forte diminution,48.1,Stable,False
+z_37.5_9.0,2024,1,2024-T1,Données insuffisantes,97.4,Stable,False
+z_39.0_-1.5,2024,1,2024-T1,Forte diminution,38.6,Stable,False
+z_39.0_0.0,2024,1,2024-T1,Stable,72.5,Stable,True
+z_39.0_18.0,2024,1,2024-T1,Stable,65.1,Stable,True
+z_39.0_19.5,2024,1,2024-T1,Forte diminution,53.1,Stable,False
+z_39.0_24.0,2024,1,2024-T1,Stable,75.3,Stable,True
+z_39.0_25.5,2024,1,2024-T1,Stable,75.1,Stable,True
+z_40.5_-9.0,2024,1,2024-T1,Stable,49.5,Forte diminution,False
+z_40.5_0.0,2024,1,2024-T1,Stable,52.5,Stable,True
+z_40.5_13.5,2024,1,2024-T1,Forte diminution,56.4,Stable,False
+z_40.5_16.5,2024,1,2024-T1,Stable,45.7,Stable,True
+z_40.5_18.0,2024,1,2024-T1,Données insuffisantes,96.0,Stable,False
+z_40.5_24.0,2024,1,2024-T1,Forte diminution,60.6,Stable,False
+z_42.0_-10.5,2024,1,2024-T1,Forte diminution,44.5,Stable,False
+z_42.0_-3.0,2024,1,2024-T1,Stable,54.8,Stable,True
+z_42.0_-9.0,2024,1,2024-T1,Forte diminution,44.5,Stable,False
+z_42.0_10.5,2024,1,2024-T1,Stable,57.2,Stable,True
+z_42.0_13.5,2024,1,2024-T1,Stable,35.3,Stable,True
+z_42.0_15.0,2024,1,2024-T1,Forte diminution,44.2,Stable,False
+z_42.0_27.0,2024,1,2024-T1,Stable,55.7,Stable,True
+z_42.0_4.5,2024,1,2024-T1,Forte diminution,42.5,Stable,False
+z_42.0_6.0,2024,1,2024-T1,Stable,68.7,Stable,True
+z_42.0_9.0,2024,1,2024-T1,Forte diminution,42.5,Stable,False
+z_43.5_-10.5,2024,1,2024-T1,Données insuffisantes,98.6,Stable,False
+z_43.5_-3.0,2024,1,2024-T1,Stable,68.1,Stable,True
+z_43.5_-4.5,2024,1,2024-T1,Stable,63.5,Stable,True
+z_43.5_-6.0,2024,1,2024-T1,Stable,61.6,Stable,True
+z_43.5_-7.5,2024,1,2024-T1,Forte diminution,45.8,Stable,False
+z_43.5_-9.0,2024,1,2024-T1,Forte diminution,43.6,Forte diminution,True
+z_43.5_12.0,2024,1,2024-T1,Forte diminution,51.8,Stable,False
+z_43.5_13.5,2024,1,2024-T1,Stable,65.3,Stable,True
+z_43.5_15.0,2024,1,2024-T1,Stable,65.8,Stable,True
+z_43.5_36.0,2024,1,2024-T1,Données insuffisantes,95.2,Stable,False
+z_43.5_7.5,2024,1,2024-T1,Forte diminution,48.1,Stable,False
+z_43.5_9.0,2024,1,2024-T1,Forte diminution,42.5,Forte diminution,True
+z_45.0_-1.5,2024,1,2024-T1,Forte diminution,45.1,Stable,False
+z_45.0_-3.0,2024,1,2024-T1,Forte diminution,52.5,Forte diminution,True
+z_45.0_12.0,2024,1,2024-T1,Forte diminution,46.6,Stable,False
+z_45.0_13.5,2024,1,2024-T1,Forte diminution,55.3,Forte augmentation,False
+z_46.5_-3.0,2024,1,2024-T1,Forte diminution,55.0,Stable,False
+z_46.5_-36.0,2024,1,2024-T1,Données insuffisantes,98.1,Donnees insuffisantes,False
+z_46.5_-4.5,2024,1,2024-T1,Forte diminution,44.2,Forte augmentation,False
+z_46.5_-6.0,2024,1,2024-T1,Forte diminution,47.2,Stable,False
+z_48.0_-1.5,2024,1,2024-T1,Forte diminution,47.5,Stable,False
+z_48.0_-24.0,2024,1,2024-T1,Données insuffisantes,97.4,Donnees insuffisantes,False
+z_48.0_-4.5,2024,1,2024-T1,Stable,49.8,Stable,True
+z_48.0_-6.0,2024,1,2024-T1,Forte diminution,59.1,Stable,False
+z_48.0_-7.5,2024,1,2024-T1,Stable,64.8,Stable,True
+z_49.5_-1.5,2024,1,2024-T1,Forte diminution,38.7,Forte diminution,True
+z_49.5_-3.0,2024,1,2024-T1,Forte diminution,45.6,Forte diminution,True
+z_49.5_-4.5,2024,1,2024-T1,Stable,66.4,Forte diminution,False
+z_49.5_-9.0,2024,1,2024-T1,Stable,65.5,Stable,True
+z_49.5_0.0,2024,1,2024-T1,Forte diminution,53.9,Stable,False
+z_51.0_-15.0,2024,1,2024-T1,Données insuffisantes,97.5,Stable,False
+z_51.0_-4.5,2024,1,2024-T1,Données insuffisantes,89.7,Forte diminution,False
+z_51.0_-6.0,2024,1,2024-T1,Stable,68.2,Forte diminution,False
+z_51.0_-7.5,2024,1,2024-T1,Forte diminution,46.0,Stable,False
+z_51.0_0.0,2024,1,2024-T1,Forte diminution,46.7,Forte diminution,True
+z_51.0_1.5,2024,1,2024-T1,Faible augmentation,46.5,Faible diminution,False
+z_51.0_3.0,2024,1,2024-T1,Faible diminution,36.2,Stable,False
+z_52.5_-1.5,2024,1,2024-T1,Stable,65.6,Forte diminution,False
+z_52.5_-12.0,2024,1,2024-T1,Données insuffisantes,97.8,Stable,False
+z_52.5_-4.5,2024,1,2024-T1,Stable,65.2,Forte diminution,False
+z_52.5_-6.0,2024,1,2024-T1,Stable,38.1,Forte diminution,False
+z_52.5_-7.5,2024,1,2024-T1,Forte diminution,40.3,Stable,False
+z_52.5_1.5,2024,1,2024-T1,Stable,73.6,Forte diminution,False
+z_52.5_13.5,2024,1,2024-T1,Forte diminution,41.2,Forte augmentation,False
+z_52.5_3.0,2024,1,2024-T1,Forte diminution,37.6,Stable,False
+z_52.5_4.5,2024,1,2024-T1,Forte diminution,54.9,Forte diminution,True
+z_52.5_6.0,2024,1,2024-T1,Faible augmentation,32.4,Forte augmentation,False
+z_52.5_7.5,2024,1,2024-T1,Faible augmentation,61.0,Faible augmentation,True
+z_52.5_9.0,2024,1,2024-T1,Faible augmentation,38.1,Forte diminution,False
+z_54.0_-16.5,2024,1,2024-T1,Données insuffisantes,98.2,Stable,False
+z_54.0_-7.5,2024,1,2024-T1,Stable,52.1,Stable,True
+z_54.0_10.5,2024,1,2024-T1,Faible augmentation,39.0,Forte augmentation,False
+z_54.0_12.0,2024,1,2024-T1,Faible diminution,28.2,Forte augmentation,False
+z_54.0_13.5,2024,1,2024-T1,Faible augmentation,29.8,Forte augmentation,False
+z_54.0_15.0,2024,1,2024-T1,Stable,66.8,Stable,True
+z_54.0_18.0,2024,1,2024-T1,Forte augmentation,41.4,Stable,False
+z_54.0_6.0,2024,1,2024-T1,Stable,74.8,Stable,True
+z_54.0_7.5,2024,1,2024-T1,Faible augmentation,47.6,Faible augmentation,True
+z_54.0_9.0,2024,1,2024-T1,Faible augmentation,29.7,Stable,False
+z_55.5_10.5,2024,1,2024-T1,Forte diminution,49.6,Stable,False
+z_55.5_12.0,2024,1,2024-T1,Forte diminution,35.5,Stable,False
+z_55.5_18.0,2024,1,2024-T1,Données insuffisantes,98.6,Stable,False
+z_55.5_19.5,2024,1,2024-T1,Données insuffisantes,88.5,Stable,False
+z_55.5_21.0,2024,1,2024-T1,Forte diminution,42.4,Stable,False
+z_55.5_4.5,2024,1,2024-T1,Données insuffisantes,93.8,Stable,False
+z_55.5_7.5,2024,1,2024-T1,Forte diminution,51.2,Forte augmentation,False
+z_55.5_9.0,2024,1,2024-T1,Forte augmentation,37.4,Stable,False
+z_57.0_-3.0,2024,1,2024-T1,Données insuffisantes,85.8,Forte diminution,False
+z_57.0_-6.0,2024,1,2024-T1,Données insuffisantes,93.3,Forte diminution,False
+z_57.0_10.5,2024,1,2024-T1,Faible augmentation,38.8,Stable,False
+z_57.0_12.0,2024,1,2024-T1,Données insuffisantes,96.7,Stable,False
+z_57.0_19.5,2024,1,2024-T1,Données insuffisantes,98.2,Stable,False
+z_57.0_21.0,2024,1,2024-T1,Données insuffisantes,96.2,Stable,False
+z_57.0_22.5,2024,1,2024-T1,Stable,72.8,Stable,True
+z_57.0_4.5,2024,1,2024-T1,Stable,67.4,Stable,True
+z_57.0_6.0,2024,1,2024-T1,Stable,44.6,Stable,True
+z_57.0_9.0,2024,1,2024-T1,Forte diminution,44.5,Stable,False
+z_58.5_-1.5,2024,1,2024-T1,Données insuffisantes,98.2,Stable,False
+z_58.5_-3.0,2024,1,2024-T1,Données insuffisantes,96.5,Stable,False
+z_58.5_10.5,2024,1,2024-T1,Forte diminution,49.0,Stable,False
+z_58.5_18.0,2024,1,2024-T1,Forte augmentation,37.2,Stable,False
+z_58.5_22.5,2024,1,2024-T1,Stable,65.6,Stable,True
+z_58.5_24.0,2024,1,2024-T1,Forte diminution,43.5,Forte augmentation,False
+z_58.5_25.5,2024,1,2024-T1,Données insuffisantes,97.2,Stable,False
+z_58.5_27.0,2024,1,2024-T1,Données insuffisantes,98.3,Stable,False
+z_58.5_4.5,2024,1,2024-T1,Forte diminution,52.4,Forte augmentation,False
+z_58.5_6.0,2024,1,2024-T1,Données insuffisantes,98.3,Stable,False
+z_58.5_9.0,2024,1,2024-T1,Stable,66.3,Stable,True
+z_60.0_16.5,2024,1,2024-T1,Stable,53.2,Stable,True
+z_60.0_21.0,2024,1,2024-T1,Forte diminution,48.6,Forte augmentation,False
+z_60.0_25.5,2024,1,2024-T1,Stable,69.0,Stable,True
+z_60.0_3.0,2024,1,2024-T1,Stable,50.3,Stable,True
+z_60.0_4.5,2024,1,2024-T1,Forte diminution,64.1,Stable,False
+z_61.5_4.5,2024,1,2024-T1,Forte diminution,48.1,Stable,False
+z_61.5_6.0,2024,1,2024-T1,Forte diminution,55.5,Forte diminution,True
+z_63.0_-13.5,2024,1,2024-T1,Données insuffisantes,97.9,Stable,False
+z_63.0_-22.5,2024,1,2024-T1,Stable,41.5,Forte diminution,False
+z_63.0_18.0,2024,1,2024-T1,Données insuffisantes,92.6,Stable,False
+z_63.0_19.5,2024,1,2024-T1,Stable,50.4,Stable,True
+z_63.0_7.5,2024,1,2024-T1,Forte diminution,50.4,Forte diminution,True
+z_64.5_-15.0,2024,1,2024-T1,Données insuffisantes,97.0,Stable,False
+z_64.5_-25.5,2024,1,2024-T1,Données insuffisantes,90.6,Stable,False
+z_64.5_10.5,2024,1,2024-T1,Stable,44.7,Forte augmentation,False
+z_64.5_24.0,2024,1,2024-T1,Stable,62.7,Stable,True
+z_66.0_-24.0,2024,1,2024-T1,Stable,61.8,Stable,True
+z_66.0_12.0,2024,1,2024-T1,Forte diminution,48.6,Stable,False
+z_66.0_13.5,2024,1,2024-T1,Stable,63.0,Stable,True
+z_66.0_15.0,2024,1,2024-T1,Données insuffisantes,94.3,Stable,False
+z_67.5_10.5,2024,1,2024-T1,Données insuffisantes,94.6,Stable,False
+z_67.5_13.5,2024,1,2024-T1,Stable,68.2,Stable,True
+z_67.5_16.5,2024,1,2024-T1,Stable,69.9,Stable,True
+z_69.0_13.5,2024,1,2024-T1,Données insuffisantes,98.1,Stable,False
+z_69.0_15.0,2024,1,2024-T1,Stable,71.3,Stable,True
+z_69.0_16.5,2024,1,2024-T1,Forte diminution,47.9,Forte augmentation,False
+z_69.0_18.0,2024,1,2024-T1,Stable,62.1,Stable,True
+z_70.5_16.5,2024,1,2024-T1,Données insuffisantes,89.9,Stable,False
+z_70.5_22.5,2024,1,2024-T1,Stable,74.4,Stable,True
+z_72.0_13.5,2024,1,2024-T1,Données insuffisantes,99.1,Donnees insuffisantes,False
+z_72.0_25.5,2024,1,2024-T1,Données insuffisantes,98.8,Donnees insuffisantes,False
+z_75.0_31.5,2024,1,2024-T1,Données insuffisantes,98.4,Donnees insuffisantes,False
+z_75.0_33.0,2024,1,2024-T1,Données insuffisantes,84.6,Donnees insuffisantes,False
+z_75.0_34.5,2024,1,2024-T1,Données insuffisantes,92.9,Donnees insuffisantes,False
+z_27.0_-16.5,2024,2,2024-T2,Forte diminution,42.1,Forte augmentation,False
+z_28.5_-13.5,2024,2,2024-T2,Données insuffisantes,98.6,Stable,False
+z_28.5_-15.0,2024,2,2024-T2,Stable,76.9,Stable,True
+z_33.0_-9.0,2024,2,2024-T2,Stable,53.3,Stable,True
+z_33.0_25.5,2024,2,2024-T2,Données insuffisantes,98.4,Stable,False
+z_33.0_9.0,2024,2,2024-T2,Données insuffisantes,97.1,Donnees insuffisantes,False
+z_34.5_-4.5,2024,2,2024-T2,Données insuffisantes,98.5,Stable,False
+z_34.5_-6.0,2024,2,2024-T2,Stable,62.8,Stable,True
+z_34.5_0.0,2024,2,2024-T2,Données insuffisantes,95.5,Stable,False
+z_34.5_13.5,2024,2,2024-T2,Faible augmentation,38.0,Forte augmentation,False
+z_34.5_18.0,2024,2,2024-T2,Données insuffisantes,98.8,Donnees insuffisantes,False
+z_34.5_22.5,2024,2,2024-T2,Stable,80.5,Stable,True
+z_34.5_24.0,2024,2,2024-T2,Forte diminution,49.4,Stable,False
+z_34.5_33.0,2024,2,2024-T2,Stable,66.1,Stable,True
+z_36.0_-3.0,2024,2,2024-T2,Forte diminution,52.0,Stable,False
+z_36.0_-36.0,2024,2,2024-T2,Données insuffisantes,98.6,Donnees insuffisantes,False
+z_36.0_-6.0,2024,2,2024-T2,Forte diminution,45.8,Faible diminution,False
+z_36.0_-7.5,2024,2,2024-T2,Forte diminution,47.2,Forte diminution,True
+z_36.0_-9.0,2024,2,2024-T2,Forte diminution,40.4,Stable,False
+z_36.0_13.5,2024,2,2024-T2,Forte diminution,48.9,Forte augmentation,False
+z_36.0_15.0,2024,2,2024-T2,Forte diminution,42.5,Forte augmentation,False
+z_36.0_16.5,2024,2,2024-T2,Données insuffisantes,98.8,Stable,False
+z_36.0_21.0,2024,2,2024-T2,Stable,74.9,Stable,True
+z_36.0_22.5,2024,2,2024-T2,Forte diminution,43.8,Forte diminution,True
+z_36.0_24.0,2024,2,2024-T2,Forte augmentation,39.2,Faible augmentation,False
+z_36.0_25.5,2024,2,2024-T2,Forte diminution,48.8,Forte diminution,True
+z_36.0_27.0,2024,2,2024-T2,Forte diminution,48.9,Stable,False
+z_36.0_34.5,2024,2,2024-T2,Données insuffisantes,96.4,Stable,False
+z_36.0_9.0,2024,2,2024-T2,Données insuffisantes,97.2,Stable,False
+z_37.5_-1.5,2024,2,2024-T2,Forte diminution,44.0,Stable,False
+z_37.5_-10.5,2024,2,2024-T2,Forte diminution,55.4,Forte augmentation,False
+z_37.5_-24.0,2024,2,2024-T2,Données insuffisantes,98.6,Donnees insuffisantes,False
+z_37.5_-28.5,2024,2,2024-T2,Données insuffisantes,96.9,Stable,False
+z_37.5_-9.0,2024,2,2024-T2,Forte diminution,41.2,Forte diminution,True
+z_37.5_12.0,2024,2,2024-T2,Forte diminution,39.5,Forte diminution,True
+z_37.5_13.5,2024,2,2024-T2,Stable,68.3,Stable,True
+z_37.5_15.0,2024,2,2024-T2,Forte diminution,52.0,Stable,False
+z_37.5_19.5,2024,2,2024-T2,Forte diminution,43.9,Stable,False
+z_37.5_22.5,2024,2,2024-T2,Faible diminution,42.9,Forte augmentation,False
+z_37.5_24.0,2024,2,2024-T2,Forte diminution,57.4,Forte diminution,True
+z_37.5_25.5,2024,2,2024-T2,Stable,37.1,Stable,True
+z_37.5_6.0,2024,2,2024-T2,Données insuffisantes,98.8,Stable,False
+z_39.0_0.0,2024,2,2024-T2,Stable,61.3,Stable,True
+z_39.0_1.5,2024,2,2024-T2,Stable,67.9,Stable,True
+z_39.0_16.5,2024,2,2024-T2,Stable,71.0,Stable,True
+z_39.0_18.0,2024,2,2024-T2,Stable,70.8,Stable,True
+z_39.0_19.5,2024,2,2024-T2,Forte diminution,45.1,Stable,False
+z_39.0_22.5,2024,2,2024-T2,Forte diminution,41.3,Forte diminution,True
+z_39.0_24.0,2024,2,2024-T2,Stable,65.5,Stable,True
+z_39.0_25.5,2024,2,2024-T2,Stable,70.4,Stable,True
+z_39.0_3.0,2024,2,2024-T2,Stable,71.6,Stable,True
+z_39.0_4.5,2024,2,2024-T2,Données insuffisantes,97.8,Stable,False
+z_39.0_9.0,2024,2,2024-T2,Stable,70.3,Stable,True
+z_40.5_-22.5,2024,2,2024-T2,Données insuffisantes,98.8,Donnees insuffisantes,False
+z_40.5_-9.0,2024,2,2024-T2,Stable,41.7,Stable,True
+z_40.5_0.0,2024,2,2024-T2,Stable,41.4,Stable,True
+z_40.5_1.5,2024,2,2024-T2,Forte diminution,35.7,Stable,False
+z_40.5_13.5,2024,2,2024-T2,Forte diminution,53.1,Forte diminution,True
+z_40.5_16.5,2024,2,2024-T2,Stable,52.5,Stable,True
+z_40.5_18.0,2024,2,2024-T2,Données insuffisantes,93.5,Stable,False
+z_40.5_22.5,2024,2,2024-T2,Stable,63.2,Stable,True
+z_40.5_24.0,2024,2,2024-T2,Forte diminution,43.0,Forte augmentation,False
+z_40.5_25.5,2024,2,2024-T2,Données insuffisantes,78.0,Stable,False
+z_40.5_28.5,2024,2,2024-T2,Stable,47.2,Stable,True
+z_40.5_3.0,2024,2,2024-T2,Stable,63.9,Stable,True
+z_40.5_37.5,2024,2,2024-T2,Données insuffisantes,98.6,Donnees insuffisantes,False
+z_40.5_7.5,2024,2,2024-T2,Stable,70.6,Stable,True
+z_40.5_9.0,2024,2,2024-T2,Stable,55.3,Stable,True
+z_42.0_-10.5,2024,2,2024-T2,Forte diminution,38.6,Stable,False
+z_42.0_-3.0,2024,2,2024-T2,Stable,64.9,Forte augmentation,False
+z_42.0_-4.5,2024,2,2024-T2,Stable,72.1,Forte augmentation,False
+z_42.0_-9.0,2024,2,2024-T2,Forte diminution,44.4,Stable,False
+z_42.0_13.5,2024,2,2024-T2,Stable,37.5,Stable,True
+z_42.0_15.0,2024,2,2024-T2,Forte diminution,46.0,Stable,False
+z_42.0_16.5,2024,2,2024-T2,Données insuffisantes,68.9,Stable,False
+z_42.0_3.0,2024,2,2024-T2,Forte diminution,47.4,Stable,False
+z_42.0_4.5,2024,2,2024-T2,Forte diminution,44.8,Stable,False
+z_42.0_6.0,2024,2,2024-T2,Stable,71.7,Stable,True
+z_42.0_7.5,2024,2,2024-T2,Données insuffisantes,98.4,Stable,False
+z_43.5_-1.5,2024,2,2024-T2,Stable,66.4,Stable,True
+z_43.5_-3.0,2024,2,2024-T2,Stable,67.0,Forte augmentation,False
+z_43.5_-4.5,2024,2,2024-T2,Stable,49.3,Forte augmentation,False
+z_43.5_-7.5,2024,2,2024-T2,Forte augmentation,33.8,Forte augmentation,True
+z_43.5_-9.0,2024,2,2024-T2,Forte diminution,52.8,Forte augmentation,False
+z_43.5_12.0,2024,2,2024-T2,Forte diminution,49.6,Forte augmentation,False
+z_43.5_13.5,2024,2,2024-T2,Stable,64.6,Forte augmentation,False
+z_43.5_9.0,2024,2,2024-T2,Forte diminution,38.9,Stable,False
+z_45.0_-19.5,2024,2,2024-T2,Données insuffisantes,97.9,Donnees insuffisantes,False
+z_45.0_-3.0,2024,2,2024-T2,Forte diminution,51.2,Stable,False
+z_45.0_12.0,2024,2,2024-T2,Forte diminution,48.9,Stable,False
+z_45.0_13.5,2024,2,2024-T2,Forte diminution,42.6,Stable,False
+z_45.0_28.5,2024,2,2024-T2,Données insuffisantes,97.0,Donnees insuffisantes,False
+z_45.0_36.0,2024,2,2024-T2,Données insuffisantes,97.9,Donnees insuffisantes,False
+z_46.5_-3.0,2024,2,2024-T2,Forte diminution,50.4,Forte augmentation,False
+z_46.5_-4.5,2024,2,2024-T2,Forte diminution,45.3,Forte augmentation,False
+z_46.5_-6.0,2024,2,2024-T2,Forte diminution,43.1,Forte augmentation,False
+z_48.0_-1.5,2024,2,2024-T2,Forte diminution,54.4,Stable,False
+z_48.0_-10.5,2024,2,2024-T2,Données insuffisantes,97.0,Donnees insuffisantes,False
+z_48.0_-4.5,2024,2,2024-T2,Stable,48.2,Stable,True
+z_48.0_-6.0,2024,2,2024-T2,Forte diminution,45.2,Forte augmentation,False
+z_48.0_-7.5,2024,2,2024-T2,Stable,64.5,Stable,True
+z_49.5_-1.5,2024,2,2024-T2,Forte diminution,27.5,Forte diminution,True
+z_49.5_-3.0,2024,2,2024-T2,Forte diminution,38.2,Forte diminution,True
+z_49.5_-4.5,2024,2,2024-T2,Stable,64.1,Forte diminution,False
+z_49.5_0.0,2024,2,2024-T2,Forte diminution,56.5,Forte diminution,True
+z_51.0_-12.0,2024,2,2024-T2,Stable,71.3,Stable,True
+z_51.0_-6.0,2024,2,2024-T2,Stable,66.9,Forte diminution,False
+z_51.0_-7.5,2024,2,2024-T2,Forte diminution,44.5,Stable,False
+z_51.0_-9.0,2024,2,2024-T2,Stable,72.2,Stable,True
+z_51.0_0.0,2024,2,2024-T2,Forte diminution,38.5,Forte diminution,True
+z_51.0_1.5,2024,2,2024-T2,Faible augmentation,37.5,Forte diminution,False
+z_51.0_3.0,2024,2,2024-T2,Faible diminution,32.0,Forte augmentation,False
+z_52.5_-1.5,2024,2,2024-T2,Stable,59.7,Forte diminution,False
+z_52.5_-10.5,2024,2,2024-T2,Données insuffisantes,51.4,Stable,False
+z_52.5_-4.5,2024,2,2024-T2,Stable,65.2,Forte diminution,False
+z_52.5_-6.0,2024,2,2024-T2,Forte diminution,34.3,Stable,False
+z_52.5_-7.5,2024,2,2024-T2,Stable,38.6,Stable,True
+z_52.5_0.0,2024,2,2024-T2,Stable,58.9,Forte diminution,False
+z_52.5_4.5,2024,2,2024-T2,Forte diminution,48.4,Forte diminution,True
+z_52.5_6.0,2024,2,2024-T2,Faible augmentation,28.1,Stable,False
+z_52.5_7.5,2024,2,2024-T2,Faible augmentation,44.8,Faible diminution,False
+z_52.5_9.0,2024,2,2024-T2,Faible diminution,30.7,Faible diminution,True
+z_54.0_-4.5,2024,2,2024-T2,Stable,61.8,Forte augmentation,False
+z_54.0_-9.0,2024,2,2024-T2,Données insuffisantes,98.3,Stable,False
+z_54.0_1.5,2024,2,2024-T2,Données insuffisantes,94.9,Stable,False
+z_54.0_10.5,2024,2,2024-T2,Faible augmentation,49.0,Forte augmentation,False
+z_54.0_12.0,2024,2,2024-T2,Faible diminution,36.1,Forte augmentation,False
+z_54.0_13.5,2024,2,2024-T2,Faible augmentation,29.9,Forte augmentation,False
+z_54.0_18.0,2024,2,2024-T2,Forte diminution,38.7,Stable,False
+z_54.0_6.0,2024,2,2024-T2,Stable,78.7,Stable,True
+z_54.0_7.5,2024,2,2024-T2,Faible augmentation,60.6,Forte diminution,False
+z_54.0_9.0,2024,2,2024-T2,Faible diminution,30.6,Forte augmentation,False
+z_55.5_-7.5,2024,2,2024-T2,Données insuffisantes,99.1,Forte diminution,False
+z_55.5_12.0,2024,2,2024-T2,Forte diminution,44.5,Stable,False
+z_55.5_13.5,2024,2,2024-T2,Données insuffisantes,74.0,Stable,False
+z_55.5_15.0,2024,2,2024-T2,Forte augmentation,34.7,Stable,False
+z_55.5_16.5,2024,2,2024-T2,Données insuffisantes,90.0,Stable,False
+z_55.5_18.0,2024,2,2024-T2,Données insuffisantes,98.7,Stable,False
+z_55.5_21.0,2024,2,2024-T2,Forte diminution,55.0,Forte diminution,True
+z_55.5_7.5,2024,2,2024-T2,Forte diminution,45.1,Forte augmentation,False
+z_55.5_9.0,2024,2,2024-T2,Forte diminution,45.8,Forte augmentation,False
+z_57.0_-3.0,2024,2,2024-T2,Données insuffisantes,86.7,Forte diminution,False
+z_57.0_-9.0,2024,2,2024-T2,Données insuffisantes,97.6,Stable,False
+z_57.0_10.5,2024,2,2024-T2,Faible augmentation,51.9,Forte augmentation,False
+z_57.0_12.0,2024,2,2024-T2,Données insuffisantes,94.7,Stable,False
+z_57.0_16.5,2024,2,2024-T2,Stable,75.9,Stable,True
+z_57.0_18.0,2024,2,2024-T2,Stable,77.5,Stable,True
+z_57.0_22.5,2024,2,2024-T2,Stable,67.1,Stable,True
+z_57.0_7.5,2024,2,2024-T2,Stable,59.2,Stable,True
+z_57.0_9.0,2024,2,2024-T2,Forte diminution,37.4,Stable,False
+z_58.5_1.5,2024,2,2024-T2,Données insuffisantes,98.6,Stable,False
+z_58.5_10.5,2024,2,2024-T2,Forte diminution,48.7,Forte diminution,True
+z_58.5_15.0,2024,2,2024-T2,Stable,50.0,Stable,True
+z_58.5_16.5,2024,2,2024-T2,Forte diminution,38.2,Forte diminution,True
+z_58.5_18.0,2024,2,2024-T2,Forte augmentation,42.3,Forte diminution,False
+z_58.5_19.5,2024,2,2024-T2,Stable,67.8,Forte augmentation,False
+z_58.5_21.0,2024,2,2024-T2,Stable,70.0,Stable,True
+z_58.5_24.0,2024,2,2024-T2,Forte diminution,42.8,Stable,False
+z_58.5_4.5,2024,2,2024-T2,Forte diminution,50.0,Stable,False
+z_58.5_9.0,2024,2,2024-T2,Stable,68.3,Stable,True
+z_60.0_-6.0,2024,2,2024-T2,Données insuffisantes,97.9,Stable,False
+z_60.0_1.5,2024,2,2024-T2,Stable,69.7,Stable,True
+z_60.0_16.5,2024,2,2024-T2,Stable,59.4,Stable,True
+z_60.0_19.5,2024,2,2024-T2,Données insuffisantes,98.0,Stable,False
+z_60.0_21.0,2024,2,2024-T2,Forte diminution,42.1,Stable,False
+z_60.0_24.0,2024,2,2024-T2,Stable,52.7,Forte augmentation,False
+z_60.0_25.5,2024,2,2024-T2,Stable,65.3,Stable,True
+z_60.0_3.0,2024,2,2024-T2,Stable,52.4,Stable,True
+z_60.0_4.5,2024,2,2024-T2,Forte diminution,69.0,Forte augmentation,False
+z_61.5_0.0,2024,2,2024-T2,Données insuffisantes,96.7,Stable,False
+z_61.5_16.5,2024,2,2024-T2,Données insuffisantes,95.2,Stable,False
+z_61.5_4.5,2024,2,2024-T2,Forte diminution,40.8,Stable,False
+z_61.5_6.0,2024,2,2024-T2,Forte diminution,54.1,Stable,False
+z_63.0_-24.0,2024,2,2024-T2,Stable,64.6,Stable,True
+z_63.0_-36.0,2024,2,2024-T2,Données insuffisantes,98.5,Donnees insuffisantes,False
+z_63.0_22.5,2024,2,2024-T2,Données insuffisantes,97.0,Stable,False
+z_63.0_7.5,2024,2,2024-T2,Forte diminution,47.3,Stable,False
+z_63.0_9.0,2024,2,2024-T2,Forte diminution,39.2,Stable,False
+z_64.5_-25.5,2024,2,2024-T2,Données insuffisantes,84.5,Stable,False
+z_64.5_10.5,2024,2,2024-T2,Stable,38.2,Stable,True
+z_64.5_12.0,2024,2,2024-T2,Stable,62.9,Stable,True
+z_64.5_21.0,2024,2,2024-T2,Stable,63.4,Forte augmentation,False
+z_64.5_24.0,2024,2,2024-T2,Stable,72.3,Stable,True
+z_64.5_7.5,2024,2,2024-T2,Données insuffisantes,98.5,Stable,False
+z_66.0_-18.0,2024,2,2024-T2,Données insuffisantes,96.5,Stable,False
+z_66.0_12.0,2024,2,2024-T2,Forte diminution,40.1,Stable,False
+z_66.0_13.5,2024,2,2024-T2,Stable,55.5,Forte diminution,False
+z_66.0_6.0,2024,2,2024-T2,Données insuffisantes,98.6,Donnees insuffisantes,False
+z_67.5_12.0,2024,2,2024-T2,Stable,55.8,Stable,True
+z_67.5_15.0,2024,2,2024-T2,Stable,70.3,Stable,True
+z_67.5_16.5,2024,2,2024-T2,Stable,75.5,Stable,True
+z_69.0_16.5,2024,2,2024-T2,Forte diminution,42.4,Stable,False
+z_69.0_21.0,2024,2,2024-T2,Données insuffisantes,90.7,Stable,False
+z_70.5_24.0,2024,2,2024-T2,Stable,64.7,Stable,True
+z_72.0_15.0,2024,2,2024-T2,Données insuffisantes,97.4,Stable,False
+z_75.0_30.0,2024,2,2024-T2,Données insuffisantes,98.5,Donnees insuffisantes,False
+z_75.0_34.5,2024,2,2024-T2,Données insuffisantes,93.6,Stable,False
+z_76.5_13.5,2024,2,2024-T2,Données insuffisantes,92.8,Stable,False
+z_78.0_15.0,2024,2,2024-T2,Données insuffisantes,98.5,Donnees insuffisantes,False
+z_27.0_-16.5,2024,3,2024-T3,Forte diminution,38.3,Stable,False
+z_28.5_-15.0,2024,3,2024-T3,Stable,78.1,Stable,True
+z_30.0_-10.5,2024,3,2024-T3,Données insuffisantes,98.3,Stable,False
+z_30.0_31.5,2024,3,2024-T3,Stable,67.3,Stable,True
+z_31.5_-15.0,2024,3,2024-T3,Données insuffisantes,98.7,Donnees insuffisantes,False
+z_33.0_18.0,2024,3,2024-T3,Données insuffisantes,98.8,Stable,False
+z_34.5_-6.0,2024,3,2024-T3,Stable,61.1,Stable,True
+z_34.5_12.0,2024,3,2024-T3,Données insuffisantes,95.7,Stable,False
+z_34.5_13.5,2024,3,2024-T3,Faible augmentation,41.2,Forte augmentation,False
+z_34.5_24.0,2024,3,2024-T3,Forte diminution,48.5,Forte diminution,True
+z_34.5_33.0,2024,3,2024-T3,Stable,66.1,Stable,True
+z_36.0_-10.5,2024,3,2024-T3,Stable,78.3,Stable,True
+z_36.0_-3.0,2024,3,2024-T3,Forte diminution,51.3,Stable,False
+z_36.0_-6.0,2024,3,2024-T3,Forte diminution,50.7,Forte diminution,True
+z_36.0_-7.5,2024,3,2024-T3,Forte diminution,46.8,Stable,False
+z_36.0_-9.0,2024,3,2024-T3,Forte diminution,43.1,Forte augmentation,False
+z_36.0_12.0,2024,3,2024-T3,Stable,69.0,Stable,True
+z_36.0_13.5,2024,3,2024-T3,Forte diminution,54.3,Stable,False
+z_36.0_15.0,2024,3,2024-T3,Forte diminution,38.7,Stable,False
+z_36.0_22.5,2024,3,2024-T3,Forte diminution,44.2,Forte augmentation,False
+z_36.0_24.0,2024,3,2024-T3,Forte diminution,53.3,Forte augmentation,False
+z_36.0_25.5,2024,3,2024-T3,Forte diminution,56.4,Forte diminution,True
+z_36.0_27.0,2024,3,2024-T3,Forte diminution,53.6,Forte diminution,True
+z_36.0_4.5,2024,3,2024-T3,Données insuffisantes,98.5,Stable,False
+z_37.5_-1.5,2024,3,2024-T3,Forte diminution,40.3,Stable,False
+z_37.5_-10.5,2024,3,2024-T3,Forte diminution,50.7,Stable,False
+z_37.5_-9.0,2024,3,2024-T3,Forte diminution,40.0,Stable,False
+z_37.5_0.0,2024,3,2024-T3,Stable,71.2,Stable,True
+z_37.5_12.0,2024,3,2024-T3,Forte diminution,47.3,Forte diminution,True
+z_37.5_13.5,2024,3,2024-T3,Stable,70.7,Stable,True
+z_37.5_15.0,2024,3,2024-T3,Forte diminution,48.8,Stable,False
+z_37.5_19.5,2024,3,2024-T3,Forte diminution,50.9,Stable,False
+z_37.5_21.0,2024,3,2024-T3,Forte diminution,50.6,Stable,False
+z_37.5_22.5,2024,3,2024-T3,Faible diminution,49.9,Faible augmentation,False
+z_37.5_24.0,2024,3,2024-T3,Forte diminution,63.1,Forte diminution,True
+z_39.0_-1.5,2024,3,2024-T3,Stable,38.9,Stable,True
+z_39.0_-10.5,2024,3,2024-T3,Stable,63.2,Stable,True
+z_39.0_-9.0,2024,3,2024-T3,Stable,55.2,Stable,True
+z_39.0_0.0,2024,3,2024-T3,Stable,69.8,Stable,True
+z_39.0_18.0,2024,3,2024-T3,Stable,59.2,Forte augmentation,False
+z_39.0_19.5,2024,3,2024-T3,Forte diminution,55.4,Faible diminution,False
+z_39.0_22.5,2024,3,2024-T3,Forte diminution,49.8,Forte diminution,True
+z_39.0_24.0,2024,3,2024-T3,Stable,64.5,Stable,True
+z_39.0_3.0,2024,3,2024-T3,Stable,72.3,Stable,True
+z_39.0_9.0,2024,3,2024-T3,Stable,71.7,Forte augmentation,False
+z_40.5_-9.0,2024,3,2024-T3,Stable,41.0,Stable,True
+z_40.5_0.0,2024,3,2024-T3,Stable,43.9,Stable,True
+z_40.5_13.5,2024,3,2024-T3,Forte diminution,47.3,Forte augmentation,False
+z_40.5_22.5,2024,3,2024-T3,Stable,68.8,Stable,True
+z_40.5_24.0,2024,3,2024-T3,Forte diminution,46.4,Forte diminution,True
+z_40.5_3.0,2024,3,2024-T3,Stable,63.1,Forte diminution,False
+z_40.5_4.5,2024,3,2024-T3,Données insuffisantes,98.8,Stable,False
+z_40.5_9.0,2024,3,2024-T3,Stable,54.2,Forte diminution,False
+z_42.0_-10.5,2024,3,2024-T3,Forte diminution,46.1,Stable,False
+z_42.0_-3.0,2024,3,2024-T3,Stable,51.5,Stable,True
+z_42.0_-4.5,2024,3,2024-T3,Stable,69.6,Stable,True
+z_42.0_-9.0,2024,3,2024-T3,Forte diminution,44.5,Forte augmentation,False
+z_42.0_10.5,2024,3,2024-T3,Stable,55.3,Stable,True
+z_42.0_13.5,2024,3,2024-T3,Stable,35.0,Stable,True
+z_42.0_15.0,2024,3,2024-T3,Forte diminution,44.6,Forte augmentation,False
+z_42.0_18.0,2024,3,2024-T3,Données insuffisantes,98.5,Stable,False
+z_42.0_3.0,2024,3,2024-T3,Forte diminution,47.1,Forte augmentation,False
+z_42.0_6.0,2024,3,2024-T3,Stable,67.6,Stable,True
+z_43.5_-33.0,2024,3,2024-T3,Données insuffisantes,97.2,Donnees insuffisantes,False
+z_43.5_-6.0,2024,3,2024-T3,Stable,60.6,Stable,True
+z_43.5_-7.5,2024,3,2024-T3,Forte diminution,40.1,Stable,False
+z_43.5_12.0,2024,3,2024-T3,Forte diminution,53.0,Stable,False
+z_43.5_13.5,2024,3,2024-T3,Stable,70.8,Stable,True
+z_43.5_7.5,2024,3,2024-T3,Forte diminution,49.7,Stable,False
+z_43.5_9.0,2024,3,2024-T3,Forte diminution,44.8,Stable,False
+z_45.0_-1.5,2024,3,2024-T3,Forte diminution,42.1,Stable,False
+z_45.0_-3.0,2024,3,2024-T3,Forte diminution,51.9,Stable,False
+z_45.0_-6.0,2024,3,2024-T3,Données insuffisantes,95.0,Stable,False
+z_46.5_-3.0,2024,3,2024-T3,Forte diminution,52.7,Forte augmentation,False
+z_46.5_-4.5,2024,3,2024-T3,Forte diminution,54.0,Forte diminution,True
+z_46.5_-6.0,2024,3,2024-T3,Forte diminution,46.4,Forte augmentation,False
+z_48.0_-1.5,2024,3,2024-T3,Forte diminution,50.7,Stable,False
+z_48.0_-4.5,2024,3,2024-T3,Stable,48.4,Stable,True
+z_48.0_-6.0,2024,3,2024-T3,Forte diminution,52.9,Stable,False
+z_48.0_-9.0,2024,3,2024-T3,Stable,72.7,Stable,True
+z_49.5_-1.5,2024,3,2024-T3,Forte diminution,32.8,Forte diminution,True
+z_49.5_-4.5,2024,3,2024-T3,Stable,65.8,Forte diminution,False
+z_49.5_-6.0,2024,3,2024-T3,Stable,68.5,Forte diminution,False
+z_49.5_-9.0,2024,3,2024-T3,Stable,76.1,Stable,True
+z_49.5_0.0,2024,3,2024-T3,Forte diminution,57.0,Stable,False
+z_49.5_1.5,2024,3,2024-T3,Données insuffisantes,99.0,Forte diminution,False
+z_51.0_-10.5,2024,3,2024-T3,Stable,63.9,Stable,True
+z_51.0_-12.0,2024,3,2024-T3,Stable,67.9,Stable,True
+z_51.0_-7.5,2024,3,2024-T3,Forte diminution,46.1,Stable,False
+z_51.0_0.0,2024,3,2024-T3,Forte diminution,40.8,Forte diminution,True
+z_51.0_1.5,2024,3,2024-T3,Forte diminution,38.1,Faible augmentation,False
+z_51.0_3.0,2024,3,2024-T3,Faible diminution,43.0,Forte augmentation,False
+z_52.5_-1.5,2024,3,2024-T3,Stable,48.8,Forte diminution,False
+z_52.5_-10.5,2024,3,2024-T3,Stable,49.8,Stable,True
+z_52.5_-6.0,2024,3,2024-T3,Forte diminution,39.7,Forte augmentation,False
+z_52.5_-7.5,2024,3,2024-T3,Forte diminution,41.5,Stable,False
+z_52.5_1.5,2024,3,2024-T3,Stable,72.5,Forte diminution,False
+z_52.5_13.5,2024,3,2024-T3,Forte diminution,49.4,Forte diminution,True
+z_52.5_3.0,2024,3,2024-T3,Forte diminution,35.4,Stable,False
+z_52.5_4.5,2024,3,2024-T3,Forte diminution,51.8,Stable,False
+z_52.5_6.0,2024,3,2024-T3,Faible diminution,27.0,Stable,False
+z_52.5_7.5,2024,3,2024-T3,Faible augmentation,39.5,Faible diminution,False
+z_52.5_9.0,2024,3,2024-T3,Faible augmentation,44.6,Faible augmentation,True
+z_54.0_-1.5,2024,3,2024-T3,Stable,44.0,Stable,True
+z_54.0_-7.5,2024,3,2024-T3,Stable,45.6,Stable,True
+z_54.0_10.5,2024,3,2024-T3,Faible augmentation,37.4,Forte diminution,False
+z_54.0_12.0,2024,3,2024-T3,Faible diminution,54.7,Forte augmentation,False
+z_54.0_13.5,2024,3,2024-T3,Faible augmentation,26.0,Stable,False
+z_54.0_16.5,2024,3,2024-T3,Données insuffisantes,96.9,Stable,False
+z_54.0_18.0,2024,3,2024-T3,Forte diminution,48.3,Forte diminution,True
+z_54.0_6.0,2024,3,2024-T3,Stable,73.8,Stable,True
+z_54.0_7.5,2024,3,2024-T3,Faible augmentation,47.6,Faible diminution,False
+z_54.0_9.0,2024,3,2024-T3,Faible diminution,35.9,Stable,False
+z_55.5_-4.5,2024,3,2024-T3,Données insuffisantes,98.8,Stable,False
+z_55.5_-7.5,2024,3,2024-T3,Données insuffisantes,98.8,Forte diminution,False
+z_55.5_0.0,2024,3,2024-T3,Données insuffisantes,96.7,Stable,False
+z_55.5_10.5,2024,3,2024-T3,Forte diminution,53.4,Stable,False
+z_55.5_12.0,2024,3,2024-T3,Forte diminution,34.0,Faible augmentation,False
+z_55.5_15.0,2024,3,2024-T3,Forte diminution,38.5,Stable,False
+z_55.5_16.5,2024,3,2024-T3,Données insuffisantes,87.2,Stable,False
+z_55.5_18.0,2024,3,2024-T3,Données insuffisantes,97.8,Stable,False
+z_55.5_21.0,2024,3,2024-T3,Forte diminution,57.0,Stable,False
+z_55.5_3.0,2024,3,2024-T3,Données insuffisantes,98.9,Stable,False
+z_55.5_6.0,2024,3,2024-T3,Stable,73.6,Stable,True
+z_55.5_7.5,2024,3,2024-T3,Forte diminution,41.8,Stable,False
+z_55.5_9.0,2024,3,2024-T3,Forte diminution,42.1,Stable,False
+z_57.0_0.0,2024,3,2024-T3,Données insuffisantes,97.9,Stable,False
+z_57.0_10.5,2024,3,2024-T3,Faible augmentation,44.6,Forte diminution,False
+z_57.0_12.0,2024,3,2024-T3,Données insuffisantes,94.2,Forte augmentation,False
+z_57.0_18.0,2024,3,2024-T3,Stable,75.9,Stable,True
+z_57.0_19.5,2024,3,2024-T3,Données insuffisantes,94.3,Stable,False
+z_57.0_4.5,2024,3,2024-T3,Stable,65.0,Forte augmentation,False
+z_57.0_9.0,2024,3,2024-T3,Stable,48.5,Stable,True
+z_58.5_10.5,2024,3,2024-T3,Forte diminution,51.5,Forte diminution,True
+z_58.5_16.5,2024,3,2024-T3,Forte diminution,46.0,Forte diminution,True
+z_58.5_18.0,2024,3,2024-T3,Forte diminution,54.1,Stable,False
+z_58.5_19.5,2024,3,2024-T3,Stable,74.4,Stable,True
+z_58.5_21.0,2024,3,2024-T3,Stable,71.0,Stable,True
+z_58.5_24.0,2024,3,2024-T3,Forte diminution,43.4,Stable,False
+z_58.5_4.5,2024,3,2024-T3,Forte diminution,43.8,Stable,False
+z_58.5_6.0,2024,3,2024-T3,Données insuffisantes,98.2,Stable,False
+z_58.5_9.0,2024,3,2024-T3,Stable,65.6,Stable,True
+z_60.0_-1.5,2024,3,2024-T3,Données insuffisantes,97.5,Forte diminution,False
+z_60.0_1.5,2024,3,2024-T3,Stable,72.9,Stable,True
+z_60.0_21.0,2024,3,2024-T3,Forte diminution,38.0,Stable,False
+z_60.0_24.0,2024,3,2024-T3,Stable,67.5,Stable,True
+z_60.0_25.5,2024,3,2024-T3,Stable,62.2,Forte augmentation,False
+z_60.0_4.5,2024,3,2024-T3,Forte diminution,60.8,Stable,False
+z_60.0_6.0,2024,3,2024-T3,Données insuffisantes,96.9,Stable,False
+z_61.5_0.0,2024,3,2024-T3,Données insuffisantes,95.4,Donnees insuffisantes,False
+z_61.5_16.5,2024,3,2024-T3,Données insuffisantes,93.9,Stable,False
+z_61.5_4.5,2024,3,2024-T3,Forte diminution,45.3,Stable,False
+z_61.5_6.0,2024,3,2024-T3,Forte diminution,55.1,Stable,False
+z_63.0_-21.0,2024,3,2024-T3,Données insuffisantes,84.1,Stable,False
+z_63.0_-22.5,2024,3,2024-T3,Stable,40.4,Stable,True
+z_63.0_-24.0,2024,3,2024-T3,Stable,77.7,Stable,True
+z_63.0_19.5,2024,3,2024-T3,Stable,52.0,Stable,True
+z_63.0_21.0,2024,3,2024-T3,Données insuffisantes,92.7,Stable,False
+z_63.0_22.5,2024,3,2024-T3,Données insuffisantes,94.4,Stable,False
+z_63.0_4.5,2024,3,2024-T3,Stable,52.8,Stable,True
+z_63.0_7.5,2024,3,2024-T3,Forte diminution,50.2,Stable,False
+z_63.0_9.0,2024,3,2024-T3,Forte diminution,36.8,Forte augmentation,False
+z_64.5_-15.0,2024,3,2024-T3,Données insuffisantes,96.1,Stable,False
+z_64.5_10.5,2024,3,2024-T3,Stable,39.6,Stable,True
+z_64.5_21.0,2024,3,2024-T3,Stable,49.1,Stable,True
+z_64.5_24.0,2024,3,2024-T3,Stable,66.9,Stable,True
+z_66.0_-18.0,2024,3,2024-T3,Données insuffisantes,95.0,Stable,False
+z_66.0_-24.0,2024,3,2024-T3,Stable,69.2,Stable,True
+z_66.0_12.0,2024,3,2024-T3,Forte diminution,47.8,Forte augmentation,False
+z_66.0_13.5,2024,3,2024-T3,Stable,59.6,Stable,True
+z_67.5_13.5,2024,3,2024-T3,Stable,65.6,Stable,True
+z_67.5_15.0,2024,3,2024-T3,Stable,68.1,Stable,True
+z_67.5_16.5,2024,3,2024-T3,Stable,68.2,Stable,True
+z_69.0_15.0,2024,3,2024-T3,Stable,69.7,Stable,True
+z_69.0_16.5,2024,3,2024-T3,Forte diminution,44.1,Stable,False
+z_69.0_21.0,2024,3,2024-T3,Données insuffisantes,89.1,Stable,False
+z_69.0_22.5,2024,3,2024-T3,Données insuffisantes,68.6,Stable,False
+z_70.5_25.5,2024,3,2024-T3,Données insuffisantes,96.8,Stable,False
+z_70.5_27.0,2024,3,2024-T3,Données insuffisantes,97.9,Stable,False
+z_70.5_28.5,2024,3,2024-T3,Données insuffisantes,90.2,Stable,False
+z_73.5_33.0,2024,3,2024-T3,Données insuffisantes,97.9,Donnees insuffisantes,False
+z_73.5_34.5,2024,3,2024-T3,Données insuffisantes,98.2,Donnees insuffisantes,False
+z_75.0_33.0,2024,3,2024-T3,Données insuffisantes,90.3,Stable,False
+z_78.0_15.0,2024,3,2024-T3,Données insuffisantes,99.3,Stable,False
+z_24.0_-18.0,2024,4,2024-T4,Données insuffisantes,97.1,Donnees insuffisantes,False
+z_27.0_-16.5,2024,4,2024-T4,Forte diminution,40.9,Forte augmentation,False
+z_28.5_-16.5,2024,4,2024-T4,Stable,65.3,Stable,True
+z_30.0_31.5,2024,4,2024-T4,Stable,76.3,Stable,True
+z_34.5_12.0,2024,4,2024-T4,Données insuffisantes,96.3,Stable,False
+z_34.5_13.5,2024,4,2024-T4,Faible augmentation,39.6,Stable,False
+z_34.5_24.0,2024,4,2024-T4,Forte diminution,49.5,Forte diminution,True
+z_34.5_33.0,2024,4,2024-T4,Stable,68.9,Stable,True
+z_36.0_-10.5,2024,4,2024-T4,Stable,70.0,Stable,True
+z_36.0_-3.0,2024,4,2024-T4,Forte diminution,46.6,Stable,False
+z_36.0_-4.5,2024,4,2024-T4,Stable,66.5,Stable,True
+z_36.0_-6.0,2024,4,2024-T4,Forte diminution,52.8,Stable,False
+z_36.0_-7.5,2024,4,2024-T4,Forte diminution,46.9,Stable,False
+z_36.0_-9.0,2024,4,2024-T4,Forte diminution,46.0,Stable,False
+z_36.0_0.0,2024,4,2024-T4,Données insuffisantes,95.2,Stable,False
+z_36.0_12.0,2024,4,2024-T4,Stable,66.7,Stable,True
+z_36.0_13.5,2024,4,2024-T4,Forte diminution,52.4,Forte augmentation,False
+z_36.0_15.0,2024,4,2024-T4,Forte diminution,50.3,Stable,False
+z_36.0_21.0,2024,4,2024-T4,Stable,76.4,Stable,True
+z_36.0_22.5,2024,4,2024-T4,Forte diminution,43.3,Forte diminution,True
+z_36.0_24.0,2024,4,2024-T4,Forte diminution,47.8,Stable,False
+z_36.0_25.5,2024,4,2024-T4,Forte diminution,52.8,Stable,False
+z_36.0_27.0,2024,4,2024-T4,Forte diminution,52.3,Stable,False
+z_37.5_-1.5,2024,4,2024-T4,Forte diminution,42.1,Forte augmentation,False
+z_37.5_-13.5,2024,4,2024-T4,Données insuffisantes,98.7,Stable,False
+z_37.5_-28.5,2024,4,2024-T4,Données insuffisantes,94.8,Stable,False
+z_37.5_-9.0,2024,4,2024-T4,Forte diminution,47.2,Stable,False
+z_37.5_12.0,2024,4,2024-T4,Forte diminution,46.3,Forte diminution,True
+z_37.5_13.5,2024,4,2024-T4,Stable,71.6,Stable,True
+z_37.5_15.0,2024,4,2024-T4,Forte diminution,51.8,Forte augmentation,False
+z_37.5_19.5,2024,4,2024-T4,Forte diminution,51.2,Forte diminution,True
+z_37.5_21.0,2024,4,2024-T4,Forte diminution,47.1,Stable,False
+z_37.5_22.5,2024,4,2024-T4,Faible augmentation,49.5,Forte augmentation,False
+z_37.5_24.0,2024,4,2024-T4,Forte diminution,62.5,Forte augmentation,False
+z_37.5_25.5,2024,4,2024-T4,Stable,57.6,Forte diminution,False
+z_37.5_7.5,2024,4,2024-T4,Données insuffisantes,98.7,Stable,False
+z_37.5_9.0,2024,4,2024-T4,Données insuffisantes,94.4,Stable,False
+z_39.0_-1.5,2024,4,2024-T4,Stable,45.5,Stable,True
+z_39.0_-9.0,2024,4,2024-T4,Stable,66.7,Stable,True
+z_39.0_1.5,2024,4,2024-T4,Stable,68.5,Stable,True
+z_39.0_16.5,2024,4,2024-T4,Stable,67.6,Stable,True
+z_39.0_18.0,2024,4,2024-T4,Stable,53.7,Stable,True
+z_39.0_19.5,2024,4,2024-T4,Forte diminution,57.4,Stable,False
+z_39.0_22.5,2024,4,2024-T4,Forte diminution,52.3,Forte diminution,True
+z_39.0_24.0,2024,4,2024-T4,Stable,75.8,Stable,True
+z_39.0_25.5,2024,4,2024-T4,Stable,64.6,Stable,True
+z_39.0_4.5,2024,4,2024-T4,Données insuffisantes,98.4,Stable,False
+z_40.5_-36.0,2024,4,2024-T4,Données insuffisantes,98.5,Donnees insuffisantes,False
+z_40.5_-9.0,2024,4,2024-T4,Forte diminution,35.1,Stable,False
+z_40.5_0.0,2024,4,2024-T4,Stable,38.8,Stable,True
+z_40.5_1.5,2024,4,2024-T4,Forte diminution,41.0,Stable,False
+z_40.5_12.0,2024,4,2024-T4,Stable,62.5,Stable,True
+z_40.5_13.5,2024,4,2024-T4,Forte diminution,44.0,Forte diminution,True
+z_40.5_16.5,2024,4,2024-T4,Stable,55.8,Stable,True
+z_40.5_18.0,2024,4,2024-T4,Données insuffisantes,89.4,Stable,False
+z_40.5_22.5,2024,4,2024-T4,Stable,65.8,Stable,True
+z_40.5_24.0,2024,4,2024-T4,Forte diminution,46.4,Forte augmentation,False
+z_40.5_3.0,2024,4,2024-T4,Stable,65.0,Stable,True
+z_40.5_7.5,2024,4,2024-T4,Stable,73.3,Stable,True
+z_40.5_9.0,2024,4,2024-T4,Stable,57.8,Stable,True
+z_42.0_-3.0,2024,4,2024-T4,Stable,38.1,Stable,True
+z_42.0_-4.5,2024,4,2024-T4,Stable,57.4,Stable,True
+z_42.0_-9.0,2024,4,2024-T4,Forte diminution,40.3,Stable,False
+z_42.0_13.5,2024,4,2024-T4,Forte diminution,34.4,Stable,False
+z_42.0_15.0,2024,4,2024-T4,Forte diminution,41.8,Forte augmentation,False
+z_42.0_16.5,2024,4,2024-T4,Données insuffisantes,62.0,Stable,False
+z_42.0_3.0,2024,4,2024-T4,Forte diminution,45.2,Stable,False
+z_42.0_4.5,2024,4,2024-T4,Forte diminution,42.1,Stable,False
+z_42.0_9.0,2024,4,2024-T4,Forte diminution,45.6,Stable,False
+z_43.5_-1.5,2024,4,2024-T4,Stable,67.5,Stable,True
+z_43.5_-10.5,2024,4,2024-T4,Données insuffisantes,97.1,Stable,False
+z_43.5_-6.0,2024,4,2024-T4,Stable,66.3,Stable,True
+z_43.5_-7.5,2024,4,2024-T4,Forte diminution,41.7,Stable,False
+z_43.5_-9.0,2024,4,2024-T4,Forte diminution,48.7,Forte augmentation,False
+z_43.5_12.0,2024,4,2024-T4,Forte diminution,51.3,Forte augmentation,False
+z_43.5_13.5,2024,4,2024-T4,Stable,67.7,Stable,True
+z_43.5_28.5,2024,4,2024-T4,Données insuffisantes,96.0,Stable,False
+z_43.5_6.0,2024,4,2024-T4,Données insuffisantes,98.3,Stable,False
+z_43.5_7.5,2024,4,2024-T4,Forte diminution,46.0,Stable,False
+z_43.5_9.0,2024,4,2024-T4,Forte diminution,42.1,Forte diminution,True
+z_45.0_-1.5,2024,4,2024-T4,Forte diminution,47.7,Stable,False
+z_45.0_-3.0,2024,4,2024-T4,Forte diminution,53.5,Stable,False
+z_45.0_-4.5,2024,4,2024-T4,Données insuffisantes,92.8,Stable,False
+z_45.0_12.0,2024,4,2024-T4,Forte diminution,46.4,Stable,False
+z_45.0_13.5,2024,4,2024-T4,Forte diminution,49.0,Stable,False
+z_46.5_-6.0,2024,4,2024-T4,Forte diminution,47.6,Forte augmentation,False
+z_48.0_-1.5,2024,4,2024-T4,Forte diminution,49.0,Forte diminution,True
+z_48.0_-3.0,2024,4,2024-T4,Stable,70.8,Forte diminution,False
+z_48.0_-4.5,2024,4,2024-T4,Stable,50.6,Forte diminution,False
+z_48.0_-6.0,2024,4,2024-T4,Forte diminution,58.0,Forte diminution,True
+z_48.0_-7.5,2024,4,2024-T4,Stable,70.5,Stable,True
+z_48.0_-9.0,2024,4,2024-T4,Stable,63.0,Stable,True
+z_49.5_-1.5,2024,4,2024-T4,Forte diminution,37.8,Forte diminution,True
+z_49.5_-4.5,2024,4,2024-T4,Stable,69.0,Forte diminution,False
+z_49.5_-6.0,2024,4,2024-T4,Stable,71.2,Stable,True
+z_49.5_-9.0,2024,4,2024-T4,Stable,77.4,Stable,True
+z_49.5_0.0,2024,4,2024-T4,Forte diminution,48.1,Faible diminution,False
+z_49.5_1.5,2024,4,2024-T4,Données insuffisantes,99.1,Forte diminution,False
+z_51.0_-10.5,2024,4,2024-T4,Stable,69.8,Stable,True
+z_51.0_-12.0,2024,4,2024-T4,Stable,65.3,Stable,True
+z_51.0_-13.5,2024,4,2024-T4,Données insuffisantes,97.0,Stable,False
+z_51.0_-6.0,2024,4,2024-T4,Stable,63.1,Forte diminution,False
+z_51.0_-7.5,2024,4,2024-T4,Forte diminution,49.6,Stable,False
+z_51.0_-9.0,2024,4,2024-T4,Stable,68.1,Stable,True
+z_51.0_0.0,2024,4,2024-T4,Forte diminution,43.6,Forte diminution,True
+z_51.0_1.5,2024,4,2024-T4,Faible augmentation,32.8,Stable,False
+z_51.0_3.0,2024,4,2024-T4,Faible diminution,32.5,Stable,False
+z_52.5_-1.5,2024,4,2024-T4,Stable,58.8,Forte diminution,False
+z_52.5_-13.5,2024,4,2024-T4,Données insuffisantes,98.1,Stable,False
+z_52.5_-4.5,2024,4,2024-T4,Stable,67.1,Forte diminution,False
+z_52.5_-6.0,2024,4,2024-T4,Forte diminution,41.8,Forte augmentation,False
+z_52.5_-7.5,2024,4,2024-T4,Forte diminution,39.6,Stable,False
+z_52.5_0.0,2024,4,2024-T4,Stable,51.9,Forte diminution,False
+z_52.5_13.5,2024,4,2024-T4,Forte diminution,36.4,Forte diminution,True
+z_52.5_3.0,2024,4,2024-T4,Forte diminution,37.7,Forte diminution,True
+z_52.5_4.5,2024,4,2024-T4,Forte diminution,58.7,Forte diminution,True
+z_52.5_6.0,2024,4,2024-T4,Faible diminution,33.9,Forte diminution,False
+z_52.5_7.5,2024,4,2024-T4,Forte diminution,29.9,Stable,False
+z_52.5_9.0,2024,4,2024-T4,Faible augmentation,52.3,Stable,False
+z_54.0_-10.5,2024,4,2024-T4,Données insuffisantes,97.6,Stable,False
+z_54.0_-4.5,2024,4,2024-T4,Stable,66.6,Forte diminution,False
+z_54.0_-7.5,2024,4,2024-T4,Stable,65.6,Stable,True
+z_54.0_10.5,2024,4,2024-T4,Forte diminution,33.3,Stable,False
+z_54.0_12.0,2024,4,2024-T4,Faible diminution,44.1,Faible augmentation,False
+z_54.0_13.5,2024,4,2024-T4,Forte diminution,31.4,Forte augmentation,False
+z_54.0_15.0,2024,4,2024-T4,Stable,71.1,Stable,True
+z_54.0_6.0,2024,4,2024-T4,Stable,80.0,Stable,True
+z_54.0_7.5,2024,4,2024-T4,Faible augmentation,49.2,Forte diminution,False
+z_54.0_9.0,2024,4,2024-T4,Faible augmentation,36.9,Faible augmentation,True
+z_55.5_10.5,2024,4,2024-T4,Forte diminution,53.0,Stable,False
+z_55.5_12.0,2024,4,2024-T4,Forte diminution,34.3,Stable,False
+z_55.5_13.5,2024,4,2024-T4,Données insuffisantes,76.8,Stable,False
+z_55.5_15.0,2024,4,2024-T4,Forte diminution,37.4,Stable,False
+z_55.5_16.5,2024,4,2024-T4,Données insuffisantes,78.4,Stable,False
+z_55.5_19.5,2024,4,2024-T4,Données insuffisantes,81.6,Stable,False
+z_55.5_21.0,2024,4,2024-T4,Forte diminution,55.0,Forte augmentation,False
+z_55.5_6.0,2024,4,2024-T4,Stable,72.1,Stable,True
+z_55.5_7.5,2024,4,2024-T4,Forte diminution,41.4,Stable,False
+z_55.5_9.0,2024,4,2024-T4,Forte diminution,45.2,Forte diminution,True
+z_57.0_-3.0,2024,4,2024-T4,Données insuffisantes,81.3,Forte diminution,False
+z_57.0_-6.0,2024,4,2024-T4,Données insuffisantes,95.2,Forte diminution,False
+z_57.0_10.5,2024,4,2024-T4,Faible augmentation,52.2,Forte augmentation,False
+z_57.0_18.0,2024,4,2024-T4,Stable,71.7,Stable,True
+z_57.0_22.5,2024,4,2024-T4,Stable,66.3,Stable,True
+z_57.0_24.0,2024,4,2024-T4,Données insuffisantes,98.8,Stable,False
+z_57.0_3.0,2024,4,2024-T4,Données insuffisantes,98.8,Stable,False
+z_57.0_6.0,2024,4,2024-T4,Stable,52.7,Stable,True
+z_57.0_7.5,2024,4,2024-T4,Stable,62.3,Stable,True
+z_57.0_9.0,2024,4,2024-T4,Stable,55.0,Stable,True
+z_58.5_0.0,2024,4,2024-T4,Données insuffisantes,97.5,Stable,False
+z_58.5_15.0,2024,4,2024-T4,Stable,67.8,Stable,True
+z_58.5_16.5,2024,4,2024-T4,Forte diminution,55.7,Stable,False
+z_58.5_18.0,2024,4,2024-T4,Forte diminution,62.3,Forte augmentation,False
+z_58.5_19.5,2024,4,2024-T4,Stable,64.1,Forte augmentation,False
+z_58.5_21.0,2024,4,2024-T4,Stable,66.6,Stable,True
+z_58.5_22.5,2024,4,2024-T4,Stable,68.8,Stable,True
+z_58.5_24.0,2024,4,2024-T4,Forte diminution,44.4,Forte diminution,True
+z_58.5_25.5,2024,4,2024-T4,Données insuffisantes,93.9,Stable,False
+z_58.5_28.5,2024,4,2024-T4,Données insuffisantes,98.8,Stable,False
+z_58.5_4.5,2024,4,2024-T4,Forte diminution,44.3,Stable,False
+z_58.5_6.0,2024,4,2024-T4,Données insuffisantes,98.9,Stable,False
+z_58.5_9.0,2024,4,2024-T4,Stable,67.6,Stable,True
+z_60.0_0.0,2024,4,2024-T4,Données insuffisantes,97.9,Stable,False
+z_60.0_16.5,2024,4,2024-T4,Stable,69.8,Stable,True
+z_60.0_19.5,2024,4,2024-T4,Données insuffisantes,97.4,Stable,False
+z_60.0_21.0,2024,4,2024-T4,Forte diminution,46.0,Stable,False
+z_60.0_24.0,2024,4,2024-T4,Stable,63.4,Stable,True
+z_60.0_25.5,2024,4,2024-T4,Stable,62.8,Stable,True
+z_60.0_3.0,2024,4,2024-T4,Stable,70.2,Stable,True
+z_60.0_4.5,2024,4,2024-T4,Forte diminution,60.3,Forte augmentation,False
+z_61.5_19.5,2024,4,2024-T4,Données insuffisantes,97.3,Stable,False
+z_61.5_21.0,2024,4,2024-T4,Données insuffisantes,96.4,Stable,False
+z_61.5_4.5,2024,4,2024-T4,Forte diminution,35.4,Forte diminution,True
+z_61.5_6.0,2024,4,2024-T4,Forte diminution,51.1,Forte diminution,True
+z_61.5_7.5,2024,4,2024-T4,Données insuffisantes,99.2,Stable,False
+z_63.0_-22.5,2024,4,2024-T4,Stable,56.0,Stable,True
+z_63.0_6.0,2024,4,2024-T4,Données insuffisantes,98.3,Stable,False
+z_63.0_7.5,2024,4,2024-T4,Forte diminution,47.6,Stable,False
+z_64.5_-15.0,2024,4,2024-T4,Données insuffisantes,91.3,Stable,False
+z_64.5_10.5,2024,4,2024-T4,Stable,45.5,Stable,True
+z_64.5_12.0,2024,4,2024-T4,Stable,59.0,Forte augmentation,False
+z_64.5_21.0,2024,4,2024-T4,Stable,47.4,Stable,True
+z_64.5_9.0,2024,4,2024-T4,Données insuffisantes,97.8,Stable,False
+z_66.0_-21.0,2024,4,2024-T4,Données insuffisantes,98.6,Stable,False
+z_66.0_12.0,2024,4,2024-T4,Forte diminution,40.1,Stable,False
+z_67.5_13.5,2024,4,2024-T4,Stable,67.2,Stable,True
+z_67.5_15.0,2024,4,2024-T4,Stable,66.8,Stable,True
+z_69.0_15.0,2024,4,2024-T4,Stable,71.9,Stable,True
+z_69.0_16.5,2024,4,2024-T4,Forte diminution,43.9,Forte augmentation,False
+z_69.0_18.0,2024,4,2024-T4,Stable,67.3,Stable,True
+z_69.0_19.5,2024,4,2024-T4,Données insuffisantes,92.4,Forte diminution,False
+z_69.0_21.0,2024,4,2024-T4,Données insuffisantes,82.2,Stable,False
+z_70.5_19.5,2024,4,2024-T4,Données insuffisantes,95.2,Donnees insuffisantes,False
+z_70.5_21.0,2024,4,2024-T4,Données insuffisantes,97.5,Stable,False
+z_70.5_22.5,2024,4,2024-T4,Stable,74.2,Stable,True
+z_72.0_13.5,2024,4,2024-T4,Données insuffisantes,97.2,Stable,False
+z_27.0_-16.5,2025,1,2025-T1,Forte diminution,35.7,Forte augmentation,False
+z_30.0_-13.5,2025,1,2025-T1,Données insuffisantes,97.9,Stable,False
+z_30.0_-15.0,2025,1,2025-T1,Données insuffisantes,98.1,Stable,False
+z_30.0_28.5,2025,1,2025-T1,Données insuffisantes,92.1,Stable,False
+z_33.0_24.0,2025,1,2025-T1,Données insuffisantes,98.6,Stable,False
+z_34.5_-39.0,2025,1,2025-T1,Données insuffisantes,98.3,Donnees insuffisantes,False
+z_34.5_-6.0,2025,1,2025-T1,Stable,60.4,Stable,True
+z_34.5_-7.5,2025,1,2025-T1,Données insuffisantes,96.3,Stable,False
+z_34.5_13.5,2025,1,2025-T1,Faible augmentation,34.0,Forte augmentation,False
+z_34.5_22.5,2025,1,2025-T1,Stable,76.3,Stable,True
+z_34.5_24.0,2025,1,2025-T1,Forte diminution,52.7,Stable,False
+z_34.5_25.5,2025,1,2025-T1,Stable,78.4,Stable,True
+z_34.5_33.0,2025,1,2025-T1,Stable,69.2,Stable,True
+z_36.0_-1.5,2025,1,2025-T1,Données insuffisantes,98.3,Stable,False
+z_36.0_-10.5,2025,1,2025-T1,Stable,69.0,Forte augmentation,False
+z_36.0_-3.0,2025,1,2025-T1,Forte diminution,53.6,Stable,False
+z_36.0_-6.0,2025,1,2025-T1,Forte diminution,47.3,Forte diminution,True
+z_36.0_-7.5,2025,1,2025-T1,Forte diminution,48.2,Forte augmentation,False
+z_36.0_-9.0,2025,1,2025-T1,Forte diminution,47.5,Stable,False
+z_36.0_10.5,2025,1,2025-T1,Stable,59.2,Stable,True
+z_36.0_12.0,2025,1,2025-T1,Stable,65.8,Stable,True
+z_36.0_13.5,2025,1,2025-T1,Forte diminution,36.8,Stable,False
+z_36.0_15.0,2025,1,2025-T1,Forte diminution,36.6,Forte augmentation,False
+z_36.0_22.5,2025,1,2025-T1,Forte diminution,46.2,Forte diminution,True
+z_36.0_24.0,2025,1,2025-T1,Forte diminution,39.0,Stable,False
+z_36.0_25.5,2025,1,2025-T1,Forte diminution,50.9,Stable,False
+z_36.0_36.0,2025,1,2025-T1,Données insuffisantes,92.9,Stable,False
+z_37.5_-1.5,2025,1,2025-T1,Forte diminution,42.0,Stable,False
+z_37.5_-10.5,2025,1,2025-T1,Forte diminution,55.5,Forte augmentation,False
+z_37.5_-27.0,2025,1,2025-T1,Données insuffisantes,48.7,Forte augmentation,False
+z_37.5_10.5,2025,1,2025-T1,Données insuffisantes,96.3,Stable,False
+z_37.5_12.0,2025,1,2025-T1,Forte diminution,48.0,Stable,False
+z_37.5_13.5,2025,1,2025-T1,Stable,73.1,Stable,True
+z_37.5_15.0,2025,1,2025-T1,Forte diminution,51.1,Stable,False
+z_37.5_19.5,2025,1,2025-T1,Forte diminution,53.6,Stable,False
+z_37.5_21.0,2025,1,2025-T1,Forte diminution,59.0,Forte diminution,True
+z_37.5_22.5,2025,1,2025-T1,Faible augmentation,35.4,Stable,False
+z_37.5_24.0,2025,1,2025-T1,Forte diminution,60.4,Stable,False
+z_37.5_25.5,2025,1,2025-T1,Stable,61.6,Stable,True
+z_39.0_-1.5,2025,1,2025-T1,Stable,55.0,Stable,True
+z_39.0_-10.5,2025,1,2025-T1,Stable,69.9,Stable,True
+z_39.0_-9.0,2025,1,2025-T1,Stable,66.1,Stable,True
+z_39.0_1.5,2025,1,2025-T1,Stable,70.8,Stable,True
+z_39.0_16.5,2025,1,2025-T1,Stable,73.1,Stable,True
+z_39.0_18.0,2025,1,2025-T1,Stable,48.2,Stable,True
+z_39.0_19.5,2025,1,2025-T1,Forte diminution,54.6,Stable,False
+z_39.0_22.5,2025,1,2025-T1,Forte diminution,48.5,Forte diminution,True
+z_40.5_-9.0,2025,1,2025-T1,Stable,39.7,Forte augmentation,False
+z_40.5_0.0,2025,1,2025-T1,Stable,45.9,Stable,True
+z_40.5_1.5,2025,1,2025-T1,Stable,47.3,Stable,True
+z_40.5_12.0,2025,1,2025-T1,Stable,74.2,Stable,True
+z_40.5_13.5,2025,1,2025-T1,Forte diminution,51.3,Stable,False
+z_40.5_16.5,2025,1,2025-T1,Stable,54.3,Stable,True
+z_40.5_24.0,2025,1,2025-T1,Forte diminution,43.8,Forte augmentation,False
+z_40.5_25.5,2025,1,2025-T1,Données insuffisantes,81.4,Stable,False
+z_40.5_27.0,2025,1,2025-T1,Données insuffisantes,97.7,Stable,False
+z_40.5_3.0,2025,1,2025-T1,Stable,58.0,Stable,True
+z_40.5_7.5,2025,1,2025-T1,Stable,72.6,Stable,True
+z_40.5_9.0,2025,1,2025-T1,Stable,52.0,Stable,True
+z_42.0_-10.5,2025,1,2025-T1,Forte diminution,46.2,Stable,False
+z_42.0_-3.0,2025,1,2025-T1,Stable,41.4,Stable,True
+z_42.0_-4.5,2025,1,2025-T1,Stable,74.1,Stable,True
+z_42.0_13.5,2025,1,2025-T1,Forte diminution,35.7,Stable,False
+z_42.0_15.0,2025,1,2025-T1,Forte diminution,46.0,Stable,False
+z_42.0_3.0,2025,1,2025-T1,Forte diminution,49.4,Forte augmentation,False
+z_42.0_9.0,2025,1,2025-T1,Forte diminution,41.7,Stable,False
+z_43.5_-1.5,2025,1,2025-T1,Stable,69.0,Stable,True
+z_43.5_-3.0,2025,1,2025-T1,Stable,66.6,Stable,True
+z_43.5_-4.5,2025,1,2025-T1,Stable,50.3,Stable,True
+z_43.5_-6.0,2025,1,2025-T1,Stable,53.8,Stable,True
+z_43.5_-9.0,2025,1,2025-T1,Forte diminution,45.0,Forte augmentation,False
+z_43.5_12.0,2025,1,2025-T1,Forte diminution,42.3,Stable,False
+z_43.5_13.5,2025,1,2025-T1,Stable,66.6,Stable,True
+z_43.5_7.5,2025,1,2025-T1,Forte diminution,54.2,Forte diminution,True
+z_43.5_9.0,2025,1,2025-T1,Forte diminution,46.8,Forte diminution,True
+z_45.0_-1.5,2025,1,2025-T1,Forte diminution,43.5,Stable,False
+z_45.0_-3.0,2025,1,2025-T1,Forte diminution,55.1,Forte diminution,True
+z_45.0_-4.5,2025,1,2025-T1,Données insuffisantes,86.5,Stable,False
+z_45.0_-9.0,2025,1,2025-T1,Données insuffisantes,53.9,Stable,False
+z_45.0_12.0,2025,1,2025-T1,Forte diminution,42.6,Forte diminution,True
+z_45.0_13.5,2025,1,2025-T1,Forte diminution,47.3,Forte augmentation,False
+z_46.5_-3.0,2025,1,2025-T1,Forte diminution,47.1,Forte diminution,True
+z_46.5_-4.5,2025,1,2025-T1,Forte diminution,59.5,Stable,False
+z_46.5_-7.5,2025,1,2025-T1,Données insuffisantes,91.9,Stable,False
+z_48.0_-1.5,2025,1,2025-T1,Forte diminution,53.0,Forte diminution,True
+z_48.0_-4.5,2025,1,2025-T1,Stable,53.7,Stable,True
+z_48.0_-6.0,2025,1,2025-T1,Forte diminution,44.4,Stable,False
+z_48.0_-7.5,2025,1,2025-T1,Stable,67.3,Stable,True
+z_48.0_-9.0,2025,1,2025-T1,Stable,62.4,Forte augmentation,False
+z_49.5_-1.5,2025,1,2025-T1,Forte diminution,32.6,Forte diminution,True
+z_49.5_-3.0,2025,1,2025-T1,Forte diminution,41.2,Forte diminution,True
+z_49.5_-6.0,2025,1,2025-T1,Stable,72.9,Forte diminution,False
+z_49.5_0.0,2025,1,2025-T1,Forte diminution,57.3,Forte diminution,True
+z_51.0_-10.5,2025,1,2025-T1,Stable,73.1,Stable,True
+z_51.0_-12.0,2025,1,2025-T1,Stable,72.4,Stable,True
+z_51.0_-13.5,2025,1,2025-T1,Données insuffisantes,98.4,Stable,False
+z_51.0_-15.0,2025,1,2025-T1,Données insuffisantes,97.5,Stable,False
+z_51.0_-6.0,2025,1,2025-T1,Stable,66.7,Forte diminution,False
+z_51.0_-7.5,2025,1,2025-T1,Forte diminution,50.3,Stable,False
+z_51.0_1.5,2025,1,2025-T1,Faible augmentation,46.2,Forte diminution,False
+z_51.0_3.0,2025,1,2025-T1,Faible diminution,37.3,Faible augmentation,False
+z_52.5_-1.5,2025,1,2025-T1,Stable,66.7,Forte diminution,False
+z_52.5_-10.5,2025,1,2025-T1,Stable,45.9,Stable,True
+z_52.5_-15.0,2025,1,2025-T1,Données insuffisantes,97.1,Stable,False
+z_52.5_-6.0,2025,1,2025-T1,Forte diminution,41.7,Forte diminution,True
+z_52.5_-7.5,2025,1,2025-T1,Forte diminution,37.3,Stable,False
+z_52.5_0.0,2025,1,2025-T1,Stable,60.9,Faible diminution,False
+z_52.5_1.5,2025,1,2025-T1,Stable,64.5,Stable,True
+z_52.5_13.5,2025,1,2025-T1,Forte diminution,44.5,Forte augmentation,False
+z_52.5_3.0,2025,1,2025-T1,Forte diminution,39.1,Forte diminution,True
+z_52.5_4.5,2025,1,2025-T1,Forte diminution,49.2,Stable,False
+z_52.5_6.0,2025,1,2025-T1,Forte diminution,37.2,Stable,False
+z_52.5_7.5,2025,1,2025-T1,Faible augmentation,41.3,Stable,False
+z_52.5_9.0,2025,1,2025-T1,Faible augmentation,40.0,Faible diminution,False
+z_54.0_-10.5,2025,1,2025-T1,Données insuffisantes,98.4,Donnees insuffisantes,False
+z_54.0_-12.0,2025,1,2025-T1,Données insuffisantes,97.6,Donnees insuffisantes,False
+z_54.0_0.0,2025,1,2025-T1,Données insuffisantes,88.4,Stable,False
+z_54.0_10.5,2025,1,2025-T1,Faible augmentation,41.1,Stable,False
+z_54.0_12.0,2025,1,2025-T1,Faible diminution,40.3,Forte augmentation,False
+z_54.0_13.5,2025,1,2025-T1,Forte diminution,30.4,Forte diminution,True
+z_54.0_15.0,2025,1,2025-T1,Stable,70.4,Stable,True
+z_54.0_16.5,2025,1,2025-T1,Données insuffisantes,96.7,Stable,False
+z_54.0_18.0,2025,1,2025-T1,Forte diminution,75.3,Forte augmentation,False
+z_54.0_6.0,2025,1,2025-T1,Stable,72.5,Stable,True
+z_54.0_7.5,2025,1,2025-T1,Faible augmentation,49.3,Stable,False
+z_54.0_9.0,2025,1,2025-T1,Faible augmentation,36.1,Faible diminution,False
+z_55.5_-3.0,2025,1,2025-T1,Données insuffisantes,93.1,Stable,False
+z_55.5_-6.0,2025,1,2025-T1,Données insuffisantes,93.8,Forte diminution,False
+z_55.5_12.0,2025,1,2025-T1,Forte diminution,42.7,Stable,False
+z_55.5_13.5,2025,1,2025-T1,Données insuffisantes,82.2,Stable,False
+z_55.5_19.5,2025,1,2025-T1,Données insuffisantes,82.4,Stable,False
+z_55.5_21.0,2025,1,2025-T1,Forte diminution,54.5,Forte diminution,True
+z_55.5_6.0,2025,1,2025-T1,Stable,71.0,Stable,True
+z_55.5_7.5,2025,1,2025-T1,Forte diminution,43.8,Forte diminution,True
+z_55.5_9.0,2025,1,2025-T1,Forte diminution,41.9,Stable,False
+z_57.0_-6.0,2025,1,2025-T1,Données insuffisantes,92.8,Forte diminution,False
+z_57.0_10.5,2025,1,2025-T1,Faible augmentation,48.6,Forte diminution,False
+z_57.0_16.5,2025,1,2025-T1,Stable,71.7,Stable,True
+z_57.0_18.0,2025,1,2025-T1,Stable,73.7,Stable,True
+z_57.0_24.0,2025,1,2025-T1,Données insuffisantes,98.1,Forte augmentation,False
+z_57.0_4.5,2025,1,2025-T1,Stable,64.7,Stable,True
+z_57.0_7.5,2025,1,2025-T1,Stable,69.3,Stable,True
+z_57.0_9.0,2025,1,2025-T1,Stable,44.7,Stable,True
+z_58.5_-10.5,2025,1,2025-T1,Données insuffisantes,98.2,Stable,False
+z_58.5_-6.0,2025,1,2025-T1,Données insuffisantes,97.5,Stable,False
+z_58.5_-9.0,2025,1,2025-T1,Données insuffisantes,97.9,Donnees insuffisantes,False
+z_58.5_10.5,2025,1,2025-T1,Forte diminution,58.0,Stable,False
+z_58.5_15.0,2025,1,2025-T1,Stable,50.5,Stable,True
+z_58.5_16.5,2025,1,2025-T1,Forte diminution,52.8,Forte augmentation,False
+z_58.5_18.0,2025,1,2025-T1,Forte diminution,52.2,Stable,False
+z_58.5_19.5,2025,1,2025-T1,Stable,69.3,Stable,True
+z_58.5_21.0,2025,1,2025-T1,Stable,68.1,Stable,True
+z_58.5_22.5,2025,1,2025-T1,Stable,72.8,Stable,True
+z_58.5_4.5,2025,1,2025-T1,Forte diminution,47.1,Forte diminution,True
+z_58.5_6.0,2025,1,2025-T1,Données insuffisantes,96.3,Stable,False
+z_58.5_9.0,2025,1,2025-T1,Stable,67.7,Stable,True
+z_60.0_-4.5,2025,1,2025-T1,Données insuffisantes,97.0,Stable,False
+z_60.0_21.0,2025,1,2025-T1,Forte diminution,43.1,Stable,False
+z_60.0_25.5,2025,1,2025-T1,Stable,63.8,Stable,True
+z_60.0_3.0,2025,1,2025-T1,Stable,51.9,Stable,True
+z_60.0_4.5,2025,1,2025-T1,Forte augmentation,41.3,Forte augmentation,True
+z_61.5_1.5,2025,1,2025-T1,Données insuffisantes,98.4,Stable,False
+z_61.5_16.5,2025,1,2025-T1,Données insuffisantes,91.8,Stable,False
+z_61.5_19.5,2025,1,2025-T1,Données insuffisantes,96.3,Stable,False
+z_61.5_4.5,2025,1,2025-T1,Forte diminution,44.5,Stable,False
+z_61.5_6.0,2025,1,2025-T1,Forte diminution,54.4,Stable,False
+z_63.0_-22.5,2025,1,2025-T1,Stable,62.1,Forte diminution,False
+z_63.0_4.5,2025,1,2025-T1,Stable,45.2,Stable,True
+z_63.0_7.5,2025,1,2025-T1,Forte diminution,51.2,Stable,False
+z_63.0_9.0,2025,1,2025-T1,Forte diminution,42.5,Stable,False
+z_64.5_12.0,2025,1,2025-T1,Stable,52.9,Stable,True
+z_64.5_21.0,2025,1,2025-T1,Stable,48.8,Stable,True
+z_64.5_24.0,2025,1,2025-T1,Stable,60.4,Stable,True
+z_66.0_-24.0,2025,1,2025-T1,Stable,70.4,Stable,True
+z_66.0_10.5,2025,1,2025-T1,Données insuffisantes,95.7,Forte augmentation,False
+z_66.0_12.0,2025,1,2025-T1,Forte diminution,47.3,Stable,False
+z_66.0_13.5,2025,1,2025-T1,Stable,62.2,Stable,True
+z_67.5_10.5,2025,1,2025-T1,Données insuffisantes,92.6,Stable,False
+z_67.5_15.0,2025,1,2025-T1,Stable,67.4,Stable,True
+z_69.0_15.0,2025,1,2025-T1,Stable,70.9,Stable,True
+z_69.0_16.5,2025,1,2025-T1,Forte diminution,45.9,Stable,False
+z_69.0_19.5,2025,1,2025-T1,Données insuffisantes,91.6,Stable,False
+z_70.5_22.5,2025,1,2025-T1,Stable,66.2,Stable,True
+z_70.5_24.0,2025,1,2025-T1,Stable,70.8,Stable,True
+z_72.0_28.5,2025,1,2025-T1,Données insuffisantes,97.3,Stable,False
+z_27.0_-16.5,2025,2,2025-T2,Forte diminution,40.6,Forte diminution,True
+z_28.5_-15.0,2025,2,2025-T2,Stable,64.0,Stable,True
+z_28.5_-16.5,2025,2,2025-T2,Stable,64.3,Donnees insuffisantes,False
+z_30.0_30.0,2025,2,2025-T2,Données insuffisantes,98.8,Donnees insuffisantes,False
+z_30.0_31.5,2025,2,2025-T2,Stable,82.6,Stable,True
+z_34.5_-4.5,2025,2,2025-T2,Données insuffisantes,98.0,Stable,False
+z_34.5_13.5,2025,2,2025-T2,Faible augmentation,43.8,Faible diminution,False
+z_34.5_24.0,2025,2,2025-T2,Forte diminution,54.8,Forte diminution,True
+z_34.5_25.5,2025,2,2025-T2,Stable,73.3,Stable,True
+z_34.5_33.0,2025,2,2025-T2,Stable,63.5,Forte augmentation,False
+z_36.0_-22.5,2025,2,2025-T2,Données insuffisantes,98.5,Donnees insuffisantes,False
+z_36.0_-3.0,2025,2,2025-T2,Forte diminution,54.4,Forte augmentation,False
+z_36.0_-4.5,2025,2,2025-T2,Stable,68.9,Stable,True
+z_36.0_-6.0,2025,2,2025-T2,Forte diminution,53.1,Stable,False
+z_36.0_-7.5,2025,2,2025-T2,Forte diminution,38.3,Forte diminution,True
+z_36.0_12.0,2025,2,2025-T2,Stable,68.2,Stable,True
+z_36.0_15.0,2025,2,2025-T2,Forte diminution,43.7,Stable,False
+z_36.0_16.5,2025,2,2025-T2,Données insuffisantes,98.3,Stable,False
+z_36.0_22.5,2025,2,2025-T2,Forte diminution,54.2,Stable,False
+z_36.0_24.0,2025,2,2025-T2,Forte augmentation,44.1,Forte augmentation,True
+z_36.0_25.5,2025,2,2025-T2,Forte diminution,49.1,Stable,False
+z_36.0_27.0,2025,2,2025-T2,Forte diminution,56.9,Stable,False
+z_36.0_30.0,2025,2,2025-T2,Données insuffisantes,98.4,Stable,False
+z_37.5_-1.5,2025,2,2025-T2,Forte diminution,44.4,Stable,False
+z_37.5_-10.5,2025,2,2025-T2,Forte diminution,48.7,Forte augmentation,False
+z_37.5_-22.5,2025,2,2025-T2,Données insuffisantes,98.8,Stable,False
+z_37.5_-30.0,2025,2,2025-T2,Données insuffisantes,97.4,Stable,False
+z_37.5_-9.0,2025,2,2025-T2,Forte diminution,43.9,Forte diminution,True
+z_37.5_1.5,2025,2,2025-T2,Données insuffisantes,97.3,Donnees insuffisantes,False
+z_37.5_13.5,2025,2,2025-T2,Stable,71.2,Stable,True
+z_37.5_15.0,2025,2,2025-T2,Forte diminution,51.1,Stable,False
+z_37.5_19.5,2025,2,2025-T2,Forte diminution,46.8,Stable,False
+z_37.5_21.0,2025,2,2025-T2,Forte diminution,47.7,Stable,False
+z_37.5_22.5,2025,2,2025-T2,Faible augmentation,38.8,Stable,False
+z_37.5_24.0,2025,2,2025-T2,Forte diminution,57.6,Faible diminution,False
+z_37.5_25.5,2025,2,2025-T2,Stable,50.9,Stable,True
+z_37.5_9.0,2025,2,2025-T2,Données insuffisantes,93.0,Stable,False
+z_39.0_-1.5,2025,2,2025-T2,Stable,46.1,Stable,True
+z_39.0_-10.5,2025,2,2025-T2,Stable,72.1,Stable,True
+z_39.0_-31.5,2025,2,2025-T2,Données insuffisantes,98.6,Stable,False
+z_39.0_1.5,2025,2,2025-T2,Stable,67.1,Stable,True
+z_39.0_16.5,2025,2,2025-T2,Stable,69.8,Stable,True
+z_39.0_19.5,2025,2,2025-T2,Forte diminution,45.2,Forte augmentation,False
+z_39.0_22.5,2025,2,2025-T2,Forte diminution,45.0,Stable,False
+z_39.0_3.0,2025,2,2025-T2,Stable,74.4,Stable,True
+z_39.0_9.0,2025,2,2025-T2,Stable,69.0,Stable,True
+z_40.5_-9.0,2025,2,2025-T2,Stable,38.1,Stable,True
+z_40.5_1.5,2025,2,2025-T2,Forte diminution,38.2,Stable,False
+z_40.5_13.5,2025,2,2025-T2,Forte diminution,43.1,Stable,False
+z_40.5_22.5,2025,2,2025-T2,Stable,67.1,Stable,True
+z_40.5_24.0,2025,2,2025-T2,Forte diminution,48.7,Forte augmentation,False
+z_40.5_28.5,2025,2,2025-T2,Stable,59.8,Forte diminution,False
+z_40.5_3.0,2025,2,2025-T2,Stable,54.4,Forte augmentation,False
+z_40.5_9.0,2025,2,2025-T2,Stable,51.0,Stable,True
+z_42.0_-10.5,2025,2,2025-T2,Forte diminution,39.8,Stable,False
+z_42.0_-24.0,2025,2,2025-T2,Données insuffisantes,98.6,Donnees insuffisantes,False
+z_42.0_-3.0,2025,2,2025-T2,Stable,37.0,Stable,True
+z_42.0_10.5,2025,2,2025-T2,Stable,58.6,Stable,True
+z_42.0_13.5,2025,2,2025-T2,Forte diminution,38.4,Stable,False
+z_42.0_15.0,2025,2,2025-T2,Forte diminution,40.6,Stable,False
+z_42.0_27.0,2025,2,2025-T2,Données insuffisantes,49.8,Stable,False
+z_42.0_9.0,2025,2,2025-T2,Stable,41.6,Stable,True
+z_43.5_-1.5,2025,2,2025-T2,Stable,67.4,Stable,True
+z_43.5_-4.5,2025,2,2025-T2,Stable,46.6,Forte augmentation,False
+z_43.5_-6.0,2025,2,2025-T2,Stable,54.3,Stable,True
+z_43.5_-7.5,2025,2,2025-T2,Forte diminution,40.2,Stable,False
+z_43.5_-9.0,2025,2,2025-T2,Forte diminution,42.7,Stable,False
+z_43.5_12.0,2025,2,2025-T2,Forte diminution,47.9,Stable,False
+z_43.5_15.0,2025,2,2025-T2,Stable,54.4,Stable,True
+z_43.5_28.5,2025,2,2025-T2,Données insuffisantes,95.4,Stable,False
+z_43.5_7.5,2025,2,2025-T2,Forte diminution,42.4,Stable,False
+z_43.5_9.0,2025,2,2025-T2,Forte diminution,46.1,Stable,False
+z_45.0_-1.5,2025,2,2025-T2,Forte augmentation,36.6,Forte diminution,False
+z_45.0_-3.0,2025,2,2025-T2,Forte diminution,56.5,Forte augmentation,False
+z_45.0_-7.5,2025,2,2025-T2,Données insuffisantes,98.6,Stable,False
+z_45.0_-9.0,2025,2,2025-T2,Stable,44.6,Stable,True
+z_45.0_12.0,2025,2,2025-T2,Forte diminution,49.9,Stable,False
+z_45.0_13.5,2025,2,2025-T2,Forte diminution,42.0,Forte augmentation,False
+z_46.5_-3.0,2025,2,2025-T2,Forte diminution,45.6,Forte augmentation,False
+z_46.5_-4.5,2025,2,2025-T2,Forte diminution,58.1,Forte augmentation,False
+z_46.5_-7.5,2025,2,2025-T2,Données insuffisantes,87.6,Stable,False
+z_48.0_-1.5,2025,2,2025-T2,Forte diminution,62.0,Stable,False
+z_48.0_-3.0,2025,2,2025-T2,Stable,67.9,Stable,True
+z_48.0_-4.5,2025,2,2025-T2,Stable,54.4,Stable,True
+z_48.0_-6.0,2025,2,2025-T2,Forte diminution,50.3,Forte augmentation,False
+z_49.5_-1.5,2025,2,2025-T2,Forte diminution,46.4,Forte diminution,True
+z_49.5_-3.0,2025,2,2025-T2,Forte diminution,44.7,Forte diminution,True
+z_49.5_-4.5,2025,2,2025-T2,Stable,67.2,Forte diminution,False
+z_49.5_-6.0,2025,2,2025-T2,Stable,67.8,Forte diminution,False
+z_49.5_-9.0,2025,2,2025-T2,Stable,72.0,Stable,True
+z_49.5_0.0,2025,2,2025-T2,Forte diminution,55.7,Forte diminution,True
+z_51.0_-12.0,2025,2,2025-T2,Stable,63.4,Stable,True
+z_51.0_-4.5,2025,2,2025-T2,Données insuffisantes,88.1,Stable,False
+z_51.0_-6.0,2025,2,2025-T2,Stable,65.9,Forte diminution,False
+z_51.0_-7.5,2025,2,2025-T2,Forte diminution,45.4,Stable,False
+z_51.0_-9.0,2025,2,2025-T2,Stable,70.2,Stable,True
+z_51.0_0.0,2025,2,2025-T2,Forte diminution,45.2,Forte diminution,True
+z_51.0_1.5,2025,2,2025-T2,Forte diminution,29.5,Forte diminution,True
+z_51.0_3.0,2025,2,2025-T2,Faible diminution,34.4,Forte augmentation,False
+z_52.5_-1.5,2025,2,2025-T2,Stable,57.8,Forte diminution,False
+z_52.5_-10.5,2025,2,2025-T2,Stable,61.8,Stable,True
+z_52.5_-6.0,2025,2,2025-T2,Forte diminution,42.0,Stable,False
+z_52.5_13.5,2025,2,2025-T2,Forte diminution,47.1,Stable,False
+z_52.5_3.0,2025,2,2025-T2,Stable,45.1,Stable,True
+z_52.5_4.5,2025,2,2025-T2,Forte diminution,49.1,Forte diminution,True
+z_52.5_6.0,2025,2,2025-T2,Forte diminution,29.8,Forte augmentation,False
+z_52.5_7.5,2025,2,2025-T2,Faible augmentation,31.7,Forte augmentation,False
+z_52.5_9.0,2025,2,2025-T2,Faible diminution,36.3,Faible diminution,True
+z_54.0_-4.5,2025,2,2025-T2,Stable,61.6,Stable,True
+z_54.0_10.5,2025,2,2025-T2,Faible augmentation,37.4,Forte augmentation,False
+z_54.0_12.0,2025,2,2025-T2,Faible augmentation,38.1,Stable,False
+z_54.0_13.5,2025,2,2025-T2,Forte diminution,44.6,Forte augmentation,False
+z_54.0_15.0,2025,2,2025-T2,Stable,68.8,Forte augmentation,False
+z_54.0_18.0,2025,2,2025-T2,Forte diminution,65.8,Stable,False
+z_54.0_4.5,2025,2,2025-T2,Données insuffisantes,48.2,Stable,False
+z_54.0_6.0,2025,2,2025-T2,Stable,73.9,Stable,True
+z_54.0_7.5,2025,2,2025-T2,Faible augmentation,53.7,Forte diminution,False
+z_54.0_9.0,2025,2,2025-T2,Faible augmentation,35.6,Stable,False
+z_55.5_-6.0,2025,2,2025-T2,Données insuffisantes,92.2,Forte diminution,False
+z_55.5_10.5,2025,2,2025-T2,Forte diminution,54.2,Forte diminution,True
+z_55.5_12.0,2025,2,2025-T2,Forte diminution,38.7,Forte augmentation,False
+z_55.5_15.0,2025,2,2025-T2,Stable,44.1,Stable,True
+z_55.5_19.5,2025,2,2025-T2,Données insuffisantes,85.4,Stable,False
+z_55.5_21.0,2025,2,2025-T2,Forte diminution,54.8,Stable,False
+z_55.5_4.5,2025,2,2025-T2,Données insuffisantes,97.1,Stable,False
+z_55.5_6.0,2025,2,2025-T2,Stable,73.2,Stable,True
+z_55.5_7.5,2025,2,2025-T2,Forte diminution,53.2,Stable,False
+z_57.0_-4.5,2025,2,2025-T2,Données insuffisantes,97.8,Stable,False
+z_57.0_10.5,2025,2,2025-T2,Faible augmentation,37.1,Forte augmentation,False
+z_57.0_16.5,2025,2,2025-T2,Stable,71.7,Stable,True
+z_57.0_22.5,2025,2,2025-T2,Stable,66.3,Stable,True
+z_57.0_3.0,2025,2,2025-T2,Données insuffisantes,95.9,Stable,False
+z_57.0_7.5,2025,2,2025-T2,Stable,58.3,Stable,True
+z_57.0_9.0,2025,2,2025-T2,Forte augmentation,37.6,Stable,False
+z_58.5_10.5,2025,2,2025-T2,Forte diminution,57.0,Stable,False
+z_58.5_15.0,2025,2,2025-T2,Stable,49.4,Stable,True
+z_58.5_16.5,2025,2,2025-T2,Forte augmentation,33.9,Forte augmentation,True
+z_58.5_18.0,2025,2,2025-T2,Forte diminution,40.7,Forte augmentation,False
+z_58.5_21.0,2025,2,2025-T2,Stable,66.0,Stable,True
+z_58.5_22.5,2025,2,2025-T2,Stable,69.8,Stable,True
+z_58.5_24.0,2025,2,2025-T2,Forte diminution,46.3,Forte augmentation,False
+z_58.5_3.0,2025,2,2025-T2,Données insuffisantes,95.5,Stable,False
+z_58.5_4.5,2025,2,2025-T2,Forte diminution,53.4,Forte diminution,True
+z_60.0_-6.0,2025,2,2025-T2,Données insuffisantes,98.8,Stable,False
+z_60.0_1.5,2025,2,2025-T2,Stable,81.5,Stable,True
+z_60.0_16.5,2025,2,2025-T2,Stable,50.6,Stable,True
+z_60.0_19.5,2025,2,2025-T2,Données insuffisantes,96.4,Stable,False
+z_60.0_21.0,2025,2,2025-T2,Forte diminution,44.5,Forte diminution,True
+z_60.0_25.5,2025,2,2025-T2,Stable,69.3,Stable,True
+z_60.0_4.5,2025,2,2025-T2,Forte diminution,39.8,Stable,False
+z_61.5_18.0,2025,2,2025-T2,Données insuffisantes,96.0,Stable,False
+z_61.5_21.0,2025,2,2025-T2,Données insuffisantes,97.3,Stable,False
+z_61.5_4.5,2025,2,2025-T2,Forte diminution,42.8,Forte augmentation,False
+z_61.5_6.0,2025,2,2025-T2,Forte diminution,49.8,Forte diminution,True
+z_63.0_18.0,2025,2,2025-T2,Données insuffisantes,97.5,Stable,False
+z_63.0_19.5,2025,2,2025-T2,Stable,49.0,Stable,True
+z_63.0_6.0,2025,2,2025-T2,Données insuffisantes,99.1,Stable,False
+z_63.0_7.5,2025,2,2025-T2,Forte diminution,48.5,Forte diminution,True
+z_63.0_9.0,2025,2,2025-T2,Forte diminution,42.7,Forte diminution,True
+z_64.5_10.5,2025,2,2025-T2,Stable,50.5,Stable,True
+z_64.5_12.0,2025,2,2025-T2,Stable,50.7,Stable,True
+z_64.5_21.0,2025,2,2025-T2,Stable,44.7,Stable,True
+z_66.0_12.0,2025,2,2025-T2,Forte diminution,45.0,Forte augmentation,False
+z_66.0_7.5,2025,2,2025-T2,Données insuffisantes,98.6,Donnees insuffisantes,False
+z_67.5_15.0,2025,2,2025-T2,Stable,67.6,Stable,True
+z_67.5_16.5,2025,2,2025-T2,Stable,67.5,Stable,True
+z_69.0_15.0,2025,2,2025-T2,Stable,72.8,Stable,True
+z_69.0_16.5,2025,2,2025-T2,Forte diminution,45.4,Stable,False
+z_69.0_19.5,2025,2,2025-T2,Données insuffisantes,89.7,Stable,False
+z_70.5_16.5,2025,2,2025-T2,Données insuffisantes,94.9,Donnees insuffisantes,False
+z_70.5_22.5,2025,2,2025-T2,Stable,71.6,Stable,True
+z_70.5_28.5,2025,2,2025-T2,Données insuffisantes,97.6,Stable,False
+z_70.5_30.0,2025,2,2025-T2,Données insuffisantes,82.5,Stable,False
+z_73.5_18.0,2025,2,2025-T2,Données insuffisantes,98.0,Donnees insuffisantes,False
+z_78.0_10.5,2025,2,2025-T2,Données insuffisantes,98.7,Stable,False
+z_78.0_13.5,2025,2,2025-T2,Données insuffisantes,97.9,Stable,False
+z_27.0_-16.5,2025,3,2025-T3,Forte diminution,41.5,Stable,False
+z_33.0_-9.0,2025,3,2025-T3,Données insuffisantes,59.8,Forte augmentation,False
+z_33.0_10.5,2025,3,2025-T3,Données insuffisantes,98.7,Donnees insuffisantes,False
+z_34.5_-6.0,2025,3,2025-T3,Stable,72.0,Stable,True
+z_34.5_13.5,2025,3,2025-T3,Faible augmentation,42.1,Forte augmentation,False
+z_34.5_16.5,2025,3,2025-T3,Données insuffisantes,98.7,Donnees insuffisantes,False
+z_34.5_22.5,2025,3,2025-T3,Stable,72.8,Stable,True
+z_34.5_24.0,2025,3,2025-T3,Forte diminution,52.6,Stable,False
+z_34.5_25.5,2025,3,2025-T3,Stable,73.1,Stable,True
+z_36.0_-3.0,2025,3,2025-T3,Forte diminution,47.7,Stable,False
+z_36.0_-6.0,2025,3,2025-T3,Forte diminution,50.0,Forte diminution,True
+z_36.0_-7.5,2025,3,2025-T3,Forte diminution,45.5,Stable,False
+z_36.0_-9.0,2025,3,2025-T3,Forte diminution,46.0,Stable,False
+z_36.0_10.5,2025,3,2025-T3,Stable,54.8,Stable,True
+z_36.0_12.0,2025,3,2025-T3,Stable,59.4,Stable,True
+z_36.0_13.5,2025,3,2025-T3,Forte diminution,51.0,Forte diminution,True
+z_36.0_19.5,2025,3,2025-T3,Données insuffisantes,98.8,Stable,False
+z_36.0_22.5,2025,3,2025-T3,Forte diminution,56.0,Stable,False
+z_36.0_24.0,2025,3,2025-T3,Forte diminution,35.1,Forte diminution,True
+z_36.0_25.5,2025,3,2025-T3,Forte diminution,45.5,Stable,False
+z_36.0_27.0,2025,3,2025-T3,Forte diminution,56.9,Stable,False
+z_37.5_-1.5,2025,3,2025-T3,Forte diminution,44.8,Stable,False
+z_37.5_-10.5,2025,3,2025-T3,Forte diminution,50.5,Stable,False
+z_37.5_-25.5,2025,3,2025-T3,Données insuffisantes,98.8,Stable,False
+z_37.5_-27.0,2025,3,2025-T3,Stable,65.5,Stable,True
+z_37.5_-28.5,2025,3,2025-T3,Données insuffisantes,96.9,Stable,False
+z_37.5_-9.0,2025,3,2025-T3,Forte diminution,43.7,Stable,False
+z_37.5_0.0,2025,3,2025-T3,Stable,70.6,Stable,True
+z_37.5_1.5,2025,3,2025-T3,Données insuffisantes,99.1,Stable,False
+z_37.5_12.0,2025,3,2025-T3,Forte diminution,41.3,Stable,False
+z_37.5_13.5,2025,3,2025-T3,Stable,71.3,Stable,True
+z_37.5_15.0,2025,3,2025-T3,Forte diminution,49.4,Stable,False
+z_37.5_16.5,2025,3,2025-T3,Données insuffisantes,94.5,Donnees insuffisantes,False
+z_37.5_19.5,2025,3,2025-T3,Forte diminution,51.4,Faible diminution,False
+z_37.5_21.0,2025,3,2025-T3,Forte diminution,55.0,Forte diminution,True
+z_37.5_22.5,2025,3,2025-T3,Faible diminution,52.1,Stable,False
+z_37.5_24.0,2025,3,2025-T3,Forte diminution,47.7,Faible diminution,False
+z_37.5_25.5,2025,3,2025-T3,Stable,50.6,Stable,True
+z_37.5_27.0,2025,3,2025-T3,Données insuffisantes,93.6,Stable,False
+z_37.5_7.5,2025,3,2025-T3,Données insuffisantes,98.8,Stable,False
+z_39.0_-1.5,2025,3,2025-T3,Forte augmentation,35.0,Stable,False
+z_39.0_-10.5,2025,3,2025-T3,Stable,63.1,Stable,True
+z_39.0_-9.0,2025,3,2025-T3,Stable,67.0,Stable,True
+z_39.0_1.5,2025,3,2025-T3,Stable,68.3,Stable,True
+z_39.0_13.5,2025,3,2025-T3,Données insuffisantes,97.0,Stable,False
+z_39.0_15.0,2025,3,2025-T3,Données insuffisantes,98.4,Stable,False
+z_39.0_18.0,2025,3,2025-T3,Stable,54.2,Stable,True
+z_39.0_22.5,2025,3,2025-T3,Forte diminution,48.7,Stable,False
+z_39.0_24.0,2025,3,2025-T3,Stable,74.2,Stable,True
+z_39.0_25.5,2025,3,2025-T3,Stable,67.6,Stable,True
+z_39.0_7.5,2025,3,2025-T3,Données insuffisantes,97.8,Stable,False
+z_40.5_1.5,2025,3,2025-T3,Forte augmentation,38.9,Forte augmentation,True
+z_40.5_12.0,2025,3,2025-T3,Stable,69.1,Stable,True
+z_40.5_13.5,2025,3,2025-T3,Forte diminution,43.7,Stable,False
+z_40.5_16.5,2025,3,2025-T3,Stable,51.4,Stable,True
+z_40.5_18.0,2025,3,2025-T3,Données insuffisantes,95.1,Stable,False
+z_40.5_22.5,2025,3,2025-T3,Stable,68.8,Stable,True
+z_40.5_3.0,2025,3,2025-T3,Stable,49.7,Stable,True
+z_40.5_7.5,2025,3,2025-T3,Stable,71.1,Stable,True
+z_40.5_9.0,2025,3,2025-T3,Stable,54.3,Forte diminution,False
+z_42.0_-10.5,2025,3,2025-T3,Forte diminution,47.4,Stable,False
+z_42.0_10.5,2025,3,2025-T3,Stable,66.8,Stable,True
+z_42.0_3.0,2025,3,2025-T3,Forte diminution,50.1,Forte diminution,True
+z_42.0_4.5,2025,3,2025-T3,Stable,46.6,Stable,True
+z_43.5_-1.5,2025,3,2025-T3,Stable,69.0,Stable,True
+z_43.5_-6.0,2025,3,2025-T3,Stable,52.2,Stable,True
+z_43.5_-7.5,2025,3,2025-T3,Forte diminution,40.5,Stable,False
+z_43.5_-9.0,2025,3,2025-T3,Forte diminution,42.1,Stable,False
+z_43.5_12.0,2025,3,2025-T3,Forte diminution,51.4,Stable,False
+z_43.5_15.0,2025,3,2025-T3,Stable,72.7,Forte augmentation,False
+z_43.5_7.5,2025,3,2025-T3,Forte diminution,47.4,Stable,False
+z_43.5_9.0,2025,3,2025-T3,Forte diminution,43.7,Forte diminution,True
+z_45.0_-1.5,2025,3,2025-T3,Forte diminution,42.2,Forte diminution,True
+z_45.0_-3.0,2025,3,2025-T3,Forte diminution,56.9,Stable,False
+z_45.0_-4.5,2025,3,2025-T3,Données insuffisantes,85.6,Stable,False
+z_45.0_-9.0,2025,3,2025-T3,Données insuffisantes,46.0,Stable,False
+z_45.0_12.0,2025,3,2025-T3,Forte diminution,41.9,Forte augmentation,False
+z_45.0_13.5,2025,3,2025-T3,Forte diminution,40.7,Forte diminution,True
+z_46.5_-4.5,2025,3,2025-T3,Forte diminution,50.4,Forte augmentation,False
+z_46.5_-6.0,2025,3,2025-T3,Forte diminution,44.6,Forte diminution,True
+z_46.5_-7.5,2025,3,2025-T3,Données insuffisantes,88.9,Stable,False
+z_48.0_-1.5,2025,3,2025-T3,Forte diminution,58.4,Stable,False
+z_48.0_-12.0,2025,3,2025-T3,Données insuffisantes,98.1,Stable,False
+z_48.0_-3.0,2025,3,2025-T3,Stable,61.5,Stable,True
+z_48.0_-4.5,2025,3,2025-T3,Stable,53.9,Stable,True
+z_48.0_-6.0,2025,3,2025-T3,Forte diminution,59.3,Stable,False
+z_48.0_-7.5,2025,3,2025-T3,Stable,71.7,Stable,True
+z_49.5_-1.5,2025,3,2025-T3,Forte diminution,41.8,Forte diminution,True
+z_49.5_-16.5,2025,3,2025-T3,Données insuffisantes,98.7,Donnees insuffisantes,False
+z_49.5_-3.0,2025,3,2025-T3,Forte diminution,50.8,Forte diminution,True
+z_49.5_-6.0,2025,3,2025-T3,Stable,66.0,Forte diminution,False
+z_49.5_-9.0,2025,3,2025-T3,Stable,75.3,Stable,True
+z_49.5_0.0,2025,3,2025-T3,Forte diminution,47.5,Stable,False
+z_49.5_1.5,2025,3,2025-T3,Données insuffisantes,99.0,Forte diminution,False
+z_51.0_-6.0,2025,3,2025-T3,Stable,67.6,Forte diminution,False
+z_51.0_0.0,2025,3,2025-T3,Forte diminution,46.4,Forte diminution,True
+z_51.0_1.5,2025,3,2025-T3,Forte diminution,30.6,Forte diminution,True
+z_51.0_3.0,2025,3,2025-T3,Faible diminution,36.8,Faible diminution,True
+z_52.5_-1.5,2025,3,2025-T3,Stable,69.1,Forte diminution,False
+z_52.5_-13.5,2025,3,2025-T3,Données insuffisantes,98.3,Stable,False
+z_52.5_-15.0,2025,3,2025-T3,Données insuffisantes,98.0,Donnees insuffisantes,False
+z_52.5_-4.5,2025,3,2025-T3,Stable,67.9,Forte diminution,False
+z_52.5_-7.5,2025,3,2025-T3,Forte diminution,40.9,Stable,False
+z_52.5_0.0,2025,3,2025-T3,Stable,50.6,Stable,True
+z_52.5_1.5,2025,3,2025-T3,Stable,70.6,Stable,True
+z_52.5_4.5,2025,3,2025-T3,Forte diminution,54.9,Forte diminution,True
+z_52.5_6.0,2025,3,2025-T3,Forte diminution,31.7,Forte diminution,True
+z_52.5_7.5,2025,3,2025-T3,Faible augmentation,42.0,Forte augmentation,False
+z_52.5_9.0,2025,3,2025-T3,Faible augmentation,36.5,Faible diminution,False
+z_54.0_-12.0,2025,3,2025-T3,Données insuffisantes,97.2,Donnees insuffisantes,False
+z_54.0_-6.0,2025,3,2025-T3,Données insuffisantes,94.1,Forte diminution,False
+z_54.0_10.5,2025,3,2025-T3,Forte diminution,35.4,Forte augmentation,False
+z_54.0_12.0,2025,3,2025-T3,Faible diminution,42.7,Stable,False
+z_54.0_13.5,2025,3,2025-T3,Forte diminution,48.5,Stable,False
+z_54.0_4.5,2025,3,2025-T3,Stable,60.6,Stable,True
+z_54.0_7.5,2025,3,2025-T3,Faible augmentation,47.5,Forte diminution,False
+z_54.0_9.0,2025,3,2025-T3,Faible augmentation,32.3,Stable,False
+z_55.5_10.5,2025,3,2025-T3,Forte diminution,51.4,Stable,False
+z_55.5_12.0,2025,3,2025-T3,Forte diminution,28.4,Stable,False
+z_55.5_15.0,2025,3,2025-T3,Stable,53.1,Stable,True
+z_55.5_21.0,2025,3,2025-T3,Forte diminution,46.6,Forte diminution,True
+z_55.5_7.5,2025,3,2025-T3,Forte diminution,54.1,Stable,False
+z_55.5_9.0,2025,3,2025-T3,Forte diminution,51.4,Forte augmentation,False
+z_57.0_-1.5,2025,3,2025-T3,Données insuffisantes,98.2,Stable,False
+z_57.0_0.0,2025,3,2025-T3,Données insuffisantes,97.8,Stable,False
+z_57.0_10.5,2025,3,2025-T3,Faible augmentation,38.3,Forte diminution,False
+z_57.0_12.0,2025,3,2025-T3,Données insuffisantes,94.0,Forte augmentation,False
+z_57.0_16.5,2025,3,2025-T3,Stable,63.2,Stable,True
+z_57.0_18.0,2025,3,2025-T3,Stable,73.0,Stable,True
+z_57.0_4.5,2025,3,2025-T3,Stable,70.0,Stable,True
+z_57.0_6.0,2025,3,2025-T3,Stable,50.7,Stable,True
+z_58.5_1.5,2025,3,2025-T3,Données insuffisantes,98.8,Stable,False
+z_58.5_10.5,2025,3,2025-T3,Forte diminution,55.0,Stable,False
+z_58.5_16.5,2025,3,2025-T3,Forte augmentation,34.7,Forte diminution,False
+z_58.5_18.0,2025,3,2025-T3,Forte diminution,43.7,Faible augmentation,False
+z_58.5_19.5,2025,3,2025-T3,Stable,76.4,Stable,True
+z_58.5_24.0,2025,3,2025-T3,Forte diminution,35.7,Stable,False
+z_58.5_25.5,2025,3,2025-T3,Données insuffisantes,96.4,Stable,False
+z_58.5_4.5,2025,3,2025-T3,Forte diminution,56.1,Forte diminution,True
+z_60.0_24.0,2025,3,2025-T3,Stable,73.0,Stable,True
+z_60.0_25.5,2025,3,2025-T3,Stable,61.7,Stable,True
+z_60.0_3.0,2025,3,2025-T3,Stable,51.4,Stable,True
+z_60.0_4.5,2025,3,2025-T3,Forte diminution,39.6,Stable,False
+z_60.0_6.0,2025,3,2025-T3,Données insuffisantes,91.4,Stable,False
+z_61.5_3.0,2025,3,2025-T3,Données insuffisantes,94.9,Donnees insuffisantes,False
+z_61.5_4.5,2025,3,2025-T3,Forte diminution,42.0,Stable,False
+z_61.5_6.0,2025,3,2025-T3,Forte diminution,51.1,Stable,False
+z_63.0_18.0,2025,3,2025-T3,Données insuffisantes,97.3,Stable,False
+z_63.0_19.5,2025,3,2025-T3,Données insuffisantes,41.9,Stable,False
+z_63.0_21.0,2025,3,2025-T3,Données insuffisantes,95.2,Stable,False
+z_63.0_4.5,2025,3,2025-T3,Stable,57.3,Stable,True
+z_63.0_7.5,2025,3,2025-T3,Forte diminution,47.9,Forte augmentation,False
+z_64.5_10.5,2025,3,2025-T3,Stable,52.4,Stable,True
+z_64.5_12.0,2025,3,2025-T3,Stable,54.7,Stable,True
+z_64.5_21.0,2025,3,2025-T3,Stable,51.8,Stable,True
+z_64.5_9.0,2025,3,2025-T3,Données insuffisantes,98.6,Donnees insuffisantes,False
+z_66.0_13.5,2025,3,2025-T3,Stable,68.4,Stable,True
+z_67.5_12.0,2025,3,2025-T3,Stable,47.7,Stable,True
+z_67.5_15.0,2025,3,2025-T3,Stable,65.5,Stable,True
+z_67.5_16.5,2025,3,2025-T3,Stable,73.7,Stable,True
+z_69.0_18.0,2025,3,2025-T3,Stable,68.3,Stable,True
+z_69.0_22.5,2025,3,2025-T3,Données insuffisantes,72.5,Stable,False
+z_70.5_13.5,2025,3,2025-T3,Données insuffisantes,98.2,Donnees insuffisantes,False
+z_70.5_27.0,2025,3,2025-T3,Données insuffisantes,98.5,Stable,False
+z_70.5_30.0,2025,3,2025-T3,Données insuffisantes,68.7,Stable,False
+z_75.0_33.0,2025,3,2025-T3,Données insuffisantes,83.0,Stable,False
+z_75.0_40.5,2025,3,2025-T3,Données insuffisantes,93.0,Donnees insuffisantes,False
+z_76.5_33.0,2025,3,2025-T3,Données insuffisantes,98.3,Stable,False
+z_76.5_9.0,2025,3,2025-T3,Données insuffisantes,94.5,Donnees insuffisantes,False
+z_78.0_13.5,2025,3,2025-T3,Données insuffisantes,95.9,Stable,False
+z_79.5_10.5,2025,3,2025-T3,Données insuffisantes,98.7,Donnees insuffisantes,False
+z_27.0_-16.5,2025,4,2025-T4,Forte diminution,42.0,Forte diminution,True
+z_30.0_28.5,2025,4,2025-T4,Données insuffisantes,91.2,Forte diminution,False
+z_34.5_-7.5,2025,4,2025-T4,Données insuffisantes,96.4,Stable,False
+z_34.5_13.5,2025,4,2025-T4,Faible augmentation,32.5,Stable,False
+z_34.5_24.0,2025,4,2025-T4,Forte diminution,46.6,Forte diminution,True
+z_36.0_-10.5,2025,4,2025-T4,Stable,68.8,Stable,True
+z_36.0_-3.0,2025,4,2025-T4,Forte diminution,49.5,Forte augmentation,False
+z_36.0_27.0,2025,4,2025-T4,Forte diminution,56.9,Stable,False
+z_37.5_-1.5,2025,4,2025-T4,Forte diminution,46.7,Stable,False
+z_37.5_-10.5,2025,4,2025-T4,Forte diminution,41.4,Stable,False
+z_37.5_-27.0,2025,4,2025-T4,Stable,70.3,Stable,True
+z_37.5_12.0,2025,4,2025-T4,Forte diminution,39.3,Stable,False
+z_37.5_15.0,2025,4,2025-T4,Forte diminution,51.5,Stable,False
+z_37.5_16.5,2025,4,2025-T4,Données insuffisantes,81.0,Forte augmentation,False
+z_37.5_21.0,2025,4,2025-T4,Forte diminution,55.9,Forte diminution,True
+z_37.5_22.5,2025,4,2025-T4,Faible diminution,37.7,Forte diminution,False
+z_37.5_24.0,2025,4,2025-T4,Forte diminution,51.2,Forte diminution,True
+z_39.0_-31.5,2025,4,2025-T4,Données insuffisantes,98.3,Donnees insuffisantes,False
+z_39.0_0.0,2025,4,2025-T4,Stable,64.3,Stable,True
+z_39.0_1.5,2025,4,2025-T4,Stable,64.2,Stable,True
+z_39.0_16.5,2025,4,2025-T4,Stable,72.1,Stable,True
+z_39.0_19.5,2025,4,2025-T4,Forte diminution,57.4,Stable,False
+z_39.0_22.5,2025,4,2025-T4,Forte diminution,45.3,Forte diminution,True
+z_39.0_3.0,2025,4,2025-T4,Stable,72.8,Stable,True
+z_40.5_-10.5,2025,4,2025-T4,Données insuffisantes,92.9,Stable,False
+z_40.5_-9.0,2025,4,2025-T4,Forte diminution,36.1,Stable,False
+z_40.5_13.5,2025,4,2025-T4,Forte diminution,48.9,Stable,False
+z_40.5_24.0,2025,4,2025-T4,Forte diminution,43.5,Stable,False
+z_42.0_-4.5,2025,4,2025-T4,Stable,73.1,Stable,True
+z_42.0_-9.0,2025,4,2025-T4,Forte diminution,50.8,Forte diminution,True
+z_42.0_13.5,2025,4,2025-T4,Stable,43.6,Stable,True
+z_42.0_4.5,2025,4,2025-T4,Stable,47.8,Stable,True
+z_42.0_6.0,2025,4,2025-T4,Stable,69.9,Stable,True
+z_42.0_9.0,2025,4,2025-T4,Forte diminution,41.5,Forte augmentation,False
+z_43.5_-1.5,2025,4,2025-T4,Stable,64.9,Stable,True
+z_43.5_-6.0,2025,4,2025-T4,Stable,55.4,Stable,True
+z_43.5_-9.0,2025,4,2025-T4,Forte diminution,50.9,Stable,False
+z_43.5_9.0,2025,4,2025-T4,Forte diminution,38.8,Stable,False
+z_45.0_-1.5,2025,4,2025-T4,Forte diminution,39.6,Stable,False
+z_45.0_-3.0,2025,4,2025-T4,Forte diminution,57.9,Stable,False
+z_45.0_12.0,2025,4,2025-T4,Forte diminution,46.0,Stable,False
+z_46.5_-3.0,2025,4,2025-T4,Forte diminution,58.8,Forte diminution,True
+z_46.5_-4.5,2025,4,2025-T4,Forte diminution,51.0,Forte diminution,True
+z_46.5_-7.5,2025,4,2025-T4,Données insuffisantes,85.7,Stable,False
+z_48.0_-1.5,2025,4,2025-T4,Forte diminution,56.9,Forte diminution,True
+z_48.0_-30.0,2025,4,2025-T4,Données insuffisantes,97.7,Donnees insuffisantes,False
+z_48.0_-6.0,2025,4,2025-T4,Forte diminution,59.5,Stable,False
+z_49.5_-1.5,2025,4,2025-T4,Forte diminution,52.8,Faible diminution,False
+z_49.5_-3.0,2025,4,2025-T4,Forte diminution,40.3,Forte diminution,True
+z_49.5_-4.5,2025,4,2025-T4,Stable,68.2,Forte diminution,False
+z_49.5_-6.0,2025,4,2025-T4,Stable,68.7,Forte diminution,False
+z_49.5_0.0,2025,4,2025-T4,Forte diminution,49.6,Forte diminution,True
+z_51.0_-6.0,2025,4,2025-T4,Stable,60.2,Forte diminution,False
+z_51.0_-9.0,2025,4,2025-T4,Stable,72.2,Stable,True
+z_51.0_0.0,2025,4,2025-T4,Forte diminution,45.3,Forte diminution,True
+z_51.0_1.5,2025,4,2025-T4,Forte diminution,44.7,Forte diminution,True
+z_51.0_3.0,2025,4,2025-T4,Faible augmentation,34.9,Forte diminution,False
+z_52.5_0.0,2025,4,2025-T4,Stable,41.7,Forte diminution,False
+z_52.5_3.0,2025,4,2025-T4,Stable,49.1,Stable,True
+z_52.5_6.0,2025,4,2025-T4,Forte diminution,46.3,Forte diminution,True
+z_52.5_7.5,2025,4,2025-T4,Faible diminution,39.7,Forte diminution,False
+z_52.5_9.0,2025,4,2025-T4,Faible augmentation,46.4,Forte diminution,False
+z_54.0_1.5,2025,4,2025-T4,Données insuffisantes,97.0,Stable,False
+z_54.0_10.5,2025,4,2025-T4,Faible augmentation,38.2,Forte diminution,False
+z_54.0_12.0,2025,4,2025-T4,Faible diminution,35.9,Forte diminution,False
+z_54.0_13.5,2025,4,2025-T4,Forte diminution,47.6,Forte diminution,True
+z_54.0_18.0,2025,4,2025-T4,Forte diminution,51.7,Forte diminution,True
+z_54.0_7.5,2025,4,2025-T4,Faible augmentation,56.4,Stable,False
+z_54.0_9.0,2025,4,2025-T4,Faible diminution,29.2,Forte diminution,False
+z_55.5_-3.0,2025,4,2025-T4,Données insuffisantes,92.5,Stable,False
+z_55.5_1.5,2025,4,2025-T4,Données insuffisantes,96.5,Donnees insuffisantes,False
+z_55.5_12.0,2025,4,2025-T4,Forte diminution,40.2,Stable,False
+z_55.5_16.5,2025,4,2025-T4,Données insuffisantes,82.3,Stable,False
+z_57.0_-3.0,2025,4,2025-T4,Données insuffisantes,81.5,Forte diminution,False
+z_57.0_10.5,2025,4,2025-T4,Faible augmentation,28.9,Forte diminution,False
+z_57.0_7.5,2025,4,2025-T4,Stable,63.1,Stable,True
+z_58.5_10.5,2025,4,2025-T4,Forte diminution,51.7,Forte diminution,True
+z_58.5_15.0,2025,4,2025-T4,Stable,69.4,Stable,True
+z_58.5_16.5,2025,4,2025-T4,Forte augmentation,35.2,Forte diminution,False
+z_58.5_24.0,2025,4,2025-T4,Forte diminution,33.9,Forte diminution,True
+z_58.5_4.5,2025,4,2025-T4,Forte diminution,57.3,Forte diminution,True
+z_60.0_4.5,2025,4,2025-T4,Forte diminution,45.9,Forte diminution,True
+z_61.5_-7.5,2025,4,2025-T4,Données insuffisantes,96.9,Stable,False
+z_61.5_0.0,2025,4,2025-T4,Données insuffisantes,97.2,Donnees insuffisantes,False
+z_61.5_6.0,2025,4,2025-T4,Forte diminution,49.5,Stable,False
+z_63.0_22.5,2025,4,2025-T4,Données insuffisantes,96.1,Stable,False
+z_63.0_9.0,2025,4,2025-T4,Forte diminution,37.6,Forte diminution,True
+z_64.5_10.5,2025,4,2025-T4,Stable,56.7,Stable,True
+z_64.5_12.0,2025,4,2025-T4,Stable,47.0,Stable,True
+z_66.0_12.0,2025,4,2025-T4,Forte diminution,44.9,Stable,False
+z_67.5_16.5,2025,4,2025-T4,Stable,70.8,Stable,True
+z_69.0_15.0,2025,4,2025-T4,Stable,67.8,Stable,True
+z_69.0_16.5,2025,4,2025-T4,Forte diminution,47.4,Stable,False
+z_69.0_21.0,2025,4,2025-T4,Données insuffisantes,90.9,Stable,False
+z_69.0_22.5,2025,4,2025-T4,Données insuffisantes,66.5,Stable,False
+z_70.5_18.0,2025,4,2025-T4,Données insuffisantes,97.4,Donnees insuffisantes,False
+z_70.5_30.0,2025,4,2025-T4,Données insuffisantes,79.7,Stable,False
+z_70.5_33.0,2025,4,2025-T4,Données insuffisantes,96.7,Donnees insuffisantes,False

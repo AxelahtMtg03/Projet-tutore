@@ -16,11 +16,7 @@
 \contentsline {subsection}{\numberline {4.3.2}Importance des variables}{4}{subsection.4.3.2}%
 \contentsline {chapter}{\numberline {5}Résultats}{5}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Carte des prédictions}{5}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Carte des erreurs}{5}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Carte des zones à risque}{5}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Carte des tendances}{6}{section.5.4}%
-\contentsline {chapter}{\numberline {6}Améliorations et perspectives}{7}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Limites du modèle}{7}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Améliorations possibles}{7}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Conclusion}{8}{chapter.7}%
-\contentsline {chapter}{Sources}{9}{chapter*.6}%
+\contentsline {chapter}{\numberline {6}Améliorations et perspectives}{6}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Limites du modèle}{6}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Conclusion}{7}{chapter.7}%
+\contentsline {chapter}{Sources}{8}{chapter*.2}%

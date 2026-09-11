@@ -71,3 +71,7 @@ Le jeu de données présente toutefois deux limites : un semestre est manquant p
 ## Auteurs
 
 **Axel Archambeault & Ashley Roo 2026**
+
+## Encadrant
+
+**M. Salmon**

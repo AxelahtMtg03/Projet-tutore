@@ -1,0 +1,197 @@
+\documentclass[12pt, a4paper]{report}
+
+% ========== PACKAGES UTILES ==========
+\usepackage[utf8]{inputenc}      % Encodage des caractères
+\usepackage[T1]{fontenc}         % Encodage des polices
+\usepackage[french]{babel}       % Langue française
+\usepackage{amsmath, amssymb}    % Maths
+\usepackage{graphicx}            % Images
+\usepackage{geometry}            % Marges
+\usepackage{xurl}                % Permet les retours à la ligne dans les URL
+\usepackage{titlesec}            % Personnalisation des titres
+\usepackage{fancyhdr}            % En-têtes/pieds de page
+\usepackage{hyperref}            % Liens cliquables
+\usepackage{xcolor}              % Couleurs
+\usepackage{booktabs}            % Tableaux propres
+\usepackage{listings}            % Code source
+\usepackage{enumitem}            % Listes personnalisées
+\usepackage{ragged2e}            % Justification du texte
+\usepackage{abstract}            % Amélioration de l'abstract
+\usepackage{tcolorbox}
+\usepackage{caption}             % Légendes sans numérotation
+\usepackage{subcaption}          % Sous-figures
+\usepackage{float}               % Placement exact des figures
+
+% ========== MISE EN PAGE ==========
+\geometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+\setlength{\parindent}{0pt}      % Pas d'indentation
+\setlength{\parskip}{0.5em}      % Saut réduit entre paragraphes
+
+% ========== COULEURS ==========
+\definecolor{noir}{RGB}{0,0,0}
+\definecolor{gris}{RGB}{100, 100, 100}
+
+% Puces foncées dans toutes les listes
+\setlist[itemize]{label=\textcolor{noir}{\textbullet}, noitemsep, topsep=0.3em}
+
+% ============================================================
+% EN-TÊTE ET PIED DE PAGE AVANCÉS
+% ============================================================
+\pagestyle{fancy}
+
+% En-tête simple : titre du rapport à gauche et section courante à droite.
+\fancyhead{}
+\fancyhead[L]{\small\textcolor{gris}{\textsc{Prédiction des accidents maritimes}}}
+\fancyhead[R]{\small\textcolor{gris}{\textsc{Université de la Nouvelle-Calédonie}}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{gris}\leaders\hrule height \headrulewidth\hfill}}
+
+% Pied de page : informations personnalisées au centre
+\fancyfoot[C]{\small \textcolor{gris}{Axel Archambeault \& Ashley Roo — \thepage}}
+
+\renewcommand{\footrulewidth}{0.5pt}
+
+% Les pages de début de chapitre utilisent le style « plain ».
+% On lui applique donc le même pied de page que le style « fancy ».
+\fancypagestyle{plain}{
+  \fancyhead{}%
+  \fancyhead[L]{\small\textcolor{gris}{\textsc{Prédiction des accidents maritimes}}}%
+  \fancyhead[R]{\small\textcolor{gris}{\textsc{Université de la Nouvelle-Calédonie}}}%
+  \fancyfoot[C]{\small \textcolor{gris}{Axel Archambeault \& Ashley Roo — \thepage}}%
+  \renewcommand{\headrulewidth}{0.4pt}%
+  \renewcommand{\headrule}{\hbox to\headwidth{\color{gris}\leaders\hrule height \headrulewidth\hfill}}%
+  \renewcommand{\footrulewidth}{0.5pt}%
+}
+
+% ========== TITRES ==========
+\titleformat{\chapter}
+  {\normalfont\LARGE\bfseries\color{noir}}{\thechapter}{1em}{}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+% Réduit les espaces verticaux autour des titres.
+\titlespacing*{\chapter}{0pt}{-1.5em}{0.5em}
+\titlespacing*{\section}{0pt}{0.5em}{0.3em}
+\titlespacing*{\subsection}{0pt}{0.3em}{0.2em}
+
+% ========== HYPERLIENS ==========
+\hypersetup{
+  colorlinks=true,
+  linkcolor=noir,
+  urlcolor=noir,
+  citecolor=noir
+}
+
+% ========== DOCUMENT ==========
+\begin{document}
+
+% --- PAGE DE GARDE ---
+\begin{titlepage}
+  \thispagestyle{empty}
+  \centering
+  \vspace*{1cm}
+  \IfFileExists{UNC.jpg}{\includegraphics[width=0.25\textwidth]{UNC.jpg}}{\fbox{\parbox[c][3cm][c]{0.25\textwidth}{\centering Logo indisponible}}} \\[1cm]
+
+  {\Huge \textbf{Prédiction des accidents maritimes}} \\[0.5cm]
+  {\Large Analyse spatiale et temporelle par Random Forest} \\[2cm]
+
+  \textbf{Auteurs :} \\
+  Axel Archambeault \\
+  Ashley Roo \\[1cm]
+
+  \textbf{Encadrant :} \\
+  M. Salmon \\[1cm]
+
+  \vfill
+
+  \textit{Licence informatique TREC 5} \\
+  \textit{2026}
+
+  \vspace*{1cm}
+\end{titlepage}
+
+% --- TABLE DES MATIÈRES ---
+\pagestyle{empty}
+\tableofcontents
+\thispagestyle{empty}
+\clearpage
+\pagestyle{fancy}
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% ========== CHAPITRE 1 : INTRODUCTION ==========
+\chapter{Introduction}
+\thispagestyle{plain}
+
+A completer
+% ========== CHAPITRE 2 : DONNÉES ==========
+\chapter{Données}
+
+\section{Sources des données}
+
+A completer
+\section{Nettoyage et prétraitement}
+
+\section{Structure des données finales}
+
+
+
+
+\chapter{Analyse exploratoire}
+
+\section{Évolution temporelle}
+
+
+
+\section{Distribution spatiale}
+
+
+\section{Facteurs influents}
+
+
+\chapter{Modélisation}
+
+\section{Approche retenue}
+
+
+
+\section{Random Forest - Régression}
+
+\section{Random Forest - Classification des tendances}
+
+
+\subsection{Validation du modèle}
+
+
+
+\subsection{Importance des variables}
+
+
+\chapter{Résultats}
+
+\section{Carte des prédictions}
+
+\chapter{Améliorations et perspectives}
+
+\section{Limites du modèle}
+
+
+\chapter{Conclusion}
+
+
+\chapter*{Sources}
+\addcontentsline{toc}{chapter}{Sources}
+
+\end{document}
+
+\section{Modélisation}
+
+\subsection{Résultats}
+
+
+\subsection{Limites}
+
+\subsection{Conclusion}
+

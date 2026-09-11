@@ -39,16 +39,10 @@ def validate_model():
 
     r2_train = r2_score(y_train,model.predict(X_train))
 
-    print("=== Model validation (linear regression) ===")
-    print(f"Training period: {START_TRAIN_YEAR}-2022")
-    print(f"Test period: 2023-2025")
-    print()
-
     print(f"Slope (accidents/year): {model.coef_[0]:.2f}")
     print(f"R² on training data: {r2_train:.3f}")
     print(f"MAE on 2023-2025: {mae:.1f} accidents")
     print(f"RMSE on 2023-2025: {rmse:.1f} accidents")
-    print()
 
     for year, actual, predicted in zip(test["annee"],y_test,test_predictions):
         gap_pct = (predicted - actual) / actual * 100

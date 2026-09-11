@@ -1,0 +1,1422 @@
+zone,annee,tendance,confiance,tendance_reelle,correct
+z_-1.5_-49.5,2024,Stable,96.9,Stable,True
+z_-10.5_142.5,2025,Stable,97.9,Stable,True
+z_-12.0_141.0,2024,Stable,97.9,Stable,True
+z_-13.5_-78.0,2023,Stable,82.8,Stable,True
+z_-13.5_-78.0,2025,Stable,51.6,Forte augmentation,False
+z_-13.5_45.0,2023,Stable,96.9,Stable,True
+z_-15.0_-76.5,2023,Stable,97.9,Stable,True
+z_-15.0_135.0,2024,Stable,97.9,Stable,True
+z_-15.0_40.5,2025,Stable,96.9,Stable,True
+z_-18.0_-150.0,2025,Stable,97.9,Stable,True
+z_-18.0_-151.5,2024,Stable,97.1,Stable,True
+z_-18.0_121.5,2024,Stable,97.9,Stable,True
+z_-19.5_145.5,2025,Stable,97.9,Stable,True
+z_-19.5_150.0,2024,Stable,97.9,Stable,True
+z_-19.5_177.0,2024,Stable,97.9,Stable,True
+z_-19.5_48.0,2023,Stable,98.0,Stable,True
+z_-19.5_48.0,2024,Stable,94.0,Stable,True
+z_-21.0_-40.5,2023,Stable,97.1,Stable,True
+z_-21.0_115.5,2023,Stable,54.1,Forte augmentation,False
+z_-21.0_115.5,2024,Forte augmentation,35.5,Stable,False
+z_-21.0_118.5,2024,Stable,97.9,Forte diminution,False
+z_-21.0_148.5,2025,Stable,97.9,Stable,True
+z_-21.0_54.0,2023,Stable,92.2,Stable,True
+z_-21.0_54.0,2025,Stable,86.4,Stable,True
+z_-21.0_55.5,2024,Stable,97.9,Stable,True
+z_-21.0_57.0,2023,Stable,95.6,Stable,True
+z_-21.0_57.0,2024,Stable,75.5,Stable,True
+z_-22.5_-42.0,2023,Stable,97.9,Stable,True
+z_-22.5_148.5,2025,Stable,97.9,Stable,True
+z_-22.5_39.0,2024,Stable,97.9,Stable,True
+z_-22.5_54.0,2024,Stable,97.1,Stable,True
+z_-24.0_-42.0,2024,Stable,97.6,Forte augmentation,False
+z_-24.0_-43.5,2024,Stable,96.9,Stable,True
+z_-24.0_-45.0,2023,Stable,93.6,Stable,True
+z_-24.0_-46.5,2023,Stable,51.1,Stable,True
+z_-24.0_-46.5,2024,Stable,53.3,Stable,True
+z_-24.0_-46.5,2025,Stable,90.1,Stable,True
+z_-24.0_12.0,2024,Stable,97.9,Stable,True
+z_-24.0_150.0,2023,Stable,96.2,Stable,True
+z_-25.5_-43.5,2024,Stable,97.9,Stable,True
+z_-25.5_-46.5,2024,Stable,97.9,Stable,True
+z_-25.5_-49.5,2023,Stable,97.9,Stable,True
+z_-27.0_-46.5,2024,Stable,97.9,Stable,True
+z_-27.0_-49.5,2023,Stable,97.3,Stable,True
+z_-27.0_-49.5,2025,Stable,86.4,Stable,True
+z_-27.0_31.5,2023,Stable,97.9,Stable,True
+z_-27.0_42.0,2025,Stable,97.9,Stable,True
+z_-28.5_-49.5,2023,Stable,97.9,Stable,True
+z_-28.5_153.0,2023,Stable,93.6,Forte diminution,False
+z_-28.5_159.0,2024,Stable,97.9,Stable,True
+z_-28.5_40.5,2023,Stable,97.9,Stable,True
+z_-3.0_-55.5,2023,Stable,97.9,Stable,True
+z_-3.0_-81.0,2024,Stable,97.2,Stable,True
+z_-3.0_-81.0,2025,Stable,92.2,Stable,True
+z_-30.0_114.0,2023,Stable,97.9,Stable,True
+z_-30.0_30.0,2023,Stable,83.1,Stable,True
+z_-30.0_30.0,2024,Stable,81.8,Stable,True
+z_-30.0_30.0,2025,Stable,40.6,Stable,True
+z_-30.0_31.5,2024,Stable,96.9,Stable,True
+z_-33.0_-52.5,2024,Stable,97.6,Forte augmentation,False
+z_-33.0_-61.5,2023,Stable,89.3,Stable,True
+z_-33.0_-61.5,2025,Stable,86.4,Forte diminution,False
+z_-33.0_114.0,2024,Stable,97.1,Stable,True
+z_-33.0_115.5,2023,Stable,96.2,Stable,True
+z_-33.0_151.5,2025,Stable,97.9,Stable,True
+z_-34.5_-58.5,2024,Stable,97.9,Stable,True
+z_-34.5_-60.0,2024,Stable,87.1,Stable,True
+z_-34.5_-60.0,2025,Stable,75.5,Stable,True
+z_-34.5_-61.5,2023,Stable,86.2,Stable,True
+z_-34.5_-61.5,2024,Stable,56.3,Stable,True
+z_-34.5_150.0,2023,Stable,91.6,Forte diminution,False
+z_-34.5_150.0,2025,Stable,96.4,Forte diminution,False
+z_-34.5_151.5,2025,Stable,97.9,Stable,True
+z_-34.5_16.5,2025,Stable,97.9,Stable,True
+z_-34.5_18.0,2024,Stable,81.9,Forte augmentation,False
+z_-34.5_18.0,2025,Forte augmentation,42.7,Stable,False
+z_-34.5_25.5,2024,Stable,97.9,Stable,True
+z_-34.5_27.0,2023,Stable,96.6,Stable,True
+z_-34.5_27.0,2025,Stable,96.4,Stable,True
+z_-36.0_-55.5,2023,Stable,97.9,Stable,True
+z_-36.0_-57.0,2023,Forte diminution,56.6,Forte augmentation,False
+z_-36.0_-57.0,2024,Forte diminution,58.1,Forte augmentation,False
+z_-36.0_-57.0,2025,Forte diminution,59.0,Stable,False
+z_-36.0_-58.5,2024,Stable,84.3,Stable,True
+z_-36.0_-58.5,2025,Stable,75.5,Stable,True
+z_-36.0_138.0,2024,Stable,96.9,Stable,True
+z_-37.5_174.0,2024,Stable,98.0,Stable,True
+z_-37.5_174.0,2025,Stable,94.0,Stable,True
+z_-39.0_144.0,2023,Stable,81.8,Stable,True
+z_-39.0_144.0,2024,Stable,50.4,Stable,True
+z_-39.0_144.0,2025,Forte diminution,37.6,Forte diminution,True
+z_-39.0_76.5,2023,Stable,97.1,Stable,True
+z_-4.5_-60.0,2025,Stable,97.9,Stable,True
+z_-4.5_-82.5,2025,Stable,97.9,Stable,True
+z_-4.5_39.0,2024,Stable,96.9,Stable,True
+z_-43.5_147.0,2023,Stable,96.9,Stable,True
+z_-46.5_-61.5,2025,Stable,97.9,Stable,True
+z_-48.0_-66.0,2025,Stable,97.9,Stable,True
+z_-48.0_168.0,2025,Stable,97.9,Stable,True
+z_-51.0_70.5,2023,Stable,97.9,Stable,True
+z_-55.5_-69.0,2023,Stable,80.0,Stable,True
+z_-55.5_-69.0,2024,Stable,89.0,Stable,True
+z_-6.0_117.0,2024,Stable,97.9,Stable,True
+z_-6.0_12.0,2023,Stable,95.6,Stable,True
+z_-6.0_12.0,2024,Stable,75.5,Stable,True
+z_-6.0_54.0,2025,Stable,97.9,Stable,True
+z_-6.0_78.0,2025,Stable,97.9,Stable,True
+z_-7.5_112.5,2023,Stable,97.1,Stable,True
+z_-7.5_39.0,2023,Stable,96.4,Stable,True
+z_-7.5_39.0,2024,Stable,91.6,Stable,True
+z_-9.0_-36.0,2024,Stable,96.9,Stable,True
+z_-9.0_12.0,2024,Stable,94.2,Stable,True
+z_-9.0_12.0,2025,Stable,95.6,Stable,True
+z_0.0_-51.0,2023,Stable,96.2,Stable,True
+z_0.0_0.0,2024,Stable,62.8,Forte diminution,False
+z_0.0_102.0,2023,Stable,97.9,Stable,True
+z_0.0_103.5,2023,Forte diminution,36.2,Forte diminution,True
+z_0.0_103.5,2024,Faible diminution,28.3,Faible diminution,True
+z_0.0_103.5,2025,Faible diminution,37.5,Forte diminution,False
+z_0.0_9.0,2025,Stable,97.9,Stable,True
+z_1.5_-81.0,2025,Stable,97.6,Forte augmentation,False
+z_1.5_100.5,2023,Stable,84.9,Stable,True
+z_1.5_100.5,2024,Stable,85.4,Stable,True
+z_1.5_100.5,2025,Stable,85.4,Stable,True
+z_1.5_103.5,2023,Stable,91.6,Stable,True
+z_1.5_103.5,2025,Stable,96.4,Stable,True
+z_1.5_9.0,2023,Stable,96.2,Stable,True
+z_10.5_-16.5,2025,Stable,97.6,Forte augmentation,False
+z_10.5_-63.0,2025,Stable,97.9,Stable,True
+z_10.5_-75.0,2024,Stable,93.6,Stable,True
+z_10.5_-76.5,2024,Stable,97.9,Stable,True
+z_10.5_-82.5,2025,Stable,97.9,Stable,True
+z_10.5_102.0,2025,Stable,97.9,Stable,True
+z_10.5_106.5,2023,Forte diminution,44.0,Stable,False
+z_10.5_106.5,2025,Forte diminution,55.6,Forte augmentation,False
+z_10.5_109.5,2024,Stable,97.9,Stable,True
+z_10.5_61.5,2024,Stable,97.9,Stable,True
+z_12.0_-18.0,2023,Stable,97.9,Stable,True
+z_12.0_-60.0,2023,Stable,92.1,Stable,True
+z_12.0_-60.0,2024,Stable,93.6,Stable,True
+z_12.0_-60.0,2025,Stable,52.6,Stable,True
+z_12.0_-61.5,2023,Stable,97.1,Stable,True
+z_12.0_-63.0,2025,Stable,97.9,Stable,True
+z_12.0_-64.5,2024,Stable,97.9,Stable,True
+z_12.0_-69.0,2023,Stable,85.4,Stable,True
+z_12.0_-69.0,2024,Stable,85.4,Stable,True
+z_12.0_-69.0,2025,Stable,85.4,Stable,True
+z_12.0_-78.0,2025,Stable,97.9,Stable,True
+z_12.0_100.5,2023,Forte diminution,43.0,Stable,False
+z_12.0_100.5,2025,Stable,55.9,Stable,True
+z_12.0_120.0,2024,Stable,97.9,Stable,True
+z_13.5_-18.0,2023,Forte diminution,60.1,Stable,False
+z_13.5_-18.0,2024,Forte diminution,55.3,Forte augmentation,False
+z_13.5_-18.0,2025,Forte diminution,57.6,Forte augmentation,False
+z_13.5_-61.5,2023,Forte diminution,53.9,Forte augmentation,False
+z_13.5_-61.5,2024,Forte augmentation,38.6,Forte augmentation,True
+z_13.5_-61.5,2025,Forte diminution,42.0,Stable,False
+z_13.5_-93.0,2023,Stable,97.9,Stable,True
+z_13.5_100.5,2023,Stable,97.9,Stable,True
+z_13.5_120.0,2023,Forte diminution,56.0,Forte augmentation,False
+z_15.0_-61.5,2024,Stable,96.4,Stable,True
+z_15.0_-61.5,2025,Stable,94.0,Stable,True
+z_15.0_-63.0,2023,Stable,89.0,Stable,True
+z_15.0_-63.0,2025,Stable,86.4,Stable,True
+z_15.0_-64.5,2025,Stable,96.9,Stable,True
+z_15.0_-90.0,2025,Stable,97.9,Forte diminution,False
+z_15.0_108.0,2024,Stable,98.0,Stable,True
+z_15.0_108.0,2025,Stable,94.0,Stable,True
+z_16.5_-16.5,2023,Stable,46.5,Stable,True
+z_16.5_-16.5,2025,Stable,86.4,Forte diminution,False
+z_16.5_-25.5,2024,Stable,97.9,Stable,True
+z_16.5_-46.5,2025,Stable,97.9,Stable,True
+z_16.5_-63.0,2023,Stable,92.2,Stable,True
+z_16.5_-63.0,2025,Stable,86.4,Stable,True
+z_16.5_-78.0,2023,Stable,97.5,Stable,True
+z_16.5_55.5,2023,Stable,97.9,Stable,True
+z_16.5_82.5,2023,Stable,97.1,Stable,True
+z_18.0_-105.0,2023,Stable,97.9,Stable,True
+z_18.0_-64.5,2025,Stable,97.9,Stable,True
+z_18.0_-70.5,2023,Stable,92.7,Stable,True
+z_18.0_-70.5,2024,Stable,76.8,Stable,True
+z_18.0_-76.5,2025,Stable,97.9,Stable,True
+z_18.0_-78.0,2023,Stable,96.6,Stable,True
+z_18.0_-78.0,2025,Stable,96.4,Stable,True
+z_18.0_-82.5,2023,Stable,98.0,Stable,True
+z_18.0_-82.5,2024,Stable,94.0,Stable,True
+z_18.0_-93.0,2024,Stable,97.9,Stable,True
+z_18.0_-94.5,2024,Stable,97.6,Forte augmentation,False
+z_18.0_-97.5,2023,Stable,97.1,Stable,True
+z_18.0_108.0,2024,Stable,97.9,Stable,True
+z_18.0_111.0,2024,Stable,97.1,Stable,True
+z_18.0_72.0,2024,Stable,96.9,Stable,True
+z_19.5_-156.0,2025,Stable,97.9,Stable,True
+z_19.5_-18.0,2023,Stable,97.9,Stable,True
+z_19.5_-72.0,2023,Stable,97.9,Stable,True
+z_19.5_-73.5,2024,Stable,97.9,Stable,True
+z_19.5_-87.0,2023,Stable,97.3,Stable,True
+z_19.5_-87.0,2025,Stable,86.4,Stable,True
+z_19.5_-93.0,2024,Stable,96.9,Stable,True
+z_19.5_106.5,2025,Stable,97.9,Stable,True
+z_19.5_57.0,2024,Stable,97.9,Stable,True
+z_19.5_85.5,2024,Stable,97.1,Stable,True
+z_21.0_-90.0,2023,Stable,98.0,Stable,True
+z_21.0_-90.0,2024,Stable,94.0,Stable,True
+z_21.0_-99.0,2023,Stable,95.2,Stable,True
+z_21.0_108.0,2024,Stable,98.0,Stable,True
+z_21.0_108.0,2025,Stable,94.0,Stable,True
+z_21.0_112.5,2024,Stable,97.2,Forte diminution,False
+z_21.0_112.5,2025,Stable,92.2,Stable,True
+z_21.0_114.0,2024,Stable,84.0,Stable,True
+z_21.0_114.0,2025,Forte augmentation,42.5,Stable,False
+z_21.0_117.0,2023,Stable,97.9,Stable,True
+z_21.0_39.0,2025,Stable,97.9,Stable,True
+z_21.0_72.0,2023,Stable,97.9,Stable,True
+z_21.0_90.0,2023,Stable,53.8,Forte augmentation,False
+z_21.0_91.5,2024,Stable,83.2,Forte diminution,False
+z_21.0_91.5,2025,Stable,94.0,Forte diminution,False
+z_22.5_-18.0,2023,Stable,98.0,Stable,True
+z_22.5_-18.0,2024,Stable,94.0,Stable,True
+z_22.5_-73.5,2024,Stable,97.1,Stable,True
+z_22.5_-82.5,2025,Stable,97.9,Stable,True
+z_22.5_-84.0,2024,Stable,97.9,Stable,True
+z_22.5_112.5,2023,Stable,86.0,Forte diminution,False
+z_22.5_112.5,2025,Stable,96.4,Forte diminution,False
+z_22.5_114.0,2024,Stable,97.9,Stable,True
+z_22.5_115.5,2023,Stable,97.1,Stable,True
+z_22.5_120.0,2023,Stable,62.1,Stable,True
+z_22.5_120.0,2024,Stable,89.0,Stable,True
+z_22.5_121.5,2024,Stable,92.3,Stable,True
+z_22.5_121.5,2025,Stable,94.0,Stable,True
+z_22.5_69.0,2023,Stable,97.9,Forte diminution,False
+z_24.0_-18.0,2024,Stable,94.7,Stable,True
+z_24.0_-19.5,2023,Stable,94.5,Stable,True
+z_24.0_-45.0,2023,Stable,97.9,Stable,True
+z_24.0_-75.0,2024,Stable,98.0,Stable,True
+z_24.0_-75.0,2025,Stable,94.0,Stable,True
+z_24.0_-76.5,2024,Stable,97.9,Stable,True
+z_24.0_-79.5,2024,Stable,95.9,Stable,True
+z_24.0_-79.5,2025,Stable,95.6,Forte augmentation,False
+z_24.0_117.0,2023,Stable,97.1,Stable,True
+z_24.0_118.5,2024,Stable,95.6,Stable,True
+z_24.0_118.5,2025,Stable,75.5,Stable,True
+z_24.0_120.0,2023,Stable,41.6,Stable,True
+z_24.0_120.0,2024,Stable,50.3,Stable,True
+z_24.0_120.0,2025,Stable,40.6,Stable,True
+z_24.0_36.0,2024,Stable,97.9,Stable,True
+z_24.0_51.0,2023,Stable,92.9,Stable,True
+z_24.0_51.0,2024,Stable,92.1,Stable,True
+z_24.0_51.0,2025,Stable,90.1,Stable,True
+z_24.0_52.5,2023,Stable,54.1,Forte augmentation,False
+z_24.0_52.5,2024,Stable,38.1,Stable,True
+z_24.0_54.0,2023,Forte diminution,45.9,Forte augmentation,False
+z_24.0_54.0,2024,Forte diminution,44.9,Forte augmentation,False
+z_24.0_54.0,2025,Forte augmentation,27.5,Forte diminution,False
+z_24.0_55.5,2023,Stable,89.3,Stable,True
+z_24.0_55.5,2025,Stable,86.4,Forte diminution,False
+z_25.5_-79.5,2023,Forte diminution,49.5,Forte augmentation,False
+z_25.5_-79.5,2024,Forte diminution,41.8,Stable,False
+z_25.5_-79.5,2025,Forte diminution,47.5,Stable,False
+z_25.5_-81.0,2023,Forte diminution,58.7,Stable,False
+z_25.5_-81.0,2024,Forte diminution,49.4,Forte augmentation,False
+z_25.5_-81.0,2025,Forte diminution,58.5,Stable,False
+z_25.5_-88.5,2024,Stable,97.1,Stable,True
+z_25.5_-96.0,2023,Stable,97.9,Stable,True
+z_25.5_120.0,2023,Stable,95.6,Stable,True
+z_25.5_120.0,2024,Stable,75.5,Stable,True
+z_25.5_127.5,2024,Stable,97.9,Stable,True
+z_25.5_153.0,2024,Stable,97.9,Stable,True
+z_25.5_49.5,2023,Stable,92.2,Stable,True
+z_25.5_49.5,2025,Stable,86.4,Stable,True
+z_25.5_51.0,2024,Stable,97.5,Stable,True
+z_25.5_54.0,2024,Stable,97.9,Stable,True
+z_25.5_55.5,2023,Stable,96.4,Forte diminution,False
+z_25.5_55.5,2024,Stable,94.0,Forte diminution,False
+z_27.0_-15.0,2023,Stable,96.7,Stable,True
+z_27.0_-16.5,2023,Faible diminution,30.6,Forte diminution,False
+z_27.0_-16.5,2024,Faible diminution,40.2,Forte augmentation,False
+z_27.0_-16.5,2025,Faible diminution,33.5,Stable,False
+z_27.0_-81.0,2023,Stable,96.7,Forte augmentation,False
+z_27.0_-81.0,2024,Stable,51.1,Stable,True
+z_27.0_-82.5,2025,Stable,97.9,Stable,True
+z_27.0_-84.0,2023,Stable,94.0,Stable,True
+z_27.0_-84.0,2025,Stable,96.4,Stable,True
+z_27.0_-90.0,2025,Stable,97.9,Stable,True
+z_27.0_-97.5,2023,Stable,96.2,Stable,True
+z_27.0_126.0,2025,Stable,97.9,Stable,True
+z_27.0_129.0,2024,Stable,97.1,Stable,True
+z_27.0_49.5,2024,Stable,96.7,Stable,True
+z_27.0_49.5,2025,Stable,78.3,Stable,True
+z_28.5_-13.5,2024,Stable,96.0,Stable,True
+z_28.5_-15.0,2023,Forte diminution,43.4,Stable,False
+z_28.5_-15.0,2024,Forte diminution,45.2,Stable,False
+z_28.5_-15.0,2025,Forte diminution,53.6,Stable,False
+z_28.5_-16.5,2024,Stable,97.0,Stable,True
+z_28.5_-16.5,2025,Stable,92.3,Stable,True
+z_28.5_-61.5,2025,Stable,97.9,Stable,True
+z_28.5_-90.0,2024,Stable,97.9,Forte diminution,False
+z_28.5_-91.5,2023,Forte diminution,48.2,Forte diminution,True
+z_28.5_-91.5,2024,Forte diminution,38.6,Forte diminution,True
+z_28.5_-91.5,2025,Stable,41.4,Forte diminution,False
+z_28.5_-94.5,2024,Stable,65.3,Stable,True
+z_28.5_-94.5,2025,Stable,92.2,Stable,True
+z_28.5_-96.0,2023,Forte diminution,42.4,Forte augmentation,False
+z_28.5_-96.0,2024,Forte diminution,43.6,Stable,False
+z_28.5_-96.0,2025,Forte diminution,56.6,Forte augmentation,False
+z_28.5_121.5,2023,Forte diminution,54.5,Stable,False
+z_28.5_121.5,2024,Forte diminution,54.9,Stable,False
+z_28.5_121.5,2025,Forte diminution,59.3,Stable,False
+z_28.5_123.0,2024,Stable,96.7,Stable,True
+z_28.5_123.0,2025,Stable,78.3,Stable,True
+z_28.5_31.5,2023,Stable,76.8,Stable,True
+z_28.5_31.5,2025,Stable,92.7,Stable,True
+z_28.5_48.0,2024,Stable,97.9,Stable,True
+z_3.0_-78.0,2024,Stable,97.9,Stable,True
+z_3.0_6.0,2025,Stable,97.9,Stable,True
+z_3.0_72.0,2024,Stable,98.0,Stable,True
+z_3.0_72.0,2025,Stable,94.0,Stable,True
+z_3.0_9.0,2023,Stable,92.2,Stable,True
+z_3.0_9.0,2025,Stable,86.4,Forte diminution,False
+z_3.0_91.5,2024,Stable,97.9,Stable,True
+z_3.0_99.0,2025,Stable,96.9,Stable,True
+z_30.0_-10.5,2024,Stable,97.9,Stable,True
+z_30.0_-13.5,2024,Stable,92.8,Stable,True
+z_30.0_-13.5,2025,Stable,92.2,Stable,True
+z_30.0_-15.0,2025,Stable,95.2,Stable,True
+z_30.0_-88.5,2023,Stable,96.2,Stable,True
+z_30.0_-91.5,2024,Stable,97.9,Forte diminution,False
+z_30.0_-94.5,2024,Stable,98.0,Stable,True
+z_30.0_-94.5,2025,Stable,94.0,Stable,True
+z_30.0_121.5,2023,Forte diminution,47.6,Forte diminution,True
+z_30.0_121.5,2024,Forte diminution,59.3,Stable,False
+z_30.0_121.5,2025,Forte diminution,35.7,Forte diminution,True
+z_30.0_123.0,2023,Stable,95.2,Stable,True
+z_30.0_123.0,2024,Stable,49.3,Stable,True
+z_30.0_28.5,2023,Forte diminution,41.6,Stable,False
+z_30.0_28.5,2025,Stable,42.5,Forte diminution,False
+z_30.0_30.0,2025,Stable,98.3,Stable,True
+z_30.0_31.5,2023,Forte diminution,55.8,Stable,False
+z_30.0_31.5,2024,Forte diminution,52.1,Stable,False
+z_30.0_31.5,2025,Forte diminution,47.8,Forte diminution,True
+z_30.0_46.5,2023,Stable,64.4,Stable,True
+z_31.5_-118.5,2023,Stable,97.9,Stable,True
+z_31.5_-120.0,2025,Stable,97.9,Stable,True
+z_31.5_-15.0,2024,Stable,96.0,Stable,True
+z_31.5_-18.0,2023,Stable,89.7,Stable,True
+z_31.5_-81.0,2023,Stable,87.3,Stable,True
+z_31.5_-81.0,2024,Stable,86.0,Stable,True
+z_31.5_120.0,2024,Stable,97.6,Stable,True
+z_31.5_123.0,2025,Stable,96.9,Stable,True
+z_31.5_124.5,2024,Stable,97.9,Stable,True
+z_31.5_126.0,2024,Stable,96.9,Stable,True
+z_31.5_127.5,2023,Stable,97.9,Stable,True
+z_33.0_-118.5,2024,Stable,97.2,Stable,True
+z_33.0_-118.5,2025,Stable,92.2,Stable,True
+z_33.0_-120.0,2025,Stable,97.9,Forte diminution,False
+z_33.0_-13.5,2023,Stable,92.4,Stable,True
+z_33.0_-78.0,2023,Stable,94.0,Stable,True
+z_33.0_-78.0,2025,Stable,96.4,Stable,True
+z_33.0_-9.0,2023,Stable,47.5,Forte diminution,False
+z_33.0_-9.0,2024,Stable,48.2,Stable,True
+z_33.0_-9.0,2025,Stable,39.0,Stable,True
+z_33.0_10.5,2025,Stable,96.3,Stable,True
+z_33.0_123.0,2024,Stable,97.9,Stable,True
+z_33.0_124.5,2024,Stable,97.9,Stable,True
+z_33.0_126.0,2024,Stable,97.9,Stable,True
+z_33.0_127.5,2023,Stable,94.0,Stable,True
+z_33.0_127.5,2025,Stable,96.4,Stable,True
+z_33.0_129.0,2024,Stable,98.0,Stable,True
+z_33.0_129.0,2025,Stable,94.0,Stable,True
+z_33.0_130.5,2023,Stable,96.9,Stable,True
+z_33.0_138.0,2023,Stable,98.0,Stable,True
+z_33.0_138.0,2024,Stable,94.0,Stable,True
+z_33.0_18.0,2024,Stable,96.0,Stable,True
+z_33.0_24.0,2025,Stable,98.3,Stable,True
+z_33.0_25.5,2024,Stable,98.4,Stable,True
+z_34.5_-1.5,2023,Stable,97.7,Stable,True
+z_34.5_-10.5,2024,Stable,95.8,Stable,True
+z_34.5_-4.5,2023,Stable,68.7,Stable,True
+z_34.5_-4.5,2024,Stable,68.7,Stable,True
+z_34.5_-4.5,2025,Stable,74.1,Stable,True
+z_34.5_-6.0,2023,Forte diminution,53.6,Forte diminution,True
+z_34.5_-6.0,2024,Forte diminution,56.5,Stable,False
+z_34.5_-6.0,2025,Forte diminution,50.2,Forte diminution,True
+z_34.5_-7.5,2023,Stable,75.2,Forte augmentation,False
+z_34.5_-7.5,2025,Stable,45.3,Stable,True
+z_34.5_0.0,2024,Stable,92.9,Stable,True
+z_34.5_118.5,2023,Stable,92.3,Stable,True
+z_34.5_118.5,2024,Stable,91.6,Stable,True
+z_34.5_12.0,2023,Stable,91.8,Stable,True
+z_34.5_12.0,2024,Stable,71.6,Stable,True
+z_34.5_120.0,2025,Stable,96.9,Stable,True
+z_34.5_127.5,2023,Forte diminution,48.4,Stable,False
+z_34.5_127.5,2024,Forte diminution,47.5,Stable,False
+z_34.5_127.5,2025,Forte diminution,55.4,Forte augmentation,False
+z_34.5_129.0,2023,Stable,95.9,Forte diminution,False
+z_34.5_129.0,2024,Stable,95.6,Stable,True
+z_34.5_13.5,2023,Faible diminution,50.0,Stable,False
+z_34.5_13.5,2024,Faible diminution,53.6,Forte augmentation,False
+z_34.5_13.5,2025,Faible diminution,43.1,Forte augmentation,False
+z_34.5_16.5,2025,Stable,96.5,Stable,True
+z_34.5_18.0,2024,Stable,98.4,Stable,True
+z_34.5_19.5,2024,Stable,96.6,Stable,True
+z_34.5_22.5,2023,Forte diminution,50.3,Forte augmentation,False
+z_34.5_22.5,2024,Forte diminution,44.8,Stable,False
+z_34.5_22.5,2025,Forte diminution,60.7,Stable,False
+z_34.5_24.0,2023,Faible diminution,35.0,Stable,False
+z_34.5_24.0,2024,Faible diminution,38.2,Faible diminution,True
+z_34.5_24.0,2025,Faible diminution,37.0,Forte diminution,False
+z_34.5_25.5,2023,Forte diminution,51.9,Stable,False
+z_34.5_25.5,2024,Forte diminution,45.0,Forte diminution,True
+z_34.5_25.5,2025,Forte diminution,53.6,Stable,False
+z_34.5_27.0,2023,Stable,79.8,Stable,True
+z_34.5_31.5,2023,Stable,96.6,Stable,True
+z_34.5_33.0,2023,Forte augmentation,33.4,Forte augmentation,True
+z_34.5_33.0,2024,Faible augmentation,34.9,Stable,False
+z_34.5_33.0,2025,Forte diminution,29.8,Stable,False
+z_36.0_-1.5,2023,Stable,95.5,Stable,True
+z_36.0_-1.5,2025,Stable,93.1,Stable,True
+z_36.0_-10.5,2023,Forte diminution,55.3,Stable,False
+z_36.0_-10.5,2024,Forte diminution,54.5,Stable,False
+z_36.0_-10.5,2025,Forte diminution,56.6,Forte augmentation,False
+z_36.0_-12.0,2023,Stable,96.0,Stable,True
+z_36.0_-3.0,2023,Faible diminution,38.6,Forte augmentation,False
+z_36.0_-3.0,2024,Faible diminution,42.6,Stable,False
+z_36.0_-3.0,2025,Forte diminution,48.7,Forte augmentation,False
+z_36.0_-4.5,2023,Forte diminution,52.3,Forte augmentation,False
+z_36.0_-4.5,2024,Forte diminution,51.5,Stable,False
+z_36.0_-4.5,2025,Forte diminution,53.3,Stable,False
+z_36.0_-6.0,2023,Faible diminution,39.3,Faible diminution,True
+z_36.0_-6.0,2024,Faible diminution,50.3,Forte diminution,False
+z_36.0_-6.0,2025,Faible diminution,38.4,Forte diminution,False
+z_36.0_-7.5,2023,Faible diminution,24.9,Stable,False
+z_36.0_-7.5,2024,Faible diminution,27.3,Stable,False
+z_36.0_-7.5,2025,Forte diminution,33.4,Faible augmentation,False
+z_36.0_-75.0,2024,Stable,97.1,Stable,True
+z_36.0_-76.5,2025,Stable,96.9,Stable,True
+z_36.0_-9.0,2023,Forte diminution,46.7,Forte augmentation,False
+z_36.0_-9.0,2024,Forte diminution,29.5,Forte augmentation,False
+z_36.0_-9.0,2025,Faible diminution,31.1,Forte diminution,False
+z_36.0_0.0,2024,Stable,91.6,Stable,True
+z_36.0_10.5,2023,Stable,48.8,Stable,True
+z_36.0_10.5,2025,Stable,86.7,Stable,True
+z_36.0_12.0,2023,Forte diminution,51.3,Stable,False
+z_36.0_12.0,2024,Forte diminution,43.1,Forte augmentation,False
+z_36.0_12.0,2025,Forte diminution,46.4,Stable,False
+z_36.0_120.0,2023,Stable,92.4,Stable,True
+z_36.0_120.0,2025,Stable,92.7,Stable,True
+z_36.0_124.5,2023,Stable,97.5,Stable,True
+z_36.0_126.0,2025,Stable,97.6,Forte augmentation,False
+z_36.0_13.5,2023,Forte diminution,38.0,Stable,False
+z_36.0_13.5,2024,Forte diminution,38.8,Forte augmentation,False
+z_36.0_13.5,2025,Faible augmentation,30.7,Forte diminution,False
+z_36.0_132.0,2025,Stable,97.9,Stable,True
+z_36.0_15.0,2023,Forte diminution,28.2,Forte diminution,True
+z_36.0_15.0,2024,Forte diminution,56.2,Forte augmentation,False
+z_36.0_15.0,2025,Forte diminution,29.9,Forte augmentation,False
+z_36.0_16.5,2023,Stable,74.9,Stable,True
+z_36.0_16.5,2024,Stable,69.5,Stable,True
+z_36.0_16.5,2025,Stable,74.9,Stable,True
+z_36.0_18.0,2023,Stable,97.9,Stable,True
+z_36.0_19.5,2025,Stable,98.4,Stable,True
+z_36.0_21.0,2023,Forte diminution,46.8,Stable,False
+z_36.0_21.0,2024,Forte diminution,44.8,Stable,False
+z_36.0_22.5,2023,Faible diminution,31.4,Faible augmentation,False
+z_36.0_22.5,2024,Faible augmentation,40.0,Stable,False
+z_36.0_22.5,2025,Faible augmentation,32.1,Forte diminution,False
+z_36.0_24.0,2023,Faible diminution,43.1,Faible augmentation,False
+z_36.0_24.0,2024,Faible diminution,46.8,Faible augmentation,False
+z_36.0_24.0,2025,Faible diminution,46.3,Stable,False
+z_36.0_25.5,2023,Faible diminution,34.8,Faible augmentation,False
+z_36.0_25.5,2024,Faible diminution,40.9,Stable,False
+z_36.0_25.5,2025,Faible diminution,42.6,Stable,False
+z_36.0_27.0,2023,Faible diminution,41.1,Faible diminution,True
+z_36.0_27.0,2024,Faible diminution,34.5,Stable,False
+z_36.0_27.0,2025,Faible diminution,34.0,Stable,False
+z_36.0_30.0,2025,Stable,97.1,Stable,True
+z_36.0_34.5,2023,Stable,83.8,Stable,True
+z_36.0_34.5,2024,Stable,85.6,Stable,True
+z_36.0_36.0,2025,Stable,90.7,Stable,True
+z_36.0_4.5,2024,Stable,94.1,Stable,True
+z_36.0_9.0,2023,Stable,80.1,Stable,True
+z_36.0_9.0,2024,Stable,65.1,Stable,True
+z_37.5_-1.5,2023,Forte augmentation,38.3,Forte augmentation,True
+z_37.5_-1.5,2024,Forte diminution,39.8,Forte augmentation,False
+z_37.5_-1.5,2025,Forte augmentation,35.5,Forte augmentation,True
+z_37.5_-10.5,2023,Faible diminution,46.0,Forte augmentation,False
+z_37.5_-10.5,2024,Faible diminution,43.8,Forte augmentation,False
+z_37.5_-10.5,2025,Faible diminution,43.3,Forte augmentation,False
+z_37.5_-123.0,2023,Stable,97.9,Stable,True
+z_37.5_-13.5,2024,Stable,98.3,Stable,True
+z_37.5_-22.5,2023,Stable,97.0,Stable,True
+z_37.5_-22.5,2025,Stable,88.2,Stable,True
+z_37.5_-25.5,2025,Stable,98.0,Stable,True
+z_37.5_-27.0,2025,Stable,81.1,Forte augmentation,False
+z_37.5_-28.5,2023,Stable,76.1,Stable,True
+z_37.5_-28.5,2024,Stable,73.4,Stable,True
+z_37.5_-28.5,2025,Stable,50.1,Stable,True
+z_37.5_-30.0,2025,Stable,97.5,Stable,True
+z_37.5_-76.5,2024,Stable,97.1,Stable,True
+z_37.5_-9.0,2023,Forte diminution,54.7,Forte augmentation,False
+z_37.5_-9.0,2024,Forte diminution,36.1,Stable,False
+z_37.5_-9.0,2025,Forte diminution,34.9,Forte diminution,True
+z_37.5_0.0,2023,Forte diminution,57.5,Stable,False
+z_37.5_0.0,2024,Forte diminution,52.1,Forte diminution,True
+z_37.5_0.0,2025,Forte diminution,46.7,Forte diminution,True
+z_37.5_1.5,2025,Stable,97.7,Stable,True
+z_37.5_10.5,2023,Stable,87.6,Stable,True
+z_37.5_10.5,2025,Stable,92.0,Stable,True
+z_37.5_117.0,2023,Stable,97.1,Stable,True
+z_37.5_118.5,2023,Stable,96.9,Stable,True
+z_37.5_12.0,2023,Forte diminution,37.6,Forte augmentation,False
+z_37.5_12.0,2024,Faible diminution,27.6,Forte diminution,False
+z_37.5_12.0,2025,Forte diminution,49.8,Faible augmentation,False
+z_37.5_121.5,2025,Stable,97.9,Stable,True
+z_37.5_13.5,2023,Forte diminution,53.6,Stable,False
+z_37.5_13.5,2024,Forte diminution,53.7,Forte augmentation,False
+z_37.5_13.5,2025,Forte diminution,53.7,Stable,False
+z_37.5_15.0,2023,Faible diminution,29.4,Forte augmentation,False
+z_37.5_15.0,2024,Faible augmentation,36.0,Forte augmentation,False
+z_37.5_15.0,2025,Faible diminution,31.7,Stable,False
+z_37.5_16.5,2023,Forte augmentation,42.2,Stable,False
+z_37.5_16.5,2025,Stable,75.7,Forte augmentation,False
+z_37.5_19.5,2023,Faible diminution,35.6,Faible diminution,True
+z_37.5_19.5,2024,Faible diminution,38.5,Faible diminution,True
+z_37.5_19.5,2025,Faible diminution,34.2,Faible diminution,True
+z_37.5_21.0,2023,Forte diminution,53.4,Forte augmentation,False
+z_37.5_21.0,2024,Faible diminution,49.4,Stable,False
+z_37.5_21.0,2025,Faible diminution,46.9,Forte diminution,False
+z_37.5_22.5,2023,Faible diminution,38.4,Faible augmentation,False
+z_37.5_22.5,2024,Faible diminution,38.7,Forte augmentation,False
+z_37.5_22.5,2025,Faible augmentation,35.7,Faible diminution,False
+z_37.5_24.0,2023,Faible diminution,39.0,Stable,False
+z_37.5_24.0,2024,Faible diminution,42.9,Stable,False
+z_37.5_24.0,2025,Faible diminution,44.4,Faible diminution,True
+z_37.5_25.5,2023,Forte diminution,46.2,Forte augmentation,False
+z_37.5_25.5,2024,Faible diminution,25.3,Forte diminution,False
+z_37.5_25.5,2025,Forte diminution,51.8,Stable,False
+z_37.5_27.0,2025,Stable,89.0,Stable,True
+z_37.5_4.5,2023,Stable,94.5,Stable,True
+z_37.5_6.0,2024,Stable,90.9,Stable,True
+z_37.5_7.5,2024,Stable,93.2,Stable,True
+z_37.5_7.5,2025,Stable,91.2,Stable,True
+z_37.5_9.0,2024,Stable,78.4,Stable,True
+z_37.5_9.0,2025,Stable,50.0,Stable,True
+z_39.0_-1.5,2023,Forte diminution,37.5,Stable,False
+z_39.0_-1.5,2024,Forte diminution,54.6,Stable,False
+z_39.0_-1.5,2025,Forte diminution,46.6,Forte augmentation,False
+z_39.0_-10.5,2023,Forte diminution,56.3,Stable,False
+z_39.0_-10.5,2024,Forte diminution,47.9,Forte diminution,True
+z_39.0_-10.5,2025,Forte diminution,56.4,Stable,False
+z_39.0_-31.5,2025,Stable,94.4,Stable,True
+z_39.0_-60.0,2023,Stable,97.1,Stable,True
+z_39.0_-73.5,2024,Stable,97.9,Stable,True
+z_39.0_-75.0,2024,Stable,98.0,Stable,True
+z_39.0_-75.0,2025,Stable,94.0,Stable,True
+z_39.0_-76.5,2024,Stable,98.0,Stable,True
+z_39.0_-76.5,2025,Stable,94.0,Stable,True
+z_39.0_-78.0,2024,Stable,83.2,Stable,True
+z_39.0_-78.0,2025,Stable,94.0,Stable,True
+z_39.0_-9.0,2024,Forte diminution,45.0,Stable,False
+z_39.0_-9.0,2025,Forte diminution,37.3,Stable,False
+z_39.0_0.0,2023,Forte diminution,46.3,Stable,False
+z_39.0_0.0,2024,Forte diminution,43.5,Forte augmentation,False
+z_39.0_0.0,2025,Forte diminution,39.4,Forte diminution,True
+z_39.0_1.5,2023,Forte diminution,48.3,Forte augmentation,False
+z_39.0_1.5,2024,Forte diminution,45.9,Forte diminution,True
+z_39.0_1.5,2025,Forte diminution,48.1,Stable,False
+z_39.0_10.5,2023,Stable,93.8,Stable,True
+z_39.0_120.0,2024,Stable,96.9,Stable,True
+z_39.0_121.5,2024,Stable,97.9,Stable,True
+z_39.0_13.5,2025,Stable,96.4,Stable,True
+z_39.0_15.0,2023,Stable,89.7,Stable,True
+z_39.0_15.0,2025,Stable,95.0,Stable,True
+z_39.0_16.5,2023,Forte diminution,49.7,Stable,False
+z_39.0_16.5,2024,Forte diminution,51.5,Stable,False
+z_39.0_16.5,2025,Forte diminution,50.9,Stable,False
+z_39.0_18.0,2024,Forte diminution,41.4,Forte augmentation,False
+z_39.0_18.0,2025,Forte diminution,36.8,Stable,False
+z_39.0_19.5,2023,Faible diminution,42.2,Stable,False
+z_39.0_19.5,2024,Faible diminution,52.5,Stable,False
+z_39.0_19.5,2025,Faible diminution,49.2,Forte diminution,False
+z_39.0_22.5,2023,Forte diminution,29.9,Stable,False
+z_39.0_22.5,2024,Faible diminution,40.6,Forte diminution,False
+z_39.0_22.5,2025,Forte diminution,53.1,Faible diminution,False
+z_39.0_24.0,2023,Forte diminution,56.4,Stable,False
+z_39.0_24.0,2024,Forte diminution,54.8,Stable,False
+z_39.0_24.0,2025,Forte diminution,47.0,Forte diminution,True
+z_39.0_25.5,2023,Forte diminution,55.7,Forte diminution,True
+z_39.0_25.5,2024,Forte diminution,51.2,Forte diminution,True
+z_39.0_25.5,2025,Forte diminution,46.0,Forte diminution,True
+z_39.0_28.5,2024,Stable,97.9,Stable,True
+z_39.0_3.0,2023,Forte diminution,55.8,Forte augmentation,False
+z_39.0_3.0,2024,Forte diminution,52.4,Stable,False
+z_39.0_3.0,2025,Forte diminution,55.0,Stable,False
+z_39.0_4.5,2024,Stable,93.7,Stable,True
+z_39.0_6.0,2023,Stable,98.4,Stable,True
+z_39.0_7.5,2023,Stable,94.8,Stable,True
+z_39.0_7.5,2025,Stable,91.9,Stable,True
+z_39.0_9.0,2023,Forte diminution,48.2,Stable,False
+z_39.0_9.0,2024,Forte diminution,50.3,Stable,False
+z_39.0_9.0,2025,Forte diminution,51.2,Forte diminution,True
+z_4.5_-3.0,2025,Stable,97.9,Stable,True
+z_4.5_-4.5,2023,Stable,97.9,Stable,True
+z_4.5_-58.5,2025,Stable,97.9,Stable,True
+z_4.5_-7.5,2023,Stable,97.9,Stable,True
+z_4.5_103.5,2024,Stable,97.9,Stable,True
+z_4.5_4.5,2023,Stable,97.9,Stable,True
+z_4.5_6.0,2025,Stable,96.9,Stable,True
+z_4.5_81.0,2023,Stable,97.9,Stable,True
+z_4.5_93.0,2023,Stable,97.9,Stable,True
+z_4.5_96.0,2023,Stable,97.9,Stable,True
+z_4.5_97.5,2024,Stable,96.9,Stable,True
+z_40.5_-10.5,2023,Stable,45.6,Stable,True
+z_40.5_-10.5,2025,Stable,55.6,Forte diminution,False
+z_40.5_-36.0,2024,Stable,95.9,Stable,True
+z_40.5_-72.0,2023,Stable,95.9,Stable,True
+z_40.5_-72.0,2024,Stable,95.6,Forte augmentation,False
+z_40.5_-75.0,2024,Stable,87.1,Stable,True
+z_40.5_-75.0,2025,Stable,75.5,Stable,True
+z_40.5_-9.0,2023,Forte augmentation,31.2,Forte diminution,False
+z_40.5_-9.0,2024,Forte diminution,37.7,Stable,False
+z_40.5_-9.0,2025,Forte augmentation,39.1,Stable,False
+z_40.5_0.0,2023,Forte diminution,49.8,Stable,False
+z_40.5_0.0,2024,Forte diminution,43.2,Forte augmentation,False
+z_40.5_0.0,2025,Forte augmentation,45.1,Forte diminution,False
+z_40.5_1.5,2023,Forte diminution,36.1,Faible augmentation,False
+z_40.5_1.5,2024,Faible diminution,28.3,Forte diminution,False
+z_40.5_1.5,2025,Forte diminution,46.0,Faible augmentation,False
+z_40.5_10.5,2023,Stable,88.8,Stable,True
+z_40.5_12.0,2023,Stable,35.6,Stable,True
+z_40.5_12.0,2024,Forte diminution,46.8,Stable,False
+z_40.5_12.0,2025,Forte diminution,53.0,Stable,False
+z_40.5_13.5,2023,Faible diminution,37.9,Forte diminution,False
+z_40.5_13.5,2024,Forte diminution,42.6,Faible augmentation,False
+z_40.5_13.5,2025,Faible augmentation,28.7,Forte augmentation,False
+z_40.5_139.5,2024,Stable,98.0,Stable,True
+z_40.5_139.5,2025,Stable,94.0,Stable,True
+z_40.5_16.5,2023,Forte diminution,42.9,Stable,False
+z_40.5_16.5,2024,Forte augmentation,42.4,Stable,False
+z_40.5_16.5,2025,Forte diminution,44.2,Stable,False
+z_40.5_18.0,2023,Forte diminution,45.2,Stable,False
+z_40.5_18.0,2024,Forte diminution,36.6,Stable,False
+z_40.5_18.0,2025,Forte diminution,35.2,Forte diminution,True
+z_40.5_22.5,2023,Forte diminution,62.4,Forte augmentation,False
+z_40.5_22.5,2024,Forte diminution,41.4,Stable,False
+z_40.5_22.5,2025,Forte diminution,54.5,Forte diminution,True
+z_40.5_24.0,2023,Faible diminution,31.7,Forte diminution,False
+z_40.5_24.0,2024,Forte diminution,44.1,Forte augmentation,False
+z_40.5_24.0,2025,Forte diminution,34.5,Forte augmentation,False
+z_40.5_25.5,2023,Stable,42.3,Stable,True
+z_40.5_25.5,2024,Forte diminution,36.2,Stable,False
+z_40.5_25.5,2025,Stable,36.5,Forte diminution,False
+z_40.5_27.0,2025,Stable,95.8,Stable,True
+z_40.5_28.5,2023,Forte diminution,48.9,Forte augmentation,False
+z_40.5_28.5,2024,Forte diminution,36.2,Forte diminution,True
+z_40.5_28.5,2025,Forte diminution,45.0,Forte diminution,True
+z_40.5_3.0,2023,Forte augmentation,41.1,Stable,False
+z_40.5_3.0,2024,Forte diminution,55.6,Stable,False
+z_40.5_3.0,2025,Forte diminution,41.1,Forte augmentation,False
+z_40.5_4.5,2024,Stable,93.4,Stable,True
+z_40.5_7.5,2023,Forte diminution,48.1,Stable,False
+z_40.5_7.5,2024,Forte diminution,45.7,Stable,False
+z_40.5_7.5,2025,Forte diminution,50.6,Forte augmentation,False
+z_40.5_9.0,2023,Forte diminution,42.7,Stable,False
+z_40.5_9.0,2024,Forte diminution,45.6,Faible diminution,False
+z_40.5_9.0,2025,Forte diminution,46.7,Faible diminution,False
+z_42.0_-10.5,2023,Forte diminution,42.3,Stable,False
+z_42.0_-10.5,2024,Forte diminution,43.5,Stable,False
+z_42.0_-10.5,2025,Forte diminution,45.4,Stable,False
+z_42.0_-3.0,2023,Forte diminution,49.3,Stable,False
+z_42.0_-3.0,2024,Forte diminution,48.4,Forte augmentation,False
+z_42.0_-3.0,2025,Forte augmentation,42.9,Stable,False
+z_42.0_-4.5,2023,Forte diminution,42.4,Stable,False
+z_42.0_-4.5,2024,Forte diminution,38.4,Forte augmentation,False
+z_42.0_-4.5,2025,Forte diminution,43.8,Stable,False
+z_42.0_-6.0,2023,Stable,90.3,Stable,True
+z_42.0_-72.0,2024,Stable,96.9,Stable,True
+z_42.0_-79.5,2023,Stable,96.3,Stable,True
+z_42.0_-79.5,2024,Stable,93.6,Stable,True
+z_42.0_-79.5,2025,Stable,52.6,Stable,True
+z_42.0_-81.0,2024,Stable,97.9,Stable,True
+z_42.0_-82.5,2025,Stable,97.9,Stable,True
+z_42.0_-84.0,2023,Stable,97.9,Stable,True
+z_42.0_-9.0,2023,Forte diminution,45.0,Forte augmentation,False
+z_42.0_-9.0,2024,Forte augmentation,31.3,Forte augmentation,True
+z_42.0_-9.0,2025,Forte diminution,26.1,Forte diminution,True
+z_42.0_10.5,2023,Forte diminution,48.8,Faible augmentation,False
+z_42.0_10.5,2024,Forte diminution,39.6,Forte diminution,True
+z_42.0_10.5,2025,Forte diminution,48.0,Stable,False
+z_42.0_13.5,2023,Forte diminution,48.9,Stable,False
+z_42.0_13.5,2024,Forte diminution,42.1,Faible augmentation,False
+z_42.0_13.5,2025,Forte augmentation,43.8,Faible diminution,False
+z_42.0_15.0,2023,Forte diminution,49.0,Forte augmentation,False
+z_42.0_15.0,2024,Forte diminution,39.2,Forte augmentation,False
+z_42.0_15.0,2025,Forte augmentation,38.4,Forte diminution,False
+z_42.0_16.5,2023,Stable,89.2,Stable,True
+z_42.0_16.5,2024,Stable,76.2,Stable,True
+z_42.0_18.0,2023,Stable,91.0,Stable,True
+z_42.0_18.0,2024,Stable,85.7,Stable,True
+z_42.0_27.0,2023,Forte diminution,53.1,Forte diminution,True
+z_42.0_27.0,2024,Forte diminution,39.5,Forte diminution,True
+z_42.0_27.0,2025,Stable,38.2,Forte diminution,False
+z_42.0_28.5,2023,Stable,95.7,Stable,True
+z_42.0_3.0,2023,Forte diminution,50.5,Forte augmentation,False
+z_42.0_3.0,2024,Faible diminution,26.4,Faible augmentation,False
+z_42.0_3.0,2025,Faible diminution,35.8,Forte diminution,False
+z_42.0_4.5,2023,Forte diminution,49.8,Forte augmentation,False
+z_42.0_4.5,2024,Forte diminution,29.5,Faible diminution,False
+z_42.0_4.5,2025,Forte diminution,31.6,Forte diminution,True
+z_42.0_6.0,2023,Forte diminution,51.2,Stable,False
+z_42.0_6.0,2024,Forte diminution,46.7,Stable,False
+z_42.0_6.0,2025,Forte diminution,45.9,Forte diminution,True
+z_42.0_7.5,2023,Stable,62.5,Stable,True
+z_42.0_7.5,2024,Stable,86.1,Stable,True
+z_42.0_9.0,2023,Forte diminution,40.4,Stable,False
+z_42.0_9.0,2024,Forte diminution,33.3,Forte diminution,True
+z_42.0_9.0,2025,Forte diminution,52.5,Stable,False
+z_43.5_-1.5,2023,Forte diminution,47.8,Forte diminution,True
+z_43.5_-1.5,2024,Forte diminution,46.9,Stable,False
+z_43.5_-1.5,2025,Forte diminution,47.5,Forte augmentation,False
+z_43.5_-10.5,2024,Stable,96.4,Stable,True
+z_43.5_-3.0,2023,Forte diminution,58.3,Forte augmentation,False
+z_43.5_-3.0,2024,Forte diminution,56.8,Forte augmentation,False
+z_43.5_-3.0,2025,Forte diminution,49.7,Forte diminution,True
+z_43.5_-4.5,2023,Forte diminution,46.1,Stable,False
+z_43.5_-4.5,2024,Forte diminution,50.1,Forte augmentation,False
+z_43.5_-4.5,2025,Forte diminution,47.0,Forte augmentation,False
+z_43.5_-6.0,2023,Forte diminution,46.1,Forte diminution,True
+z_43.5_-6.0,2024,Forte diminution,58.6,Forte augmentation,False
+z_43.5_-6.0,2025,Forte diminution,44.6,Forte augmentation,False
+z_43.5_-64.5,2023,Stable,94.2,Stable,True
+z_43.5_-64.5,2024,Stable,92.3,Forte augmentation,False
+z_43.5_-7.5,2023,Forte diminution,44.1,Forte augmentation,False
+z_43.5_-7.5,2024,Forte diminution,37.5,Forte augmentation,False
+z_43.5_-7.5,2025,Forte augmentation,29.6,Forte diminution,False
+z_43.5_-75.0,2024,Stable,98.0,Stable,True
+z_43.5_-75.0,2025,Stable,94.0,Stable,True
+z_43.5_-9.0,2023,Faible diminution,36.9,Stable,False
+z_43.5_-9.0,2024,Faible diminution,33.5,Forte augmentation,False
+z_43.5_-9.0,2025,Faible diminution,31.5,Stable,False
+z_43.5_12.0,2023,Forte diminution,39.1,Forte augmentation,False
+z_43.5_12.0,2024,Faible augmentation,35.8,Forte augmentation,False
+z_43.5_12.0,2025,Faible diminution,30.2,Stable,False
+z_43.5_13.5,2023,Forte diminution,55.2,Stable,False
+z_43.5_13.5,2024,Forte diminution,45.4,Forte augmentation,False
+z_43.5_13.5,2025,Forte diminution,39.1,Forte diminution,True
+z_43.5_15.0,2023,Forte diminution,43.2,Stable,False
+z_43.5_15.0,2024,Forte diminution,43.8,Forte diminution,True
+z_43.5_15.0,2025,Forte diminution,41.0,Forte augmentation,False
+z_43.5_28.5,2023,Stable,82.4,Forte diminution,False
+z_43.5_28.5,2024,Stable,46.1,Forte diminution,False
+z_43.5_28.5,2025,Stable,56.8,Forte diminution,False
+z_43.5_36.0,2024,Stable,96.7,Stable,True
+z_43.5_37.5,2023,Stable,90.0,Stable,True
+z_43.5_6.0,2023,Stable,77.1,Forte diminution,False
+z_43.5_6.0,2024,Stable,82.6,Forte diminution,False
+z_43.5_7.5,2023,Forte diminution,47.9,Stable,False
+z_43.5_7.5,2024,Forte diminution,25.5,Stable,False
+z_43.5_7.5,2025,Faible diminution,42.4,Forte diminution,False
+z_43.5_9.0,2023,Forte diminution,35.9,Forte diminution,True
+z_43.5_9.0,2024,Forte diminution,47.7,Faible diminution,False
+z_43.5_9.0,2025,Forte diminution,36.8,Faible diminution,False
+z_45.0_-1.5,2023,Forte diminution,39.7,Forte augmentation,False
+z_45.0_-1.5,2024,Faible diminution,36.8,Stable,False
+z_45.0_-1.5,2025,Forte diminution,35.0,Stable,False
+z_45.0_-123.0,2023,Stable,97.3,Stable,True
+z_45.0_-123.0,2025,Stable,86.4,Stable,True
+z_45.0_-124.5,2024,Stable,95.6,Stable,True
+z_45.0_-124.5,2025,Stable,75.5,Stable,True
+z_45.0_-3.0,2023,Faible diminution,49.1,Faible augmentation,False
+z_45.0_-3.0,2024,Faible diminution,48.5,Faible augmentation,False
+z_45.0_-3.0,2025,Faible diminution,49.1,Faible augmentation,False
+z_45.0_-4.5,2023,Forte diminution,52.0,Stable,False
+z_45.0_-4.5,2024,Forte diminution,47.8,Forte diminution,True
+z_45.0_-4.5,2025,Forte diminution,56.0,Stable,False
+z_45.0_-6.0,2023,Stable,91.5,Stable,True
+z_45.0_-6.0,2024,Stable,85.2,Stable,True
+z_45.0_-7.5,2025,Stable,96.0,Stable,True
+z_45.0_-73.5,2024,Stable,75.5,Forte augmentation,False
+z_45.0_-75.0,2023,Stable,43.3,Stable,True
+z_45.0_-75.0,2024,Forte diminution,44.1,Stable,False
+z_45.0_-75.0,2025,Stable,41.5,Stable,True
+z_45.0_-9.0,2023,Stable,43.4,Stable,True
+z_45.0_-9.0,2025,Stable,46.5,Forte augmentation,False
+z_45.0_12.0,2023,Faible diminution,34.1,Faible diminution,True
+z_45.0_12.0,2024,Forte diminution,46.0,Stable,False
+z_45.0_12.0,2025,Forte diminution,27.0,Forte augmentation,False
+z_45.0_13.5,2023,Forte augmentation,30.5,Stable,False
+z_45.0_13.5,2024,Forte diminution,39.3,Forte augmentation,False
+z_45.0_13.5,2025,Faible augmentation,37.6,Forte augmentation,False
+z_45.0_28.5,2023,Stable,70.5,Stable,True
+z_45.0_28.5,2024,Stable,47.3,Stable,True
+z_45.0_36.0,2023,Stable,96.9,Stable,True
+z_45.0_36.0,2024,Stable,91.2,Stable,True
+z_46.5_-10.5,2023,Stable,93.2,Stable,True
+z_46.5_-123.0,2023,Stable,86.3,Stable,True
+z_46.5_-123.0,2024,Stable,95.6,Forte augmentation,False
+z_46.5_-3.0,2023,Forte diminution,53.8,Faible augmentation,False
+z_46.5_-3.0,2024,Faible diminution,55.0,Forte augmentation,False
+z_46.5_-3.0,2025,Faible diminution,48.8,Faible diminution,True
+z_46.5_-4.5,2023,Faible diminution,37.6,Forte augmentation,False
+z_46.5_-4.5,2024,Faible diminution,34.3,Stable,False
+z_46.5_-4.5,2025,Faible diminution,28.9,Forte augmentation,False
+z_46.5_-57.0,2024,Stable,92.3,Stable,True
+z_46.5_-57.0,2025,Stable,94.0,Stable,True
+z_46.5_-6.0,2023,Forte diminution,49.3,Forte augmentation,False
+z_46.5_-6.0,2024,Forte diminution,39.2,Forte augmentation,False
+z_46.5_-6.0,2025,Faible diminution,35.0,Forte diminution,False
+z_46.5_-7.5,2023,Forte diminution,45.7,Forte diminution,True
+z_46.5_-7.5,2025,Stable,71.8,Stable,True
+z_46.5_-72.0,2023,Stable,98.0,Stable,True
+z_46.5_-72.0,2024,Stable,94.0,Stable,True
+z_48.0_-1.5,2023,Forte diminution,41.1,Forte augmentation,False
+z_48.0_-1.5,2024,Forte augmentation,32.2,Forte diminution,False
+z_48.0_-1.5,2025,Forte diminution,34.8,Forte diminution,True
+z_48.0_-10.5,2023,Stable,80.3,Stable,True
+z_48.0_-10.5,2024,Stable,80.8,Stable,True
+z_48.0_-12.0,2025,Stable,96.6,Stable,True
+z_48.0_-123.0,2025,Stable,97.9,Forte diminution,False
+z_48.0_-124.5,2023,Forte diminution,54.9,Stable,False
+z_48.0_-124.5,2024,Forte diminution,48.4,Forte augmentation,False
+z_48.0_-124.5,2025,Forte diminution,48.7,Stable,False
+z_48.0_-15.0,2023,Stable,94.9,Stable,True
+z_48.0_-3.0,2023,Forte diminution,44.3,Forte augmentation,False
+z_48.0_-3.0,2024,Forte augmentation,37.7,Forte diminution,False
+z_48.0_-3.0,2025,Forte diminution,49.6,Forte diminution,True
+z_48.0_-4.5,2023,Forte diminution,39.6,Forte augmentation,False
+z_48.0_-4.5,2024,Forte diminution,39.0,Stable,False
+z_48.0_-4.5,2025,Forte diminution,53.0,Stable,False
+z_48.0_-6.0,2023,Faible diminution,47.1,Faible augmentation,False
+z_48.0_-6.0,2024,Faible diminution,46.6,Forte augmentation,False
+z_48.0_-6.0,2025,Faible diminution,45.3,Forte augmentation,False
+z_48.0_-63.0,2024,Stable,97.1,Stable,True
+z_48.0_-69.0,2024,Stable,97.5,Stable,True
+z_48.0_-7.5,2023,Forte diminution,62.7,Forte augmentation,False
+z_48.0_-7.5,2024,Forte diminution,51.9,Stable,False
+z_48.0_-7.5,2025,Forte diminution,52.1,Forte diminution,True
+z_48.0_-72.0,2023,Stable,97.9,Stable,True
+z_48.0_-9.0,2023,Forte diminution,52.5,Stable,False
+z_48.0_-9.0,2024,Forte diminution,52.5,Stable,False
+z_48.0_-9.0,2025,Forte diminution,53.3,Forte augmentation,False
+z_48.0_0.0,2023,Forte augmentation,36.4,Stable,False
+z_48.0_0.0,2024,Forte diminution,54.7,Forte augmentation,False
+z_48.0_0.0,2025,Forte diminution,38.5,Forte augmentation,False
+z_49.5_-1.5,2023,Faible diminution,32.7,Forte diminution,False
+z_49.5_-1.5,2024,Faible diminution,31.1,Forte diminution,False
+z_49.5_-1.5,2025,Forte diminution,31.4,Forte diminution,True
+z_49.5_-12.0,2023,Stable,61.8,Stable,True
+z_49.5_-126.0,2025,Stable,97.9,Stable,True
+z_49.5_-3.0,2023,Forte augmentation,31.3,Forte diminution,False
+z_49.5_-3.0,2024,Forte diminution,35.7,Forte diminution,True
+z_49.5_-3.0,2025,Forte diminution,42.0,Forte diminution,True
+z_49.5_-4.5,2023,Forte diminution,44.2,Forte diminution,True
+z_49.5_-4.5,2024,Forte diminution,52.4,Forte diminution,True
+z_49.5_-4.5,2025,Forte diminution,48.4,Forte diminution,True
+z_49.5_-6.0,2023,Forte diminution,43.0,Forte diminution,True
+z_49.5_-6.0,2024,Forte augmentation,38.8,Forte diminution,False
+z_49.5_-6.0,2025,Forte diminution,50.0,Forte diminution,True
+z_49.5_-67.5,2023,Stable,97.9,Stable,True
+z_49.5_-7.5,2023,Stable,67.2,Forte diminution,False
+z_49.5_-9.0,2023,Forte diminution,51.4,Stable,False
+z_49.5_-9.0,2024,Forte diminution,54.4,Forte augmentation,False
+z_49.5_-9.0,2025,Forte diminution,54.8,Stable,False
+z_49.5_0.0,2023,Faible diminution,32.1,Forte diminution,False
+z_49.5_0.0,2024,Faible diminution,31.4,Faible diminution,True
+z_49.5_0.0,2025,Faible diminution,36.5,Forte diminution,False
+z_49.5_1.5,2023,Forte diminution,58.3,Forte diminution,True
+z_49.5_1.5,2024,Forte diminution,47.0,Forte diminution,True
+z_49.5_1.5,2025,Forte diminution,48.8,Forte diminution,True
+z_51.0_-10.5,2023,Forte diminution,53.1,Stable,False
+z_51.0_-10.5,2024,Forte diminution,51.0,Stable,False
+z_51.0_-10.5,2025,Forte diminution,45.6,Forte diminution,True
+z_51.0_-12.0,2023,Forte diminution,54.9,Stable,False
+z_51.0_-12.0,2024,Forte diminution,52.1,Forte augmentation,False
+z_51.0_-12.0,2025,Forte diminution,55.1,Stable,False
+z_51.0_-13.5,2023,Stable,85.5,Stable,True
+z_51.0_-13.5,2024,Stable,70.3,Stable,True
+z_51.0_-13.5,2025,Stable,70.3,Stable,True
+z_51.0_-15.0,2024,Stable,90.2,Stable,True
+z_51.0_-15.0,2025,Stable,92.5,Stable,True
+z_51.0_-16.5,2023,Stable,93.1,Stable,True
+z_51.0_-3.0,2024,Stable,96.4,Forte diminution,False
+z_51.0_-3.0,2025,Stable,94.0,Forte diminution,False
+z_51.0_-4.5,2023,Stable,71.4,Forte diminution,False
+z_51.0_-4.5,2024,Stable,69.2,Forte diminution,False
+z_51.0_-4.5,2025,Stable,71.4,Forte diminution,False
+z_51.0_-6.0,2023,Forte diminution,50.5,Forte diminution,True
+z_51.0_-6.0,2024,Forte diminution,54.0,Forte diminution,True
+z_51.0_-6.0,2025,Forte diminution,49.3,Forte diminution,True
+z_51.0_-7.5,2023,Forte diminution,54.9,Forte augmentation,False
+z_51.0_-7.5,2024,Forte diminution,31.9,Forte augmentation,False
+z_51.0_-7.5,2025,Faible diminution,28.3,Stable,False
+z_51.0_-9.0,2023,Forte diminution,51.1,Stable,False
+z_51.0_-9.0,2024,Forte diminution,52.7,Stable,False
+z_51.0_-9.0,2025,Forte diminution,53.9,Stable,False
+z_51.0_0.0,2023,Forte diminution,48.7,Forte diminution,True
+z_51.0_0.0,2024,Faible diminution,38.2,Forte diminution,False
+z_51.0_0.0,2025,Faible diminution,39.8,Forte diminution,False
+z_51.0_1.5,2023,Forte diminution,43.3,Faible diminution,False
+z_51.0_1.5,2024,Faible diminution,37.3,Faible diminution,True
+z_51.0_1.5,2025,Faible diminution,38.7,Forte diminution,False
+z_51.0_3.0,2023,Stable,29.1,Faible augmentation,False
+z_51.0_3.0,2024,Stable,33.8,Forte augmentation,False
+z_51.0_3.0,2025,Stable,33.9,Stable,True
+z_51.0_4.5,2023,Forte diminution,71.1,Forte augmentation,False
+z_51.0_4.5,2024,Forte diminution,34.9,Forte augmentation,False
+z_51.0_4.5,2025,Forte diminution,34.7,Forte diminution,True
+z_52.5_-1.5,2023,Forte diminution,50.0,Forte diminution,True
+z_52.5_-1.5,2024,Forte diminution,43.1,Forte diminution,True
+z_52.5_-1.5,2025,Forte diminution,48.6,Forte diminution,True
+z_52.5_-10.5,2024,Stable,46.1,Stable,True
+z_52.5_-10.5,2025,Forte diminution,34.7,Forte augmentation,False
+z_52.5_-12.0,2024,Stable,94.1,Stable,True
+z_52.5_-13.5,2024,Stable,97.2,Stable,True
+z_52.5_-13.5,2025,Stable,89.6,Stable,True
+z_52.5_-15.0,2025,Stable,97.7,Stable,True
+z_52.5_-3.0,2023,Stable,87.7,Forte diminution,False
+z_52.5_-3.0,2025,Stable,86.2,Forte diminution,False
+z_52.5_-4.5,2023,Forte diminution,54.7,Forte diminution,True
+z_52.5_-4.5,2024,Forte diminution,49.2,Forte diminution,True
+z_52.5_-4.5,2025,Forte diminution,52.2,Forte diminution,True
+z_52.5_-6.0,2023,Forte diminution,43.5,Forte diminution,True
+z_52.5_-6.0,2024,Forte diminution,50.5,Forte augmentation,False
+z_52.5_-6.0,2025,Forte augmentation,33.1,Forte diminution,False
+z_52.5_-7.5,2023,Forte diminution,45.6,Forte diminution,True
+z_52.5_-7.5,2024,Forte diminution,43.3,Forte augmentation,False
+z_52.5_-7.5,2025,Forte augmentation,38.7,Stable,False
+z_52.5_0.0,2023,Forte augmentation,39.5,Forte diminution,False
+z_52.5_0.0,2024,Forte diminution,46.0,Forte diminution,True
+z_52.5_0.0,2025,Forte diminution,40.4,Forte diminution,True
+z_52.5_1.5,2023,Forte diminution,41.7,Forte diminution,True
+z_52.5_1.5,2024,Forte diminution,51.8,Forte diminution,True
+z_52.5_1.5,2025,Forte diminution,44.6,Forte diminution,True
+z_52.5_10.5,2023,Faible diminution,39.7,Forte diminution,False
+z_52.5_10.5,2024,Forte diminution,44.8,Forte augmentation,False
+z_52.5_10.5,2025,Forte augmentation,28.9,Faible diminution,False
+z_52.5_13.5,2023,Forte diminution,34.0,Forte augmentation,False
+z_52.5_13.5,2024,Faible augmentation,34.7,Faible diminution,False
+z_52.5_13.5,2025,Forte diminution,27.9,Faible diminution,False
+z_52.5_3.0,2023,Forte diminution,55.5,Forte augmentation,False
+z_52.5_3.0,2024,Forte augmentation,32.6,Forte diminution,False
+z_52.5_3.0,2025,Forte diminution,39.4,Forte diminution,True
+z_52.5_4.5,2023,Forte diminution,49.3,Forte augmentation,False
+z_52.5_4.5,2024,Faible diminution,37.3,Forte diminution,False
+z_52.5_4.5,2025,Forte diminution,33.5,Forte diminution,True
+z_52.5_6.0,2023,Faible augmentation,38.3,Faible augmentation,True
+z_52.5_6.0,2024,Faible augmentation,42.2,Faible augmentation,True
+z_52.5_6.0,2025,Faible augmentation,43.0,Stable,False
+z_52.5_7.5,2023,Stable,32.3,Stable,True
+z_52.5_7.5,2024,Stable,35.6,Stable,True
+z_52.5_7.5,2025,Faible diminution,37.6,Faible augmentation,False
+z_52.5_9.0,2023,Faible augmentation,41.9,Stable,False
+z_52.5_9.0,2024,Stable,45.7,Stable,True
+z_52.5_9.0,2025,Faible augmentation,58.5,Faible diminution,False
+z_54.0_-1.5,2023,Stable,49.3,Forte diminution,False
+z_54.0_-1.5,2024,Stable,41.2,Forte diminution,False
+z_54.0_-10.5,2023,Stable,87.0,Stable,True
+z_54.0_-10.5,2024,Stable,87.0,Stable,True
+z_54.0_-10.5,2025,Stable,71.6,Stable,True
+z_54.0_-132.0,2023,Stable,91.6,Stable,True
+z_54.0_-132.0,2025,Stable,96.4,Stable,True
+z_54.0_-16.5,2024,Stable,97.2,Stable,True
+z_54.0_-165.0,2025,Stable,97.9,Stable,True
+z_54.0_-3.0,2024,Stable,96.1,Forte diminution,False
+z_54.0_-3.0,2025,Stable,71.9,Forte diminution,False
+z_54.0_-4.5,2023,Forte diminution,58.8,Forte diminution,True
+z_54.0_-4.5,2024,Forte diminution,46.4,Forte diminution,True
+z_54.0_-4.5,2025,Forte diminution,43.8,Forte diminution,True
+z_54.0_-6.0,2023,Stable,49.7,Forte diminution,False
+z_54.0_-6.0,2025,Stable,92.0,Forte diminution,False
+z_54.0_-7.5,2023,Stable,41.9,Forte diminution,False
+z_54.0_-7.5,2024,Forte diminution,41.6,Stable,False
+z_54.0_-9.0,2023,Stable,93.6,Stable,True
+z_54.0_-9.0,2024,Stable,89.3,Stable,True
+z_54.0_0.0,2023,Stable,67.0,Stable,True
+z_54.0_0.0,2025,Forte diminution,41.1,Stable,False
+z_54.0_1.5,2023,Stable,84.4,Stable,True
+z_54.0_1.5,2024,Stable,55.4,Stable,True
+z_54.0_1.5,2025,Stable,64.7,Stable,True
+z_54.0_10.5,2023,Faible diminution,42.1,Forte augmentation,False
+z_54.0_10.5,2024,Faible diminution,38.9,Forte augmentation,False
+z_54.0_10.5,2025,Faible diminution,47.1,Forte augmentation,False
+z_54.0_12.0,2023,Forte diminution,44.9,Forte augmentation,False
+z_54.0_12.0,2024,Forte diminution,35.4,Forte augmentation,False
+z_54.0_12.0,2025,Forte diminution,31.9,Faible diminution,False
+z_54.0_13.5,2023,Faible diminution,44.1,Forte augmentation,False
+z_54.0_13.5,2024,Forte diminution,33.5,Forte augmentation,False
+z_54.0_13.5,2025,Faible diminution,34.3,Faible diminution,True
+z_54.0_15.0,2023,Forte diminution,53.9,Stable,False
+z_54.0_15.0,2024,Forte diminution,53.0,Stable,False
+z_54.0_15.0,2025,Forte diminution,52.6,Forte augmentation,False
+z_54.0_16.5,2024,Stable,88.5,Stable,True
+z_54.0_16.5,2025,Stable,92.3,Stable,True
+z_54.0_18.0,2023,Faible diminution,38.5,Forte augmentation,False
+z_54.0_18.0,2024,Faible diminution,39.9,Forte diminution,False
+z_54.0_18.0,2025,Forte diminution,56.4,Faible diminution,False
+z_54.0_3.0,2023,Stable,97.9,Stable,True
+z_54.0_4.5,2023,Forte diminution,42.4,Stable,False
+z_54.0_4.5,2025,Stable,40.6,Stable,True
+z_54.0_6.0,2023,Forte diminution,43.8,Forte augmentation,False
+z_54.0_6.0,2024,Forte diminution,48.3,Forte augmentation,False
+z_54.0_6.0,2025,Forte diminution,47.5,Forte diminution,True
+z_54.0_7.5,2023,Forte diminution,31.5,Faible augmentation,False
+z_54.0_7.5,2024,Forte diminution,34.5,Faible diminution,False
+z_54.0_7.5,2025,Forte diminution,37.8,Faible diminution,False
+z_54.0_9.0,2023,Faible augmentation,28.0,Forte augmentation,False
+z_54.0_9.0,2024,Faible augmentation,25.4,Faible augmentation,True
+z_54.0_9.0,2025,Faible augmentation,47.5,Faible diminution,False
+z_55.5_-10.5,2023,Stable,93.8,Stable,True
+z_55.5_-3.0,2025,Stable,96.1,Forte diminution,False
+z_55.5_-4.5,2023,Stable,83.9,Forte diminution,False
+z_55.5_-4.5,2024,Stable,88.9,Forte diminution,False
+z_55.5_-6.0,2023,Stable,74.4,Forte diminution,False
+z_55.5_-6.0,2025,Stable,91.9,Forte diminution,False
+z_55.5_-7.5,2024,Stable,97.6,Forte diminution,False
+z_55.5_0.0,2024,Stable,97.7,Stable,True
+z_55.5_1.5,2023,Stable,90.8,Stable,True
+z_55.5_1.5,2025,Stable,84.4,Stable,True
+z_55.5_10.5,2023,Forte diminution,56.5,Forte augmentation,False
+z_55.5_10.5,2024,Faible diminution,25.7,Faible diminution,True
+z_55.5_10.5,2025,Faible diminution,33.8,Forte diminution,False
+z_55.5_12.0,2023,Faible diminution,39.7,Faible augmentation,False
+z_55.5_12.0,2024,Faible diminution,40.4,Faible augmentation,False
+z_55.5_12.0,2025,Faible diminution,37.9,Forte augmentation,False
+z_55.5_13.5,2023,Forte diminution,55.1,Stable,False
+z_55.5_13.5,2024,Forte diminution,49.2,Stable,False
+z_55.5_13.5,2025,Forte diminution,46.1,Forte diminution,True
+z_55.5_15.0,2023,Forte diminution,54.8,Stable,False
+z_55.5_15.0,2024,Forte diminution,53.2,Stable,False
+z_55.5_15.0,2025,Forte diminution,53.5,Stable,False
+z_55.5_16.5,2023,Forte diminution,45.9,Stable,False
+z_55.5_16.5,2024,Forte diminution,39.0,Stable,False
+z_55.5_16.5,2025,Stable,42.9,Stable,True
+z_55.5_18.0,2024,Stable,90.3,Stable,True
+z_55.5_19.5,2024,Stable,47.0,Stable,True
+z_55.5_19.5,2025,Stable,43.7,Forte diminution,False
+z_55.5_21.0,2023,Forte diminution,65.8,Forte augmentation,False
+z_55.5_21.0,2024,Faible diminution,38.2,Faible augmentation,False
+z_55.5_21.0,2025,Faible diminution,38.5,Forte diminution,False
+z_55.5_3.0,2023,Stable,75.8,Stable,True
+z_55.5_3.0,2024,Stable,80.8,Stable,True
+z_55.5_4.5,2023,Stable,95.3,Stable,True
+z_55.5_4.5,2024,Stable,89.2,Stable,True
+z_55.5_4.5,2025,Stable,75.8,Stable,True
+z_55.5_6.0,2023,Forte diminution,55.3,Forte augmentation,False
+z_55.5_6.0,2024,Forte diminution,54.6,Stable,False
+z_55.5_6.0,2025,Forte diminution,56.1,Stable,False
+z_55.5_7.5,2023,Forte diminution,40.9,Stable,False
+z_55.5_7.5,2024,Forte diminution,38.9,Forte augmentation,False
+z_55.5_7.5,2025,Faible diminution,32.1,Forte diminution,False
+z_55.5_9.0,2023,Faible diminution,33.4,Faible augmentation,False
+z_55.5_9.0,2024,Faible diminution,31.5,Faible augmentation,False
+z_55.5_9.0,2025,Faible diminution,31.3,Stable,False
+z_57.0_-1.5,2025,Stable,96.4,Forte diminution,False
+z_57.0_-10.5,2023,Stable,95.9,Stable,True
+z_57.0_-135.0,2023,Stable,92.4,Stable,True
+z_57.0_-135.0,2025,Stable,92.7,Stable,True
+z_57.0_-15.0,2023,Stable,96.8,Stable,True
+z_57.0_-3.0,2023,Forte diminution,42.0,Forte diminution,True
+z_57.0_-3.0,2024,Stable,61.4,Forte diminution,False
+z_57.0_-3.0,2025,Stable,39.2,Forte diminution,False
+z_57.0_-4.5,2023,Stable,91.2,Forte diminution,False
+z_57.0_-4.5,2025,Stable,93.2,Forte diminution,False
+z_57.0_-6.0,2024,Stable,92.0,Forte diminution,False
+z_57.0_-6.0,2025,Stable,75.4,Forte diminution,False
+z_57.0_-7.5,2023,Stable,94.0,Forte diminution,False
+z_57.0_-9.0,2024,Stable,97.6,Stable,True
+z_57.0_0.0,2024,Stable,97.0,Forte diminution,False
+z_57.0_0.0,2025,Stable,93.0,Stable,True
+z_57.0_10.5,2023,Faible diminution,36.9,Forte augmentation,False
+z_57.0_10.5,2024,Faible diminution,30.2,Faible augmentation,False
+z_57.0_10.5,2025,Faible diminution,29.5,Forte diminution,False
+z_57.0_12.0,2023,Forte diminution,41.6,Stable,False
+z_57.0_12.0,2024,Forte diminution,37.3,Stable,False
+z_57.0_12.0,2025,Forte augmentation,40.7,Stable,False
+z_57.0_15.0,2023,Stable,69.3,Stable,True
+z_57.0_15.0,2024,Stable,76.8,Stable,True
+z_57.0_16.5,2023,Forte diminution,40.6,Forte diminution,True
+z_57.0_16.5,2024,Forte diminution,43.9,Forte diminution,True
+z_57.0_16.5,2025,Forte diminution,53.1,Forte augmentation,False
+z_57.0_18.0,2023,Forte diminution,54.7,Forte augmentation,False
+z_57.0_18.0,2024,Forte diminution,47.8,Stable,False
+z_57.0_18.0,2025,Forte diminution,53.2,Stable,False
+z_57.0_19.5,2023,Stable,68.6,Stable,True
+z_57.0_19.5,2024,Stable,83.0,Stable,True
+z_57.0_21.0,2023,Stable,76.5,Stable,True
+z_57.0_21.0,2024,Stable,56.0,Forte diminution,False
+z_57.0_22.5,2023,Forte diminution,48.9,Forte augmentation,False
+z_57.0_22.5,2024,Forte diminution,54.5,Forte augmentation,False
+z_57.0_22.5,2025,Forte diminution,53.8,Stable,False
+z_57.0_24.0,2024,Stable,57.2,Forte diminution,False
+z_57.0_24.0,2025,Stable,87.4,Stable,True
+z_57.0_3.0,2024,Stable,93.2,Stable,True
+z_57.0_3.0,2025,Stable,92.1,Stable,True
+z_57.0_4.5,2023,Forte diminution,52.3,Forte augmentation,False
+z_57.0_4.5,2024,Forte diminution,53.0,Stable,False
+z_57.0_4.5,2025,Forte diminution,54.6,Stable,False
+z_57.0_6.0,2023,Forte diminution,40.9,Stable,False
+z_57.0_6.0,2024,Forte augmentation,40.7,Stable,False
+z_57.0_6.0,2025,Forte augmentation,36.8,Stable,False
+z_57.0_7.5,2023,Forte diminution,47.8,Stable,False
+z_57.0_7.5,2024,Forte diminution,51.4,Stable,False
+z_57.0_7.5,2025,Forte diminution,50.4,Stable,False
+z_57.0_9.0,2023,Forte diminution,41.8,Forte augmentation,False
+z_57.0_9.0,2024,Forte augmentation,40.5,Stable,False
+z_57.0_9.0,2025,Forte diminution,34.9,Forte diminution,True
+z_58.5_-1.5,2023,Stable,96.7,Forte diminution,False
+z_58.5_-1.5,2024,Stable,88.8,Forte diminution,False
+z_58.5_-10.5,2025,Stable,97.7,Stable,True
+z_58.5_-136.5,2023,Stable,97.9,Stable,True
+z_58.5_-3.0,2024,Stable,95.7,Forte diminution,False
+z_58.5_-6.0,2025,Stable,97.6,Stable,True
+z_58.5_-9.0,2025,Stable,97.2,Stable,True
+z_58.5_0.0,2023,Stable,75.2,Stable,True
+z_58.5_0.0,2024,Stable,70.3,Stable,True
+z_58.5_1.5,2023,Stable,71.9,Stable,True
+z_58.5_1.5,2024,Stable,71.9,Stable,True
+z_58.5_1.5,2025,Stable,73.6,Stable,True
+z_58.5_10.5,2023,Forte diminution,36.5,Faible augmentation,False
+z_58.5_10.5,2024,Faible diminution,38.8,Forte diminution,False
+z_58.5_10.5,2025,Forte diminution,43.9,Faible diminution,False
+z_58.5_12.0,2023,Stable,96.4,Stable,True
+z_58.5_12.0,2024,Stable,87.9,Stable,True
+z_58.5_12.0,2025,Stable,85.4,Stable,True
+z_58.5_13.5,2024,Stable,97.2,Stable,True
+z_58.5_13.5,2025,Stable,92.2,Stable,True
+z_58.5_15.0,2023,Forte diminution,53.9,Forte diminution,True
+z_58.5_15.0,2024,Forte diminution,57.4,Stable,False
+z_58.5_15.0,2025,Forte diminution,49.8,Stable,False
+z_58.5_16.5,2023,Faible diminution,37.0,Faible diminution,True
+z_58.5_16.5,2024,Faible diminution,31.3,Forte diminution,False
+z_58.5_16.5,2025,Forte diminution,44.3,Faible augmentation,False
+z_58.5_18.0,2023,Faible augmentation,43.1,Forte augmentation,False
+z_58.5_18.0,2024,Faible augmentation,50.9,Stable,False
+z_58.5_18.0,2025,Faible augmentation,53.6,Faible augmentation,True
+z_58.5_19.5,2023,Forte diminution,53.1,Stable,False
+z_58.5_19.5,2024,Forte diminution,54.9,Forte augmentation,False
+z_58.5_19.5,2025,Forte diminution,50.4,Stable,False
+z_58.5_21.0,2023,Forte diminution,50.4,Stable,False
+z_58.5_21.0,2024,Forte diminution,56.1,Forte augmentation,False
+z_58.5_21.0,2025,Forte diminution,52.9,Stable,False
+z_58.5_22.5,2023,Forte diminution,52.5,Stable,False
+z_58.5_22.5,2024,Forte diminution,49.9,Stable,False
+z_58.5_22.5,2025,Forte diminution,51.7,Stable,False
+z_58.5_24.0,2023,Forte diminution,48.5,Forte augmentation,False
+z_58.5_24.0,2024,Forte diminution,38.9,Forte augmentation,False
+z_58.5_24.0,2025,Forte diminution,29.6,Stable,False
+z_58.5_25.5,2023,Stable,49.5,Forte diminution,False
+z_58.5_25.5,2024,Stable,47.8,Stable,True
+z_58.5_25.5,2025,Stable,51.8,Forte diminution,False
+z_58.5_27.0,2024,Stable,97.2,Stable,True
+z_58.5_28.5,2024,Stable,97.2,Stable,True
+z_58.5_3.0,2023,Stable,77.0,Stable,True
+z_58.5_3.0,2025,Stable,90.7,Stable,True
+z_58.5_30.0,2025,Stable,97.9,Stable,True
+z_58.5_4.5,2023,Forte diminution,53.2,Faible diminution,False
+z_58.5_4.5,2024,Faible diminution,28.7,Forte augmentation,False
+z_58.5_4.5,2025,Faible diminution,57.9,Forte diminution,False
+z_58.5_6.0,2023,Stable,52.1,Stable,True
+z_58.5_6.0,2024,Stable,42.8,Stable,True
+z_58.5_6.0,2025,Stable,46.2,Stable,True
+z_58.5_9.0,2023,Forte diminution,56.2,Forte diminution,True
+z_58.5_9.0,2024,Forte diminution,40.6,Forte augmentation,False
+z_58.5_9.0,2025,Forte diminution,39.1,Forte diminution,True
+z_6.0_-58.5,2025,Stable,97.9,Stable,True
+z_6.0_106.5,2023,Stable,96.9,Stable,True
+z_6.0_124.5,2023,Stable,97.9,Stable,True
+z_6.0_126.0,2023,Stable,97.9,Stable,True
+z_6.0_3.0,2023,Forte diminution,40.2,Forte diminution,True
+z_6.0_3.0,2024,Stable,47.0,Forte diminution,False
+z_6.0_3.0,2025,Stable,90.1,Stable,True
+z_6.0_79.5,2024,Stable,89.8,Stable,True
+z_6.0_81.0,2024,Stable,97.9,Stable,True
+z_6.0_94.5,2023,Stable,93.6,Stable,True
+z_6.0_97.5,2024,Stable,97.9,Stable,True
+z_60.0_-1.5,2024,Stable,97.8,Forte diminution,False
+z_60.0_-150.0,2024,Stable,97.9,Stable,True
+z_60.0_-4.5,2023,Stable,95.5,Stable,True
+z_60.0_-4.5,2025,Stable,96.3,Stable,True
+z_60.0_-6.0,2024,Stable,97.1,Stable,True
+z_60.0_-6.0,2025,Stable,89.4,Stable,True
+z_60.0_0.0,2023,Stable,88.8,Forte diminution,False
+z_60.0_0.0,2024,Stable,92.6,Forte diminution,False
+z_60.0_1.5,2023,Forte diminution,45.0,Stable,False
+z_60.0_1.5,2024,Forte diminution,50.9,Stable,False
+z_60.0_1.5,2025,Forte diminution,53.9,Stable,False
+z_60.0_16.5,2023,Stable,46.0,Stable,True
+z_60.0_16.5,2024,Forte diminution,42.3,Stable,False
+z_60.0_16.5,2025,Stable,45.5,Forte diminution,False
+z_60.0_18.0,2023,Stable,62.3,Stable,True
+z_60.0_19.5,2023,Stable,44.3,Forte diminution,False
+z_60.0_19.5,2024,Stable,71.2,Stable,True
+z_60.0_19.5,2025,Stable,44.1,Forte diminution,False
+z_60.0_21.0,2023,Forte diminution,47.6,Stable,False
+z_60.0_21.0,2024,Forte diminution,44.3,Forte augmentation,False
+z_60.0_21.0,2025,Forte diminution,33.1,Forte diminution,True
+z_60.0_22.5,2025,Stable,97.9,Stable,True
+z_60.0_24.0,2024,Forte diminution,42.3,Forte augmentation,False
+z_60.0_24.0,2025,Forte diminution,44.9,Stable,False
+z_60.0_25.5,2023,Forte diminution,49.2,Stable,False
+z_60.0_25.5,2024,Forte diminution,47.7,Forte augmentation,False
+z_60.0_25.5,2025,Forte diminution,47.6,Forte augmentation,False
+z_60.0_27.0,2023,Stable,90.5,Stable,True
+z_60.0_3.0,2023,Forte diminution,48.7,Stable,False
+z_60.0_3.0,2024,Forte diminution,57.3,Forte augmentation,False
+z_60.0_3.0,2025,Forte diminution,52.7,Stable,False
+z_60.0_4.5,2023,Faible diminution,47.2,Forte diminution,False
+z_60.0_4.5,2024,Faible diminution,41.2,Forte augmentation,False
+z_60.0_4.5,2025,Faible diminution,45.1,Stable,False
+z_60.0_6.0,2024,Stable,76.5,Forte diminution,False
+z_60.0_6.0,2025,Stable,87.8,Stable,True
+z_61.5_-1.5,2023,Stable,92.5,Stable,True
+z_61.5_-7.5,2023,Stable,94.0,Stable,True
+z_61.5_-7.5,2025,Stable,76.5,Stable,True
+z_61.5_0.0,2024,Stable,88.5,Forte augmentation,False
+z_61.5_0.0,2025,Stable,55.8,Stable,True
+z_61.5_1.5,2023,Stable,97.8,Stable,True
+z_61.5_1.5,2025,Stable,93.2,Stable,True
+z_61.5_16.5,2023,Stable,40.4,Stable,True
+z_61.5_16.5,2024,Stable,42.7,Forte augmentation,False
+z_61.5_16.5,2025,Stable,41.9,Stable,True
+z_61.5_18.0,2025,Stable,97.1,Stable,True
+z_61.5_19.5,2023,Stable,85.0,Stable,True
+z_61.5_19.5,2024,Stable,73.9,Stable,True
+z_61.5_19.5,2025,Stable,66.7,Stable,True
+z_61.5_21.0,2024,Stable,92.1,Stable,True
+z_61.5_21.0,2025,Stable,71.5,Stable,True
+z_61.5_28.5,2024,Stable,97.9,Stable,True
+z_61.5_3.0,2023,Stable,95.9,Stable,True
+z_61.5_3.0,2025,Stable,69.6,Stable,True
+z_61.5_4.5,2023,Faible augmentation,34.0,Stable,False
+z_61.5_4.5,2024,Faible diminution,37.1,Faible diminution,True
+z_61.5_4.5,2025,Forte diminution,48.8,Stable,False
+z_61.5_6.0,2023,Faible augmentation,29.1,Faible diminution,False
+z_61.5_6.0,2024,Faible diminution,29.1,Faible diminution,True
+z_61.5_6.0,2025,Forte diminution,33.2,Faible augmentation,False
+z_61.5_7.5,2024,Stable,97.1,Stable,True
+z_63.0_-13.5,2024,Stable,97.9,Stable,True
+z_63.0_-16.5,2023,Stable,94.6,Stable,True
+z_63.0_-21.0,2023,Forte diminution,47.1,Stable,False
+z_63.0_-21.0,2024,Forte diminution,37.6,Forte diminution,True
+z_63.0_-22.5,2023,Forte diminution,42.9,Stable,False
+z_63.0_-22.5,2024,Forte augmentation,38.7,Forte diminution,False
+z_63.0_-22.5,2025,Forte diminution,45.6,Forte diminution,True
+z_63.0_-24.0,2023,Forte diminution,55.8,Stable,False
+z_63.0_-24.0,2024,Forte diminution,45.2,Forte diminution,True
+z_63.0_-7.5,2023,Stable,98.3,Stable,True
+z_63.0_10.5,2023,Stable,94.8,Forte augmentation,False
+z_63.0_12.0,2023,Stable,97.9,Stable,True
+z_63.0_18.0,2023,Stable,47.5,Stable,True
+z_63.0_18.0,2024,Stable,49.3,Stable,True
+z_63.0_18.0,2025,Stable,57.2,Stable,True
+z_63.0_19.5,2023,Forte diminution,50.2,Stable,False
+z_63.0_19.5,2024,Forte diminution,52.7,Stable,False
+z_63.0_19.5,2025,Forte diminution,48.1,Stable,False
+z_63.0_21.0,2024,Stable,93.4,Stable,True
+z_63.0_21.0,2025,Stable,90.1,Stable,True
+z_63.0_22.5,2023,Stable,65.2,Stable,True
+z_63.0_22.5,2024,Stable,69.9,Stable,True
+z_63.0_22.5,2025,Stable,61.8,Stable,True
+z_63.0_4.5,2023,Stable,65.8,Stable,True
+z_63.0_4.5,2024,Stable,38.0,Stable,True
+z_63.0_4.5,2025,Forte diminution,43.7,Forte augmentation,False
+z_63.0_6.0,2024,Stable,93.3,Stable,True
+z_63.0_6.0,2025,Stable,92.6,Stable,True
+z_63.0_7.5,2023,Faible augmentation,35.4,Forte augmentation,False
+z_63.0_7.5,2024,Faible diminution,33.1,Stable,False
+z_63.0_7.5,2025,Forte diminution,29.3,Stable,False
+z_63.0_9.0,2023,Forte diminution,42.2,Forte diminution,True
+z_63.0_9.0,2024,Forte diminution,51.4,Forte diminution,True
+z_63.0_9.0,2025,Forte diminution,45.8,Forte diminution,True
+z_64.5_-15.0,2024,Stable,44.5,Stable,True
+z_64.5_-22.5,2023,Stable,86.4,Stable,True
+z_64.5_-24.0,2023,Stable,51.1,Stable,True
+z_64.5_-25.5,2023,Stable,55.6,Stable,True
+z_64.5_-25.5,2024,Stable,59.0,Stable,True
+z_64.5_-54.0,2023,Stable,96.9,Stable,True
+z_64.5_10.5,2023,Forte diminution,44.8,Stable,False
+z_64.5_10.5,2024,Forte diminution,44.4,Forte augmentation,False
+z_64.5_10.5,2025,Forte augmentation,43.2,Forte diminution,False
+z_64.5_12.0,2023,Forte diminution,46.5,Stable,False
+z_64.5_12.0,2024,Forte diminution,45.9,Forte augmentation,False
+z_64.5_12.0,2025,Forte diminution,46.4,Forte augmentation,False
+z_64.5_21.0,2023,Forte diminution,47.6,Stable,False
+z_64.5_21.0,2024,Forte diminution,52.3,Forte augmentation,False
+z_64.5_21.0,2025,Forte diminution,36.6,Forte augmentation,False
+z_64.5_24.0,2023,Forte diminution,58.0,Forte diminution,True
+z_64.5_24.0,2024,Forte diminution,48.8,Stable,False
+z_64.5_24.0,2025,Forte diminution,55.2,Forte diminution,True
+z_64.5_7.5,2023,Stable,96.8,Stable,True
+z_64.5_7.5,2024,Stable,87.6,Stable,True
+z_64.5_9.0,2023,Stable,95.9,Stable,True
+z_64.5_9.0,2024,Stable,88.7,Stable,True
+z_64.5_9.0,2025,Stable,74.5,Stable,True
+z_66.0_-13.5,2023,Stable,94.4,Stable,True
+z_66.0_-18.0,2024,Stable,94.6,Stable,True
+z_66.0_-21.0,2024,Stable,97.7,Stable,True
+z_66.0_-24.0,2023,Forte diminution,45.4,Stable,False
+z_66.0_-24.0,2024,Forte diminution,38.6,Stable,False
+z_66.0_-24.0,2025,Forte diminution,37.1,Stable,False
+z_66.0_-25.5,2023,Stable,64.7,Forte diminution,False
+z_66.0_10.5,2025,Stable,95.4,Forte augmentation,False
+z_66.0_12.0,2023,Forte diminution,44.0,Faible diminution,False
+z_66.0_12.0,2024,Forte diminution,43.9,Forte augmentation,False
+z_66.0_12.0,2025,Faible diminution,36.6,Faible diminution,True
+z_66.0_13.5,2023,Forte diminution,36.1,Stable,False
+z_66.0_13.5,2024,Stable,31.8,Forte diminution,False
+z_66.0_13.5,2025,Forte augmentation,36.9,Forte diminution,False
+z_66.0_15.0,2024,Stable,91.9,Stable,True
+z_66.0_6.0,2024,Stable,97.4,Stable,True
+z_66.0_7.5,2025,Stable,97.0,Stable,True
+z_66.0_9.0,2023,Stable,96.6,Stable,True
+z_67.5_10.5,2023,Stable,83.6,Stable,True
+z_67.5_10.5,2024,Stable,67.4,Stable,True
+z_67.5_10.5,2025,Stable,67.4,Stable,True
+z_67.5_12.0,2023,Forte diminution,43.0,Stable,False
+z_67.5_12.0,2024,Forte augmentation,50.7,Forte diminution,False
+z_67.5_12.0,2025,Forte diminution,45.8,Forte diminution,True
+z_67.5_13.5,2023,Forte diminution,57.0,Stable,False
+z_67.5_13.5,2024,Forte diminution,46.1,Stable,False
+z_67.5_15.0,2023,Forte diminution,52.7,Forte diminution,True
+z_67.5_15.0,2024,Forte diminution,53.1,Forte diminution,True
+z_67.5_15.0,2025,Forte diminution,54.0,Forte diminution,True
+z_67.5_16.5,2023,Forte diminution,54.6,Stable,False
+z_67.5_16.5,2024,Forte diminution,53.9,Stable,False
+z_67.5_16.5,2025,Forte diminution,53.1,Stable,False
+z_69.0_-52.5,2023,Stable,97.1,Stable,True
+z_69.0_13.5,2023,Stable,96.6,Stable,True
+z_69.0_13.5,2024,Stable,89.4,Stable,True
+z_69.0_15.0,2023,Forte diminution,47.1,Forte augmentation,False
+z_69.0_15.0,2024,Forte diminution,44.1,Forte augmentation,False
+z_69.0_15.0,2025,Forte diminution,53.5,Forte augmentation,False
+z_69.0_16.5,2023,Forte augmentation,39.6,Forte augmentation,True
+z_69.0_16.5,2024,Forte diminution,44.1,Forte augmentation,False
+z_69.0_16.5,2025,Forte augmentation,39.2,Stable,False
+z_69.0_18.0,2023,Forte diminution,48.4,Forte augmentation,False
+z_69.0_18.0,2024,Forte diminution,42.4,Forte diminution,True
+z_69.0_18.0,2025,Forte diminution,46.5,Forte diminution,True
+z_69.0_19.5,2023,Forte augmentation,39.8,Forte diminution,False
+z_69.0_19.5,2024,Stable,46.9,Forte diminution,False
+z_69.0_19.5,2025,Stable,88.4,Forte diminution,False
+z_69.0_21.0,2023,Forte diminution,34.7,Stable,False
+z_69.0_21.0,2024,Forte diminution,38.6,Stable,False
+z_69.0_21.0,2025,Forte diminution,37.1,Stable,False
+z_69.0_22.5,2024,Stable,91.5,Forte diminution,False
+z_69.0_22.5,2025,Stable,91.7,Stable,True
+z_69.0_30.0,2023,Stable,89.0,Forte diminution,False
+z_7.5_-13.5,2023,Stable,91.6,Stable,True
+z_7.5_-13.5,2025,Stable,96.4,Stable,True
+z_7.5_-16.5,2024,Stable,97.9,Stable,True
+z_7.5_-78.0,2023,Stable,97.9,Stable,True
+z_7.5_-79.5,2024,Stable,97.9,Stable,True
+z_7.5_-81.0,2023,Forte diminution,54.3,Forte augmentation,False
+z_7.5_-81.0,2024,Forte diminution,55.5,Forte augmentation,False
+z_7.5_-81.0,2025,Forte diminution,54.1,Forte augmentation,False
+z_7.5_106.5,2023,Stable,97.1,Stable,True
+z_7.5_78.0,2023,Stable,97.9,Stable,True
+z_7.5_79.5,2023,Stable,97.1,Stable,True
+z_7.5_97.5,2025,Stable,97.9,Stable,True
+z_70.5_16.5,2023,Stable,75.5,Stable,True
+z_70.5_16.5,2024,Stable,47.3,Stable,True
+z_70.5_16.5,2025,Forte diminution,35.7,Stable,False
+z_70.5_19.5,2024,Stable,96.3,Stable,True
+z_70.5_21.0,2023,Stable,92.4,Stable,True
+z_70.5_21.0,2024,Stable,70.7,Stable,True
+z_70.5_22.5,2023,Forte diminution,38.9,Forte diminution,True
+z_70.5_22.5,2024,Forte diminution,55.1,Stable,False
+z_70.5_22.5,2025,Forte diminution,45.2,Stable,False
+z_70.5_24.0,2023,Forte diminution,37.7,Forte augmentation,False
+z_70.5_24.0,2024,Forte augmentation,34.6,Stable,False
+z_70.5_24.0,2025,Forte diminution,43.0,Stable,False
+z_70.5_25.5,2023,Stable,92.3,Stable,True
+z_70.5_25.5,2024,Stable,87.8,Stable,True
+z_70.5_27.0,2024,Stable,96.8,Stable,True
+z_70.5_27.0,2025,Stable,91.2,Stable,True
+z_70.5_28.5,2023,Stable,82.0,Stable,True
+z_70.5_28.5,2024,Stable,67.5,Stable,True
+z_70.5_28.5,2025,Stable,54.5,Stable,True
+z_70.5_30.0,2023,Stable,86.0,Stable,True
+z_70.5_30.0,2025,Stable,86.1,Forte augmentation,False
+z_70.5_33.0,2025,Stable,97.9,Stable,True
+z_72.0_13.5,2023,Stable,96.1,Stable,True
+z_72.0_13.5,2024,Stable,90.6,Stable,True
+z_72.0_15.0,2023,Stable,96.1,Stable,True
+z_72.0_15.0,2024,Stable,88.0,Stable,True
+z_72.0_19.5,2023,Stable,90.9,Stable,True
+z_72.0_28.5,2025,Stable,96.9,Stable,True
+z_73.5_18.0,2023,Stable,90.1,Stable,True
+z_73.5_18.0,2025,Stable,92.1,Stable,True
+z_73.5_21.0,2023,Stable,97.4,Stable,True
+z_73.5_33.0,2024,Stable,97.7,Stable,True
+z_73.5_34.5,2024,Stable,93.9,Stable,True
+z_75.0_16.5,2023,Stable,96.2,Stable,True
+z_75.0_31.5,2023,Stable,97.1,Stable,True
+z_75.0_31.5,2024,Stable,89.6,Stable,True
+z_75.0_33.0,2023,Stable,84.5,Stable,True
+z_75.0_33.0,2024,Stable,49.0,Stable,True
+z_75.0_33.0,2025,Stable,38.4,Stable,True
+z_75.0_34.5,2023,Stable,86.1,Stable,True
+z_75.0_34.5,2024,Stable,85.1,Stable,True
+z_75.0_36.0,2023,Stable,96.8,Stable,True
+z_76.5_13.5,2024,Stable,91.9,Stable,True
+z_76.5_33.0,2025,Stable,97.2,Stable,True
+z_78.0_10.5,2025,Stable,98.0,Stable,True
+z_78.0_13.5,2025,Stable,96.5,Stable,True
+z_78.0_15.0,2023,Stable,96.2,Stable,True
+z_78.0_15.0,2024,Stable,92.0,Stable,True
+z_79.5_10.5,2025,Stable,97.5,Stable,True
+z_79.5_18.0,2025,Stable,96.1,Stable,True
+z_9.0_-15.0,2024,Stable,97.9,Stable,True
+z_9.0_-16.5,2024,Stable,96.9,Stable,True
+z_9.0_-61.5,2023,Stable,97.9,Stable,True
+z_9.0_-63.0,2025,Stable,96.9,Stable,True
+z_9.0_-76.5,2023,Stable,53.8,Stable,True
+z_9.0_-76.5,2024,Stable,47.7,Stable,True
+z_9.0_-79.5,2023,Stable,97.1,Stable,True
+z_9.0_-81.0,2023,Forte diminution,59.0,Stable,False
+z_9.0_-81.0,2024,Forte diminution,52.4,Stable,False
+z_9.0_-81.0,2025,Forte diminution,51.4,Forte diminution,True
+z_9.0_106.5,2024,Stable,97.9,Stable,True
+z_9.0_123.0,2023,Stable,97.9,Stable,True
