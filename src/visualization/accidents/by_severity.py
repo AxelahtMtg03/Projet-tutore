@@ -10,7 +10,11 @@ from data_processing.loader import charger_donnees_finales
 def gravite_global():
     # Fusionner tous les fichiers
     total = charger_donnees_finales()
-    comptage = total['gravite'].value_counts().sort_index()
+    total_europe = total[
+        (total["lat"].between(35, 70)) &   # Latitude Europe
+        (total["long"].between(-10, 40))   # Longitude Europe
+    ]
+    comptage = total_europe['gravite'].value_counts().sort_index()
     comptage = comptage[comptage.index != 'nan']
     return comptage
 
@@ -30,7 +34,7 @@ def graphique_gravite(total):
 
     os.makedirs("visualization/accidents", exist_ok=True)
     plt.tight_layout()
-    plt.savefig("visualization/accidents/graph_accident_by_severity.png", dpi=150)
+    plt.savefig("visualization/accidents/graph_accident_by_severity_europe.png", dpi=150)
     plt.close()
 
 graphique_gravite(gravite_global())

@@ -12,7 +12,11 @@ from data_processing.loader import charger_donnees_finales
 def type_accident_global():
     """Compte le nombre d'accidents pour chaque type d'accident, trié du plus au moins fréquent"""
     total = charger_donnees_finales()
-    comptage = total['type_accident'].value_counts()
+    total_europe = total[
+        (total["lat"].between(35, 70)) &   # Latitude Europe
+        (total["long"].between(-10, 40))   # Longitude Europe
+    ]
+    comptage = total_europe['type_accident'].value_counts()
     return comptage
 
 def graphique_type_accident(total):
@@ -29,7 +33,7 @@ def graphique_type_accident(total):
         plt.text(bar.get_x() + bar.get_width()/2.0, height + 0.5, f'{int(height)}', ha='center', va='bottom', fontweight='bold')
     os.makedirs("visualization/accidents", exist_ok=True)
     plt.tight_layout()
-    plt.savefig("visualization/accidents/graph_accident_by_type.png", dpi=150)
+    plt.savefig("visualization/accidents/graph_accident_by_type_europe.png", dpi=150)
     plt.close()
 
 
@@ -72,7 +76,11 @@ def graphique_type_annee(comptage):
 def cause_accident_humain_global():
     """Compte le nombre d'accidents pour chaque cause d'accident humain, triée du plus au moins fréquent"""
     total = charger_donnees_finales()
-    comptage = total['cause_accident_humain'].value_counts()
+    total_europe = total[
+        (total["lat"].between(35, 70)) &   # Latitude Europe
+        (total["long"].between(-10, 40))   # Longitude Europe
+    ]
+    comptage = total_europe['cause_accident_humain'].value_counts()
     return comptage
 
 def cause_accident_humain_global():
@@ -97,7 +105,7 @@ def graphique_cause_accident_humain(total):
 
     os.makedirs("visualization/accidents", exist_ok=True)
     plt.tight_layout()
-    plt.savefig("visualization/accidents/human_cause_accidents.png", dpi=150)
+    plt.savefig("visualization/accidents/human_cause_accidents_europe.png", dpi=150)
     plt.close()
  
 def accidents_par_annee_pour_cause(cause:str):
@@ -137,6 +145,6 @@ def graphique_cause_annee(comptage):
     plt.close()
 
 graphique_type_accident(type_accident_global())
-graphique_type_annee(accidents_par_annee_type())
+# graphique_type_annee(accidents_par_annee_type())
 graphique_cause_accident_humain(cause_accident_humain_global())
-graphique_cause_annee(accidents_par_annee_cause())
+# graphique_cause_annee(accidents_par_annee_cause())

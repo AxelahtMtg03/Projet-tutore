@@ -8,7 +8,11 @@ from data_processing.loader import charger_donnees_finales
 
 def accidents_par_annee():
     total = charger_donnees_finales()
-    comptage = total.groupby("annee").size()
+    total_europe = total[
+        (total["lat"].between(35, 70)) &   # Latitude Europe
+        (total["long"].between(-10, 40))   # Longitude Europe
+    ]
+    comptage = total_europe.groupby("annee").size()
     return comptage
 
 def graphique_annee(total):
@@ -21,7 +25,7 @@ def graphique_annee(total):
 
     os.makedirs("visualization/accidents", exist_ok=True)
     plt.tight_layout()
-    plt.savefig("visualization/accidents/graph_accident_by_years.png", dpi=150)
+    plt.savefig("visualization/accidents/graph_accident_by_years_eu.png", dpi=150)
     plt.close()
 
 graphique_annee(accidents_par_annee())

@@ -10,7 +10,11 @@ from data_processing.loader import charger_donnees_finales
 
 def type_bateau_global():
     df_total = charger_donnees_finales()
-    comptage_total = df_total['bateau'].value_counts() #Compte nb accidents pour chaque type de bateau + trie du plus au moins frequent
+    total_europe = df_total[
+        (df_total["lat"].between(35, 70)) &   # Latitude Europe
+        (df_total["long"].between(-10, 40))   # Longitude Europe
+    ]
+    comptage_total = total_europe['bateau'].value_counts() #Compte nb accidents pour chaque type de bateau + trie du plus au moins frequent
     return comptage_total
 
 def graphique_type_bateau(total):
@@ -27,7 +31,7 @@ def graphique_type_bateau(total):
         plt.text(bar.get_x() + bar.get_width()/2.0, height + 0.5, f'{int(height)}', ha='center', va='bottom', fontweight='bold')
     os.makedirs("visualization/accidents", exist_ok=True)
     plt.tight_layout()
-    plt.savefig("visualization/accidents/graph_accident_by_vessel_type.png", dpi=150)
+    plt.savefig("visualization/accidents/graph_accident_by_vessel_type_europe.png", dpi=150)
     plt.close()
 
 def accidents_par_annee_bateau(bateau:str):
@@ -53,5 +57,5 @@ def graphique_bateau_annee(total,bateau):
     plt.close()
     
 graphique_type_bateau(type_bateau_global())
-a="Submersible"
-graphique_bateau_annee(accidents_par_annee_bateau(a),a)
+# a="Submersible"
+# graphique_bateau_annee(accidents_par_annee_bateau(a),a)

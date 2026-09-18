@@ -9,7 +9,11 @@ from data_processing.loader import charger_donnees_finales
 def comptage_croise(colonne_x:str, colonne_serie:str):
     """Croise deux colonnes (ex: saison/bateau) et compte le nombre d'accidents pour chaque combinaison"""
     total = charger_donnees_finales()
-    comptage = total.groupby([colonne_x, colonne_serie]).size().unstack(fill_value=0)
+    total_europe = total[
+        (total["lat"].between(35, 70)) &   # Latitude Europe
+        (total["long"].between(-10, 40))   # Longitude Europe
+    ]
+    comptage = total_europe.groupby([colonne_x, colonne_serie]).size().unstack(fill_value=0)
     return comptage
 
 def graphique(comptage, colonne_x:str, colonne_serie:str):
@@ -33,7 +37,7 @@ def graphique(comptage, colonne_x:str, colonne_serie:str):
 
     os.makedirs("visualization/accidents", exist_ok=True)
     plt.tight_layout()
-    nom_fichier = f"visualization/accidents/accidents_by_{colonne_x}_and_{colonne_serie}.png"
+    nom_fichier = f"visualization/accidents/accidents_by_{colonne_x}_and_{colonne_serie}_europe.png"
     plt.savefig(nom_fichier, dpi=150)
     plt.close()
     
@@ -67,7 +71,7 @@ colonne_x = "saison"
 colonne_serie = "bateau"
 graphique((comptage_croise(colonne_x, colonne_serie)), colonne_x, colonne_serie)
  
-colonne_filtre = "bateau"
-colonne_groupe = "saison"
-type_bateau = "Cargo ship"
-graphique_bis(comptage_croise_bis(colonne_filtre, colonne_groupe, type_bateau), colonne_filtre, colonne_groupe, type_bateau)
+# colonne_filtre = "bateau"
+# colonne_groupe = "saison"
+# type_bateau = "Cargo ship"
+# graphique_bis(comptage_croise_bis(colonne_filtre, colonne_groupe, type_bateau), colonne_filtre, colonne_groupe, type_bateau)

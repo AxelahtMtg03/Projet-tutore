@@ -5,8 +5,6 @@ from sklearn.ensemble import RandomForestClassifier
 from pyproj import Transformer
 from scipy.spatial import cKDTree
 from pathlib import Path
-from sklearn.model_selection import TimeSeriesSplit
-from sklearn.model_selection import GridSearchCV
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 DATA_PATH = PROJECT_ROOT / "data" / "processed"
@@ -14,8 +12,6 @@ os.makedirs(DATA_PATH, exist_ok=True)
 
 TAILLE_ZONE_DEG = 1.5
 DISTANCE_MAX_M = 50_000
-CLASSES_ORDRE = ["Forte diminution", "Faible diminution", "Stable",
-                 "Faible augmentation", "Forte augmentation", "Données insuffisantes"]
 SEUIL_REFERENCE_MIN = 0.15
 SEUIL_ECART_MIN = 0.5
 
@@ -35,30 +31,42 @@ def calculer_zone(lat, lon, taille=TAILLE_ZONE_DEG):
     return "z_" + zone_lat.round(1).astype(str) + "_" + zone_lon.round(1).astype(str)
 
 
-def categoriser(ecart_absolu, pct, reference):
+def categoriser_avec_sous_classes(ecart_absolu, pct, reference):
+    """Categorise avec subdivision de Stable en 3 sous-classes."""
     if pd.isna(pct) or pd.isna(reference):
         return np.nan
     if reference < 0.5:
         return "Données insuffisantes"
-    if abs(ecart_absolu) < 1.5:
-        return "Stable"
+
+    # Sous-classes de Stable
+    if abs(ecart_absolu) < 0.5:
+        return "Stable_c1"
+    elif abs(ecart_absolu) < 1.0:
+        return "Stable_c2"
+    elif abs(ecart_absolu) < 1.5:
+        return "Stable_c3"
+
+    # Autres classes
     if pct < -30:
         return "Forte diminution"
     elif pct < -10:
         return "Faible diminution"
     elif pct < 10:
-        return "Stable"
+        return "Stable_c3"
     elif pct < 30:
         return "Faible augmentation"
     else:
         return "Forte augmentation"
 
 
-def run_classification_tendance_trimestrielle():
+def run_classification_tendance_trimestrielle_subdivision():
     print("=" * 70)
-    print("RANDOM FOREST - PREDICTION TRIMESTRIELLE (AVEC CV)")
+    print("RANDOM FOREST - PREDICTION TRIMESTRIELLE AVEC SUBDIVISION")
     print("=" * 70)
 
+    # ============================================================
+    # 1. CHARGEMENT
+    # ============================================================
     accidents = pd.read_csv(DATA_PATH / "maritime_accidents.csv")
     fleet = pd.read_csv(DATA_PATH / "global_fleet.csv")
     density = pd.read_csv(DATA_PATH / "vessel_density.csv")
@@ -73,6 +81,9 @@ def run_classification_tendance_trimestrielle():
     density["trimestre"] = np.ceil(density["mois"] / 3).astype(int)
     density["annee"] = pd.to_datetime(density["time"]).dt.year
 
+    # ============================================================
+    # 2. ZONES
+    # ============================================================
     transformer_vers_3035 = Transformer.from_crs("EPSG:4326", "EPSG:3035", always_xy=True)
     x_acc, y_acc = transformer_vers_3035.transform(accidents["long"].values, accidents["lat"].values)
     accidents["x"] = x_acc
@@ -95,6 +106,9 @@ def run_classification_tendance_trimestrielle():
 
     accidents = accidents.merge(zones_natives[["zone_id", "zone"]], on="zone_id", how="left")
 
+    # ============================================================
+    # 3. AGREGATION
+    # ============================================================
     accidents_par_zone_trimestre = accidents.groupby(["zone", "annee", "trimestre"]).size().reset_index(name="nb_accidents")
     zones = accidents_par_zone_trimestre["zone"].unique()
 
@@ -117,11 +131,21 @@ def run_classification_tendance_trimestrielle():
         (data["ecart_absolu_suivant"] / data["reference_suivante"]) * 100,
         np.nan
     )
+
+    # ============================================================
+    # 4. CATEGORISATION AVEC SUBDIVISION
+    # ============================================================
     data["categorie"] = data.apply(
-        lambda r: categoriser(r["ecart_absolu_suivant"], r["evolution_suivante"], r["reference_suivante"]),
+        lambda r: categoriser_avec_sous_classes(r["ecart_absolu_suivant"], r["evolution_suivante"], r["reference_suivante"]),
         axis=1
     )
 
+    print("\nDistribution des categories avec subdivision :")
+    print(data["categorie"].value_counts(dropna=False))
+
+    # ============================================================
+    # 5. FEATURES
+    # ============================================================
     for lag in [1, 2, 3, 4, 8, 12, 16, 20]:
         data[f"nb_accidents_lag_{lag}"] = data.groupby("zone")["nb_accidents"].shift(lag)
 
@@ -162,37 +186,55 @@ def run_classification_tendance_trimestrielle():
                 "nb_accidents_lag_8", "nb_accidents_lag_12", "nb_accidents_lag_16", "nb_accidents_lag_20",
                 "mediane_4", "mediane_8", "mediane_12", "mediane_20", "evolution_recente"]
 
+    # ============================================================
+    # 6. SPLIT TRAIN/TEST
+    # ============================================================
     data_modele = data.dropna(subset=FEATURES + ["categorie"]).copy()
     train = data_modele[data_modele["annee"] < 2023].reset_index(drop=True)
-    X_train, y_train = train[FEATURES], train["categorie"]
 
-    annees_train_dispo = sorted(train["annee"].unique())
-    tscv = TimeSeriesSplit(n_splits=5)
-    splits = []
-    for idx_train_annees, idx_test_annees in tscv.split(annees_train_dispo):
-        annees_train_fold = [annees_train_dispo[j] for j in idx_train_annees]
-        annees_test_fold = [annees_train_dispo[j] for j in idx_test_annees]
-        idx_train = train.index[train["annee"].isin(annees_train_fold)].to_numpy()
-        idx_test = train.index[train["annee"].isin(annees_test_fold)].to_numpy()
-        if len(idx_train) > 0 and len(idx_test) > 0:
-            splits.append((idx_train, idx_test))
+    # ============================================================
+    # 7. CREATION DES CIBLES
+    # ============================================================
+    # Cible 1 : Stable vs Non-Stable
+    train["cible_stable"] = train["categorie"].str.startswith("Stable").astype(int)
 
-    param_grid = {
-        "n_estimators": [100, 200, 300],
-        "max_depth": [8, 10, 15],
-        "min_samples_split": [2, 5],
-        "min_samples_leaf": [1, 2],
-    }
-
-    grid_search = GridSearchCV(
-        RandomForestClassifier(class_weight="balanced_subsample", random_state=42, n_jobs=-1),
-        param_grid, cv=splits, scoring="accuracy", n_jobs=-1
+    # Cible 2 : Classe précise
+    train["cible_classe"] = train["categorie"].apply(
+        lambda x: "Stable" if x.startswith("Stable") else x
     )
-    grid_search.fit(X_train, y_train)
 
-    model = grid_search.best_estimator_
-    classes_modele = model.classes_
+    print("\nDistribution des cibles :")
+    print(f"  Stable : {train['cible_stable'].sum()} ({train['cible_stable'].mean()*100:.1f}%)")
+    print(f"  Non-Stable : {(1-train['cible_stable']).sum()} ({(1-train['cible_stable']).mean()*100:.1f}%)")
+    print(f"\n  Classes précises :")
+    print(train["cible_classe"].value_counts())
 
+    # ============================================================
+    # 8. ENTRAINEMENT DES 2 MODELES
+    # ============================================================
+    print("\nEntrainement des modeles...")
+
+    X_train = train[FEATURES]
+
+    # Modèle 1 : Stable vs Non-Stable
+    model_stable = RandomForestClassifier(
+        n_estimators=200, max_depth=10, min_samples_split=5,
+        min_samples_leaf=2, class_weight="balanced", random_state=42, n_jobs=-1
+    )
+    model_stable.fit(X_train, train["cible_stable"])
+
+    # Modèle 2 : Classe précise
+    model_classe = RandomForestClassifier(
+        n_estimators=200, max_depth=10, min_samples_split=5,
+        min_samples_leaf=2, class_weight="balanced", random_state=42, n_jobs=-1
+    )
+    model_classe.fit(X_train, train["cible_classe"])
+
+    print("2 modeles entraines")
+
+    # ============================================================
+    # 9. PREDICTIONS
+    # ============================================================
     resultats = []
     future_trimestres = [(annee, trim) for annee in range(2023, 2031) for trim in [1, 2, 3, 4]]
 
@@ -208,15 +250,12 @@ def run_classification_tendance_trimestrielle():
             "navires": zone_data["nombre_navires"].fillna(0).tolist(),
         }
 
-    # ============================================================
-    # FILTRER LES ZONES AVEC ACCIDENTS SUR 2023-2025
-    # ============================================================
+    # Filtrer les zones avec accidents
     data_recent = data[data["annee"].between(2023, 2025)]
     zones_avec_accidents = data_recent[data_recent["nb_accidents"] > 0]["zone"].unique()
 
     zones_valides = [z for z in zones if z in zones_avec_accidents and len(etat_zones[z]["accidents"]) >= 20]
     print(f"{len(zones_valides)}/{len(zones)} zones avec assez d'historique et accidents")
-    # ============================================================
 
     for annee, trimestre in future_trimestres:
         lignes_features = []
@@ -238,13 +277,23 @@ def run_classification_tendance_trimestrielle():
             ])
 
         X_future = pd.DataFrame(lignes_features, columns=FEATURES)
-        probabilites_toutes_zones = model.predict_proba(X_future)
+
+        # Prédire avec le modèle Stable
+        proba_stable = model_stable.predict_proba(X_future)
+
+        # Prédire avec le modèle Classe
+        proba_classe = model_classe.predict_proba(X_future)
+        classes_classe = model_classe.classes_
 
         for i, zone in enumerate(zones_valides):
-            probabilites = probabilites_toutes_zones[i]
-            idx_predit = np.argmax(probabilites)
-            categorie_predite = classes_modele[idx_predit]
-            confiance = probabilites[idx_predit]
+            # Décision
+            if proba_stable[i, 1] > 0.5:
+                categorie_predite = "Stable"
+                confiance = proba_stable[i, 1]
+            else:
+                idx_classe = np.argmax(proba_classe[i])
+                categorie_predite = classes_classe[idx_classe]
+                confiance = proba_classe[i, idx_classe]
 
             resultats.append({
                 "zone": zone,
@@ -262,8 +311,8 @@ def run_classification_tendance_trimestrielle():
             else:
                 mediane_20_actuelle = np.median(s["accidents"][-20:])
                 delta_pct_pondere = sum(
-                    proba * DELTA_REPRESENTATIF[classe]
-                    for classe, proba in zip(classes_modele, probabilites)
+                    proba * DELTA_REPRESENTATIF.get(classe, 0)
+                    for classe, proba in zip(classes_classe, proba_classe[i])
                 )
                 nb = max(0.0, mediane_20_actuelle * (1 + delta_pct_pondere / 100))
 
@@ -273,16 +322,16 @@ def run_classification_tendance_trimestrielle():
             s["navires"].append(s["navires"][-1])
 
     df_futur = pd.DataFrame(resultats)
-    output_file = DATA_PATH / "predictions_tendance_trimestrielle_2023_2030.csv"
+    output_file = DATA_PATH / "predictions_tendance_trimestrielle_subdivision.csv"
     df_futur.to_csv(output_file, index=False)
     print(f"\nCSV genere: {output_file} ({len(df_futur)} predictions)")
 
-    return df_futur, grid_search.best_params_
+    return df_futur
 
 
-def test_accuracy_trimestriel():
+def test_accuracy_trimestriel_subdivision():
     try:
-        df_pred = pd.read_csv(DATA_PATH / "predictions_tendance_trimestrielle_2023_2030.csv")
+        df_pred = pd.read_csv(DATA_PATH / "predictions_tendance_trimestrielle_subdivision.csv")
     except FileNotFoundError:
         print("Fichier de predictions non trouve")
         return
@@ -327,12 +376,7 @@ def test_accuracy_trimestriel():
 
     data["tendance_reelle"] = data.apply(categoriser, axis=1)
     data = data[data["annee"].between(2023, 2025)]
-
-    # ============================================================
-    # FILTRER LES TRIMESTRES SANS ACCIDENTS
-    # ============================================================
     data = data[data["nb_accidents"] > 0]
-    # ============================================================
 
     df_pred["trimestre"] = df_pred["trimestre"].astype(int)
     data["trimestre"] = data["trimestre"].astype(int)
@@ -348,7 +392,7 @@ def test_accuracy_trimestriel():
     accuracy = df_compare["correct"].mean() * 100
 
     print("\n" + "=" * 60)
-    print("ACCURACY - MODELE TRIMESTRIEL (AVEC CV)")
+    print("ACCURACY - MODELE TRIMESTRIEL AVEC SUBDIVISION")
     print("=" * 60)
     print(f"\nAccuracy globale: {accuracy:.1f}%")
     print(f"Zones comparees: {len(df_compare)}")
@@ -370,6 +414,6 @@ def test_accuracy_trimestriel():
     return df_compare
 
 
-df_futur, best_params = run_classification_tendance_trimestrielle()
-print(f"\nMeilleurs parametres: {best_params}")
-test_accuracy_trimestriel()
+if __name__ == "__main__":
+    df_futur = run_classification_tendance_trimestrielle_subdivision()
+    test_accuracy_trimestriel_subdivision()

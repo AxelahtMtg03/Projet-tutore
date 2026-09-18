@@ -9,7 +9,11 @@ from data_processing.loader import charger_donnees_finales
 def saison_global():
     # Fusionner tous les fichiers
     total = charger_donnees_finales()
-    comptage_total = total['saison'].value_counts()
+    total_europe = total[
+        (total["lat"].between(35, 70)) &   # Latitude Europe
+        (total["long"].between(-10, 40))   # Longitude Europe
+    ]
+    comptage_total = total_europe['saison'].value_counts()
     ordre_saisons = ['Spring', 'Summer', 'Autumn', 'Winter']  # doit matcher get_saison() (accidents_processing.py)
     comptage_total = comptage_total.reindex(ordre_saisons)
     return comptage_total
@@ -30,7 +34,7 @@ def grapique_saison_global(total):
 
     os.makedirs("visualization/accidents", exist_ok=True)
     plt.tight_layout()
-    plt.savefig("visualization/accidents/accidents_by_season.png", dpi=150)
+    plt.savefig("visualization/accidents/accidents_by_season_europe.png", dpi=150)
     plt.show()
 
 def accidents_par_annee_pour_saison(saison:str):
@@ -86,11 +90,11 @@ def graphique_saison_annee_toutes_saisons(comptage):
     plt.savefig("visualization/accidents/accidents_by_season_per_year.png", dpi=150)
     plt.close()
 
-# grapique_saison_global(saison_global())
+grapique_saison_global(saison_global())
 
 # Une seule saison :
-saison = "Summer"
-graphique_saison_annee_une_saison(accidents_par_annee_pour_saison(saison), saison)
+# saison = "Summer"
+# graphique_saison_annee_une_saison(accidents_par_annee_pour_saison(saison), saison)
 
 # Toutes les saisons sur le même graphique :
-graphique_saison_annee_toutes_saisons(accidents_par_annee_toutes_saisons())
+# graphique_saison_annee_toutes_saisons(accidents_par_annee_toutes_saisons())

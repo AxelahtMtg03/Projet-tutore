@@ -93,40 +93,48 @@ def accidents():
     m1.get_root().html.add_child(folium.Element(legend_html))
 
     m1.save("maps/maritime_accidents_maps/accident_map.html")
-    
-def heatmap():
-    """Carte 2 : carte de chaleur (densité des accidents)"""
-    m2b = folium.Map(
+
+def heatmap_global():
+    """Carte 2ter : carte de chaleur globale (densité des accidents sur toute la période, pas de curseur)"""
+    m2c = folium.Map(
         location=[center_lat, center_lon],
         zoom_start=6,
         tiles='OpenStreetMap'
     )
 
-    # Une liste de points par année, dans l'ordre chronologique
-    annees = sorted(df['annee'].dropna().unique())
-    heat_data_par_annee = [
-        df[df['annee'] == annee][['lat', 'long']].values.tolist()
-        for annee in annees
-    ]
-    index_annees = [str(int(annee)) for annee in annees]
+    heat_data = df[['lat', 'long']].dropna().values.tolist()
 
-    HeatMapWithTime(
-        heat_data_par_annee,
-        index=index_annees,
+    HeatMap(
+        heat_data,
         radius=15,
-        auto_play=False,
-        max_opacity=0.8,
+        blur=10,
+        max_zoom=1,
         min_opacity=0.3
-    ).add_to(m2b)
+    ).add_to(m2c)
 
-    title_html2b = '''
-                <h3 align="center" style="font-size:16px"><b>Carte de chaleur des accidents par année</b></h3>
-                <p align="center" style="font-size:12px">Utilise le curseur en bas pour voir l'évolution année par année</p>
+    title_html2c = '''
+                <h3 align="center" style="font-size:16px"><b>Carte de chaleur globale des accidents</b></h3>
+                <p align="center" style="font-size:12px">Densité cumulée sur toute la période disponible</p>
                 '''
-    m2b.get_root().html.add_child(folium.Element(title_html2b))
+    m2c.get_root().html.add_child(folium.Element(title_html2c))
 
-    m2b.save("maps/maritime_accidents_maps/heatmap_accident_temps.html")
+    legend_html2c = '''
+    <div style="position: fixed; bottom: 50px; left: 50px; z-index: 1000;
+                background: white; padding: 10px; border: 2px solid grey;
+                border-radius: 5px; font-size: 12px; width: 220px;">
+        <b>Densité d'accidents</b><br>
+        <div style="height: 15px; margin-top: 5px;
+                    background: linear-gradient(to right, blue, cyan, lime, yellow, red);
+                    border-radius: 3px;"></div>
+        <div style="display: flex; justify-content: space-between; margin-top: 3px;">
+            <span>Faible</span>
+            <span>Élevée</span>
+        </div>
+    </div>
+    '''
+    m2c.get_root().html.add_child(folium.Element(legend_html2c))
 
+    m2c.save("maps/maritime_accidents_maps/heatmap_accident_global.html")
 def accident_annee():
     """Carte 3 : accidents par année, avec une couche activable/désactivable par année"""
     m3 = folium.Map(
@@ -585,7 +593,7 @@ def accident_filtrable_intersection():
     
     
 # accidents()
-heatmap()
+heatmap_global()
 # accident_annee()
 # accident_temps_animation()
 # accident_grille()
