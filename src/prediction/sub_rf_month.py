@@ -15,12 +15,11 @@ DISTANCE_MAX_M = 50_000
 SEUIL_REFERENCE_MIN = 0.15
 SEUIL_ECART_MIN = 0.5
 
+# 3 tendances seulement
 DELTA_REPRESENTATIF = {
-    "Forte diminution": -40,
-    "Faible diminution": -15,
+    "Diminution": -25,
     "Stable": 0,
-    "Faible augmentation": 15,
-    "Forte augmentation": 40,
+    "Augmentation": 25,
     "Données insuffisantes": 0,
 }
 
@@ -31,34 +30,27 @@ def calculer_zone(lat, lon, taille=TAILLE_ZONE_DEG):
     return "z_" + zone_lat.round(1).astype(str) + "_" + zone_lon.round(1).astype(str)
 
 
-def categoriser_avec_sous_classes(ecart_absolu, pct, reference):
+def categoriser_3_tendances(ecart_absolu, pct, reference):
+    """
+    Categorise en 3 tendances seulement : Diminution, Stable, Augmentation.
+    """
     if pd.isna(pct) or pd.isna(reference):
         return np.nan
     if reference < 0.5:
         return "Données insuffisantes"
 
-    if abs(ecart_absolu) < 0.5:
-        return "Stable_c1"
-    elif abs(ecart_absolu) < 1.0:
-        return "Stable_c2"
-    elif abs(ecart_absolu) < 1.5:
-        return "Stable_c3"
-
-    if pct < -30:
-        return "Forte diminution"
+    # Stable si l'écart absolu est faible OU si le pourcentage est entre -10 et +10
+    if abs(ecart_absolu) < 1.0 or (-10 <= pct <= 10):
+        return "Stable"
     elif pct < -10:
-        return "Faible diminution"
-    elif pct < 10:
-        return "Stable_c3"
-    elif pct < 30:
-        return "Faible augmentation"
+        return "Diminution"
     else:
-        return "Forte augmentation"
+        return "Augmentation"
 
 
 def run_classification_tendance_mensuelle_subdivision():
     print("=" * 70)
-    print("RANDOM FOREST - PREDICTION MENSUELLE AVEC SUBDIVISION")
+    print("RANDOM FOREST - PREDICTION MENSUELLE (3 TENDANCES)")
     print("=" * 70)
 
     accidents = pd.read_csv(DATA_PATH / "maritime_accidents.csv")
@@ -123,12 +115,15 @@ def run_classification_tendance_mensuelle_subdivision():
         np.nan
     )
 
+    # ============================================================
+    # CATEGORISATION EN 3 TENDANCES
+    # ============================================================
     data["categorie"] = data.apply(
-        lambda r: categoriser_avec_sous_classes(r["ecart_absolu_suivant"], r["evolution_suivante"], r["reference_suivante"]),
+        lambda r: categoriser_3_tendances(r["ecart_absolu_suivant"], r["evolution_suivante"], r["reference_suivante"]),
         axis=1
     )
 
-    print("\nDistribution des categories avec subdivision :")
+    print("\nDistribution des categories (3 tendances) :")
     print(data["categorie"].value_counts(dropna=False))
 
     for lag in [1, 2, 3, 6, 12, 24]:
@@ -180,42 +175,25 @@ def run_classification_tendance_mensuelle_subdivision():
     train = data_modele[data_modele["mois"] < date_coupure].reset_index(drop=True)
 
     # ============================================================
-    # CREATION DES CIBLES
+    # CIBLE UNIQUE (3 CLASSES)
     # ============================================================
-    # Cible 1 : Stable vs Non-Stable
-    train["cible_stable"] = train["categorie"].str.startswith("Stable").astype(int)
+    train["cible"] = train["categorie"]
 
-    # Cible 2 : Classe précise (pour tous)
-    train["cible_classe"] = train["categorie"].apply(
-        lambda x: "Stable" if x.startswith("Stable") else x
-    )
-
-    print("\nDistribution des cibles :")
-    print(f"  Stable : {train['cible_stable'].sum()} ({train['cible_stable'].mean()*100:.1f}%)")
-    print(f"  Non-Stable : {(1-train['cible_stable']).sum()} ({(1-train['cible_stable']).mean()*100:.1f}%)")
-    print(f"\n  Classes précises :")
-    print(train["cible_classe"].value_counts())
+    print("\nDistribution de la cible :")
+    print(train["cible"].value_counts())
 
     # ============================================================
-    # ENTRAINEMENT DES MODELES
+    # ENTRAINEMENT DU MODELE
     # ============================================================
-    print("\nEntrainement des modeles...")
+    print("\nEntrainement du modele...")
 
-    # Modèle 1 : Stable vs Non-Stable
-    model_stable = RandomForestClassifier(
+    model = RandomForestClassifier(
         n_estimators=200, max_depth=10, min_samples_split=5,
         min_samples_leaf=2, class_weight="balanced", random_state=42, n_jobs=-1
     )
-    model_stable.fit(train[FEATURES], train["cible_stable"])
+    model.fit(train[FEATURES], train["cible"])
 
-    # Modèle 2 : Classe précise
-    model_classe = RandomForestClassifier(
-        n_estimators=200, max_depth=10, min_samples_split=5,
-        min_samples_leaf=2, class_weight="balanced", random_state=42, n_jobs=-1
-    )
-    model_classe.fit(train[FEATURES], train["cible_classe"])
-
-    print("2 modeles entraines")
+    print("Modele entraine")
 
     # ============================================================
     # PREDICTIONS
@@ -269,18 +247,13 @@ def run_classification_tendance_mensuelle_subdivision():
 
         X_future = pd.DataFrame(lignes_features, columns=FEATURES)
 
-        proba_stable = model_stable.predict_proba(X_future)
-        proba_classe = model_classe.predict_proba(X_future)
-        classes_classe = model_classe.classes_
+        proba = model.predict_proba(X_future)
+        classes = model.classes_
 
         for i, zone in enumerate(zones_valides):
-            if proba_stable[i, 1] > 0.5:
-                categorie_predite = "Stable"
-                confiance = proba_stable[i, 1]
-            else:
-                idx_classe = np.argmax(proba_classe[i])
-                categorie_predite = classes_classe[idx_classe]
-                confiance = proba_classe[i, idx_classe]
+            idx_classe = np.argmax(proba[i])
+            categorie_predite = classes[idx_classe]
+            confiance = proba[i, idx_classe]
 
             resultats.append({
                 "zone": zone,
@@ -297,7 +270,11 @@ def run_classification_tendance_mensuelle_subdivision():
                 nb = float(ligne_reelle["nb_accidents"].iloc[0]) if len(ligne_reelle) > 0 else 0.0
             else:
                 mediane_24_actuelle = np.median(s["accidents"][-24:])
-                nb = max(0.0, mediane_24_actuelle)
+                delta_pct_pondere = sum(
+                    p * DELTA_REPRESENTATIF.get(classe, 0)
+                    for classe, p in zip(classes, proba[i])
+                )
+                nb = max(0.0, mediane_24_actuelle * (1 + delta_pct_pondere / 100))
 
             s["accidents"].append(nb)
             s["densite"].append(s["densite"][-1])
@@ -343,18 +320,13 @@ def test_accuracy_subdivision():
             return "Donnees insuffisantes"
         evolution = (row["nb_accidents"] - row["reference_historique"]) / row["reference_historique"] * 100
         ecart_absolu = row["nb_accidents"] - row["reference_historique"]
-        if abs(ecart_absolu) < 1.5:
+        # Même logique que categoriser_3_tendances
+        if abs(ecart_absolu) < 1.0 or (-10 <= evolution <= 10):
             return "Stable"
-        elif evolution < -30:
-            return "Forte diminution"
         elif evolution < -10:
-            return "Faible diminution"
-        elif evolution < 10:
-            return "Stable"
-        elif evolution < 30:
-            return "Faible augmentation"
+            return "Diminution"
         else:
-            return "Forte augmentation"
+            return "Augmentation"
 
     data["tendance_reelle"] = data.apply(categoriser, axis=1)
     data = data[data["annee"].between(2023, 2025)]
@@ -376,7 +348,7 @@ def test_accuracy_subdivision():
     accuracy = df_compare["correct"].mean() * 100
 
     print("\n" + "=" * 60)
-    print("ACCURACY - MODELE MENSUEL AVEC SUBDIVISION")
+    print("ACCURACY - MODELE MENSUEL (3 TENDANCES)")
     print("=" * 60)
     print(f"\nAccuracy globale: {accuracy:.1f}%")
     print(f"Zones comparees: {len(df_compare)}")
@@ -389,7 +361,7 @@ def test_accuracy_subdivision():
             print(f"  {annee}: {len(df_annee)} zones, Accuracy = {acc:.1f}%")
 
     print("\nRESUME PAR TENDANCE:")
-    for classe in ["Forte diminution", "Faible diminution", "Stable", "Faible augmentation", "Forte augmentation"]:
+    for classe in ["Diminution", "Stable", "Augmentation"]:
         df_classe = df_compare[df_compare["tendance_reelle"] == classe]
         if len(df_classe) > 0:
             acc = df_classe["correct"].mean() * 100
