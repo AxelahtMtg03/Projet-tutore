@@ -8,6 +8,7 @@ from rf_commun import (
     calculer_zone, categoriser, EnsembleSousClasses,
     cross_validation_temporelle, afficher_cv, metriques_cv,
     resumer_comparaison, sauvegarder_csv,
+    configurer_seuils, calculer_reference_saisonniere, optimiser_poids_classes,
 )
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent
@@ -15,7 +16,19 @@ DATA_PATH = PROJECT_ROOT / "data" / "processed"
 DATA_PATH.mkdir(parents=True, exist_ok=True)
 
 GRANULARITE = "annuel"
+# --- Arguments CLI pour le grid search ---
+import argparse
+_parser = argparse.ArgumentParser()
+_parser.add_argument("--seuil-ecart", type=float, default=None)
+_parser.add_argument("--seuil-pct", type=float, default=None)
+_args = _parser.parse_args()
+configurer_seuils(_args.seuil_ecart, _args.seuil_pct)
 
+# Suffixe pour ne pas ecraser les fichiers entre combinaisons
+if _args.seuil_ecart is not None and _args.seuil_pct is not None:
+    SUFFIXE = f"_e{_args.seuil_ecart}_p{_args.seuil_pct}"
+else:
+    SUFFIXE = ""
 ANNEE_DEBUT = 2014               # premiere annee de l'historique (avant : 2011)
 ANNEE_FIN_DONNEES = 2025         # derniere annee de donnees reelles
 DERNIERE_ANNEE_OBSERVEE = 2022   # le modele ne voit RIEN apres cette annee
@@ -24,10 +37,10 @@ ANNEE_FIN_PREDICTION = 2030
 
 N_SOUS_CLASSES = "auto"          # ou un entier (ex. 3) pour forcer C1..C3
 
-FICHIER_PREDICTIONS = DATA_PATH / "predictions_tendance_annuelle_subdivision.csv"
-FICHIER_COMPARAISON = DATA_PATH / "comparaison_tendance_annuelle_subdivision.csv"
-FICHIER_METRIQUES = DATA_PATH / "metriques_tendance_annuelle_subdivision.csv"
-FICHIER_CV = DATA_PATH / "cv_tendance_annuelle_subdivision.csv"
+FICHIER_PREDICTIONS = DATA_PATH / f"predictions_tendance_annuelle_subdivision{SUFFIXE}.csv"
+FICHIER_COMPARAISON = DATA_PATH / f"comparaison_tendance_annuelle_subdivision{SUFFIXE}.csv"
+FICHIER_METRIQUES = DATA_PATH / f"metriques_tendance_annuelle_subdivision{SUFFIXE}.csv"
+FICHIER_CV = DATA_PATH / f"cv_tendance_annuelle_subdivision{SUFFIXE}.csv"
 
 
 def run_classification_tendance_annuelle_subdivision():
@@ -61,11 +74,17 @@ def run_classification_tendance_annuelle_subdivision():
     # ============================================================
     # 3. REFERENCE ET CIBLE
     # ============================================================
-    data["reference_5_ans"] = data.groupby("zone")["nb_accidents"].transform(
-        lambda x: x.shift(1).rolling(5, min_periods=3).median()
-    )
+    # Reference ALIGNEE SUR LE TEST : mediane des comptes non nuls de la zone sur les annees
+    # connues a la date de la cible (jamais apres DERNIERE_ANNEE_OBSERVEE)
+    refs = calculer_reference_saisonniere(
+        accidents_par_zone, [], range(ANNEE_DEBUT, ANNEE_FIN_PREDICTION + 1), DERNIERE_ANNEE_OBSERVEE)
+    data = data.merge(refs, on=["zone", "annee"], how="left")
+    ref_map = {(z, a): (r, n) for z, a, r, n in
+               zip(refs["zone"], refs["annee"], refs["ref_hist"], refs["nb_annees_hist"])}
     data["accidents_suivants"] = data.groupby("zone")["nb_accidents"].shift(-1)
-    data["reference_suivante"] = data.groupby("zone")["reference_5_ans"].shift(-1)
+    data["reference_suivante"] = data.groupby("zone")["ref_hist"].shift(-1)
+    data["ref_hist_cible"] = data["reference_suivante"].fillna(0)
+    data["nb_annees_hist_cible"] = data.groupby("zone")["nb_annees_hist"].shift(-1).fillna(0)
     data["ecart_absolu_suivant"] = data["accidents_suivants"] - data["reference_suivante"]
     data["evolution_suivante"] = np.where(
         data["reference_suivante"] > 0.5,
@@ -125,7 +144,7 @@ def run_classification_tendance_annuelle_subdivision():
     FEATURES = ["annee", "densite_moyenne", "densite_max", "nombre_navires",
                 "nb_accidents_lag_1", "nb_accidents_lag_2", "nb_accidents_lag_3",
                 "nb_accidents_lag_4", "nb_accidents_lag_5",
-                "mediane_3", "mediane_5", "evolution_recente"]
+                "mediane_3", "mediane_5", "evolution_recente", "ref_hist_cible", "nb_annees_hist_cible"]
 
     # ============================================================
     # 6. JEU D'ENTRAINEMENT
@@ -150,7 +169,7 @@ def run_classification_tendance_annuelle_subdivision():
     # 7. CROSS-VALIDATION TEMPORELLE
     # ============================================================
     params_modele = dict(n_sous_classes=N_SOUS_CLASSES)
-    cv_df = cross_validation_temporelle(train, FEATURES, "categorie", "annee", **params_modele)
+    cv_df, oof = cross_validation_temporelle(train, FEATURES, "categorie", "annee", avec_oof=True, **params_modele)
     afficher_cv(cv_df)
     if not cv_df.empty:
         sauvegarder_csv(cv_df, FICHIER_CV)
@@ -162,6 +181,7 @@ def run_classification_tendance_annuelle_subdivision():
     model = EnsembleSousClasses(verbose=True, **params_modele)
     model.fit(train[FEATURES], train["categorie"])
     classes_modele = list(model.classes_)
+    model.poids_ = optimiser_poids_classes(oof)
     print(f"{len(model.modeles_)} modeles entraines (moyenne de leurs probabilites)")
 
     # ============================================================
@@ -203,7 +223,8 @@ def run_classification_tendance_annuelle_subdivision():
             # "annee" = derniere annee observee (comme a l'entrainement, ou la cible est N+1)
             lignes.append([annee - 1, e["dens"][-1], e["dens_max"][-1], e["nav"][-1],
                            acc[-1], acc[-2], acc[-3], acc[-4], acc[-5],
-                           mediane_3, mediane_5, evolution_recente])
+                           mediane_3, mediane_5, evolution_recente,
+                           *ref_map.get((zone, annee), (0.0, 0))])
             zones_annee.append(zone)
             medianes_5.append(mediane_5)
 
@@ -211,7 +232,7 @@ def run_classification_tendance_annuelle_subdivision():
 
         for k, zone in enumerate(zones_annee):
             proba = probas[k]
-            idx = int(np.argmax(proba))
+            idx = int(np.argmax(proba * model.poids_))
             e = etat[zone]
 
             resultats.append({

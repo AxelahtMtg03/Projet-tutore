@@ -109,9 +109,9 @@
   Axel Archambeault \\
   Ashley Roo \\[1cm]
 
-  \textbf{Tuteur :} \\
+  \textbf{Tuteurs :} \\
   M. Salmon \\
-  Mme. Selmaoui \\[1cm]
+  Mme Selmaoui \\[1cm]
 
   \vfill
 
@@ -129,8 +129,9 @@
 \thispagestyle{empty}
 \addcontentsline{toc}{chapter}{Résumé}
 
-text
+Ce rapport présente notre projet tutoré sur les accidents maritimes en Europe. Notre but est d'identifier les zones à risque, de comprendre les facteurs associés aux accidents et de déterminer si leur évolution peut être anticipée.
 
+Avec 34~126 accidents et la densité du trafic, nous avons découpé l'Europe en cellules de 1,5°. L'analyse spatiale nous montre que les accidents se concentrent dans les zones de trafic dense. Nous avons ensuite prédit la tendance de chaque cellule en trois classes : diminution, stable et augmentation, avec des Random Forest, nos modèles ont été testés sur 2023-2025 afin de pouvoir comparer avec la réalité. Le meilleur modèle, mensuel, atteint 71,5~\% de bonnes prédictions, avec des résultats équilibrés. Il pourrait aider à repérer les zones où une hausse des accidents est à surveiller.
 \clearpage
 
 % ============================================================
@@ -174,17 +175,17 @@ text
 
 \section{Contexte}
 
-Depuis la nuit des temps, l'être humain a navigué de nombreuses contrées, on peut citer la découverte de l'Amérique en 1492 par Christophe Colomb, qui a révolutionné notre manière de naviguer. Cependant, les activités maritimes ne sont pas sans risques comme l'illustre notamment le naufrage du Titanic réputé insubmersible. De nos jours, le transport maritime représente environ 80~\% du commerce mondial en volume, et les accidents ne sont pas sans conséquences notamment des conséquences économiques et plus rares humaines.
+Depuis la nuit des temps, l'être humain a navigué de nombreuses contrées, on peut citer la découverte de l'Amérique en 1492 par Christophe Colomb, qui a révolutionné notre manière de naviguer. Cependant, les activités maritimes ne sont pas sans risques comme l'illustre notamment le naufrage du Titanic réputé insubmersible. De nos jours, le transport maritime représente environ 80~\% du commerce mondial en volume\footnote{Maison de la Mer, \textit{Le commerce maritime}.}, et les accidents ne sont pas sans conséquences notamment des conséquences économiques et, plus rarement, humaines.
 
 \section{Problématique et objectifs}
 
-C'est dans ce contexte que s'insère notre projet tutoré dont l'objectif principal est de mettre en avant les zones à risques, de comprendre les facteurs associés aux accidents maritimes et d'anticiper leurs évolutions grâce à des modèles de prédiction. Nous nous demanderons donc comment identifier ces zones à risques mais aussi comment anticiper les accidents en mer à l'aide d'outils de prédiction afin de contribuer à la sécurité maritime et à la prévention des risques.
+C'est dans ce contexte que s'insère notre projet tutoré dont l'objectif principal est de mettre en avant les zones à risque, de comprendre les facteurs associés aux accidents maritimes et d'anticiper leurs évolutions grâce à des modèles de prédiction. Nous nous demanderons donc comment identifier ces zones à risque mais aussi comment anticiper les accidents en mer à l'aide d'outils de prédiction afin de contribuer à la sécurité maritime et à la prévention des risques.
 
 \section{Cadre du projet}
 
 \subsection{Méthodologie et technique}
 
-C'est pour cela que nous nous sommes appuyés sur différents outils. Tout d'abord l'analyse de données, nous a permis de traiter et d'exploiter les informations obtenues. Ensuite les graphiques ainsi que les cartes interactives nous ont servi à visualiser ces données de manière claire et à identifier les zones et les tendances significatives. La programmation en Python nous a permis de mettre en oeuvre les différentes étapes du traitement et de développer les modèles de prédiction.
+C'est pour cela que nous nous sommes appuyés sur différents outils. Tout d'abord l'analyse de données, nous a permis de traiter et d'exploiter les informations obtenues. Ensuite les graphiques ainsi que les cartes interactives nous ont servi à visualiser ces données de manière claire et à identifier les zones et les tendances significatives. La programmation en Python nous a permis de mettre en œuvre les différentes étapes du traitement et de développer les modèles de prédiction.
 
 \subsection{Institutionnel}
 
@@ -194,13 +195,12 @@ Ce projet est réalisé dans le cadre de la licence informatique, en partenariat
 
 Notre étude repose sur trois notions indispensables : la sécurité maritime, les risques et accidents en mer et pour finir la prédiction venant de modèles adaptés.
 
-\subsection{Spatial}
+\subsection{Spatio-temporel}
 
-Bien que les données d'accidents couvrent le monde entier, notre étude se restreint à l'Europe, ce choix s'explique par une disponibilité plus importante des données dans cette zone, ainsi qu'un besoin de cohérence avec des données de densité du trafic maritime. Pour notre étude, la zone est divisée en cellules.
 
-\subsection{Temporel}
+Notre étude se centre uniquement sur l'Europe, ce choix s'explique par une disponibilité plus importante des données dans cette zone, ainsi qu'un besoin de cohérence avec les données de densité du trafic maritime. Nous allons diviser cette zone en cellules.
 
-L'étude porte sur les accidents maritimes survenus entre le 17 juin 2011 et le 30 novembre 2025. Cependant les données de densité de trafic maritime couvrent la période entre 2017 à 2021.
+L'étude porte sur les accidents maritimes survenus entre le 17 juin 2011 et le 30 novembre 2025. Cependant les données de densité de trafic maritime, utilisées comme variable explicative, couvrent la période plus restreinte entre 2017 et 2021.
 
 
 % ============================================================
@@ -226,13 +226,13 @@ L'étude porte sur les accidents maritimes survenus entre le 17 juin 2011 et le 
 
 Ce projet repose sur trois jeux de données distincts : les accidents maritimes, la flotte globale et la densité de trafic maritime. Ils apportent des renseignements complémentaires sur les accidents, le trafic maritime et le contexte dans lequel ils se produisent. Les trois sont fournis au format CSV.
 
-\textbf{Accidents maritimes.} Le premier jeu de données recense les accidents maritimes survenus entre le 17 juin 2011 et le 30 novembre 2025, soit environ 44~000 enregistrements. Chaque ligne décrit un accident avec de nombreuses caractéristiques : la date et l'heure, la zone maritime, les coordonnées (latitude et longitude), la gravité de l'événement, le type de navire impliqué, la nature de l'accident ainsi que les dommages humains et matériels associés. Cette richesse de variables permet de faire une analyse exploratoire. Les données proviennent de la plateforme European Marine Casualty Information Platform (EMCIP), mise à disposition par l'European Maritime Safety Agency (EMSA). Ces données couvrent le monde entier, nous avons choisi de restreindre notre étude à l'Europe, pour des raisons expliquées dans la section suivante.
+\textbf{Accidents maritimes.} Le premier jeu de données recense les accidents maritimes survenus entre le 17 juin 2011 et le 30 novembre 2025, soit environ 44~000 enregistrements, dont 34 126 en Europe. Chaque ligne décrit un accident avec de nombreuses caractéristiques : la date et l'heure, la zone maritime, les coordonnées (latitude et longitude), la gravité de l'événement, le type de navire impliqué, la nature de l'accident ainsi que les dommages humains et matériels associés. Cette richesse de variables permet de faire une analyse exploratoire. Les données proviennent de la plateforme European Marine Casualty Information Platform (EMCIP), mise à disposition par l'European Maritime Safety Agency (EMSA). Ces données couvrent le monde entier, nous avons choisi de restreindre notre étude à l'Europe, pour des raisons expliquées dans la section suivante.
 
 La distinction entre type d'accident et cause humaine reflète la structure de la base EMCIP : le type d'accident décrit l'événement observé (une collision, un contact, un échouement), tandis que la cause humaine permet de caractériser certains facteurs humains associés à l'événement (perte de contrôle, erreur de veille).
 
-\textbf{Densité de trafic maritime (AIS).} Notre second jeu de données, issu de Vessel Density, est fourni par Cogea et accessible via la plateforme EMODnet ERDDAP. Ces données permettent de caractériser la densité du trafic maritime sur différentes zones géographiques, uniquement sur l'Europe. Elles nous fournissent une mesure de la densité de trafic, les données couvrent la période 2017-2021 et sont organisées mensuellement. Chaque enregistrement contient une date, des coordonnées et une valeur de densité.
+\textbf{Densité de trafic maritime (AIS).} Notre second jeu de données, issu de Vessel Density, est fourni par Cogea et accessible via la plateforme EMODnet ERDDAP. Ces données permettent de caractériser la densité du trafic maritime sur différentes zones géographiques, uniquement sur l'Europe. Elles nous fournissent une mesure de la densité de trafic, les données couvrent la période 2017-2021 et sont organisées mensuellement. Cette couverture temporelle plus restreinte (2017-2021) constitue une limite : les valeurs de densité utilisées pour les années 2022-2025 sont les dernières connues, ce qui suppose une stabilité du trafic sur cette période. Chaque enregistrement contient une date, des coordonnées et une valeur de densité. Les variables de densité sont ainsi utilisées comme indicateurs complémentaires du contexte de trafic des différentes zones étudiées, en complément des variables historiques d'accidents.
 
-\textbf{Flotte mondiale.} Le dernier jeu de données en notre possession décrit l'évolution de la flotte mondiale sur la période 2011-2026. Il est structuré par année, par type de navire (flotte totale, pétroliers, vraquiers, navires de charge classique, porte-conteneurs et autres navires) et par pavillon. Toutefois, dans le cadre de ce projet, il n'a été que très marginalement exploité : nous l'avons conservé comme variable de contexte, mais il n'a pas été intégré de manière significative.
+\textbf{Flotte mondiale.} Le dernier jeu de données en notre possession décrit l'évolution de la flotte mondiale sur la période 2011-2026. Il est structuré par année, par type de navire (flotte totale, pétroliers, vraquiers, navires de charge classique, porte-conteneurs et autres navires) et par pavillon. Nous n'avons retenu que la flotte totale de chaque année, utilisée comme simple variable de contexte : elle est la même pour toutes les cellules et ne renseigne donc que sur l'évolution générale du nombre de navires. Le détail par type de navire et par pavillon n'a pas été exploité.
 
 \section{Préparation et nettoyage}
 
@@ -254,12 +254,19 @@ Afin de réaliser l'analyse spatiale, nous avons divisé la zone étudiée en un
 
 Les coordonnées des accidents sont ensuite converties en coordonnées métriques (EPSG:3035). Chaque accident est associé au point de densité maritime le plus proche, avec une distance maximale de 50~km. Les accidents sont ainsi reliés à la grille utilisée pour les données de trafic.
 
-La création de la grille et l'association des accidents aux points de densité maritime ont été réalisées avec les bibliothèques NumPy, utilisée notamment pour les opérations numériques, et pandas, utilisée pour la gestion et la manipulation des données, notamment des fichiers CSV.
-
-\section{Agrégation spatio-temporelle}
-
+La création de la grille et l'association des accidents aux points de densité maritime ont été réalisées avec les bibliothèques NumPy (opérations numériques), pandas (gestion des données), pyproj (conversion de coordonnées entre systèmes de projection) et SciPy (recherche du point de densité le plus proche via un arbre spatial).
 \section{Processus global de traitement}
 
+Le traitement des données réalisé dans ce projet s'inscrit dans une démarche inspirée du processus Knowledge Discovery in Databases (KDD) (Fayyad et al., 1996). Cette méthode décrit les principales étapes permettant d'extraire des connaissances à partir de données : sélection, nettoyage et prétraitement, transformation, fouille de données puis évaluation et interprétation des résultats. Les données transformées sont ensuite utilisées pour construire les modèles de prédiction. Les résultats obtenus sont évalués et présentés sous forme de graphiques et de cartes afin d'interpréter les tendances prédites.
+
+Le processus suivi peut ainsi être résumé par le schéma suivant :
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{kdd.png}
+  \caption{Processus Knowledge Discovery in Databases (KDD).}
+  \label{fig:kdd}
+\end{figure}
 
 % ============================================================
 % CHAPITRE 4 : ANALYSE EXPLORATOIRE
@@ -277,13 +284,12 @@ Cette première étape vise à étudier l'évolution du nombre d'accidents au co
     \label{fig:evolution_temporelle}
 \end{figure}
 
-On peut constater une forte augmentation entre 2011 et 2013. Cette évolution s'explique par la mise en place progressive du système EMCIP et l'amélioration du signalement des accidents par les États membres. L'EMSA estimait alors qu'il y avait encore environ 30~\% de sous-déclaration en 2013, principalement à cause de la mise en place progressive du système EMCIP. Tout cela est lié à la mise en place de la directive européenne 2009/18/CE : depuis le 17 juin, les États membres doivent notifier certains accidents maritimes dans EMCIP, mais son application n'a pas été immédiate dans tous les États membres.
+On peut constater une forte augmentation entre 2011 et 2013. Cette évolution s'explique par la mise en place progressive du système EMCIP et l'amélioration du signalement des accidents par les États membres. L'EMSA estimait alors qu'il y avait encore environ 30~\% de sous-déclaration en 2013, principalement à cause de la mise en place progressive du système EMCIP. Tout cela est lié à la mise en place de la directive européenne 2009/18/CE : depuis le 17 juin 2011, les États membres doivent notifier certains accidents maritimes dans EMCIP, mais son application n'a pas été immédiate dans tous les États membres.
 
-Entre 2014 et 2019, le nombre d'accidents reste relativement stable, autour de 2~600 et 2~750 par an. On peut noter une baisse importante de 2~750 en 2019 à 2~400 environ pour 2020. Cette forte diminution s'explique par la crise de la COVID-19, qui a entraîné une baisse du trafic maritime européen. Après 2020, le nombre d'accidents reste globalement inférieur au niveau observé avant la crise.
-
+Entre 2014 et 2019, le nombre d'accidents reste relativement stable, autour de 2~600 et 2~750 par an. On peut noter une baisse importante de 2~750 en 2019 à 2~400 environ pour 2020. Cette forte diminution pourrait s'expliquer par la crise de la COVID-19, qui a entraîné une baisse du trafic maritime européen. Après 2020, le nombre d'accidents reste globalement inférieur au niveau observé avant la crise. On observe également une baisse marquée en 2025 (environ 1~700 accidents), qui pourrait être liée à un retard de déclaration dans la base EMCIP. Cette hypothèse devra être confirmée lorsque les données 2025 seront consolidées.
 \section{Répartition géographique des accidents}
 
-La répartition géographique des accidents montre une forte concentration dans certaines zones maritimes. Les principales concentrations sont observées dans la mer du Nord, notamment autour des grands ports d'Europe du Nord, ainsi que dans la Manche et le détroit du Pas-de-Calais. D'autres concentrations apparaissent autour de la Grèce, dans la Méditerranée occidentale et au niveau du détroit de Gibraltar. On constate aussi que les zones éloignées des ports et principaux axes maritimes présentent généralement moins d'accidents.
+La répartition géographique des accidents montre une forte concentration dans certaines zones maritimes. Les principales concentrations sont observées dans la mer du Nord, notamment autour des grands ports d'Europe du Nord, ainsi que dans la Manche. D'autres concentrations apparaissent autour de la Grèce, dans la Méditerranée occidentale et au niveau du détroit de Gibraltar. On constate aussi que les zones éloignées des ports et principaux axes maritimes présentent généralement moins d'accidents.
 
 \begin{figure}[H]
     \centering
@@ -292,9 +298,9 @@ La répartition géographique des accidents montre une forte concentration dans 
     \label{fig:carte_accidents}
 \end{figure}
 
-Cette répartition peut être rapprochée de certains grands espaces économiques et axes de circulation européens. La Blue Banana, ou dorsale européenne, correspond historiquement à un espace fortement concentré en activités économiques et urbaines, allant approximativement du sud du Royaume-Uni jusqu'au nord de l'Italie. Le rapport du Parlement européen souligne également l'importance de cet espace pour les activités logistiques et portuaires européennes.
+Cette répartition peut être rapprochée de certains grands espaces économiques et axes de circulation européens. La Blue Banana, ou dorsale européenne, correspond historiquement à un espace fortement concentré en activités économiques et urbaines, allant approximativement du sud du Royaume-Uni jusqu'au nord de l'Italie. Le rapport du Parlement européen sur les aides d'État aux ports européens (Vanroye et al., 2011) souligne également l'importance de cet espace pour les activités logistiques et portuaires européennes.
 
-Plus au nord, la concentration observée autour de la mer du Nord, du Danemark et du sud de la Scandinavie peut davantage être rapprochée de l'axe STRING, qui relie notamment Hambourg aux principales régions de Scandinavie. Ces deux concepts permettent ainsi de replacer les concentrations observées sur notre carte dans le contexte des grands espaces économiques et des axes de transport européens. Il faudra cependant comparer ces observations avec la Vessel Density afin de déterminer si ces concentrations sont également associées à une forte densité de trafic maritime.
+Plus au nord, la concentration observée autour de la mer du Nord, du Danemark et du sud de la Scandinavie peut davantage être rapprochée de l'axe STRING, qui relie notamment Hambourg aux principales régions de Scandinavie. Ces deux concepts permettent ainsi de replacer les concentrations observées sur notre carte dans le contexte des grands espaces économiques et des axes de transport européens. Nous comparerons ces observations avec les données de densité du trafic maritime dans la section~4.4.
 
 \section{Analyse des caractéristiques des accidents}
 
@@ -307,7 +313,7 @@ Après avoir étudié l'évolution temporelle et la distribution spatiale des ac
   \caption{Répartition des accidents selon leur gravité.}
   \label{fig:gravite}
 \end{figure}
-\textbf{Gravité.} La figure~\ref{fig:gravite} montre la répartition des accidents selon leur gravité. On observe une prédominance des accidents \og Less Serious \fg{} ($\sim$54~\%) suivis des accidents \og Serious \fg{} ($\sim$23,6~\%) et des \og Marine incident \fg{} ($\sim$20~\%) c'est un événement moins grave qu'un accident maritime, qui aurait pu conduire à un accident maritime, ou qui a entraîné des dommages mineurs et les \og Very serious \fg{} sont très minoritaires ($\sim$2,4~\%), ce qui montre que les accidents les plus graves représentent une faible proportion des événements enregistrés.
+\textbf{Gravité.} La figure~\ref{fig:gravite} montre la répartition des accidents selon leur gravité. On observe une prédominance des accidents \og Less Serious \fg{} ($\sim$54~\%), suivis des accidents \og Serious \fg{} ($\sim$23,6~\%) et des \og Marine incident \fg{} ($\sim$20~\%). Ce dernier terme désigne un événement moins grave qu'un accident maritime, qui aurait pu conduire à un accident, ou qui a entraîné des dommages mineurs. Les \og Very serious \fg{} sont très minoritaires ($\sim$2,4~\%), ce qui montre que les accidents les plus graves représentent une faible proportion des événements enregistrés.
 
 
 \begin{figure}[H]
@@ -333,7 +339,7 @@ Ensuite il y a les dommages ou pertes d'équipement (3~228 cas), les échouement
     \label{fig:cause_humaine}
 \end{figure}
 \textbf{Cause humaine.} La figure~\ref{fig:cause_humaine} présente les causes humaines identifiées dans les accidents. On peut constater une prédominance des chutes de personnes (Slipping -- Stumbling -- Falling, 4~379 cas), suivies des mouvements du corps sans contrainte physique (un équipement tombe et blesse quelqu'un ou une vague secoue le navire, une personne se cogne, 2~621 cas) et des pertes de contrôle de machines ou d'équipements (1~981 cas).
-Ce qui nous montre que le facteur humain est une cause majeure des accidents. Les chutes et les mouvements inadaptés représentent à eux seuls plus de la moitié des causes connues. On pourrait suggérer que des mesures de prévention ciblant les conditions de travail à bord pourraient potentiellement réduire le nombre d'accidents.
+Ces résultats montrent que les causes humaines identifiées représentent une part importante des causes recensées. Les chutes et les mouvements inadaptés représentent à eux seuls plus de la moitié des causes connues. On pourrait suggérer que des mesures de prévention ciblant les conditions de travail à bord pourraient potentiellement réduire le nombre d'accidents.
 
 
 
@@ -352,25 +358,29 @@ Ce qui nous montre que le facteur humain est une cause majeure des accidents. Le
     \item \textbf{Autres catégories} (plaisance, sous-marins, offshore) : part beaucoup plus faible des accidents enregistrés.
 \end{itemize}
 
-On peut donc conclure que la saisonnalité des accidents dépend fortement du type de navire.
+On peut donc conclure que la répartition saisonnière des accidents varie selon le type de navire.
 
 \section{Analyse de la densité du trafic maritime}
 
-La répartition de la densité du trafic maritime présente de nombreux points communs avec celle des accidents étudiée précédemment. Les zones où le trafic est le plus dense correspondent globalement aux zones où l’on observe le plus d’accidents, notamment en mer du Nord, dans la Manche, autour du détroit de Gibraltar, Méditerranée et au niveau du détroit des Dardanelles. Cette observation suggère un lien entre le trafic maritime et la répartition des accidents. La densité du trafic pourra donc être utilisée comme une variable importante dans la suite afin d’analyser son influence sur les accidents et sur l’identification des zones à risque.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\textwidth]{carte_densite.png}
+  \caption{Répartition de la densité du trafic maritime en Europe.}
+  \label{fig:carte_densite}
+\end{figure}
 
+La répartition de la densité du trafic maritime présente de nombreux points communs avec celle des accidents étudiée précédemment. Les zones où le trafic est le plus dense correspondent globalement aux zones où l’on observe le plus d’accidents, notamment en mer du Nord, dans la Manche, autour du détroit de Gibraltar, Méditerranée et au niveau de la mer Égée. Cette observation suggère un lien entre le trafic maritime et la répartition des accidents. La densité du trafic pourra donc être utilisée comme une variable dans la suite afin d’analyser son influence sur les accidents et sur l’identification des zones à risque.
 
+On peut cependant noter quelques différences : certaines zones présentent une densité de trafic élevée sans que cela se traduise par un nombre d'accidents élevé. C'est notamment le cas au large de l'Italie, où le trafic est dense mais où les accidents restent moins nombreux que dans le nord de l'Europe. À l'inverse, la mer Égée présente une densité plus faible que la mer du Nord, bien que des concentrations d'accidents y soient observées.
 
-% ============================================================
-% CHAPITRE 5 : MÉTHODOLOGIE ET MODÉLISATION
-% ============================================================
-% ============================================================
+  % ============================================================
 % CHAPITRE 5 : MÉTHODOLOGIE ET MODÉLISATION
 % ============================================================
 \chapter{Méthodologie et modélisation}
 
 \section{Approche retenue}
 
-Après l'analyse exploratoire des données, nous avons dans un premier temps testé une régression linéaire afin d'obtenir une première approche de la prédiction du nombre d'accidents. Cependant, cette méthode repose sur une relation linéaire entre les variables et représente donc l'évolution sous la forme d'une droite. Elle est ainsi moins adaptée à nos données, qui présentent des variations et des évolutions ne suivant pas nécessairement une tendance linéaire. Nous avons donc rapidement orienté notre travail vers une Random Forest, permettant de prendre en compte des relations plus complexes entre les différentes variables.
+Après l'analyse exploratoire des données, nous avons dans un premier temps testé une régression linéaire afin d'obtenir une première approche de la prédiction du nombre d'accidents. Cependant, cette méthode repose sur une relation linéaire entre les variables et représente donc l'évolution sous la forme d'une droite. Elle est ainsi moins adaptée à nos données, qui présentent des variations et des évolutions qui ne suivent pas nécessairement une tendance linéaire. Nous avons donc rapidement orienté notre travail vers une Random Forest, permettant de prendre en compte des relations plus complexes entre les différentes variables.
 
 Nous avons étudié cette méthode selon deux approches : une régression, permettant d'estimer le nombre d'accidents, et une classification, permettant d'identifier les tendances d'évolution des accidents dans les différentes cellules de la grille. Pour chaque approche, les années 2023 à 2025 sont utilisées comme données de test afin d'évaluer la fiabilité de nos prédictions.
 
@@ -378,48 +388,125 @@ Nous avons étudié cette méthode selon deux approches : une régression, perme
 
 Le Random Forest en régression nous a permis d'estimer le nombre d'accidents par zone et par année. Un Random Forest est une méthode d'apprentissage automatique qui combine plusieurs arbres de décision afin d'obtenir une prédiction plus fiable. Chaque arbre réalise sa propre prédiction, puis les résultats sont combinés pour obtenir la prédiction finale.
 
-Le modèle utilise plusieurs variables liées à la densité du trafic maritime ainsi qu'une référence historique du nombre d'accidents. Il est composé de 300 arbres, avec une profondeur maximale de 10. Les prédictions sont ensuite agrégées sur notre grille de 1,5° $\times$ 1,5° afin d'obtenir une estimation du nombre d'accidents par zone.
+Le modèle utilise plusieurs variables liées à la densité du trafic maritime ainsi qu'une référence historique du nombre d'accidents et le nombre d'accidents des mois précédents. Il est composé de 300 arbres, avec une profondeur maximale de 10. Les prédictions sont ensuite agrégées sur notre grille de 1,5° $\times$ 1,5° afin d'obtenir une estimation du nombre d'accidents par zone.
 
 Cependant, la prédiction d'un nombre exact d'accidents reste difficile en raison des nombreuses variations présentes. Nous avons donc choisi de nous orienter vers une approche basée sur la prédiction des tendances, permettant d'identifier plus simplement si une zone est susceptible de connaître une baisse ou une hausse du nombre d'accidents.
 
 \section{Random Forest -- Classification des tendances}
 
-Nous avons ensuite utilisé un Random Forest en classification afin de prédire la tendance d'évolution du nombre d'accidents par zone. Contrairement à la régression, l'objectif n'est plus de prédire un nombre exact, mais de déterminer si le nombre d'accidents est susceptible de diminuer, d'augmenter ou de rester stable.
+Nous avons ensuite utilisé un Random Forest en classification afin de prédire plutôt la tendance d'évolution du nombre d'accidents par zone. Contrairement à la régression, l'objectif n'est plus de prédire un nombre exact, mais de déterminer si le nombre d'accidents est susceptible de diminuer, d'augmenter ou de rester stable. Le modèle de classification est composé de 300 arbres, avec une profondeur maximale de 10.
 
-Nous avons défini 5 classes : forte diminution, faible diminution, stable, faible augmentation et forte augmentation. La classe \og stable \fg{} est de très loin la plus représentée, ce qui risque de conduire le modèle à privilégier cette classe au détriment des autres. Pour pallier ce problème, nous avons cherché à mieux répartir les données entre les différentes tendances.
+Dans un premier temps, nous avons défini 5 classes : forte diminution, faible diminution, stable, faible augmentation et forte augmentation. La classe \og stable \fg{} est de très loin la plus représentée, or le modèle risque de privilégier cette classe au détriment des autres. Pour pallier ce problème, nous avons cherché à mieux répartir les données entre les différentes tendances. Cependant, ce problème persistant toujours, nous avons réduit à trois classes principales : diminution, stable et augmentation.
 
-Pour cela, la classe \og stable \fg{} a été divisée en trois sous-classes : C1, C2 et C3. Cette division permet de répartir la classe majoritaire en plusieurs groupes afin de limiter son influence sur l'apprentissage du modèle. Pour chaque sous-classe, les autres classes sont ensuite comparées afin d'entraîner plusieurs modèles. On fait une moyenne de ces résultats, ce qui permet de déterminer la tendance finale.
+Pour cela, la classe \og stable \fg{} a été divisée en sous-classes : C1, C2 \ldots{} Cn. Cette division permet de répartir la classe majoritaire en plusieurs groupes afin de limiter son influence sur l'apprentissage du modèle. Pour chaque sous-classe, un modèle est entraîné en comparant cette sous-classe aux autres classes. Les probabilités des différents modèles sont ensuite moyennées pour déterminer la tendance finale.
 
-Afin d'améliorer les performances du modèle, une validation croisée (\textit{cross validation}) a été mise en place. Le principe consiste à entraîner et évaluer plusieurs fois un modèle sur différentes parties des données, afin de vérifier sa fiabilité et de limiter le risque de dépendre d'un seul découpage des données. Enfin, plusieurs périodes d'agrégation ont été testées : mois, trimestre, semestre et année. Les résultats obtenus avec ces différentes approches sont présentés dans le chapitre suivant.
+Afin d'améliorer les performances du modèle et de vérifier sa robustesse temporelle, une validation croisée (\textit{cross validation}) a été mise en place. Cette méthode consiste à entraîner et évaluer plusieurs fois un modèle sur différentes parties des données afin de vérifier sa fiabilité et de limiter le risque de dépendre d'un seul découpage des données.
 
-Pour mieux rééquilibrer les classes, nous avons également choisi de regrouper les tendances en 3 classes principales : Diminution, Stable et Augmentation.
+Enfin, plusieurs périodes d'agrégation ont été testées : mois, trimestre, semestre et année. Les résultats obtenus avec ces différentes approches sont présentés dans le chapitre suivant.
 
 \section{Validation des modèles}
 
-Afin d'évaluer les performances de nos modèles, nous avons comparé les prédictions obtenues avec les données réelles des années 2023, 2024 et 2025. Les modèles sont entraînés à partir de 2013, en raison du manque d'informations avant cette date, jusqu'en 2022. Les prédictions sont ensuite comparées aux tendances réellement observées pour les années suivantes.
+Afin d'évaluer les performances de nos modèles, nous avons comparé les prédictions obtenues avec les données réelles des années 2023, 2024 et 2025. Les modèles sont entraînés à partir de 2014, en raison du manque d'informations avant cette date, jusqu'en 2022, puis les prédictions sont comparées aux tendances réellement observées pour les années suivantes.
 
-Pour la classification des tendances, nous avons utilisé l'\textit{accuracy}, qui correspond au pourcentage de prédictions correctement classées. Elle permet ainsi de mesurer la capacité du modèle à prédire correctement les tendances d'évolution.
+Pour la classification des tendances, nous avons utilisé l'\textit{accuracy}, qui correspond au pourcentage de prédictions correctement classées. Nous regardons également l'accuracy par classe afin de vérifier que le modèle ne se contente pas de prédire la classe majoritaire. L'horizon de prédiction est d'un mois : pour chaque mois donné, le modèle prédit la tendance du mois suivant.
 
-\section{Importance des variables}
+\section{Variables utilisées et importance des variables}
 
+Le modèle mensuel utilise 19 variables regroupées en 7 familles, résumées dans le tableau~\ref{tab:variables}. C'est sur cette granularité que nous avons obtenu les meilleurs résultats, comme nous le verrons dans la section suivante.
+\begin{table}[H]
+  \centering
+  \small
+  \setlength{\tabcolsep}{5pt}
+  \begin{tabular}{p{3cm} p{5cm} p{6cm}}
+    \toprule
+    \textbf{Famille} & \textbf{Variables} & \textbf{Ce qu'elles représentent} \\
+    \midrule
+    Historique récent & \texttt{nb\_accidents\_lag\_1, \_2, \_3} & Nombre d'accidents de la cellule 1, 2 et 3 mois avant \\
+    \addlinespace
+    Historique saisonnier & \texttt{nb\_accidents\_lag\_6, \_12, \_24} & Nombre d'accidents 6, 12 et 24 mois avant (12 et 24 correspondent au même mois 1 et 2 ans avant) \\
+    \addlinespace
+    Médianes glissantes & \texttt{mediane\_3, \_6, \_12, \_24} & Médiane du nombre d'accidents de la cellule sur les 3, 6, 12 et 24 derniers mois \\
+    \addlinespace
+     & \texttt{evolution\_recente} & Écart en \% entre la médiane des 3 derniers mois et celle des 24 derniers mois \\
+    \addlinespace
+    Référence historique & \texttt{ref\_hist\_cible} & Médiane des accidents de la cellule pour le mois à prédire, sur les années passées depuis 2014 \\
+    \addlinespace
+     & \texttt{nb\_annees\_hist\_cible} & Nombre d'années utilisées pour calculer cette référence \\
+    \addlinespace
+    Densité du trafic & \texttt{densite\_moyenne, densite\_max} & Moyenne et maximum de la densité de trafic maritime de la cellule \\
+    \addlinespace
+    Flotte mondiale & \texttt{nombre\_navires} & Taille de la flotte mondiale de l'année \\
+    \addlinespace
+    Temps & \texttt{annee, mois\_sin, mois\_cos} & L'année, et le mois codé avec un sinus et un cosinus pour tenir compte des saisons \\
+    \bottomrule
+  \end{tabular}
+  \caption{Description des 19 variables utilisées par le modèle mensuel, regroupées en 7 familles.}
+  \label{tab:variables}
+\end{table}
+
+L'analyse de l'importance des variables montre que \texttt{ref\_hist\_cible} domine largement avec 42,2~\% de l'importance totale : c'est la médiane des accidents du même mois sur les années passées. Viennent ensuite les médianes glissantes \texttt{mediane\_12}, \texttt{mediane\_24} et \texttt{mediane\_6}, qui capturent le niveau d'activité récent. Les variables de densité du trafic et l'historique récent (lags 1 et 2 mois) jouent un rôle secondaire. Les variables temporelles et la flotte mondiale ont un poids très faible. Ce classement montre que le modèle s'appuie principalement sur des informations locales et historiques plutôt que sur le contexte global de trafic.
 % ============================================================
 % CHAPITRE 6 : RÉSULTATS
 % ============================================================
 \chapter{Résultats}
 
-\section{Résultats de l'analyse exploratoire}
+\section{Performances de la classification}
 
-\section{Performances des modèles}
+Après différents tests réalisés sur le modèle de classification, plusieurs configurations ont été comparées afin de comprendre l'influence des seuils et de la période d'agrégation sur les performances. Comme indiqué précédemment, les résultats ont été évalués selon les trois tendances : diminution, stable et augmentation.
 
-\section{Carte des prédictions}
+Deux seuils ont été utilisés pour définir les tendances. Le seuil d'écart correspond à la différence absolue entre le nombre d'accidents observé et la valeur de référence. Le seuil de variation correspond à la différence relative exprimée en pourcentage. Ces deux paramètres ont été testés avec différentes valeurs afin d'étudier leur influence sur les performances du modèle.
 
-\section{Carte des erreurs}
+Les résultats montrent que les configurations utilisant une agrégation mensuelle présentent les meilleures performances dans nos tests. La meilleure accuracy globale obtenue est de 80,5~\% avec un seuil d'écart de 2. Cependant cette configuration présente une différence importante entre les trois classes : 72,3~\% pour les diminutions, 82,6~\% pour les situations stables et 59,6~\% pour les augmentations. Or notre but est notamment de pouvoir identifier correctement les augmentations afin de mieux anticiper les zones concernées. L'accuracy globale ne suffit donc pas à elle seule pour comparer les configurations. C'est pourquoi nous avons également recherché une configuration permettant d'obtenir des résultats plus équilibrés entre les trois classes.
 
-\section{Carte des zones à risque}
+\begin{table}[H]
+  \centering
+  \footnotesize
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabular}{lcccccc}
+    \toprule
+    \textbf{Granularité} & \textbf{Seuil écart} & \textbf{Seuil variation} & \textbf{Diminution} & \textbf{Stable} & \textbf{Augmentation} & \textbf{Global} \\
+    \midrule
+    Mensuel     & 2,0 & 5~\%  & 72,3~\% & 82,6~\% & 59,6~\% & 80,5~\% \\
+    Mensuel     & 1,5 & 20~\% & 71,6~\% & 71,5~\% & 71,7~\% & 71,5~\% \\
+    Trimestriel & 2,0 & 20~\% & 65,6~\% & 69,4~\% & 65,9~\% & 68,4~\% \\
+    Annuel      & 2,0 & 15~\% & 66,1~\% & 47,6~\% & 62,4~\% & 54,3~\% \\
+    \bottomrule
+  \end{tabular}
+  \caption{Comparaison de quelques configurations testées.}
+  \label{tab:resultats}
+\end{table}
 
-\section{Carte des tendances}
+La configuration mensuelle avec un seuil d'écart de 1,5 et un seuil de variation de 20~\% obtient une accuracy globale de 71,5~\%, avec des résultats très proches entre les trois classes : 71,6~\% pour les diminutions, 71,5~\% pour les situations stables et 71,7~\% pour les augmentations. Cette configuration a donc été retenue pour la suite de notre étude, car elle permet d'obtenir des performances plus homogènes entre les trois tendances.
 
-\section{Interprétation des résultats}
+\section{Résultats spatiaux et cartographiques}
+
+Les prédictions de la configuration retenue (mensuel, seuil d'écart de 1,5 et seuil de variation de 20~\%) ont été représentées sur la grille de cellules de 1,5° $\times$ 1,5°. La carte des tendances prédites (Figure~\ref{fig:carte_tendances}) présente, à titre d'exemple, le mois de janvier 2023. La classe Stable (violet) domine largement, ce qui est cohérent avec son poids dans les données. Les diminutions apparaissent plutôt autour de Londres, de l'Irlande et de Monaco. Les augmentations (rouge) apparaissent plus ponctuellement. Elles se concentrent principalement autour du Danemark et du sud de la Suède, ainsi qu'en mer du Nord au large des Pays-Bas et de l'Allemagne. Quelques cellules rouges isolées apparaissent également dans la Manche et en Méditerranée orientale. Cette répartition correspond globalement aux zones à fort trafic maritime identifiées au chapitre 4, ce qui suggère que les hausses potentielles d'accidents concernent surtout les axes maritimes les plus fréquentés. Le modèle ne comporte aucune variable de voisinage. La continuité spatiale peut s'expliquer par le fait que des cellules proches partagent des caractéristiques semblables (densité du trafic, historique d'accidents). Les cellules grises correspondent aux zones sans historique suffisant pour produire une prédiction ce mois-là.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{carte_tendances.png}
+  \caption{Carte des tendances prédites (exemple : janvier 2023).}
+  \label{fig:carte_tendances}
+\end{figure}
+
+La carte de fiabilité (Figure~\ref{fig:carte_fiabilite}) indique, pour chaque cellule, la part des mois de 2023 à 2025 correctement prédits (de 0~\% en rouge à 100~\% en vert). La majorité des cellules présentent une fiabilité élevée, ce qui est cohérent avec les performances globales. Les erreurs se concentrent dans quelques secteurs : au large du Danemark, entre les Pays-Bas, la Belgique et le nord de la France, en mer Égée, ainsi que dans quelques cellules isolées de Scandinavie et du sud de l'Espagne.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{carte_fiabilite.png}
+  \caption{Carte de fiabilité des prédictions (part des mois correctement prédits, 2023-2025).}
+  \label{fig:carte_fiabilite}
+\end{figure}
+
+\section{Interprétation et limites des résultats}
+
+Les résultats obtenus montrent que le modèle est capable d'identifier les tendances d’évolution du nombre d’accidents avec des performances relativement homogènes entre les trois classes. La configuration retenue atteint environ 71,5~\% d'accuracy, avec des résultats proches pour les classes. La représentation cartographique permet également de visualiser les tendances prévues et de repérer les zones où les prédictions sont fiables ou non.
+
+Une première limite du modèle vient de la variabilité temporelle des accidents. Certains mois peuvent présenter des évolutions difficiles à anticiper à partir des données historiques et de la densité du trafic. De plus, certaines cellules ne disposent pas d’un historique suffisant pour permettre une prédiction, ce qui explique la présence de zones grises sur les cartes.
+
+D'autres limites doivent être mentionnées. Les données de densité du trafic maritime ne couvrent que la période 2017-2021, ce qui suppose une stabilité du trafic pour les années suivantes.
+
+Enfin, le modèle ne prend pas en compte certains facteurs pouvant influencer les accidents, comme les conditions météorologiques, les caractéristiques détaillées des navires ou d’autres événements pouvant modifier temporairement le trafic maritime. L’ajout de ces informations pourrait constituer une piste d’amélioration pour obtenir des prédictions plus précises.
 
 
 % ============================================================
@@ -427,20 +514,40 @@ Pour la classification des tendances, nous avons utilisé l'\textit{accuracy}, q
 % ============================================================
 \chapter{Conclusion}
 
+Ce projet visait à identifier les zones à risque en Europe, à comprendre les facteurs liés à ces accidents et à évaluer dans quelle mesure leur évolution peut être prédite grâce à un modèle de prédiction.
 
-% ============================================================
-% CHAPITRE 8 : RESSENTI
-% ============================================================
-\chapter{Ressenti sur le projet tutoré et la licence}
+Concernant les zones à risque on peut constater que ces zones ne sont pas réparties au hasard, les accidents sont particulièrement concentrés dans les zones où la densité du trafic maritime est élevée. L’analyse montre également des différences selon les types de navires et les causes humaines identifiées.
 
+Concernant l'anticipation, prédire un nombre exact d'accidents par zone s'est révélé trop incertain, alors que prédire le sens de l'évolution, c'est-à-dire une tendance (diminution, stable, augmentation), est un objectif bien plus réaliste. Notre modèle obtient une accuracy globale de 71,5~\%. Les performances sont relativement homogènes entre les trois classes, ce qui compte davantage qu'avoir une bonne moyenne car c'est la détection des augmentations qui nous intéresse. Le modèle est un peu inégal, sûr sur certaines zones et moins sur d'autres, ce qui peut s'expliquer par les fortes variations mensuelles du nombre d'accidents dans certaines cellules.
 
+Notre modèle n'est certes pas parfait, cependant il pourrait servir à repérer les zones où une hausse des accidents est à surveiller, à condition de rester prudent sur celles où sa fiabilité est faible.
+\section*{Perspectives d'améliorations}
+\addcontentsline{toc}{section}{Perspectives d'améliorations}
+
+Plusieurs améliorations pourraient être envisagées pour poursuivre ce travail. L'utilisation de données de densité du trafic plus récentes pourrait mieux représenter l'évolution du trafic maritime. On pourrait aussi ajouter d'autres informations qui jouent sûrement sur les accidents, comme la météo ou des détails sur les navires (leur âge, ou les résultats de leurs inspections de sécurité par exemple). Enfin, nous avons surtout travaillé avec le Random Forest, donc il serait intéressant de le comparer à d'autres méthodes, ainsi qu'à une méthode très simple qui reprend juste la dernière valeur observée, pour voir ce que notre modèle apporte vraiment.
 % ============================================================
 % BIBLIOGRAPHIE
 % ============================================================
 \chapter*{Bibliographie}
 \addcontentsline{toc}{chapter}{Bibliographie}
 
+\begin{itemize}
+  \item European Maritime Safety Agency (EMSA). \textit{European Marine Casualty Information Platform (EMCIP)}. Consulté en 2026. \url{https://portal.emsa.europa.eu/emcip-public/#/dashboard}
+  
+  \item Cogea. \textit{Vessel Density}. EMODnet ERDDAP, 2022. Consulté en 2026. \url{https://erddap.emodnet.eu/erddap/griddap/humanactivities_9f8a_3389_f08a.html}
+  
+  \item UNCTAD. \textit{Merchant Fleet by Flag of Registration and by Type of Ship}. UNCTADstat. Consulté en 2026. \url{https://unctadstat.unctad.org/datacentre/dataviewer/US.MerchantFleet}
 
+  \item Fayyad, U., Piatetsky-Shapiro, G., Smyth, P. \textit{From Data Mining to Knowledge Discovery in Databases}. AI Magazine, 17(3), 37-54, 1996.
+  
+  \item GeeksforGeeks. \textit{KDD Process in Databases}. Dernière mise à jour : 28 janvier 2025. Consulté en 2026. \url{https://www.geeksforgeeks.org/dbms/kdd-process-in-data-mining/}  
+  
+  \item Vanroye, K., Verweij, K., de Kort, R., Koster, M., Kramer, H., Meyer, G., Dubreuil, D., Deffontaines, G. \textit{State Aids to EU Seaports}. Parlement européen, Direction générale des politiques internes, Département thématique B : politiques structurelles et de cohésion, décembre 2011. \url{https://www.europarl.europa.eu/RegData/etudes/etudes/join/2011/460079/IPOL-TRAN_ET%282011%29460079_EN.pdf}
+  
+  \item Maison de la Mer. \textit{Le commerce maritime}. Enseignants, Classes d'études portuaires. Consulté en 2026. \url{https://www.maisondelamer.org/enseignants/les-classes-detudes-portuaires/le-commerce-maritime/}
+  
+  \item Salmon, L. et Merino Laso, P. \textit{Prédiction des transitions spatiales de piraterie maritime : une approche duale multi-résolution}. Université de la Nouvelle-Calédonie (ISEA) et French Maritime Academy (ENSM), 2025.
+\end{itemize}
 % ============================================================
 % ANNEXES
 % ============================================================

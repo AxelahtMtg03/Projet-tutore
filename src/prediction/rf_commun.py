@@ -10,6 +10,8 @@ Contenu :
   - cross_validation_temporelle : CV "expanding window" par periode
   - resumer_comparaison / sauvegarder_csv : affichage + sauvegarde des resultats
 """
+import itertools
+
 import numpy as np
 import pandas as pd
 from pyproj import Transformer
@@ -43,6 +45,14 @@ DELTA_REPRESENTATIF = {
 
 N_MAX_SOUS_CLASSES = 10
 
+# True : la decision est reglee sur la CV (poids par classe) pour mieux detecter Augmentation/Diminution,
+#        au prix d'une accuracy globale plus basse. False : argmax simple des probabilites.
+AJUSTER_POIDS = True
+def configurer_seuils(ecart=None, pct=None, ref=None):
+    global SEUIL_ECART_ABS, SEUIL_PCT, REFERENCE_MIN
+    if ecart is not None: SEUIL_ECART_ABS = ecart
+    if pct is not None:   SEUIL_PCT = pct
+    if ref is not None:   REFERENCE_MIN = ref
 
 def calculer_zone(lat, lon, taille=TAILLE_ZONE_DEG):
     zone_lat = np.floor(lat / taille) * taille
@@ -110,6 +120,34 @@ def afficher_distribution(train, colonne="categorie"):
         print(f"  {classe}: {n} ({n / len(train) * 100:.1f}%)")
 
 
+def calculer_reference_saisonniere(agg, sous_cols, annees_cibles, derniere_annee_observee):
+    """
+    Reference IDENTIQUE a celle du test : mediane des comptes non nuls de la meme
+    (zone, sous-periode) sur les annees connues, jamais apres derniere_annee_observee.
+
+    Pour une annee cible Y, seules les annees < Y sont utilisees : a l'entrainement il n'y a
+    donc pas de fuite, et pour Y > derniere_annee_observee on retrouve exactement la reference
+    du test (toutes les annees <= derniere_annee_observee).
+
+    agg        : DataFrame [zone, annee, *sous_cols, nb_accidents] (toutes les annees dispo)
+    sous_cols  : [] (annuel), ["semestre"], ["trimestre"] ou ["mois_num"]
+    Renvoie    : [zone, *sous_cols, annee, ref_hist, nb_annees_hist]
+    """
+    a = agg[(agg["nb_accidents"] > 0) & (agg["annee"] <= derniere_annee_observee)]
+    lignes = []
+    for cle, g in a.groupby(["zone"] + list(sous_cols)):
+        if not isinstance(cle, tuple):
+            cle = (cle,)
+        g = g.sort_values("annee")
+        annees = g["annee"].values
+        valeurs = g["nb_accidents"].values.astype(float)
+        for annee_cible in annees_cibles:
+            n = int((annees < annee_cible).sum())
+            if n:
+                lignes.append(cle + (annee_cible, float(np.median(valeurs[:n])), n))
+    return pd.DataFrame(lignes, columns=["zone"] + list(sous_cols) + ["annee", "ref_hist", "nb_annees_hist"])
+
+
 # ============================================================
 # ENSEMBLE PAR SOUS-CLASSES DE LA CLASSE MAJORITAIRE
 # ============================================================
@@ -153,6 +191,7 @@ class EnsembleSousClasses:
         y = pd.Series(np.asarray(y)).reset_index(drop=True)
 
         self.classes_ = np.array(sorted(y.unique()))
+        self.poids_ = np.ones(len(self.classes_))   # regle de decision (voir optimiser_poids_classes)
         comptes = y.value_counts()
         self.classe_majoritaire_ = comptes.idxmax()
 
@@ -194,14 +233,14 @@ class EnsembleSousClasses:
         return proba / len(self.modeles_)
 
     def predict(self, X):
-        return self.classes_[np.argmax(self.predict_proba(X), axis=1)]
+        return self.classes_[np.argmax(self.predict_proba(X) * self.poids_, axis=1)]
 
 
 # ============================================================
 # CROSS-VALIDATION TEMPORELLE (expanding window)
 # ============================================================
 def cross_validation_temporelle(data, features, colonne_cible, colonne_temps="annee",
-                                colonne_groupe=None, **params_modele):
+                                colonne_groupe=None, avec_oof=False, **params_modele):
     """
     Pour chaque groupe G (a partir du 2e) : entrainement sur tout ce qui est
     strictement avant G, validation sur G. Le futur n'est jamais melange au passe,
@@ -209,12 +248,14 @@ def cross_validation_temporelle(data, features, colonne_cible, colonne_temps="an
 
     colonne_temps  : colonne triable qui ordonne les lignes (annee, index de periode, mois...)
     colonne_groupe : bloc de validation (par defaut = colonne_temps). Pour les modeles
-                     infra-annuels on prend l'annee : 1 fold = 1 annee de validation,
-                     au lieu d'un fold par mois/trimestre.
+                     infra-annuels on prend l'annee : 1 fold = 1 annee de validation.
+    avec_oof       : si True, renvoie aussi les probabilites hors-echantillon de tous les
+                     folds (dict y / proba / classes) pour regler la decision.
     """
     colonne_groupe = colonne_groupe or colonne_temps
     groupes = sorted(data[colonne_groupe].unique())
-    lignes = []
+    classes_globales = np.array(sorted(data[colonne_cible].unique()))
+    lignes, y_oof, p_oof = [], [], []
     for k in range(1, len(groupes)):
         g_val = groupes[k]
         val = data[data[colonne_groupe] == g_val]
@@ -223,8 +264,16 @@ def cross_validation_temporelle(data, features, colonne_cible, colonne_temps="an
             continue
 
         modele = EnsembleSousClasses(**params_modele).fit(train[features], train[colonne_cible])
-        y_pred = modele.predict(val[features])
+        proba = modele.predict_proba(val[features])
+        y_pred = modele.classes_[np.argmax(proba, axis=1)]
         y_vrai = val[colonne_cible].values
+
+        # probas ramenees sur l'ensemble des classes (une classe peut manquer dans un fold)
+        p_glob = np.zeros((len(val), len(classes_globales)))
+        for j, classe in enumerate(modele.classes_):
+            p_glob[:, np.searchsorted(classes_globales, classe)] = proba[:, j]
+        y_oof.append(y_vrai)
+        p_oof.append(p_glob)
 
         lignes.append({
             "fold": len(lignes) + 1,
@@ -236,7 +285,59 @@ def cross_validation_temporelle(data, features, colonne_cible, colonne_temps="an
             "balanced_accuracy": round(balanced_accuracy_score(y_vrai, y_pred) * 100, 1),
             "f1_macro": round(f1_score(y_vrai, y_pred, average="macro", zero_division=0) * 100, 1),
         })
-    return pd.DataFrame(lignes)
+
+    cv_df = pd.DataFrame(lignes)
+    if not avec_oof:
+        return cv_df
+    oof = {
+        "y": np.concatenate(y_oof) if y_oof else np.array([]),
+        "proba": np.vstack(p_oof) if p_oof else np.zeros((0, len(classes_globales))),
+        "classes": classes_globales,
+    }
+    return cv_df, oof
+
+
+def optimiser_poids_classes(oof, classe_ref=STABLE,
+                            grille=(0.5, 0.75, 1.0, 1.25, 1.5, 2.0, 2.5, 3.0, 4.0), gain_min=0.5):
+    """
+    Regle de decision : on multiplie les probabilites de chaque classe par un poids avant
+    de prendre l'argmax. Les poids (Stable = 1 fixe) sont choisis sur les probabilites
+    hors-echantillon de la CV pour maximiser la balanced accuracy (moyenne des rappels).
+    Corrige la tendance du modele a repondre "Stable" partout.
+    Si le gain est inferieur a gain_min point, on garde des poids neutres (= 1).
+    """
+    classes, y, proba = oof["classes"], oof["y"], oof["proba"]
+    neutre = np.ones(len(classes))
+    if len(y) == 0 or len(classes) < 2:
+        return neutre
+    if not AJUSTER_POIDS:
+        return neutre
+
+    def score(w):
+        return balanced_accuracy_score(y, classes[np.argmax(proba * w, axis=1)]) * 100
+
+    libres = [i for i, c in enumerate(classes) if c != classe_ref]
+    base = score(neutre)
+    meilleur, meilleur_score = neutre, base
+    for combo in itertools.product(grille, repeat=len(libres)):
+        w = np.ones(len(classes))
+        for i, v in zip(libres, combo):
+            w[i] = v
+        sc = score(w)
+        # a score egal, on prefere les poids les plus proches de 1
+        if sc > meilleur_score + 1e-9 or (abs(sc - meilleur_score) < 1e-9
+                                          and np.abs(np.log(w)).sum() < np.abs(np.log(meilleur)).sum()):
+            meilleur, meilleur_score = w, sc
+
+    print("\n" + "-" * 60)
+    print("REGLAGE DE LA DECISION (poids par classe, choisis sur la CV)")
+    print("-" * 60)
+    if meilleur_score - base < gain_min:
+        print(f"  Gain de balanced accuracy trop faible ({meilleur_score - base:+.1f} pt) : poids neutres.")
+        return neutre
+    print("  Poids : " + ", ".join(f"{c}={w:g}" for c, w in zip(classes, meilleur)))
+    print(f"  Balanced accuracy en CV : {base:.1f}% -> {meilleur_score:.1f}%")
+    return meilleur
 
 
 def afficher_cv(cv_df):
@@ -297,10 +398,20 @@ def resumer_comparaison(df_compare, granularite, titre, colonne_periode="annee")
     print(f"Accuracy equilibree (balanced): {bal:.1f}%")
     print(f"F1 macro: {f1:.1f}%")
     print(f"Zones comparees: {n_total} lignes ({n_zones_uniques} zones uniques)")
+
+    # Reperes : sans eux, un score eleve peut simplement venir de la classe majoritaire
+    repartition = df_compare["tendance_reelle"].value_counts(normalize=True) * 100
+    classe_maj, base_maj = repartition.index[0], repartition.iloc[0]
+    base_bal = 100 / df_compare["tendance_reelle"].nunique()
+    print("Repartition reelle: " + ", ".join(f"{c} {repartition.get(c, 0):.1f}%" for c in CLASSES))
+    print(f"Repere 'toujours {classe_maj}': accuracy {base_maj:.1f}% | balanced {base_bal:.1f}%")
+    print(f"Gain du modele vs repere: accuracy {acc - base_maj:+.1f} pts | balanced {bal - base_bal:+.1f} pts")
     ajouter("test", "globale", "accuracy", acc, n_total)
     ajouter("test", "globale", "balanced_accuracy", bal, n_total)
     ajouter("test", "globale", "f1_macro", f1, n_total)
     ajouter("test", "globale", "n_zones_uniques", n_zones_uniques, n_total)
+    ajouter("test", "globale", "repere_toujours_majoritaire_accuracy", base_maj, n_total)
+    ajouter("test", "globale", "repere_hasard_balanced", base_bal, n_total)
 
     print(f"\nRESUME PAR {colonne_periode.upper()}:")
     for p in sorted(df_compare[colonne_periode].unique()):

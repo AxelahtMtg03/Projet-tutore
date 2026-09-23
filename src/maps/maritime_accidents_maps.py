@@ -4,6 +4,8 @@ import pandas as pd
 import folium
 import branca.colormap as cm
 from folium.plugins import MarkerCluster, HeatMap, TimestampedGeoJson,HeatMapWithTime
+import os
+import numpy as np
 import json
 sys.path.append(str(Path(__file__).resolve().parents[1]))
     
@@ -94,7 +96,7 @@ def accidents():
 
     m1.save("maps/maritime_accidents_maps/accident_map.html")
 
-def heatmap_global():
+def heatmap_global(pas_deg=1.5):
     """Carte 2ter : carte de chaleur globale (densité des accidents sur toute la période, pas de curseur)"""
     m2c = folium.Map(
         location=[center_lat, center_lon],
@@ -102,14 +104,30 @@ def heatmap_global():
         tiles='OpenStreetMap'
     )
 
-    heat_data = df[['lat', 'long']].dropna().values.tolist()
+    pts = df[['lat', 'long']].dropna()
+
+    # Nombre d'accidents par cellule de pas_deg degrés : chaque point de la heatmap est pondéré
+    # par ce nombre, ce qui permet d'afficher de vrais chiffres dans la légende.
+    cellules = (
+        pts.assign(
+            lat_c=(np.floor(pts['lat'] / pas_deg) + 0.5) * pas_deg,
+            lon_c=(np.floor(pts['long'] / pas_deg) + 0.5) * pas_deg,
+        )
+        .groupby(['lat_c', 'lon_c']).size().reset_index(name='n')
+    )
+    n_max = int(cellules['n'].max())
+    heat_data = cellules[['lat_c', 'lon_c', 'n']].values.tolist()
+
+    # Dégradé à paliers réguliers : il correspond exactement à la barre de la légende
+    gradient = {0.0: 'blue', 0.25: 'cyan', 0.5: 'lime', 0.75: 'yellow', 1.0: 'red'}
 
     HeatMap(
         heat_data,
-        radius=15,
-        blur=10,
+        radius=30,
+        blur=30,
         max_zoom=1,
-        min_opacity=0.3
+        min_opacity=0.3,
+        gradient=gradient
     ).add_to(m2c)
 
     title_html2c = '''
@@ -118,22 +136,29 @@ def heatmap_global():
                 '''
     m2c.get_root().html.add_child(folium.Element(title_html2c))
 
-    legend_html2c = '''
+    # Graduations de la légende : 0, 25 %, 50 %, 75 %, 100 % du maximum observé
+    graduations = ''.join(
+        f'<span>{int(round(v))}</span>' for v in np.linspace(0, n_max, 5)
+    )
+    legend_html2c = f'''
     <div style="position: fixed; bottom: 50px; left: 50px; z-index: 1000;
                 background: white; padding: 10px; border: 2px solid grey;
-                border-radius: 5px; font-size: 12px; width: 220px;">
-        <b>Densité d'accidents</b><br>
+                border-radius: 5px; font-size: 12px; width: 240px;">
+        <b>Accidents par cellule de {pas_deg}° (~{pas_deg * 111:.0f} km)</b><br>
         <div style="height: 15px; margin-top: 5px;
                     background: linear-gradient(to right, blue, cyan, lime, yellow, red);
                     border-radius: 3px;"></div>
         <div style="display: flex; justify-content: space-between; margin-top: 3px;">
-            <span>Faible</span>
-            <span>Élevée</span>
+            {graduations}
+        </div>
+        <div style="margin-top: 4px; font-size: 10px; color: #555;">
+            Maximum : {n_max} accidents dans la cellule la plus touchée
         </div>
     </div>
     '''
     m2c.get_root().html.add_child(folium.Element(legend_html2c))
 
+    os.makedirs("maps/maritime_accidents_maps", exist_ok=True)
     m2c.save("maps/maritime_accidents_maps/heatmap_accident_global.html")
 def accident_annee():
     """Carte 3 : accidents par année, avec une couche activable/désactivable par année"""

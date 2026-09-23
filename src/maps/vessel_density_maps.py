@@ -260,4 +260,4 @@ def densite_flotte3(taille_grille_deg=3):
     m3.save("maps/vessel_density_maps/vessel_density_global.html")
 # densite_flotte()
 # densite_flotte2(taille_grille_deg=0.5)
-densite_flotte3(taille_grille_deg=0.5)
+densite_flotte3(taille_grille_deg=1.5)

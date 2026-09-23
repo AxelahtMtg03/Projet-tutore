@@ -1,4 +1,0 @@
-﻿fold,periodes_train,periode_val,n_train,n_val,accuracy,balanced_accuracy,f1_macro
-1,2019-2019,2020,780,784,53.6,52.1,47.9
-2,2019-2020,2021,1564,746,59.0,55.9,51.9
-3,2019-2021,2022,2310,518,60.2,56.3,51.1
