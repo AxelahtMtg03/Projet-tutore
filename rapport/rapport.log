@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.12)  23 SEP 2026 08:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.12)  23 SEP 2026 23:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -742,7 +742,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package babel Info: Main language set to 'french'.
-<UNC.jpg, id=158, 469.00218pt x 367.3725pt>
+<UNC.jpg, id=138, 469.00218pt x 367.3725pt>
 File: UNC.jpg Graphic file (type jpg)
 <use UNC.jpg>
 Package pdftex.def Info: UNC.jpg  used on input line 103.
@@ -800,8 +800,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.209 \chapter
-              {Revue de littÃ©rature} [2]
+l.208 \chapter
+              {DonnÃ©es et prÃ©traitement} [2]
 Chapitre 2.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -814,29 +814,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.223 \chapter
-              {DonnÃ©es et prÃ©traitement} [3
+l.227 
+       [3
 
 ]
-Chapitre 3.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[4
-
-]
-Overfull \hbox (19.05406pt too wide) in paragraph at lines 255--256
+Overfull \hbox (19.05406pt too wide) in paragraph at lines 240--241
 []\T1/cmr/m/n/12 Les co-or-don-nées des ac-ci-dents sont en-suite conver-ties en co-or-don-nées mé-triques (EPSG :3035).
  []
 
-<kdd.png, id=243, 1045.9075pt x 747.79375pt>
+<kdd.png, id=213, 1045.9075pt x 747.79375pt>
 File: kdd.png Graphic file (type png)
 <use kdd.png>
-Package pdftex.def Info: kdd.png  used on input line 266.
+Package pdftex.def Info: kdd.png  used on input line 251.
 (pdftex.def)             Requested size: 409.71692pt x 292.93916pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -845,7 +834,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5]
+[4]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -853,17 +842,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6 <./kdd.png (PNG copy)>]
-Chapitre 4.
+[5 <./kdd.png (PNG copy)>]
+Chapitre 3.
 
-Overfull \hbox (9.88373pt too wide) in paragraph at lines 274--274
+Overfull \hbox (9.88373pt too wide) in paragraph at lines 259--259
 |[]\T1/cmr/bx/n/20.74 Analyse ex-plo-ra-toire et sé-lec-tion des va-riables| 
  []
 
-<graph_accident_by_years_eu.png, id=256, 867.24pt x 433.62pt>
+<graph_accident_by_years_eu.png, id=226, 867.24pt x 433.62pt>
 File: graph_accident_by_years_eu.png Graphic file (type png)
 <use graph_accident_by_years_eu.png>
-Package pdftex.def Info: graph_accident_by_years_eu.png  used on input line 282.
+Package pdftex.def Info: graph_accident_by_years_eu.png  used on input line 267.
 (pdftex.def)             Requested size: 409.71692pt x 204.86006pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -872,18 +861,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[7
+[6
 
  <./graph_accident_by_years_eu.png>]
-<carte_eu.png, id=264, 484.05844pt x 308.65312pt>
+<carte_eu.png, id=234, 484.05844pt x 308.65312pt>
 File: carte_eu.png Graphic file (type png)
 <use carte_eu.png>
-Package pdftex.def Info: carte_eu.png  used on input line 296.
+Package pdftex.def Info: carte_eu.png  used on input line 281.
 (pdftex.def)             Requested size: 409.71692pt x 261.26373pt.
-<graph_accident_by_severity_europe.png, id=265, 722.7pt x 433.62pt>
+<graph_accident_by_severity_europe.png, id=235, 722.7pt x 433.62pt>
 File: graph_accident_by_severity_europe.png Graphic file (type png)
 <use graph_accident_by_severity_europe.png>
-Package pdftex.def Info: graph_accident_by_severity_europe.png  used on input line 312.
+Package pdftex.def Info: graph_accident_by_severity_europe.png  used on input line 297.
 (pdftex.def)             Requested size: 364.19667pt x 218.51653pt.
 
 
@@ -893,11 +882,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8 <./carte_eu.png>]
-<graph_accident_by_type_europe.png, id=273, 1011.78pt x 433.62pt>
+[7 <./carte_eu.png>]
+<graph_accident_by_type_europe.png, id=243, 1011.78pt x 433.62pt>
 File: graph_accident_by_type_europe.png Graphic file (type png)
 <use graph_accident_by_type_europe.png>
-Package pdftex.def Info: graph_accident_by_type_europe.png  used on input line 321.
+Package pdftex.def Info: graph_accident_by_type_europe.png  used on input line 306.
 (pdftex.def)             Requested size: 409.71692pt x 175.59529pt.
 
 
@@ -907,16 +896,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9 <./graph_accident_by_severity_europe.png> <./graph_accident_by_type_europe.png>]
-<human_cause_accidents_europe.png, id=285, 867.24pt x 578.16pt>
+[8 <./graph_accident_by_severity_europe.png> <./graph_accident_by_type_europe.png>]
+<human_cause_accidents_europe.png, id=254, 867.24pt x 578.16pt>
 File: human_cause_accidents_europe.png Graphic file (type png)
 <use human_cause_accidents_europe.png>
-Package pdftex.def Info: human_cause_accidents_europe.png  used on input line 337.
+Package pdftex.def Info: human_cause_accidents_europe.png  used on input line 322.
 (pdftex.def)             Requested size: 409.71692pt x 273.14676pt.
-<accidents_by_saison_and_bateau_europe.png, id=287, 867.24pt x 433.62pt>
+<accidents_by_saison_and_bateau_europe.png, id=256, 867.24pt x 433.62pt>
 File: accidents_by_saison_and_bateau_europe.png Graphic file (type png)
 <use accidents_by_saison_and_bateau_europe.png>
-Package pdftex.def Info: accidents_by_saison_and_bateau_europe.png  used on input line 348.
+Package pdftex.def Info: accidents_by_saison_and_bateau_europe.png  used on input line 333.
 (pdftex.def)             Requested size: 409.71692pt x 204.86006pt.
 
 
@@ -926,11 +915,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10 <./human_cause_accidents_europe.png>]
-<carte_densite.png, id=295, 478.03593pt x 414.79968pt>
+[9 <./human_cause_accidents_europe.png>]
+<carte_densite.png, id=265, 478.03593pt x 414.79968pt>
 File: carte_densite.png Graphic file (type png)
 <use carte_densite.png>
-Package pdftex.def Info: carte_densite.png  used on input line 367.
+Package pdftex.def Info: carte_densite.png  used on input line 352.
 (pdftex.def)             Requested size: 409.71692pt x 355.5182pt.
 
 
@@ -940,7 +929,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11 <./accidents_by_saison_and_bateau_europe.png>]
+[10 <./accidents_by_saison_and_bateau_europe.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -948,8 +937,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12 <./carte_densite.png>]
-Chapitre 5.
+[11 <./carte_densite.png>]
+Chapitre 4.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -957,30 +946,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13
+[12
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 424--424
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
 []\T1/cmtt/m/n/10.95 nb_accidents_lag_1, _2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--426
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
 []\T1/cmtt/m/n/10.95 nb_accidents_lag_6, _12,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--428
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
 []\T1/cmr/m/n/10.95 Médianes glis-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 432--432
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
 []\T1/cmr/m/n/10.95 Référence his-to-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--436
+Underfull \hbox (badness 10000) in paragraph at lines 421--421
 []\T1/cmtt/m/n/10.95 densite_moyenne,
  []
 
@@ -991,7 +980,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
+[13]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [14]
+Chapitre 5.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -999,27 +997,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[15]
-Chapitre 6.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[16
+[15
 
 ]
-<carte_tendances.png, id=332, 383.93437pt x 374.90062pt>
+<carte_tendances.png, id=302, 383.93437pt x 374.90062pt>
 File: carte_tendances.png Graphic file (type png)
 <use carte_tendances.png>
-Package pdftex.def Info: carte_tendances.png  used on input line 487.
+Package pdftex.def Info: carte_tendances.png  used on input line 472.
 (pdftex.def)             Requested size: 364.19667pt x 355.65016pt.
-<carte_fiabilite.png, id=334, 596.2275pt x 503.8825pt>
+<carte_fiabilite.png, id=304, 596.2275pt x 503.8825pt>
 File: carte_fiabilite.png Graphic file (type png)
 <use carte_fiabilite.png>
-Package pdftex.def Info: carte_fiabilite.png  used on input line 496.
+Package pdftex.def Info: carte_fiabilite.png  used on input line 481.
 (pdftex.def)             Requested size: 364.19667pt x 307.79076pt.
 
 
@@ -1029,7 +1018,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[17 <./carte_tendances.png>]
+[16 <./carte_tendances.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1037,12 +1026,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[18 <./carte_fiabilite.png>]
-Chapitre 7.
+[17 <./carte_fiabilite.png>]
+Chapitre 6.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 525.
+(hyperref)                be the same. Added a new anchor on input line 510.
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18
+
+]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1053,6 +1052,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [19
 
 ]
+<prediction_tendance.png, id=335, 1011.78pt x 505.89pt>
+File: prediction_tendance.png Graphic file (type png)
+<use prediction_tendance.png>
+Package pdftex.def Info: prediction_tendance.png  used on input line 548.
+(pdftex.def)             Requested size: 432.48051pt x 216.23933pt.
+<graph_accident_by_hour.png, id=336, 1011.78pt x 433.62pt>
+File: graph_accident_by_hour.png Graphic file (type png)
+<use graph_accident_by_hour.png>
+Package pdftex.def Info: graph_accident_by_hour.png  used on input line 559.
+(pdftex.def)             Requested size: 432.48051pt x 185.348pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1062,7 +1072,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [20
 
-]
+ <./prediction_tendance.png> <./graph_accident_by_hour.png>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1070,28 +1080,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21
-
-] (rapport.aux)
+[21] (rapport.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-07-20>
  ***********
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: C04442461790488FEE59D528F5C18B6A;7220.
+(rerunfilecheck)             Checksum: F873EF2E99B742047A867AE269B7442A;6123.
  ) 
 Here is how much of TeX's memory you used:
- 29250 strings out of 467501
- 557293 string characters out of 5408550
- 956759 words of memory out of 5000000
- 57980 multiletter control sequences out of 15000+600000
- 650877 words of font info for 94 fonts, out of 8000000 for 9000
+ 29254 strings out of 467501
+ 557642 string characters out of 5408550
+ 957054 words of memory out of 5000000
+ 57989 multiletter control sequences out of 15000+600000
+ 649331 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,13n,109p,1480b,725s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/axela/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on rapport.pdf (25 pages, 2327030 bytes).
+ 106i,13n,109p,1480b,768s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1095.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\axela\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk><C:/Users/axela/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on rapport.pdf (25 pages, 2594843 bytes).
 PDF statistics:
- 1010 PDF objects out of 1200 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
- 372 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 981 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 342 words of extra memory for PDF output out of 10000 (max. 10000000)
 

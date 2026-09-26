@@ -8,32 +8,27 @@
 \contentsline {subsection}{\numberline {1.3.2}Institutionnel}{1}{subsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.3.3}Thématique}{1}{subsection.1.3.3}%
 \contentsline {subsection}{\numberline {1.3.4}Spatio-temporel}{1}{subsection.1.3.4}%
-\contentsline {chapter}{\numberline {2}Revue de littérature}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Prédiction des risques maritimes}{3}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Apports de la littérature sur la piraterie maritime}{3}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Méthodes prédictives}{3}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Positionnement de notre travail}{3}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Données et prétraitement}{4}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Description des données}{4}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Préparation et nettoyage}{4}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Construction du maillage}{5}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Processus global de traitement}{5}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Analyse exploratoire et sélection des variables}{7}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Évolution des accidents dans le temps}{7}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Répartition géographique des accidents}{7}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Analyse des caractéristiques des accidents}{8}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Analyse de la densité du trafic maritime}{12}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Méthodologie et modélisation}{13}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Approche retenue}{13}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Random Forest -- Régression}{13}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Random Forest -- Classification des tendances}{13}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Validation des modèles}{14}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Variables utilisées et importance des variables}{14}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Résultats}{16}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Performances de la classification}{16}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Résultats spatiaux et cartographiques}{16}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Interprétation et limites des résultats}{18}{section.6.3}%
-\contentsline {chapter}{\numberline {7}Conclusion}{19}{chapter.7}%
-\contentsline {section}{Perspectives d'améliorations}{19}{section*.15}%
-\contentsline {chapter}{Bibliographie}{20}{chapter*.16}%
-\contentsline {chapter}{Annexes}{21}{chapter*.17}%
+\contentsline {chapter}{\numberline {2}Données et prétraitement}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Description des données}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Préparation et nettoyage}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Construction du maillage}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Processus global de traitement}{4}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Analyse exploratoire et sélection des variables}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Évolution des accidents dans le temps}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Répartition géographique des accidents}{6}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Analyse des caractéristiques des accidents}{7}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Analyse de la densité du trafic maritime}{11}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Méthodologie et modélisation}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Approche retenue}{12}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Random Forest -- Régression}{12}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Random Forest -- Classification des tendances}{12}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Validation des modèles}{13}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Variables utilisées et importance des variables}{13}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Résultats}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Performances de la classification}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Résultats spatiaux et cartographiques}{15}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Interprétation et limites des résultats}{17}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Conclusion}{18}{chapter.6}%
+\contentsline {section}{Perspectives d'améliorations}{18}{section*.15}%
+\contentsline {chapter}{Bibliographie}{19}{chapter*.16}%
+\contentsline {chapter}{Annexes}{20}{chapter*.17}%

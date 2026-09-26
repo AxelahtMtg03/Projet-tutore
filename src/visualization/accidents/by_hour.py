@@ -9,7 +9,11 @@ from data_processing.loader import charger_donnees_finales
 
 def heure_global():
     total = charger_donnees_finales()
-    comptage_heures = total['heure'].value_counts().sort_index()
+    total_europe = total[
+        (total["lat"].between(35, 70)) &   # Latitude Europe
+        (total["long"].between(-10, 40))   # Longitude Europe
+    ]
+    comptage_heures = total_europe['heure'].value_counts().sort_index()
     comptage_heures = comptage_heures[comptage_heures.index != 'nan']
     return comptage_heures
 

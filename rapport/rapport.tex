@@ -40,7 +40,7 @@
 \pagestyle{fancy}
 
 \fancyhead{}
-\fancyhead[L]{\small\textsc{Prédiction des accidents maritimes}}
+\fancyhead[L]{\small\textsc{Prédiction des zones accidentogènes}}
 \fancyhead[R]{\small\textsc{Université de la Nouvelle-Calédonie}}
 \renewcommand{\headrulewidth}{0.4pt}
 
@@ -51,7 +51,7 @@
 % Utilisé notamment par les premières pages des chapitres
 \fancypagestyle{plain}{
   \fancyhead{}
-  \fancyhead[L]{\small\textsc{Prédiction des accidents maritimes}}
+  \fancyhead[L]{\small\textsc{Prédiction des zones accidentogènes}}
   \fancyhead[R]{\small\textsc{Université de la Nouvelle-Calédonie}}
   \fancyfoot[C]{\small Axel Archambeault \& Ashley Roo --- \thepage}
   \renewcommand{\headrulewidth}{0.4pt}
@@ -103,7 +103,7 @@
   \IfFileExists{UNC.jpg}{\includegraphics[width=0.25\textwidth]{UNC.jpg}}{\fbox{\parbox[c][3cm][c]{0.25\textwidth}{\centering Logo indisponible}}} \\[1cm]
 
 
-  {\Huge \textbf{Prédiction des accidents maritimes}} \\[0.5cm]
+  {\LARGE \textbf{Prédiction des zones accidentogènes par analyse spatio-temporelle des accidents maritimes en Europe}} \\[0.5cm]
 
   \textbf{Auteurs :} \\
   Axel Archambeault \\
@@ -201,21 +201,6 @@ Notre étude repose sur trois notions indispensables : la sécurité maritime, l
 Notre étude se centre uniquement sur l'Europe, ce choix s'explique par une disponibilité plus importante des données dans cette zone, ainsi qu'un besoin de cohérence avec les données de densité du trafic maritime. Nous allons diviser cette zone en cellules.
 
 L'étude porte sur les accidents maritimes survenus entre le 17 juin 2011 et le 30 novembre 2025. Cependant les données de densité de trafic maritime, utilisées comme variable explicative, couvrent la période plus restreinte entre 2017 et 2021.
-
-
-% ============================================================
-% CHAPITRE 2 : REVUE DE LITTÉRATURE
-% ============================================================
-\chapter{Revue de littérature}
-
-\section{Prédiction des risques maritimes}
-
-\section{Apports de la littérature sur la piraterie maritime}
-
-\section{Méthodes prédictives}
-
-\section{Positionnement de notre travail}
-
 
 % ============================================================
 % CHAPITRE 3 : DONNÉES ET PRÉTRAITEMENT
@@ -553,5 +538,30 @@ Plusieurs améliorations pourraient être envisagées pour poursuivre ce travail
 % ============================================================
 \chapter*{Annexes}
 \addcontentsline{toc}{chapter}{Annexes}
+
+\section*{Annexe A --- Analyse exploratoire complémentaire}
+
+\subsection*{A.1 Régression linéaire (approche préliminaire)}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\textwidth]{prediction_tendance.png}
+  \caption{Prédiction par tendance (régression linéaire) : données réelles 2011-2025, prédictions test 2023-2025 (carrés rouges) et prédictions 2026-2035 (croix orange).}
+  \label{fig:annexe_regression}
+\end{figure}
+
+La régression linéaire a été testée en amont du Random Forest. On observe une sous-estimation des accidents réels en 2023 et 2024, ce qui confirme que cette méthode capture mal les variations non-linéaires.
+
+\subsection*{A.2 Répartition des accidents par heure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\textwidth]{graph_accident_by_hour.png}
+  \caption{Répartition des accidents maritimes par heure de la journée.}
+  \label{fig:annexe_heure}
+\end{figure}
+
+La figure~\ref{fig:annexe_heure} montre la répartition des accidents selon l'heure. On observe un pic marqué à 12h (2 393 accidents) et une activité plus élevée entre 8h et 18h. Les accidents sont moins nombreux entre 2h et 4h du matin (autour de 1 000 cas).
+
 
 \end{document}
